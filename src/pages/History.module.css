@@ -1,0 +1,215 @@
+.root { background: var(--bg-soft); min-height: 100vh; }
+
+.container {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 2.5rem 2rem;
+}
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: 900;
+  letter-spacing: -0.03em;
+  margin-bottom: 0.25rem;
+}
+
+.sub {
+  color: var(--text-muted);
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+}
+
+.backBtn {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: color 0.15s;
+  padding-top: 0.3rem;
+}
+.backBtn:hover { color: var(--text); }
+
+/* STATS */
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.statCard {
+  background: #fff;
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.statN {
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--primary);
+  letter-spacing: -0.03em;
+}
+
+.statL {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-subtle);
+  font-weight: 500;
+  font-family: var(--font-body);
+}
+
+/* LIST */
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.item {
+  background: #fff;
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1.1rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  box-shadow: var(--shadow-sm);
+  transition: border-color 0.15s;
+}
+.item:hover { border-color: var(--primary-border); }
+
+.itemLeft { flex: 1; }
+.itemTopic { font-size: 0.95rem; font-weight: 700; margin-bottom: 0.3rem; }
+.itemMeta {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 0.8rem;
+  color: var(--text-subtle);
+  font-family: var(--font-body);
+}
+
+.examBadge {
+  background: var(--primary-light);
+  color: var(--primary);
+  padding: 0.15rem 0.5rem;
+  border-radius: var(--radius-full);
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.itemRight {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.2rem;
+}
+
+.itemPct {
+  font-size: 1.4rem;
+  font-weight: 900;
+  letter-spacing: -0.03em;
+}
+
+.pctGreen { color: var(--success-text); }
+.pctAmber { color: #d97706; }
+.pctRed { color: var(--error-text); }
+
+.itemScore {
+  font-size: 0.78rem;
+  color: var(--text-subtle);
+  font-family: var(--font-body);
+  font-weight: 500;
+}
+
+.loading, .empty {
+  text-align: center;
+  padding: 4rem 2rem;
+  color: var(--text-muted);
+  font-family: var(--font-body);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.startBtn {
+  background: var(--primary);
+  color: #fff;
+  padding: 0.7rem 1.5rem;
+  border-radius: var(--radius-full);
+  font-weight: 700;
+  font-size: 0.88rem;
+  transition: background 0.15s;
+}
+.startBtn:hover { background: var(--primary-hover); }
+
+/* TABS */
+.tabs {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  background: #fff;
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-full);
+  padding: 0.3rem;
+  width: fit-content;
+}
+
+.tab {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: none;
+  border: none;
+  padding: 0.55rem 1.25rem;
+  border-radius: var(--radius-full);
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  transition: all 0.15s;
+  font-family: var(--font-sans);
+}
+.tab:hover { color: var(--text); }
+.tabActive { background: var(--primary); color: #fff !important; }
+
+.tabCount {
+  background: rgba(255,255,255,0.25);
+  padding: 0.1rem 0.45rem;
+  border-radius: var(--radius-full);
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+.tabActive .tabCount { background: rgba(255,255,255,0.3); }
+.tab:not(.tabActive) .tabCount { background: var(--border-light); color: var(--text-subtle); }
+
+.badgeIoe { background: #f0fdf4 !important; color: var(--success-text) !important; }
+.badgeCee { background: var(--primary-light) !important; color: var(--primary) !important; }
+
+.metaDetail {
+  color: var(--text-subtle);
+  font-size: 0.78rem;
+}
+
+.savingNote {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  font-family: var(--font-body);
+  font-style: italic;
+}
