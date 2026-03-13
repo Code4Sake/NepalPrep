@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "prebuild": "chmod +x node_modules/.bin/hexo",
+    "prebuild": "chmod +x node_modules/.bin/vite",
     "dev": "vite",
     "build": "chmod +x node_modules/.bin/vite && vite build",
     "preview": "vite preview"
