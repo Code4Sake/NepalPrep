@@ -4,11 +4,11 @@ import styles from './PastPapers.module.css'
 
 const PAPERS = {
   cee: [
-    { year: 2023, exam: 'IOM', file: null },
+    { year: 2023, exam: 'CEE', file: null },
     { year: 2023, exam: 'BPKIHS', file: null },
-    { year: 2022, exam: 'IOM', file: null },
+    { year: 2022, exam: 'CEE', file: null },
     { year: 2022, exam: 'BPKIHS', file: null },
-    { year: 2021, exam: 'IOM', file: null },
+    { year: 2021, exam: 'CEE', file: null },
     { year: 2020, exam: 'IOM', file: null },
   ],
   ioe: [
