@@ -112,7 +112,7 @@ export default function Landing() {
         <h2 className={styles.secTitle}>Three steps to<br />exam confidence.</h2>
         <div className={styles.steps}>
           {[
-            ['01', 'Create a free account', 'Sign up in 30 seconds. No credit card, no catch.'],
+            ['01', 'Create a free account', 'Sign up in 30 seconds. No cost, no catch.'],
             ['02', 'Choose your exam', 'Select CEE for medical or IOE for engineering — or both.'],
             ['03', 'Start practicing', 'Dive into topic-wise MCQs, mock exams, and notes.'],
           ].map(([num, title, desc], i, arr) => (
@@ -155,7 +155,7 @@ export default function Landing() {
           <h2 className={styles.ctaTitle}>Ready to start?</h2>
           <p className={styles.ctaSub}>Join thousands of Nepal students already preparing smarter.</p>
           <Link to="/signup" className={styles.ctaMainBtn}>Create Free Account →</Link>
-          <p className={styles.ctaNote}>No credit card required · Always free</p>
+          <p className={styles.ctaNote}>Always free</p>
         </div>
       </div>
 
