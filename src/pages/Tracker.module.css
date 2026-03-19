@@ -1,0 +1,193 @@
+.root { background: var(--bg-soft); min-height: 100vh; }
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.loading {
+  text-align: center;
+  padding: 4rem;
+  color: var(--text-muted);
+  font-family: var(--font-body);
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.title { font-size: 1.8rem; font-weight: 900; letter-spacing: -0.03em; margin-bottom: 0.3rem; }
+.sub { color: var(--text-muted); font-family: var(--font-body); font-size: 0.9rem; }
+.backBtn { color: var(--text-muted); font-size: 0.85rem; font-weight: 600; transition: color 0.15s; padding-top: 0.3rem; }
+.backBtn:hover { color: var(--text); }
+
+/* TOP CARDS */
+.topCards {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.countdownCard {
+  background: var(--bg);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  min-width: 140px;
+  box-shadow: var(--shadow-sm);
+  position: relative;
+}
+.daysNum { font-size: 2.5rem; font-weight: 900; letter-spacing: -0.05em; line-height: 1; }
+.daysGreen { color: var(--success-text); }
+.daysAmber { color: #d97706; }
+.daysRed { color: var(--error-text); }
+.daysLabel { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-subtle); font-family: var(--font-body); }
+.changeDateBtn { background: none; border: none; color: var(--primary); font-size: 0.75rem; font-weight: 600; font-family: var(--font-sans); margin-top: 0.2rem; cursor: pointer; }
+.noDateText { font-size: 0.85rem; color: var(--text-muted); font-family: var(--font-body); text-align: center; }
+.setDateBtn { background: var(--primary); color: #fff; border: none; border-radius: var(--radius-full); padding: 0.4rem 1rem; font-size: 0.8rem; font-weight: 700; font-family: var(--font-sans); cursor: pointer; }
+.datePickerWrap { position: absolute; top: 100%; left: 0; z-index: 10; margin-top: 0.5rem; }
+.datePicker { border: 1.5px solid var(--primary); border-radius: var(--radius-md); padding: 0.5rem 0.75rem; font-size: 0.85rem; font-family: var(--font-sans); outline: none; background: var(--bg); box-shadow: var(--shadow-md); }
+
+.progressCard {
+  flex: 1;
+  min-width: 200px;
+  background: var(--bg);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem 1.5rem;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  justify-content: center;
+}
+.progressTop { display: flex; justify-content: space-between; align-items: center; }
+.progressLabel { font-size: 0.85rem; font-weight: 700; }
+.progressPct { font-size: 1.3rem; font-weight: 900; color: var(--primary); }
+.progressBarWrap { width: 100%; height: 10px; background: var(--border-light); border-radius: var(--radius-full); overflow: hidden; }
+.progressBarFill { height: 100%; background: var(--primary); border-radius: var(--radius-full); transition: width 0.5s ease; }
+.progressSub { font-size: 0.78rem; color: var(--text-subtle); font-family: var(--font-body); }
+
+.backlogCard {
+  background: var(--bg);
+  border: 1.5px solid var(--error-border);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  min-width: 130px;
+  box-shadow: var(--shadow-sm);
+}
+.backlogNum { font-size: 2.5rem; font-weight: 900; color: var(--error-text); line-height: 1; }
+.backlogLabel { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--error-text); font-family: var(--font-body); }
+.viewBacklogBtn { background: var(--error-bg); border: 1px solid var(--error-border); color: var(--error-text); border-radius: var(--radius-full); padding: 0.3rem 0.8rem; font-size: 0.75rem; font-weight: 700; font-family: var(--font-sans); margin-top: 0.2rem; cursor: pointer; }
+
+/* FILTER TABS */
+.filterTabs { display: flex; gap: 0.4rem; margin-bottom: 1.25rem; flex-wrap: wrap; }
+.filterTab { background: var(--bg); border: 1.5px solid var(--border); border-radius: var(--radius-full); padding: 0.4rem 1rem; font-size: 0.82rem; font-weight: 600; color: var(--text-muted); transition: all 0.15s; font-family: var(--font-sans); cursor: pointer; }
+.filterTab:hover { border-color: var(--primary); color: var(--primary); }
+.filterTabActive { background: var(--primary); border-color: var(--primary); color: #fff !important; }
+
+/* MOBILE CARD LIST */
+.mobileList { display: flex; flex-direction: column; gap: 0.75rem; }
+
+.mobileCard {
+  background: var(--bg);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1rem 1.1rem;
+  box-shadow: var(--shadow-sm);
+  transition: border-color 0.15s;
+}
+.mobileCardDone { opacity: 0.55; }
+.mobileCardOverdue { border-color: var(--error-border); background: #fff9f9; }
+
+.mobileCardTop {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.85rem;
+}
+.mobileEmoji { font-size: 1.4rem; flex-shrink: 0; }
+.mobileCardInfo { display: flex; flex-direction: column; gap: 0.2rem; flex: 1; min-width: 0; }
+.mobileName { font-weight: 700; font-size: 0.95rem; color: var(--text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+.examBadge { padding: 0.15rem 0.55rem; border-radius: var(--radius-full); font-size: 0.68rem; font-weight: 700; width: fit-content; }
+.badgeCee { background: #EFF6FF; color: var(--primary); }
+.badgeIoe { background: #f0fdf4; color: var(--success-text); }
+
+/* CHECKBOXES — horizontal row */
+.mobileCheckboxes {
+  display: flex;
+  gap: 0.4rem;
+  margin-bottom: 0.85rem;
+  flex-wrap: wrap;
+}
+.mobileCheck {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+  background: var(--bg-soft);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 0.4rem 0.6rem;
+  min-width: 52px;
+  cursor: pointer;
+  transition: all 0.15s;
+  font-family: var(--font-sans);
+}
+.mobileCheck:hover { border-color: var(--primary); }
+.mobileCheckOn { background: var(--success-bg); border-color: var(--success-border); }
+.mobileCheckLabel { font-size: 0.65rem; font-weight: 600; color: var(--text-subtle); text-transform: uppercase; letter-spacing: 0.05em; }
+.mobileCheckBox { width: 20px; height: 20px; border-radius: 4px; border: 1.5px solid var(--border); background: var(--bg); display: flex; align-items: center; justify-content: center; font-size: 0.75rem; font-weight: 700; color: var(--success-text); }
+.mobileCheckOn .mobileCheckBox { background: var(--success-bg); border-color: var(--success-border); }
+
+/* DEADLINE ROW */
+.mobileDeadline { display: flex; align-items: center; gap: 0.6rem; }
+.deadlineLabel { font-size: 0.78rem; font-weight: 600; color: var(--text-subtle); white-space: nowrap; }
+.deadlineInput {
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 0.35rem 0.6rem;
+  font-size: 0.8rem;
+  font-family: var(--font-sans);
+  color: var(--text);
+  background: var(--bg);
+  outline: none;
+  transition: border-color 0.15s;
+  flex: 1;
+  max-width: 160px;
+}
+.deadlineInput:focus { border-color: var(--primary); }
+.deadlineOverdue { border-color: var(--error-border); color: var(--error-text); }
+
+/* DAYS CHIP */
+.daysChip {
+  display: inline-block;
+  padding: 0.2rem 0.6rem;
+  border-radius: var(--radius-full);
+  font-size: 0.7rem;
+  font-weight: 700;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.chipDone { background: var(--success-bg); color: var(--success-text); }
+.chipOverdue { background: var(--error-bg); color: var(--error-text); }
+.chipUrgent { background: #fff7ed; color: #d97706; }
+.chipOk { background: var(--primary-light); color: var(--primary); }
+
+.emptyBacklog { text-align: center; padding: 3rem; color: var(--success-text); font-weight: 600; font-family: var(--font-body); }
