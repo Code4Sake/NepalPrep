@@ -14,6 +14,7 @@ import History from './pages/History'
 import MockExam from './pages/MockExam'
 import PastPapers from './pages/PastPapers'
 import Tracker from './pages/Tracker'
+import VerifyEmail from './pages/VerifyEmail'
 
 function ScrollToHash() {
   const { pathname, hash } = useLocation()
@@ -72,7 +73,7 @@ function AppRoutes() {
       <Route path="/history" element={<ProtectedRoute><History /></ProtectedRoute>} />
       <Route path="/mock-exam" element={<ProtectedRoute><MockExam /></ProtectedRoute>} />
       <Route path="/tracker" element={<ProtectedRoute><Tracker /></ProtectedRoute>} />
-
+    <Route path="/verify-email" element={<VerifyEmail />} />
       {/* 404 */}
       <Route path="*" element={<NotFound />} />
     </Routes>

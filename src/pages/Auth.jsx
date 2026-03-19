@@ -6,6 +6,7 @@ import {
   signInWithPopup,
   updateProfile,
   sendPasswordResetEmail,
+  sendEmailVerification,   // ADD THIS
 } from 'firebase/auth'
 import { doc, setDoc } from 'firebase/firestore'
 import { auth, db, googleProvider } from '../firebase'
@@ -28,6 +29,7 @@ export default function Auth({ mode }) {
     try {
       if (isLogin) {
         await signInWithEmailAndPassword(auth, form.email, form.password)
+        navigate('/dashboard')
       } else {
         const { user } = await createUserWithEmailAndPassword(auth, form.email, form.password)
         await updateProfile(user, { displayName: form.name })
@@ -37,13 +39,15 @@ export default function Auth({ mode }) {
           createdAt: new Date(),
           preferredExam: exam,
         })
+        await sendEmailVerification(user)   // ADD THIS
+        navigate('/verify-email')           // CHANGE THIS (was '/dashboard')
       }
-      navigate('/dashboard')
     } catch (err) {
       setError(getFriendlyError(err.code))
     }
     setLoading(false)
   }
+
 
   const handleGoogle = async () => {
     setError('')

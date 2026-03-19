@@ -2,6 +2,16 @@ import { Navigate } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext'
 
 export default function ProtectedRoute({ children }) {
-  const { user } = useAuth()
-  return user ? children : <Navigate to="/login" replace />
+  const { user, loading } = useAuth()
+
+  if (loading) return null
+
+  if (!user) return <Navigate to="/login" />
+
+  const isGoogle = user.providerData?.[0]?.providerId === 'google.com'
+  if (!user.emailVerified && !isGoogle) {
+    return <Navigate to="/verify-email" />
+  }
+
+  return children
 }
