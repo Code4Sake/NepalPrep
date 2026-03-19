@@ -156,7 +156,7 @@ export default function Auth({ mode }) {
         <p className={styles.switch}>
           {isLogin ? "Don't have an account? " : 'Already have an account? '}
           <Link to={isLogin ? '/signup' : '/login'}>
-            {isLogin ? 'Sign up free' : 'Log in'}
+            {isLogin ? 'Sign up' : 'Log in'}
           </Link>
         </p>
       </div>
