@@ -92,18 +92,7 @@ export default function Dashboard() {
 
         {/* Exam tabs */}
         <div className={styles.examTabs}>
-          <button
-            className={`${styles.examTab} ${exam === 'cee' ? styles.examTabActive : ''}`}
-            onClick={() => { setExam('cee'); setSubject('All') }}
-          >
-            🩺 CEE — Medical
-          </button>
-          <button
-            className={`${styles.examTab} ${exam === 'ioe' ? styles.examTabActive : ''}`}
-            onClick={() => { setExam('ioe'); setSubject('All') }}
-          >
-            ⚙️ IOE — Engineering
-          </button>
+          
         </div>
 
         {/* Filters */}
@@ -165,11 +154,15 @@ function TopicCard({ topic, exam, bestScore }) {
     )
   }
 
-  const scoreColor =
-    bestScore == null ? null
-    : bestScore >= 75 ? styles.scoreGreen
-    : bestScore >= 50 ? styles.scoreAmber
-    : styles.scoreRed
+  const barColor = bestScore == null ? null
+    : bestScore >= 75 ? '#22c55e'
+    : bestScore >= 50 ? '#f59e0b'
+    : '#ef4444'
+
+  const textColor = bestScore == null ? null
+    : bestScore >= 75 ? '#16a34a'
+    : bestScore >= 50 ? '#d97706'
+    : '#dc2626'
 
   return (
     <Link to={`/quiz/${exam}/${topic.id}`} className={styles.card}>
@@ -184,11 +177,13 @@ function TopicCard({ topic, exam, bestScore }) {
         <div className={styles.cardScore}>
           <div className={styles.scoreBarWrap}>
             <div
-              className={`${styles.scoreBarFill} ${scoreColor}`}
-              style={{ width: `${bestScore}%` }}
+              className={styles.scoreBarFill}
+              style={{ width: `${bestScore}%`, background: barColor }}
             />
           </div>
-          <span className={`${styles.scorePct} ${scoreColor}`}>Best: {bestScore}%</span>
+          <span style={{ fontSize: '0.75rem', fontWeight: '700', color: textColor }}>
+            Best: {bestScore}%
+          </span>
         </div>
       ) : (
         <div className={styles.cardAction}>Start Practice →</div>
@@ -196,3 +191,4 @@ function TopicCard({ topic, exam, bestScore }) {
     </Link>
   )
 }
+

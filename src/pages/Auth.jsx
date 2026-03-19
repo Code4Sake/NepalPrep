@@ -99,7 +99,7 @@ export default function Auth({ mode }) {
               <label>Full name</label>
               <input
                 type="text"
-                placeholder="Aarav Sharma"
+                placeholder=""
                 value={form.name}
                 onChange={(e) => setForm({ ...form, name: e.target.value })}
                 required

@@ -33,7 +33,7 @@ export default function Landing() {
       <section className={styles.hero}>
         <div className={styles.badge}>
           <span className={styles.badgeDot} />
-          Free for all Nepal students
+          Free for all Nepali students
         </div>
         <h1 className={styles.heroTitle}>
           Crack <span className={styles.blue}>CEE</span> &amp; <span className={styles.blue}>IOE.</span>
@@ -44,7 +44,10 @@ export default function Landing() {
         </p>
         <div className={styles.heroCtas}>
           <Link to="/signup?exam=cee" className={styles.ctaPrimary}>Start CEE Prep →</Link>
-          <Link to="/signup?exam=ioe" className={styles.ctaSecondary}>Start IOE Prep →</Link>
+          <div className={styles.comingSoonWrap}>
+  <span className={styles.ctaSecondaryDisabled}>Start IOE Prep →</span>
+  <span className={styles.comingSoonTag}>Coming Soon</span>
+</div>
         </div>
 
         {/* Sample question card */}
@@ -145,7 +148,10 @@ export default function Landing() {
             <h3 className={styles.examName}>IOE — Engineering</h3>
             <p className={styles.examDesc}>Mathematics, Physics, Chemistry & English for Pulchowk and affiliated colleges.</p>
           </div>
-          <Link to="/signup?exam=ioe" className={styles.examBtn}>Prepare for IOE →</Link>
+          <div className={styles.comingSoonWrap}>
+  <span className={styles.examBtnDisabled}>Prepare for IOE →</span>
+  <span className={styles.comingSoonTag}>Coming Soon</span>
+</div>
         </div>
       </div>
 
@@ -164,7 +170,7 @@ export default function Landing() {
         <div className={styles.footerLogo}>
           <span className={styles.blue}>Nepal</span>Prep
         </div>
-        <p className={styles.footerNote}>Built with ❤️ for Nepal students · CEE & IOE preparation</p>
+        <p className={styles.footerNote}>Built with ❤️ for Nepali students · CEE & IOE preparation</p>
         <div className={styles.footerLinks}>
           <a href="/#features">Features</a>
           <a href="/#how-it-works">How it Works</a>

@@ -249,11 +249,16 @@
 .qStatDivider { width: 1px; height: 40px; background: var(--border-light); flex-shrink: 0; }
 
 /* SCORE BAR ON CARDS */
-.cardScore { margin-top: 0.5rem; display: flex; flex-direction: column; gap: 0.35rem; }
+.cardScore {
+  margin-top: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
 
 .scoreBarWrap {
   width: 100%;
-  height: 5px;
+  height: 6px;
   background: var(--border-light);
   border-radius: var(--radius-full);
   overflow: hidden;
@@ -265,8 +270,16 @@
   transition: width 0.4s ease;
 }
 
-.scoreGreen { background: #22c55e; color: var(--success-text); }
-.scoreAmber { background: #f59e0b; color: #d97706; }
-.scoreRed { background: #ef4444; color: var(--error-text); }
+.scoreGreen { background: #22c55e; }
+.scoreAmber { background: #f59e0b; }
+.scoreRed { background: #ef4444; }
 
-.scorePct { font-size: 0.75rem; font-weight: 700; }
+.scorePct {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--text-muted);
+}
+
+.scorePct.scoreGreen { color: #16a34a; }
+.scorePct.scoreAmber { color: #d97706; }
+.scorePct.scoreRed { color: #dc2626; }

@@ -3,32 +3,22 @@ import { Link } from 'react-router-dom'
 import { doc, getDoc, setDoc } from 'firebase/firestore'
 import { db } from '../firebase'
 import { useAuth } from '../context/AuthContext'
-import { ceeTopics, ioeTopics } from '../data/questions'
+import { ceeTopics } from '../data/questions'
 import Navbar from '../components/Navbar'
 import styles from './Tracker.module.css'
 
-const ALL_TOPICS = [
-  ...ceeTopics.map((t) => ({ ...t, exam: 'CEE' })),
-  ...ioeTopics.map((t) => ({ ...t, exam: 'IOE' })),
-]
-
-const COLS = ['Notes', 'PYQ', 'Rev 1', 'Rev 2', 'Done']
-
-const DEFAULT_TRACKER = () => {
-  const obj = {}
-  ALL_TOPICS.forEach((t) => {
-    obj[t.id] = { notes: false, pyq: false, rev1: false, rev2: false, done: false, deadline: '' }
-  })
-  return obj
-}
+const ALL_TOPICS = ceeTopics.map((t) => ({ ...t, exam: 'CEE' }))
+const DEFAULT_TOPIC_DATA = () => ({ tasks: [], deadline: '', done: false })
 
 export default function Tracker() {
   const { user } = useAuth()
-  const [tracker, setTracker] = useState(DEFAULT_TRACKER())
+  const [tracker, setTracker] = useState({})
   const [examDate, setExamDate] = useState('')
   const [editingDate, setEditingDate] = useState(false)
   const [loading, setLoading] = useState(true)
   const [filter, setFilter] = useState('All')
+  const [taskInputs, setTaskInputs] = useState({})
+  const [addingFor, setAddingFor] = useState(null) // topicId currently showing input
 
   useEffect(() => {
     const load = async () => {
@@ -37,12 +27,10 @@ export default function Tracker() {
         const snap = await getDoc(ref)
         if (snap.exists()) {
           const data = snap.data()
-          setTracker(data.topics || DEFAULT_TRACKER())
+          setTracker(data.topics || {})
           setExamDate(data.examDate || '')
         }
-      } catch (e) {
-        console.error(e)
-      }
+      } catch (e) { console.error(e) }
       setLoading(false)
     }
     load()
@@ -54,29 +42,49 @@ export default function Tracker() {
         topics: newTracker,
         examDate: newExamDate ?? examDate,
       })
-    } catch (e) {
-      console.error(e)
-    }
+    } catch (e) { console.error(e) }
   }
 
-  const toggle = (topicId, col) => {
-    const colKey = col.toLowerCase().replace(' ', '')
-    const updated = {
-      ...tracker,
-      [topicId]: {
-        ...tracker[topicId],
-        [colKey]: !tracker[topicId]?.[colKey],
-      },
-    }
+  const getTopicData = (topicId) => tracker[topicId] || DEFAULT_TOPIC_DATA()
+
+  const addTask = (topicId) => {
+    const name = (taskInputs[topicId] || '').trim()
+    if (!name) return
+    const td = getTopicData(topicId)
+    const newTask = { id: Date.now().toString(), name, done: false }
+    const updated = { ...tracker, [topicId]: { ...td, tasks: [...(td.tasks || []), newTask] } }
+    setTracker(updated)
+    save(updated, examDate)
+    setTaskInputs((p) => ({ ...p, [topicId]: '' }))
+    setAddingFor(null)
+  }
+
+  const toggleTask = (topicId, taskId) => {
+    const td = getTopicData(topicId)
+    const updatedTasks = td.tasks.map((t) => t.id === taskId ? { ...t, done: !t.done } : t)
+    const allDone = updatedTasks.length > 0 && updatedTasks.every((t) => t.done)
+    const updated = { ...tracker, [topicId]: { ...td, tasks: updatedTasks, done: allDone } }
+    setTracker(updated)
+    save(updated, examDate)
+  }
+
+  const deleteTask = (topicId, taskId) => {
+    const td = getTopicData(topicId)
+    const updated = { ...tracker, [topicId]: { ...td, tasks: td.tasks.filter((t) => t.id !== taskId) } }
+    setTracker(updated)
+    save(updated, examDate)
+  }
+
+  const toggleTopicDone = (topicId) => {
+    const td = getTopicData(topicId)
+    const updated = { ...tracker, [topicId]: { ...td, done: !td.done } }
     setTracker(updated)
     save(updated, examDate)
   }
 
   const setDeadline = (topicId, date) => {
-    const updated = {
-      ...tracker,
-      [topicId]: { ...tracker[topicId], deadline: date },
-    }
+    const td = getTopicData(topicId)
+    const updated = { ...tracker, [topicId]: { ...td, deadline: date } }
     setTracker(updated)
     save(updated, examDate)
   }
@@ -87,37 +95,23 @@ export default function Tracker() {
     save(tracker, date)
   }
 
-  const daysLeft = examDate
-    ? Math.ceil((new Date(examDate) - new Date()) / (1000 * 60 * 60 * 24))
-    : null
-
-  const totalTopics = ALL_TOPICS.length
-  const doneTopics = ALL_TOPICS.filter((t) => tracker[t.id]?.done).length
-  const overallPct = Math.round((doneTopics / totalTopics) * 100)
-
   const today = new Date().toISOString().split('T')[0]
+  const daysLeft = examDate ? Math.ceil((new Date(examDate) - new Date()) / (1000 * 60 * 60 * 24)) : null
+  const totalTopics = ALL_TOPICS.length
+  const doneTopics = ALL_TOPICS.filter((t) => getTopicData(t.id).done).length
+  const overallPct = Math.round((doneTopics / totalTopics) * 100)
   const backlogTopics = ALL_TOPICS.filter((t) => {
-    const td = tracker[t.id]
-    return td?.deadline && td.deadline < today && !td.done
+    const td = getTopicData(t.id)
+    return td.deadline && td.deadline < today && !td.done
   })
-
   const displayTopics = ALL_TOPICS.filter((t) => {
-    if (filter === 'CEE') return t.exam === 'CEE'
-    if (filter === 'IOE') return t.exam === 'IOE'
     if (filter === 'Backlog') return backlogTopics.find((b) => b.id === t.id)
     return true
   })
 
-  const colKey = (col) => col.toLowerCase().replace(' ', '')
-
-  if (loading) {
-    return (
-      <div className={styles.root}>
-        <Navbar />
-        <div className={styles.loading}>Loading your tracker...</div>
-      </div>
-    )
-  }
+  if (loading) return (
+    <div className={styles.root}><Navbar /><div className={styles.loading}>Loading your tracker...</div></div>
+  )
 
   return (
     <div className={styles.root}>
@@ -127,18 +121,17 @@ export default function Tracker() {
         <div className={styles.header}>
           <div>
             <h1 className={styles.title}>Study Tracker</h1>
-            <p className={styles.sub}>Track your chapter completion, set deadlines, and stay on top of backlogs.</p>
+            <p className={styles.sub}>Add custom tasks per chapter, set deadlines, track your progress.</p>
           </div>
           <Link to="/dashboard" className={styles.backBtn}>← Dashboard</Link>
         </div>
 
+        {/* Top cards */}
         <div className={styles.topCards}>
           <div className={styles.countdownCard}>
             {daysLeft !== null ? (
               <>
-                <span className={`${styles.daysNum} ${daysLeft < 30 ? styles.daysRed : daysLeft < 60 ? styles.daysAmber : styles.daysGreen}`}>
-                  {daysLeft}
-                </span>
+                <span className={`${styles.daysNum} ${daysLeft < 30 ? styles.daysRed : daysLeft < 60 ? styles.daysAmber : styles.daysGreen}`}>{daysLeft}</span>
                 <span className={styles.daysLabel}>days till exam</span>
                 <button className={styles.changeDateBtn} onClick={() => setEditingDate(true)}>Change date</button>
               </>
@@ -150,14 +143,8 @@ export default function Tracker() {
             )}
             {editingDate && (
               <div className={styles.datePickerWrap}>
-                <input
-                  type="date"
-                  className={styles.datePicker}
-                  defaultValue={examDate}
-                  min={today}
-                  onChange={(e) => handleExamDate(e.target.value)}
-                  autoFocus
-                />
+                <input type="date" className={styles.datePicker} defaultValue={examDate} min={today}
+                  onChange={(e) => handleExamDate(e.target.value)} autoFocus />
               </div>
             )}
           </div>
@@ -176,63 +163,111 @@ export default function Tracker() {
           {backlogTopics.length > 0 && (
             <div className={styles.backlogCard}>
               <span className={styles.backlogNum}>{backlogTopics.length}</span>
-              <span className={styles.backlogLabel}>overdue topics</span>
-              <button className={styles.viewBacklogBtn} onClick={() => setFilter('Backlog')}>View backlogs →</button>
+              <span className={styles.backlogLabel}>overdue</span>
+              <button className={styles.viewBacklogBtn} onClick={() => setFilter('Backlog')}>View →</button>
             </div>
           )}
         </div>
 
+        {/* Filter tabs */}
         <div className={styles.filterTabs}>
-          {['All', 'CEE', 'IOE', 'Backlog'].map((f) => (
-            <button
-              key={f}
+          {['All', 'Backlog'].map((f) => (
+            <button key={f}
               className={`${styles.filterTab} ${filter === f ? styles.filterTabActive : ''}`}
-              onClick={() => setFilter(f)}
-            >
+              onClick={() => setFilter(f)}>
               {f === 'Backlog' && backlogTopics.length > 0 ? `Backlog (${backlogTopics.length})` : f}
             </button>
           ))}
         </div>
 
-        {/* Mobile card layout */}
-        <div className={styles.mobileList}>
+        {/* Cards */}
+        <div className={styles.cardList}>
           {displayTopics.map((topic) => {
-            const td = tracker[topic.id] || {}
+            const td = getTopicData(topic.id)
             const isOverdue = td.deadline && td.deadline < today && !td.done
-            const isDone = td.done
             const topicDaysLeft = td.deadline
               ? Math.ceil((new Date(td.deadline) - new Date()) / (1000 * 60 * 60 * 24))
               : null
+            const completedTasks = (td.tasks || []).filter((t) => t.done).length
+            const totalTasks = (td.tasks || []).length
+            const isAddingHere = addingFor === topic.id
 
             return (
-              <div key={topic.id} className={`${styles.mobileCard} ${isDone ? styles.mobileCardDone : ''} ${isOverdue ? styles.mobileCardOverdue : ''}`}>
-                <div className={styles.mobileCardTop}>
-                  <span className={styles.mobileEmoji}>{topic.emoji}</span>
-                  <div className={styles.mobileCardInfo}>
-                    <span className={styles.mobileName}>{topic.name}</span>
-                    <span className={`${styles.examBadge} ${topic.exam === 'CEE' ? styles.badgeCee : styles.badgeIoe}`}>{topic.exam}</span>
+              <div key={topic.id} className={`${styles.card} ${td.done ? styles.cardDone : ''} ${isOverdue ? styles.cardOverdue : ''}`}>
+
+                {/* Card header */}
+                <div className={styles.cardHeader}>
+                  <div className={styles.cardLeft}>
+                    <span className={styles.cardEmoji}>{topic.emoji}</span>
+                    <div>
+                      <span className={styles.cardName}>{topic.name}</span>
+                      <span className={styles.badgeCee}>CEE</span>
+                    </div>
                   </div>
-                  {topicDaysLeft !== null && (
-                    <span className={`${styles.daysChip} ${isDone ? styles.chipDone : topicDaysLeft < 0 ? styles.chipOverdue : topicDaysLeft <= 3 ? styles.chipUrgent : styles.chipOk}`}>
-                      {isDone ? '✓' : topicDaysLeft < 0 ? `${Math.abs(topicDaysLeft)}d late` : `${topicDaysLeft}d`}
-                    </span>
+                  <div className={styles.cardRight}>
+                    {topicDaysLeft !== null && (
+                      <span className={`${styles.daysChip} ${
+                        td.done ? styles.chipDone :
+                        topicDaysLeft < 0 ? styles.chipOverdue :
+                        topicDaysLeft <= 3 ? styles.chipUrgent : styles.chipOk
+                      }`}>
+                        {td.done ? '✓' : topicDaysLeft < 0 ? `${Math.abs(topicDaysLeft)}d late` : `${topicDaysLeft}d`}
+                      </span>
+                    )}
+                    <button
+                      className={`${styles.doneToggle} ${td.done ? styles.doneToggleOn : ''}`}
+                      onClick={() => toggleTopicDone(topic.id)}>
+                      {td.done ? '✓ Done' : 'Mark done'}
+                    </button>
+                  </div>
+                </div>
+
+                {/* Task progress bar */}
+                {totalTasks > 0 && (
+                  <div className={styles.taskProgress}>
+                    <div className={styles.taskProgressBar}>
+                      <div className={styles.taskProgressFill} style={{ width: `${Math.round((completedTasks / totalTasks) * 100)}%` }} />
+                    </div>
+                    <span className={styles.taskProgressText}>{completedTasks}/{totalTasks}</span>
+                  </div>
+                )}
+
+                {/* Pill tasks row */}
+                <div className={styles.pillsRow}>
+                  {(td.tasks || []).map((task) => (
+                    <div key={task.id} className={`${styles.pill} ${task.done ? styles.pillDone : ''}`}>
+                      <button className={styles.pillCheck} onClick={() => toggleTask(topic.id, task.id)}>
+                        {task.done ? '✓' : ''}
+                      </button>
+                      <span className={styles.pillName}>{task.name}</span>
+                      <button className={styles.pillDelete} onClick={() => deleteTask(topic.id, task.id)}>✕</button>
+                    </div>
+                  ))}
+
+                  {/* Add button / input */}
+                  {isAddingHere ? (
+                    <div className={styles.pillInput}>
+                      <input
+                        autoFocus
+                        className={styles.pillInputField}
+                        placeholder="Task name..."
+                        value={taskInputs[topic.id] || ''}
+                        onChange={(e) => setTaskInputs((p) => ({ ...p, [topic.id]: e.target.value }))}
+                        onKeyDown={(e) => {
+                          if (e.key === 'Enter') addTask(topic.id)
+                          if (e.key === 'Escape') setAddingFor(null)
+                        }}
+                        onBlur={() => { if (!(taskInputs[topic.id] || '').trim()) setAddingFor(null) }}
+                      />
+                      <button className={styles.pillConfirm} onClick={() => addTask(topic.id)}>Add</button>
+                    </div>
+                  ) : (
+                    <button className={styles.pillAdd} onClick={() => setAddingFor(topic.id)}>+ Add</button>
                   )}
                 </div>
 
-                <div className={styles.mobileCheckboxes}>
-                  {COLS.map((col) => (
-                    <button
-                      key={col}
-                      className={`${styles.mobileCheck} ${td[colKey(col)] ? styles.mobileCheckOn : ''}`}
-                      onClick={() => toggle(topic.id, col)}
-                    >
-                      <span className={styles.mobileCheckLabel}>{col}</span>
-                      <span className={styles.mobileCheckBox}>{td[colKey(col)] ? '✓' : ''}</span>
-                    </button>
-                  ))}
-                </div>
-
-                <div className={styles.mobileDeadline}>
+                {/* Deadline */}
+                <div className={styles.deadlineRow}>
                   <label className={styles.deadlineLabel}>Deadline:</label>
                   <input
                     type="date"
@@ -248,9 +283,7 @@ export default function Tracker() {
         </div>
 
         {displayTopics.length === 0 && filter === 'Backlog' && (
-          <div className={styles.emptyBacklog}>
-            <p>🎉 No backlogs! You're on track.</p>
-          </div>
+          <div className={styles.emptyBacklog}><p>🎉 No backlogs! You're on track.</p></div>
         )}
       </div>
     </div>

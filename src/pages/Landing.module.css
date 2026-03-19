@@ -165,7 +165,57 @@
   border-left: 3px solid var(--primary);
   font-family: var(--font-body);
 }
+/* COMING SOON */
+.comingSoonWrap {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
 
+.ctaSecondaryDisabled {
+  display: inline-block;
+  padding: 0.85rem 2rem;
+  border-radius: var(--radius-full);
+  border: 1px solid black;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
+  background: #fff;
+}
+
+.examBtnDisabled {
+  display: inline-block;
+  padding: 0.6rem 1.25rem;
+  border-radius: var(--radius-full);
+  border: 1px solid black;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
+  background: #fff;
+}
+
+.comingSoonTag {
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #f59e0b;
+  color: #fff;
+  font-size: 0.58rem;
+  font-weight: 800;
+  padding: 0.2rem 0.65rem;
+  border-radius: var(--radius-full);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  white-space: nowrap;
+  box-shadow: 0 2px 8px rgba(245,158,11,0.4);
+}
 /* STATS */
 .statsWrap { padding: 0 2rem; }
 .stats {
