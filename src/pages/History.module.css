@@ -27,6 +27,35 @@
 .dashLink { color: var(--text-muted); font-size: 0.85rem; font-weight: 600; padding-top: 0.3rem; }
 .dashLink:hover { color: var(--text); }
 
+/* TABS */
+.tabs {
+  display: flex;
+  gap: 0;
+  margin-bottom: 1.5rem;
+  background: var(--bg);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-full);
+  padding: 0.25rem;
+  width: fit-content;
+}
+.tab {
+  background: none;
+  border: none;
+  border-radius: var(--radius-full);
+  padding: 0.5rem 1.25rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  cursor: pointer;
+  font-family: var(--font-sans);
+  transition: all 0.15s;
+}
+.tab:hover { color: var(--text); }
+.tabActive {
+  background: var(--primary);
+  color: #fff !important;
+}
+
 /* EMPTY */
 .empty {
   text-align: center;
@@ -87,9 +116,6 @@
   font-size: 0.7rem;
   font-weight: 700;
 }
-.attemptDate { }
-.attemptFraction { }
-
 .attemptRight {
   display: flex;
   flex-direction: column;
@@ -100,9 +126,9 @@
 .viewBtn { font-size: 0.75rem; color: var(--primary); font-weight: 600; }
 
 /* SCORE COLORS */
-.scoreGreen { color: var(--success-text); }
+.scoreGreen { color: #16a34a; }
 .scoreAmber { color: #d97706; }
-.scoreRed { color: var(--error-text); }
+.scoreRed { color: #dc2626; }
 
 /* DETAIL VIEW */
 .detailHeader {
@@ -161,8 +187,8 @@
   box-shadow: var(--shadow-sm);
   border: 1.5px solid var(--border);
 }
-.reviewCorrect { border-left-color: var(--success-text); }
-.reviewWrong { border-left-color: var(--error-text); }
+.reviewCorrect { border-left: 4px solid #16a34a; }
+.reviewWrong { border-left: 4px solid #dc2626; }
 
 .reviewTop {
   display: flex;
@@ -173,7 +199,7 @@
 .reviewNum { font-size: 0.75rem; font-weight: 700; color: var(--text-subtle); text-transform: uppercase; letter-spacing: 0.08em; }
 .reviewBadgeCorrect {
   background: var(--success-bg);
-  color: var(--success-text);
+  color: #16a34a;
   border: 1px solid var(--success-border);
   padding: 0.2rem 0.6rem;
   border-radius: var(--radius-full);
@@ -182,7 +208,7 @@
 }
 .reviewBadgeWrong {
   background: var(--error-bg);
-  color: var(--error-text);
+  color: #dc2626;
   border: 1px solid var(--error-border);
   padding: 0.2rem 0.6rem;
   border-radius: var(--radius-full);
@@ -220,14 +246,14 @@
 .reviewOptTag {
   font-size: 0.7rem;
   font-weight: 700;
-  color: var(--success-text);
+  color: #16a34a;
   margin-left: auto;
   white-space: nowrap;
 }
 .reviewOptTagWrong {
   font-size: 0.7rem;
   font-weight: 700;
-  color: var(--error-text);
+  color: #dc2626;
   margin-left: auto;
   white-space: nowrap;
 }
