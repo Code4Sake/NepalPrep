@@ -164,8 +164,9 @@ function TopicCard({ topic, exam, bestScore }) {
     : bestScore >= 50 ? '#d97706'
     : '#dc2626'
 
-  return (
-    <Link to={`/quiz/${exam}/${topic.id}`} className={styles.card}>
+
+    return (
+  <Link to={topic.hasSubtopics ? `/topic/${exam}/${topic.id}` : `/quiz/${exam}/${topic.id}`} className={styles.card}>
       <div className={styles.cardTop}>
         <span className={styles.cardEmoji}>{topic.emoji}</span>
         <span className={styles.cardCount}>{topic.questionCount} Qs</span>

@@ -4,29 +4,40 @@ import { ceeTopics, ioeTopics, questions } from '../data/questions'
 import Navbar from '../components/Navbar'
 import styles from './Quiz.module.css'
 
-function shuffleArray(arr) {
-  const a = [...arr]
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]]
-  }
-  return a
-}
-
 export default function Quiz() {
   const { exam, topicId } = useParams()
   const navigate = useNavigate()
 
   const topics = exam === 'cee' ? ceeTopics : ioeTopics
-  const topic = topics.find((t) => t.id === topicId)
-  // Shuffle questions on mount (useMemo ensures stable shuffle per mount)
-  const qs = useMemo(() => shuffleArray(questions[topicId] || []), [topicId])
+
+  const isRandom = topicId.endsWith('-random')
+  const parentId = isRandom ? topicId.replace('-random', '') : null
+  const parentTopic = isRandom ? topics.find((t) => t.id === parentId) : null
+
+  // Find topic — check direct topics AND subtopics
+  const topic = isRandom
+    ? parentTopic
+    : topics.find((t) => t.id === topicId)
+      ?? topics.flatMap((t) => t.subtopics || []).find((s) => s.id === topicId)
+
+  // Build question set — shuffled every mount
+  const qs = useMemo(() => {
+    const arr = isRandom
+      ? (parentTopic?.subtopics || []).flatMap((sub) => (questions[sub.id] || []))
+      : (questions[topicId] || [])
+    // Fisher-Yates shuffle
+    const a = [...arr]
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]]
+    }
+    return a
+  }, [topicId])
 
   const [current, setCurrent] = useState(0)
   const [selected, setSelected] = useState(null)
   const [answers, setAnswers] = useState([])
 
-  // Reset all state when topic changes (handles retry)
   useEffect(() => {
     setCurrent(0)
     setSelected(null)
@@ -80,6 +91,11 @@ export default function Quiz() {
     }
   }
 
+  // For subtopics, show emoji from parent topic
+  const displayEmoji = topic.emoji || topics.find((t) =>
+    t.subtopics?.some((s) => s.id === topicId)
+  )?.emoji || '📚'
+
   return (
     <div className={styles.root}>
       <Navbar />
@@ -89,7 +105,7 @@ export default function Quiz() {
         <div className={styles.topBar}>
           <Link to="/dashboard" className={styles.backBtn}>← Dashboard</Link>
           <div className={styles.topMeta}>
-            <span className={styles.topicBadge}>{topic.emoji} {topic.name}</span>
+            <span className={styles.topicBadge}>{displayEmoji} {topic.name}</span>
             <span className={styles.counter}>{current + 1} / {qs.length}</span>
           </div>
         </div>

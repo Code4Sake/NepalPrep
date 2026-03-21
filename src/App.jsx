@@ -4,6 +4,9 @@ import { AuthProvider } from './context/AuthContext'
 import { ThemeProvider } from './context/ThemeContext'
 import ProtectedRoute from './components/ProtectedRoute'
 import GoToTop from './components/GoToTop'
+import SubtopicSelect from './pages/SubtopicSelect'
+
+
 
 import Landing from './pages/Landing'
 import Auth from './pages/Auth'
@@ -66,6 +69,7 @@ function AppRoutes() {
       <Route path="/past-papers" element={<PastPapers />} />
 
       {/* Protected */}
+      <Route path="/topic/:exam/:topicId" element={<ProtectedRoute><SubtopicSelect /></ProtectedRoute>} />
       <Route path="/dashboard" element={<ProtectedRoute><Dashboard /></ProtectedRoute>} />
       {/* key={location.key} forces Quiz to fully remount on every navigation, fixing the retry bug */}
       <Route path="/quiz/:exam/:topicId" element={<ProtectedRoute><Quiz key={location.key} /></ProtectedRoute>} />
