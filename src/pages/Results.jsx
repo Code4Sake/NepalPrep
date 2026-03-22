@@ -1,7 +1,5 @@
-import { useEffect, useRef } from 'react'
+import { useEffect } from 'react'
 import { useLocation, useNavigate, Link } from 'react-router-dom'
-import { collection, addDoc } from 'firebase/firestore'
-import { db } from '../firebase'
 import { useAuth } from '../context/AuthContext'
 import Navbar from '../components/Navbar'
 import styles from './Results.module.css'
@@ -10,39 +8,9 @@ export default function Results() {
   const { state } = useLocation()
   const navigate = useNavigate()
   const { user } = useAuth()
-  const saved = useRef(false)
 
   useEffect(() => {
-    if (!state) { navigate('/dashboard'); return }
-    if (saved.current) return
-    saved.current = true
-    const save = async () => {
-      try {
-        await addDoc(collection(db, 'scores'), {
-          userId: user.uid,
-          userName: user.displayName || user.email,
-          topicId: state.topicId,
-          topicName: state.topicName,
-          exam: state.exam,
-          score: state.score,
-          total: state.total,
-          pct: Math.round((state.score / state.total) * 100),
-          date: new Date(),
-          // Save full answers for history review
-          answers: state.answers.map((a) => ({
-            question: a.question,
-            options: a.options || [],
-            selected: a.selected,
-            correct: a.correct,
-            isCorrect: a.isCorrect,
-            explanation: a.explanation || '',
-          })),
-        })
-      } catch (e) {
-        console.error('Failed to save score:', e)
-      }
-    }
-    save()
+    if (!state) navigate('/dashboard')
   }, [state])
 
   if (!state) return null
@@ -99,7 +67,6 @@ export default function Results() {
         <div className={styles.actions}>
           <Link to={`/quiz/${exam}/${topicId}`} className={styles.retryBtn}>🔄 Try Again</Link>
           <Link to="/dashboard" className={styles.dashBtn}>← Back to Dashboard</Link>
-          <Link to="/history" className={styles.historyBtn}>📊 View History</Link>
         </div>
 
         {/* Answer review */}

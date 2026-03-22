@@ -1,5 +1,6 @@
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, Navigate } from 'react-router-dom'
+import { useAuth } from '../context/AuthContext'
 import Navbar from '../components/Navbar'
 import styles from './Landing.module.css'
 
@@ -18,7 +19,10 @@ const SAMPLE_Q = {
 }
 
 export default function Landing() {
+  const { user } = useAuth()
   const [selected, setSelected] = useState(null)
+
+  if (user) return <Navigate to="/dashboard" replace />
 
   const pick = (i) => {
     if (selected !== null) return

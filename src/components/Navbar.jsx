@@ -21,7 +21,7 @@ export default function Navbar() {
   return (
     <nav className={styles.nav}>
       <div className={styles.inner}>
-        <Link to="/" className={styles.logo} onClick={closeMenu}>
+        <Link to={user ? '/dashboard' : '/'} className={styles.logo} onClick={closeMenu}>
           <span className={styles.logoBlue}>Nepal</span>
           <span className={styles.logoDark}>Prep</span>
         </Link>

@@ -1,39 +1,28 @@
-import { useState, useEffect } from 'react'
 import { Link, useParams } from 'react-router-dom'
-import { collection, query, where, getDocs } from 'firebase/firestore'
-import { db } from '../firebase'
 import { useAuth } from '../context/AuthContext'
 import { ceeTopics, ioeTopics } from '../data/questions'
 import Navbar from '../components/Navbar'
 import styles from './SubtopicSelect.module.css'
 
+function getProgress(userId, topicId) {
+  try {
+    const key = `nepalprep-quiz-${userId}-${topicId}`
+    const saved = localStorage.getItem(key)
+    if (!saved) return null
+    const s = JSON.parse(saved)
+    const done = (s.correctCount || 0) + (s.wrongCount || 0)
+    if (done === 0) return null
+    const accuracy = Math.round((s.correctCount / done) * 100)
+    return { done, total: s.totalQuestions || 0, accuracy }
+  } catch { return null }
+}
+
 export default function SubtopicSelect() {
   const { exam, topicId } = useParams()
   const { user } = useAuth()
-  const [bestScores, setBestScores] = useState({})
 
   const topics = exam === 'cee' ? ceeTopics : ioeTopics
   const topic = topics.find((t) => t.id === topicId)
-
-  useEffect(() => {
-    const fetchScores = async () => {
-      try {
-        const q = query(collection(db, 'scores'), where('userId', '==', user.uid))
-        const snap = await getDocs(q)
-        const scores = {}
-        snap.docs.forEach((d) => {
-          const data = d.data()
-          if (!scores[data.topicId] || data.pct > scores[data.topicId]) {
-            scores[data.topicId] = data.pct
-          }
-        })
-        setBestScores(scores)
-      } catch (e) {
-        console.error(e)
-      }
-    }
-    fetchScores()
-  }, [user])
 
   if (!topic || !topic.subtopics) return null
 
@@ -67,7 +56,7 @@ export default function SubtopicSelect() {
         <h2 className={styles.sectionTitle}>Choose a chapter</h2>
         <div className={styles.grid}>
           {topic.subtopics.map((sub) => (
-            <SubtopicCard key={sub.id} sub={sub} exam={exam} bestScore={bestScores[sub.id]} />
+            <SubtopicCard key={sub.id} sub={sub} exam={exam} userId={user?.uid} />
           ))}
         </div>
 
@@ -76,7 +65,9 @@ export default function SubtopicSelect() {
   )
 }
 
-function SubtopicCard({ sub, exam, bestScore }) {
+function SubtopicCard({ sub, exam, userId }) {
+  const progress = userId ? getProgress(userId, sub.id) : null
+
   if (sub.comingSoon) {
     return (
       <div className={`${styles.card} ${styles.cardDisabled}`}>
@@ -89,15 +80,17 @@ function SubtopicCard({ sub, exam, bestScore }) {
     )
   }
 
-  const barColor = bestScore == null ? null
-    : bestScore >= 75 ? '#22c55e'
-    : bestScore >= 50 ? '#f59e0b'
-    : '#ef4444'
-
-  const textColor = bestScore == null ? null
-    : bestScore >= 75 ? '#16a34a'
-    : bestScore >= 50 ? '#d97706'
+  const pct = progress ? Math.round((progress.done / (progress.total || sub.questionCount)) * 100) : 0
+  const accColor = progress
+    ? progress.accuracy >= 75 ? '#16a34a'
+    : progress.accuracy >= 50 ? '#d97706'
     : '#dc2626'
+    : null
+  const barColor = progress
+    ? progress.accuracy >= 75 ? '#22c55e'
+    : progress.accuracy >= 50 ? '#f59e0b'
+    : '#ef4444'
+    : null
 
   return (
     <Link to={`/quiz/${exam}/${sub.id}`} className={styles.card}>
@@ -106,13 +99,15 @@ function SubtopicCard({ sub, exam, bestScore }) {
       </div>
       <h3 className={styles.cardName}>{sub.name}</h3>
 
-      {bestScore != null ? (
+      {progress ? (
         <div className={styles.cardScore}>
           <div className={styles.scoreBarWrap}>
-            <div className={styles.scoreBarFill} style={{ width: `${bestScore}%`, background: barColor }} />
+            <div className={styles.scoreBarFill} style={{ width: `${pct}%`, background: barColor }} />
           </div>
-          <span style={{ fontSize: '0.75rem', fontWeight: '700', color: textColor }}>
-            Best: {bestScore}%
+          <span style={{ fontSize: '0.72rem', fontWeight: '700', color: 'var(--text-muted)' }}>
+            {progress.done}/{progress.total || sub.questionCount} done
+            <span style={{ margin: '0 0.3rem' }}>·</span>
+            <span style={{ color: accColor }}>{progress.accuracy}% accuracy</span>
           </span>
         </div>
       ) : (
