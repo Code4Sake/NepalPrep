@@ -2843,4 +2843,1870 @@ export const questions = {
     explanation: 'Adiantum (maidenhair fern) is widely used as an ornamental plant in homes and gardens due to its delicate fan-shaped fronds.'
   },
 ],
+'gymnosperm': [
+  {
+    q: 'Gymnosperms are called naked seeded plants because',
+    options: [
+      'They have no seeds',
+      'Their seeds are not enclosed in fruit',
+      'Their seeds have no seed coat',
+      'They have no flowers'
+    ],
+    answer: 1,
+    explanation: 'Gymnosperms are called naked seeded plants because their ovules and seeds are not enclosed in an ovary/fruit — they are exposed on the surface of scales.'
+  },
+  {
+    q: 'The tallest gymnosperm is',
+    options: ['Cycas', 'Pinus', 'Sequoia', 'Gnetum'],
+    answer: 2,
+    explanation: 'Sequoia sempervirens (coastal redwood) is the tallest gymnosperm and tallest tree in the world, reaching over 115 meters.'
+  },
+  {
+    q: 'Cycas is commonly called',
+    options: ['Pine', 'Sago palm', 'Cedar', 'Spruce'],
+    answer: 1,
+    explanation: 'Cycas revoluta is commonly called sago palm. Despite looking like a palm, it is a gymnosperm not a monocot.'
+  },
+  {
+    q: 'Which gymnosperm is called a living fossil?',
+    options: ['Pinus', 'Cycas', 'Ginkgo', 'Ephedra'],
+    answer: 2,
+    explanation: 'Ginkgo biloba is called a living fossil because it has remained unchanged for over 200 million years and is the sole survivor of its group.'
+  },
+  {
+    q: 'Resin and turpentine are obtained from',
+    options: ['Cycas', 'Pinus', 'Gnetum', 'Ephedra'],
+    answer: 1,
+    explanation: 'Resin and turpentine are obtained from Pinus (pine). Resin canals in pine wood produce these commercially important products.'
+  },
+  {
+    q: 'The drug ephedrine is obtained from',
+    options: ['Cycas', 'Pinus', 'Gnetum', 'Ephedra'],
+    answer: 3,
+    explanation: 'Ephedrine is a drug obtained from Ephedra (a gymnosperm). It is used to treat asthma, bronchitis and nasal congestion.'
+  },
+  {
+    q: 'Coralloid roots in Cycas are associated with',
+    options: ['Water absorption', 'Nitrogen fixation by Anabaena', 'Food storage', 'Anchorage'],
+    answer: 1,
+    explanation: 'Coralloid roots in Cycas contain Anabaena (cyanobacterium) that fixes atmospheric nitrogen. They are short, branched and coral-like.'
+  },
+  {
+    q: 'In gymnosperms the female gametophyte is',
+    options: ['Free living and independent', 'Retained inside megasporangium', 'A prothallus', 'Absent'],
+    answer: 1,
+    explanation: 'In gymnosperms the female gametophyte is retained inside the megasporangium (nucellus) and is entirely dependent on the sporophyte.'
+  },
+  {
+    q: 'Pinus belongs to class',
+    options: ['Cycadopsida', 'Coniferopsida', 'Gnetopsida', 'Ginkgopsida'],
+    answer: 1,
+    explanation: 'Pinus belongs to class Coniferopsida (conifers). Conifers are the largest group of gymnosperms and include pine, fir, spruce and cedar.'
+  },
+  {
+    q: 'The leaves of Pinus are called',
+    options: ['Fronds', 'Needles', 'Scales', 'Pinnae'],
+    answer: 1,
+    explanation: 'Pinus has needle-like leaves that are adapted to reduce water loss. The needles are borne in clusters called fascicles.'
+  },
+  {
+    q: 'The male cone of Pinus produces',
+    options: ['Megaspores', 'Microspores (pollen)', 'Seeds', 'Ovules'],
+    answer: 1,
+    explanation: 'The male cone (microstrobilus) of Pinus bears microsporophylls which produce microspores (pollen grains) by meiosis.'
+  },
+  {
+    q: 'Which of the following is a gymnosperm?',
+    options: ['Mango', 'Cycas', 'Rose', 'Wheat'],
+    answer: 1,
+    explanation: 'Cycas is a gymnosperm with naked seeds. Mango, rose and wheat are angiosperms with seeds enclosed in fruit.'
+  },
+  {
+    q: 'Fertilization in gymnosperms is',
+    options: ['Hydrophilous', 'Entomophilous', 'Anemophilous (wind pollination)', 'Ornithophilous'],
+    answer: 2,
+    explanation: 'Gymnosperms are wind pollinated (anemophilous). They produce large amounts of light pollen that is carried by wind to female cones.'
+  },
+  {
+    q: 'The ovule in gymnosperms is',
+    options: ['Enclosed in ovary', 'Naked on megasporophyll', 'Inside fruit', 'Underground'],
+    answer: 1,
+    explanation: 'In gymnosperms the ovules are naked — they are borne directly on the surface of megasporophylls (scales) without an enclosing ovary.'
+  },
+  {
+    q: 'Ginkgo biloba is used medicinally for',
+    options: ['Asthma', 'Memory enhancement and circulation', 'Diabetes', 'Malaria'],
+    answer: 1,
+    explanation: 'Ginkgo biloba extract is used medicinally to enhance memory, improve blood circulation and treat dementia and Alzheimer\'s disease.'
+  },
+  {
+    q: 'The woody cone of conifers is called',
+    options: ['Strobilus', 'Sorus', 'Sporocarp', 'Capitulum'],
+    answer: 0,
+    explanation: 'The cone (strobilus) is the reproductive structure of conifers. Male cones produce pollen and female cones bear ovules and seeds.'
+  },
+  {
+    q: 'Which gymnosperm has vessels in xylem?',
+    options: ['Pinus', 'Cycas', 'Gnetum', 'Ginkgo'],
+    answer: 2,
+    explanation: 'Gnetum is unique among gymnosperms in having vessels in xylem like angiosperms. Other gymnosperms have only tracheids.'
+  },
+  {
+    q: 'The largest ovule in plant kingdom belongs to',
+    options: ['Pinus', 'Cycas', 'Sequoia', 'Ginkgo'],
+    answer: 1,
+    explanation: 'Cycas has the largest ovule in the plant kingdom. The ovule of Cycas can be as large as a plum.'
+  },
+  {
+    q: 'Sago is obtained from',
+    options: ['Pinus', 'Cycas', 'Gnetum', 'Ephedra'],
+    answer: 1,
+    explanation: 'Sago (starch) is obtained from the pith of Cycas stem. It is used as food in some parts of Asia.'
+  },
+  {
+    q: 'The wood of gymnosperms is called',
+    options: ['Hardwood', 'Softwood', 'Heartwood', 'Sapwood'],
+    answer: 1,
+    explanation: 'Gymnosperm wood is called softwood because it lacks vessels and is composed mainly of tracheids. Angiosperm wood is hardwood.'
+  },
+  {
+    q: 'Double fertilization occurs in',
+    options: ['Gymnosperms', 'Angiosperms', 'Pteridophytes', 'Bryophytes'],
+    answer: 1,
+    explanation: 'Double fertilization is unique to angiosperms. Gymnosperms have simple fertilization — one sperm fuses with egg to form zygote only.'
+  },
+  {
+    q: 'The microsporophylls in Pinus are arranged in',
+    options: ['Female cone', 'Male cone', 'Vegetative shoot', 'Root'],
+    answer: 1,
+    explanation: 'Microsporophylls bearing pollen sacs (microsporangia) are arranged spirally in male cone (microstrobilus) of Pinus.'
+  },
+  {
+    q: 'Cycas is dioecious because',
+    options: [
+      'It has both male and female cones on same plant',
+      'Male and female cones are on separate plants',
+      'It has no cones',
+      'It has bisexual cones'
+    ],
+    answer: 1,
+    explanation: 'Cycas is dioecious — male plants bear microsporophylls (loose cone-like) and female plants bear megasporophylls separately.'
+  },
+  {
+    q: 'Which of the following is the connecting link between gymnosperms and angiosperms?',
+    options: ['Cycas', 'Pinus', 'Gnetum', 'Ephedra'],
+    answer: 2,
+    explanation: 'Gnetum is considered a connecting link between gymnosperms and angiosperms because it has broad leaves, vessels in xylem and net-like venation.'
+  },
+  {
+    q: 'Paper is commercially obtained from',
+    options: ['Cycas', 'Conifers like Abies and Picea', 'Ginkgo', 'Ephedra'],
+    answer: 1,
+    explanation: 'Paper is commercially obtained from conifers like Abies (fir) and Picea (spruce). Their wood pulp is the main raw material for paper industry.'
+  },
+  {
+    q: 'The oldest living gymnosperm is',
+    options: ['Cycas', 'Pinus longaeva', 'Sequoia', 'Ginkgo'],
+    answer: 1,
+    explanation: 'Pinus longaeva (bristlecone pine) is the oldest living gymnosperm and oldest known living tree, with some specimens over 5000 years old.'
+  },
+  {
+    q: 'Archegonia in gymnosperms are found in',
+    options: ['Male cone', 'Female gametophyte', 'Pollen grain', 'Seed coat'],
+    answer: 1,
+    explanation: 'Archegonia are found in the female gametophyte (endosperm) of gymnosperms. Each archegonium contains an egg cell for fertilization.'
+  },
+  {
+    q: 'The embryo in gymnosperm seed is surrounded by',
+    options: ['Fruit wall', 'Endosperm (female gametophyte)', 'Perisperm', 'Cotyledons only'],
+    answer: 1,
+    explanation: 'The embryo in gymnosperm seed is surrounded by endosperm derived from the female gametophyte tissue. This provides nutrition to the embryo.'
+  },
+  {
+    q: 'Pollen grains of Pinus have',
+    options: ['No wings', 'Two air bladders (wings)', 'Four wings', 'One wing'],
+    answer: 1,
+    explanation: 'Pollen grains of Pinus have two air bladders (wings/sacci) that help in wind dispersal. This is an adaptation for anemophily.'
+  },
+  {
+    q: 'The number of cotyledons in Pinus is',
+    options: ['One', 'Two', 'Many (polyembryony)', 'None'],
+    answer: 2,
+    explanation: 'Pinus is polycotyolous — it has many cotyledons (8-18). This is a characteristic feature of gymnosperms unlike monocots (1) and dicots (2).'
+  },
+  {
+    q: 'Which gymnosperm is used as Christmas tree?',
+    options: ['Cycas', 'Abies', 'Ginkgo', 'Ephedra'],
+    answer: 1,
+    explanation: 'Abies (fir) and Picea (spruce) are commonly used as Christmas trees. Their conical shape and evergreen needles make them popular.'
+  },
+  {
+    q: 'Transfusion tissue in gymnosperm leaf helps in',
+    options: ['Photosynthesis', 'Transport of water and food between mesophyll and vascular bundle', 'Gas exchange', 'Mechanical support'],
+    answer: 1,
+    explanation: 'Transfusion tissue is unique to gymnosperms. It surrounds the vascular bundle and helps in lateral transport of water and food to and from mesophyll.'
+  },
+  {
+    q: 'The megasporophyll of Cycas is',
+    options: ['Leaf-like with ovules on margins', 'Scale-like in compact cone', 'Needle-like', 'Absent'],
+    answer: 0,
+    explanation: 'The megasporophyll of Cycas is leaf-like (pinnate) with 2-8 ovules on its margins. It is loosely arranged unlike the compact cones of other gymnosperms.'
+  },
+  {
+    q: 'Gymnosperms first appeared in',
+    options: ['Cambrian period', 'Devonian period', 'Jurassic period', 'Cretaceous period'],
+    answer: 1,
+    explanation: 'Gymnosperms first appeared in the Devonian period about 385 million years ago. They dominated the Mesozoic era (age of dinosaurs).'
+  },
+  {
+    q: 'Which of the following gymnosperm has motile sperms?',
+    options: ['Pinus', 'Abies', 'Cycas and Ginkgo', 'Ephedra'],
+    answer: 2,
+    explanation: 'Cycas and Ginkgo have large motile (flagellated) sperms — a primitive feature linking them to pteridophytes. Other gymnosperms have non-motile sperms.'
+  },
+  {
+    q: 'The endosperm of gymnosperms is',
+    options: ['Triploid like angiosperms', 'Haploid female gametophyte tissue', 'Diploid', 'Absent'],
+    answer: 1,
+    explanation: 'The endosperm of gymnosperms is the haploid female gametophyte tissue formed before fertilization. Unlike angiosperms where endosperm is triploid and formed after fertilization.'
+  },
+  {
+    q: 'Sunken stomata in gymnosperm leaves is an adaptation for',
+    options: ['Increasing photosynthesis', 'Reducing water loss', 'Increasing gas exchange', 'Absorbing more CO2'],
+    answer: 1,
+    explanation: 'Sunken stomata in gymnosperm leaves (especially conifers) reduce water loss by reducing air movement around stomata — an adaptation to cold dry conditions.'
+  },
+  {
+    q: 'Which of the following is incorrect about gymnosperms?',
+    options: ['They have naked seeds', 'They have double fertilization', 'They are vascular plants', 'They produce pollen'],
+    answer: 1,
+    explanation: 'Double fertilization does NOT occur in gymnosperms. It is a unique feature of angiosperms. Gymnosperms have simple fertilization.'
+  },
+  {
+    q: 'The male gametophyte of gymnosperm is represented by',
+    options: ['Antheridium', 'Pollen grain', 'Microspore mother cell', 'Microsporophyll'],
+    answer: 1,
+    explanation: 'The pollen grain is the male gametophyte of gymnosperms. It consists of few cells including tube cell and generative cell.'
+  },
+  {
+    q: 'Polyembryony is common in',
+    options: ['Bryophytes', 'Pteridophytes', 'Gymnosperms', 'Angiosperms'],
+    answer: 2,
+    explanation: 'Polyembryony (formation of multiple embryos in one seed) is common in gymnosperms like Pinus. It occurs due to cleavage of early embryo.'
+  },
+  {
+    q: 'Which of the following is an evergreen gymnosperm?',
+    options: ['Ginkgo', 'Larix', 'Pinus', 'Metasequoia'],
+    answer: 2,
+    explanation: 'Pinus is an evergreen gymnosperm that retains its needle-like leaves throughout the year. Ginkgo and Larix are deciduous gymnosperms.'
+  },
+  {
+    q: 'The microsporangium of Pinus is also called',
+    options: ['Pollen sac', 'Ovule', 'Seed', 'Anther'],
+    answer: 0,
+    explanation: 'The microsporangium in Pinus male cone is also called pollen sac. Two pollen sacs are present on the lower surface of each microsporophyll.'
+  },
+  {
+    q: 'Cedar wood oil used in perfumery is obtained from',
+    options: ['Pinus', 'Cedrus', 'Abies', 'Cupressus'],
+    answer: 1,
+    explanation: 'Cedar wood oil used in perfumery and as insect repellent is obtained from Cedrus (cedar) wood. Cedrus deodara is the national tree of Pakistan.'
+  },
+  {
+    q: 'Gymnosperms are',
+    options: ['Non-vascular seedless plants', 'Vascular seed-bearing plants without fruit', 'Vascular plants with fruit', 'Non-vascular seed-bearing plants'],
+    answer: 1,
+    explanation: 'Gymnosperms are vascular seed-bearing plants that do not produce fruits. Their seeds are naked (not enclosed in fruit).'
+  },
+  {
+    q: 'Which of the following has the largest male gamete in plant kingdom?',
+    options: ['Pinus', 'Cycas', 'Ginkgo', 'Ephedra'],
+    answer: 1,
+    explanation: 'Cycas has the largest male gametes (sperms) in the plant kingdom. They are large, multiciliate and motile.'
+  },
+],
+'morphology-angiosperm': [
+  // ROOT
+  {
+    q: 'The primary root develops from',
+    options: ['Plumule', 'Radicle', 'Hypocotyl', 'Cotyledon'],
+    answer: 1,
+    explanation: 'The primary root develops from the radicle of the embryo. It grows downward into the soil.'
+  },
+  {
+    q: 'Fibrous root system is found in',
+    options: ['Dicots', 'Monocots', 'Gymnosperms', 'Pteridophytes'],
+    answer: 1,
+    explanation: 'Fibrous root system is found in monocots. The primary root is short-lived and replaced by many adventitious roots of similar size.'
+  },
+  {
+    q: 'Tap root system is found in',
+    options: ['Monocots', 'Dicots', 'Both', 'Neither'],
+    answer: 1,
+    explanation: 'Tap root system is found in dicots. It has a main primary root that grows deep into soil with lateral branches.'
+  },
+  {
+    q: 'Pneumatophores are',
+    options: ['Roots for food storage', 'Roots for climbing', 'Roots for breathing in marshy areas', 'Roots for nitrogen fixation'],
+    answer: 2,
+    explanation: 'Pneumatophores are negatively geotropic roots found in mangrove plants like Rhizophora and Avicennia that grow in marshy areas for respiration.'
+  },
+  {
+    q: 'Stilt roots are found in',
+    options: ['Banyan tree', 'Maize', 'Mangrove', 'Orchid'],
+    answer: 1,
+    explanation: 'Stilt roots (brace roots) are found in maize and sugarcane. They arise from lower nodes and provide mechanical support to the plant.'
+  },
+  {
+    q: 'Prop roots are found in',
+    options: ['Maize', 'Banyan tree', 'Mangrove', 'Wheat'],
+    answer: 1,
+    explanation: 'Prop roots (pillar roots) hang down from branches of banyan tree (Ficus benghalensis) and enter soil to provide support.'
+  },
+  {
+    q: 'Velamen roots are found in',
+    options: ['Aquatic plants', 'Epiphytic orchids', 'Parasitic plants', 'Desert plants'],
+    answer: 1,
+    explanation: 'Velamen roots are found in epiphytic orchids. They have a spongy layer of dead cells (velamen) that absorbs moisture from atmosphere.'
+  },
+  {
+    q: 'Mycorrhizal roots are an association between roots and',
+    options: ['Bacteria', 'Fungi', 'Algae', 'Viruses'],
+    answer: 1,
+    explanation: 'Mycorrhizal roots are mutualistic associations between plant roots and fungi. The fungi help absorb water and minerals especially phosphorus.'
+  },
+  {
+    q: 'Haustorial roots are found in',
+    options: ['Epiphytes', 'Parasitic plants', 'Aquatic plants', 'Xerophytes'],
+    answer: 1,
+    explanation: 'Haustorial roots are found in parasitic plants like Cuscuta (dodder). They penetrate host tissue and absorb water and nutrients.'
+  },
+  {
+    q: 'Root cap protects',
+    options: ['Root tip meristem', 'Root hairs', 'Lateral roots', 'Endodermis'],
+    answer: 0,
+    explanation: 'Root cap is a thimble-shaped structure that covers and protects the root tip meristem (apical meristem) as it pushes through soil.'
+  },
+  // STEM
+  {
+    q: 'The stem differentiates from',
+    options: ['Radicle', 'Plumule', 'Cotyledon', 'Endosperm'],
+    answer: 1,
+    explanation: 'The stem develops from the plumule of the embryo. It grows upward toward light (positively phototropic).'
+  },
+  {
+    q: 'Underground stem can be differentiated from root by presence of',
+    options: ['Vascular tissue', 'Nodes and internodes', 'Root cap', 'Lateral roots'],
+    answer: 1,
+    explanation: 'Underground stems can be differentiated from roots by the presence of nodes, internodes, scale leaves and buds — features absent in roots.'
+  },
+  {
+    q: 'Rhizome is a',
+    options: ['Underground stem', 'Modified root', 'Aerial stem', 'Leaf modification'],
+    answer: 0,
+    explanation: 'Rhizome is an underground horizontal stem with nodes, internodes, scale leaves and buds. Found in ginger, turmeric, fern.'
+  },
+  {
+    q: 'Ginger is a modified',
+    options: ['Root', 'Stem (rhizome)', 'Leaf', 'Fruit'],
+    answer: 1,
+    explanation: 'Ginger is a rhizome — a modified underground stem. It has nodes with scale leaves and buds proving it is a stem not a root.'
+  },
+  {
+    q: 'Potato is a modified stem called',
+    options: ['Rhizome', 'Corm', 'Tuber', 'Bulb'],
+    answer: 2,
+    explanation: 'Potato is a stem tuber. The "eyes" of potato are nodes with axillary buds. It stores food (starch) in the swollen internodes.'
+  },
+  {
+    q: 'Onion is a modified stem called',
+    options: ['Rhizome', 'Corm', 'Tuber', 'Bulb'],
+    answer: 3,
+    explanation: 'Onion is a bulb — a modified underground stem with a short disc-like stem bearing fleshy scale leaves that store food.'
+  },
+  {
+    q: 'Colocasia (taro) has which type of underground stem?',
+    options: ['Rhizome', 'Corm', 'Tuber', 'Bulb'],
+    answer: 1,
+    explanation: 'Colocasia (taro/arbi) has a corm — a solid, swollen underground stem with nodes, internodes and terminal bud. Different from bulb which has fleshy leaves.'
+  },
+  {
+    q: 'Tendrils of cucumber are modifications of',
+    options: ['Root', 'Leaf', 'Stem', 'Stipule'],
+    answer: 2,
+    explanation: 'Tendrils of cucumber, pumpkin and other cucurbits are stem modifications. They help the plant climb by coiling around support.'
+  },
+  {
+    q: 'Cladode is found in',
+    options: ['Opuntia', 'Asparagus', 'Euphorbia', 'Acacia'],
+    answer: 1,
+    explanation: 'Cladode is a modified stem that looks like a leaf found in Asparagus. It is a short, flattened or cylindrical stem that performs photosynthesis.'
+  },
+  {
+    q: 'Phylloclade is found in',
+    options: ['Asparagus', 'Opuntia', 'Acacia', 'Bougainvillea'],
+    answer: 1,
+    explanation: 'Phylloclade is a flattened leaf-like stem found in Opuntia (cactus). It is green and performs photosynthesis in place of reduced leaves.'
+  },
+  {
+    q: 'Thorns of Bougainvillea are modifications of',
+    options: ['Leaves', 'Roots', 'Stipules', 'Stem'],
+    answer: 3,
+    explanation: 'Thorns of Bougainvillea are modified stems. They have axillary buds proving they are stem modifications. Unlike prickles which are epidermal outgrowths.'
+  },
+  {
+    q: 'Runner is a type of',
+    options: ['Underground stem', 'Aerial stem', 'Subaerial stem', 'Modified leaf'],
+    answer: 2,
+    explanation: 'Runner is a subaerial stem modification that grows horizontally along the soil surface. Found in strawberry and Oxalis.'
+  },
+  {
+    q: 'Stolon is different from runner because',
+    options: ['It grows underground', 'It arises from base and arches above ground', 'It has no nodes', 'It is vertical'],
+    answer: 1,
+    explanation: 'Stolon arises from base of plant and arches above ground before touching soil. Found in Jasmine and strawberry. Runner grows horizontally throughout.'
+  },
+  {
+    q: 'Offset is a short runner found in',
+    options: ['Grass', 'Pistia and Eichhornia', 'Strawberry', 'Mint'],
+    answer: 1,
+    explanation: 'Offset is a single internode runner found in aquatic plants like Pistia (water lettuce) and Eichhornia (water hyacinth).'
+  },
+  {
+    q: 'Sucker arises from',
+    options: ['Aerial stem', 'Underground stem near base', 'Root', 'Leaf'],
+    answer: 1,
+    explanation: 'Sucker arises from the underground part of the stem near the base of the plant. Found in banana, pineapple and chrysanthemum.'
+  },
+  // LEAF
+  {
+    q: 'The main function of leaf is',
+    options: ['Absorption', 'Photosynthesis and transpiration', 'Reproduction', 'Storage'],
+    answer: 1,
+    explanation: 'The main functions of leaf are photosynthesis (food making) and transpiration (water loss through stomata).'
+  },
+  {
+    q: 'A leaf is said to be simple when',
+    options: ['It has many leaflets', 'Its lamina is entire or incised but not up to midrib', 'It has no petiole', 'It has many veins'],
+    answer: 1,
+    explanation: 'A simple leaf has a single undivided lamina. Even if it is lobed or incised, if the incisions do not reach the midrib it is still a simple leaf.'
+  },
+  {
+    q: 'A leaf is said to be compound when',
+    options: ['It has one leaflet', 'Lamina is divided into leaflets up to midrib or petiole', 'It has many veins', 'It has no stipules'],
+    answer: 1,
+    explanation: 'A compound leaf has its lamina divided into separate leaflets. The incisions reach the midrib (pinnate) or petiole base (palmate).'
+  },
+  {
+    q: 'Reticulate venation is found in',
+    options: ['Monocots', 'Dicots', 'Gymnosperms', 'Ferns'],
+    answer: 1,
+    explanation: 'Reticulate (net-like) venation is found in dicot leaves. The veins form an irregular network. Example: mango, rose, hibiscus.'
+  },
+  {
+    q: 'Parallel venation is found in',
+    options: ['Dicots', 'Monocots', 'Gymnosperms', 'Ferns'],
+    answer: 1,
+    explanation: 'Parallel venation is found in monocot leaves. The veins run parallel to each other from base to apex. Example: grass, bamboo, maize.'
+  },
+  {
+    q: 'Stipules are found at',
+    options: ['Tip of leaf', 'Base of petiole', 'Tip of stem', 'Base of root'],
+    answer: 1,
+    explanation: 'Stipules are small leaf-like appendages found at the base of petiole in many plants. They may be leaf-like, spine-like or scale-like.'
+  },
+  {
+    q: 'Leaves modified into spines are found in',
+    options: ['Opuntia', 'Acacia', 'Rose', 'Bougainvillea'],
+    answer: 0,
+    explanation: 'In Opuntia (cactus) the leaves are modified into spines to reduce water loss. The flattened phylloclade performs photosynthesis instead.'
+  },
+  {
+    q: 'Tendrils of pea are modifications of',
+    options: ['Stem', 'Stipule', 'Leaflet', 'Petiole'],
+    answer: 2,
+    explanation: 'Tendrils of pea (Pisum sativum) are modified leaflets of the compound leaf. They help the plant climb by coiling around support.'
+  },
+  {
+    q: 'Phyllode is found in',
+    options: ['Australian Acacia', 'Opuntia', 'Asparagus', 'Nepenthes'],
+    answer: 0,
+    explanation: 'Phyllode is a modified flattened petiole that performs photosynthesis found in Australian Acacia. The true leaf lamina is absent or reduced.'
+  },
+  {
+    q: 'Pitcher plant (Nepenthes) has leaves modified for',
+    options: ['Climbing', 'Photosynthesis', 'Insect trapping', 'Water storage'],
+    answer: 2,
+    explanation: 'In Nepenthes (pitcher plant) the leaf tip is modified into a pitcher for trapping and digesting insects to supplement nitrogen nutrition.'
+  },
+  {
+    q: 'Leaf tendrils are found in',
+    options: ['Cucumber', 'Pea', 'Passion flower', 'Grape'],
+    answer: 1,
+    explanation: 'Leaf tendrils (leaflet modification) are found in pea. In passion flower tendrils are axillary stem modifications, in cucumber they are stem modifications.'
+  },
+  {
+    q: 'Venation refers to',
+    options: ['Arrangement of flowers', 'Arrangement of veins in leaf', 'Arrangement of roots', 'Arrangement of seeds'],
+    answer: 1,
+    explanation: 'Venation refers to the arrangement and distribution of veins in the leaf lamina. It is of two main types — reticulate and parallel.'
+  },
+  {
+    q: 'Isobilateral leaf is found in',
+    options: ['Dicots', 'Monocots', 'Gymnosperms', 'Ferns'],
+    answer: 1,
+    explanation: 'Isobilateral leaf (equal on both sides) is found in monocots. Both upper and lower surfaces have similar structure with stomata on both sides.'
+  },
+  {
+    q: 'Dorsiventral leaf is found in',
+    options: ['Monocots', 'Gymnosperms', 'Dicots', 'Ferns'],
+    answer: 2,
+    explanation: 'Dorsiventral leaf (different upper and lower surfaces) is found in dicots. Upper surface has palisade mesophyll, lower has spongy mesophyll.'
+  },
+  // INFLORESCENCE
+  {
+    q: 'Inflorescence is the arrangement of',
+    options: ['Leaves on stem', 'Flowers on floral axis', 'Seeds in fruit', 'Roots in soil'],
+    answer: 1,
+    explanation: 'Inflorescence is the arrangement of flowers on a floral axis (peduncle). It includes the mode of branching and position of flowers.'
+  },
+  {
+    q: 'Racemose inflorescence has',
+    options: ['Terminal flower that blooms first', 'Indefinite growth with oldest flower at base', 'No main axis', 'Flowers in whorls'],
+    answer: 1,
+    explanation: 'In racemose inflorescence the main axis grows indefinitely. The oldest (lowest) flowers bloom first and youngest are at the top.'
+  },
+  {
+    q: 'Cymose inflorescence has',
+    options: ['Indefinite growth', 'Terminal flower that stops axis growth', 'Flowers blooming from bottom up', 'Unlimited main axis'],
+    answer: 1,
+    explanation: 'In cymose inflorescence the main axis terminates in a flower stopping further growth. The terminal flower blooms first.'
+  },
+  {
+    q: 'Catkin inflorescence is found in',
+    options: ['Sunflower', 'Mulberry', 'Banana', 'Wheat'],
+    answer: 1,
+    explanation: 'Catkin (amentum) is a spike-like inflorescence with unisexual flowers found in mulberry, willow and oak.'
+  },
+  {
+    q: 'Capitulum (head) inflorescence is found in',
+    options: ['Sunflower', 'Banana', 'Maize', 'Wheat'],
+    answer: 0,
+    explanation: 'Capitulum is a flat or convex receptacle bearing many sessile flowers found in sunflower and other Compositae family plants.'
+  },
+  {
+    q: 'Spadix inflorescence is found in',
+    options: ['Sunflower', 'Colocasia', 'Rose', 'Pea'],
+    answer: 1,
+    explanation: 'Spadix is a spike with fleshy axis enclosed in a large bract called spathe. Found in Colocasia, banana, maize (female) and Arum.'
+  },
+  {
+    q: 'Umbel inflorescence is found in',
+    options: ['Coriander', 'Sunflower', 'Banana', 'Wheat'],
+    answer: 0,
+    explanation: 'Umbel inflorescence where all pedicels arise from same point is found in coriander, onion and other Apiaceae family members.'
+  },
+  {
+    q: 'Corymb inflorescence is found in',
+    options: ['Sunflower', 'Candytuft (Iberis)', 'Banana', 'Grass'],
+    answer: 1,
+    explanation: 'Corymb is a flat-topped racemose inflorescence where lower pedicels are longer than upper ones. Found in Iberis (candytuft) and Pyrus.'
+  },
+  {
+    q: 'Spike inflorescence is found in',
+    options: ['Adhatoda (Malabar nut)', 'Sunflower', 'Banana', 'Mango'],
+    answer: 0,
+    explanation: 'Spike is a racemose inflorescence with sessile flowers on an elongated axis. Found in Adhatoda, Amaranthus and Achyranthes.'
+  },
+  // FLOWER
+  {
+    q: 'A flower is modified',
+    options: ['Root', 'Stem', 'Shoot', 'Leaf'],
+    answer: 2,
+    explanation: 'A flower is a modified shoot specialized for sexual reproduction. The floral organs (sepals, petals, stamens, carpels) are modified leaves.'
+  },
+  {
+    q: 'Thalamus is the',
+    options: ['Stalk of flower', 'Receptacle where floral parts are attached', 'Male part of flower', 'Female part of flower'],
+    answer: 1,
+    explanation: 'Thalamus (receptacle) is the swollen end of the pedicel on which the floral organs are attached.'
+  },
+  {
+    q: 'Calyx is made of',
+    options: ['Petals', 'Sepals', 'Stamens', 'Carpels'],
+    answer: 1,
+    explanation: 'Calyx is the outermost whorl of a flower made up of sepals. It is usually green and protects the flower in bud stage.'
+  },
+  {
+    q: 'Corolla is made of',
+    options: ['Sepals', 'Petals', 'Stamens', 'Carpels'],
+    answer: 1,
+    explanation: 'Corolla is the second whorl of a flower made up of petals. It is usually brightly coloured to attract pollinators.'
+  },
+  {
+    q: 'Androecium is the collective name for',
+    options: ['Sepals', 'Petals', 'Stamens', 'Carpels'],
+    answer: 2,
+    explanation: 'Androecium is the male reproductive whorl consisting of all the stamens. Each stamen has a filament and anther.'
+  },
+  {
+    q: 'Gynoecium is the collective name for',
+    options: ['Sepals', 'Petals', 'Stamens', 'Carpels (pistil)'],
+    answer: 3,
+    explanation: 'Gynoecium is the female reproductive whorl consisting of all the carpels (pistils). Each carpel has stigma, style and ovary.'
+  },
+  {
+    q: 'Epipetalous stamens are stamens attached to',
+    options: ['Sepals', 'Petals', 'Receptacle', 'Ovary'],
+    answer: 1,
+    explanation: 'Epipetalous stamens are attached to petals (not the receptacle). Found in plants like Datura and Calotropis.'
+  },
+  {
+    q: 'Polyandrous condition refers to',
+    options: ['Many sepals', 'Many petals', 'Many free stamens', 'Many carpels'],
+    answer: 2,
+    explanation: 'Polyandrous condition refers to many free stamens in a flower. When stamens are fused they are called monadelphous, diadelphous etc.'
+  },
+  {
+    q: 'Monadelphous condition means',
+    options: ['All stamens free', 'All stamens united into one bundle', 'Stamens in two bundles', 'Stamens attached to petals'],
+    answer: 1,
+    explanation: 'Monadelphous means all stamens are united by their filaments into a single bundle. Found in Hibiscus (China rose).'
+  },
+  {
+    q: 'Diadelphous condition is found in',
+    options: ['Hibiscus', 'Pea', 'Sunflower', 'Datura'],
+    answer: 1,
+    explanation: 'Diadelphous means stamens are in two bundles. In pea (Pisum) 9 stamens are united and 1 is free (9+1). This is a characteristic of Fabaceae.'
+  },
+  {
+    q: 'Syngenesious stamens are found in',
+    options: ['Pea', 'Sunflower family (Compositae)', 'Hibiscus', 'Lily'],
+    answer: 1,
+    explanation: 'Syngenesious stamens have anthers united but filaments free. Characteristic of Compositae (sunflower family).'
+  },
+  {
+    q: 'Superior ovary means',
+    options: ['Ovary above all floral parts', 'Ovary below all floral parts', 'Ovary half inferior', 'Ovary absent'],
+    answer: 0,
+    explanation: 'Superior ovary (hypogynous flower) — ovary is above the level of attachment of other floral parts. Found in mustard, brinjal.'
+  },
+  {
+    q: 'Inferior ovary means',
+    options: ['Ovary above all floral parts', 'Other floral parts arise from top of ovary (ovary is below)', 'Ovary is absent', 'Ovary is lateral'],
+    answer: 1,
+    explanation: 'Inferior ovary (epigynous flower) — ovary is below the other floral parts. The perianth and stamens appear to arise from top of ovary. Found in guava, cucumber.'
+  },
+  {
+    q: 'Actinomorphic flower can be divided into',
+    options: ['Only one plane of symmetry', 'Two or more planes of symmetry', 'No plane of symmetry', 'Three planes only'],
+    answer: 1,
+    explanation: 'Actinomorphic (regular) flower can be divided into two equal halves by more than one plane (radially symmetrical). Found in rose, mustard.'
+  },
+  {
+    q: 'Zygomorphic flower can be divided into equal halves by',
+    options: ['Any plane', 'Only one plane', 'Two planes', 'No plane'],
+    answer: 1,
+    explanation: 'Zygomorphic (irregular) flower can be divided into equal halves by only one plane (bilaterally symmetrical). Found in pea, bean, orchid.'
+  },
+  {
+    q: 'Asymmetric flower cannot be divided into equal halves by',
+    options: ['One plane', 'Two planes', 'Any plane', 'Three planes'],
+    answer: 2,
+    explanation: 'Asymmetric (irregular) flower cannot be divided into equal halves by any plane. Found in Canna and Vallisneria.'
+  },
+  {
+    q: 'Epigyny is found in',
+    options: ['Mustard', 'Brinjal', 'Guava', 'Hibiscus'],
+    answer: 2,
+    explanation: 'Epigyny (inferior ovary) is found in guava, cucumber, sunflower. The thalamus forms a cup enclosing the ovary.'
+  },
+  {
+    q: 'Vexillary aestivation is found in',
+    options: ['Calotropis', 'Pea', 'Cassia', 'China rose'],
+    answer: 1,
+    explanation: 'Vexillary (papilionaceous) aestivation is found in pea and other Fabaceae. The largest petal (vexillum/standard) covers the wings which cover the keel.'
+  },
+  {
+    q: 'Valvate aestivation means petals',
+    options: ['Overlap each other', 'Touch but do not overlap', 'Are twisted', 'Are missing'],
+    answer: 1,
+    explanation: 'In valvate aestivation the edges of petals/sepals just touch each other without overlapping. Found in Calotropis and Mustard sepals.'
+  },
+  {
+    q: 'Twisted (contorted) aestivation is found in',
+    options: ['Calotropis', 'China rose', 'Pea', 'Cassia'],
+    answer: 1,
+    explanation: 'Twisted (contorted) aestivation where each petal overlaps the next in one direction is found in China rose (Hibiscus) and cotton.'
+  },
+  {
+    q: 'Imbricate aestivation is found in',
+    options: ['Calotropis', 'Pea', 'Cassia', 'China rose'],
+    answer: 2,
+    explanation: 'Imbricate aestivation where some petals are internal and some external without regular direction is found in Cassia and Gulmohar.'
+  },
+  // FRUIT
+  {
+    q: 'A true fruit develops from',
+    options: ['Ovule', 'Ovary', 'Thalamus', 'Calyx'],
+    answer: 1,
+    explanation: 'A true fruit develops from the fertilized ovary. The ovary wall becomes the pericarp (fruit wall) after fertilization.'
+  },
+  {
+    q: 'False fruit (pseudocarp) develops from',
+    options: ['Ovary only', 'Thalamus or other floral parts besides ovary', 'Ovule', 'Sepal'],
+    answer: 1,
+    explanation: 'False fruit (pseudocarp) develops from parts other than ovary like thalamus. Examples: apple (thalamus), strawberry (thalamus), cashew (peduncle).'
+  },
+  {
+    q: 'Apple is a false fruit because it develops from',
+    options: ['Ovary', 'Thalamus', 'Sepal', 'Petal'],
+    answer: 1,
+    explanation: 'Apple is a false fruit (pome) because the fleshy edible part develops from the thalamus not the ovary. The core is the true fruit.'
+  },
+  {
+    q: 'Mango is a',
+    options: ['Berry', 'Drupe', 'Nut', 'Capsule'],
+    answer: 1,
+    explanation: 'Mango is a drupe (stone fruit). It has a fleshy mesocarp (edible part), a hard stony endocarp (stone) enclosing the seed.'
+  },
+  {
+    q: 'Tomato is a',
+    options: ['Drupe', 'Berry', 'Nut', 'Capsule'],
+    answer: 1,
+    explanation: 'Tomato is a berry — a fleshy fruit with seeds embedded in pulp developed from a single flower with superior ovary. True berries have no stone.'
+  },
+  {
+    q: 'Banana is a',
+    options: ['Drupe', 'Nut', 'Berry', 'Hesperidium'],
+    answer: 2,
+    explanation: 'Banana is a seedless berry (parthenocarpic fruit). The cultivated banana develops without fertilization hence no seeds.'
+  },
+  {
+    q: 'Orange is a type of berry called',
+    options: ['Drupe', 'Pepo', 'Hesperidium', 'Pome'],
+    answer: 2,
+    explanation: 'Orange, lemon and other citrus fruits are hesperidium — a modified berry with a leathery rind (epicarp) with oil glands and juicy endocarp segments.'
+  },
+  {
+    q: 'Cucumber is a type of berry called',
+    options: ['Hesperidium', 'Pepo', 'Drupe', 'Pome'],
+    answer: 1,
+    explanation: 'Cucumber, pumpkin and watermelon are pepo — a modified berry with a hard rind (epicarp) and fleshy interior. Characteristic of Cucurbitaceae.'
+  },
+  {
+    q: 'Coconut is a',
+    options: ['Berry', 'Drupe', 'Nut', 'Capsule'],
+    answer: 1,
+    explanation: 'Coconut is a drupe. The fibrous husk is the mesocarp, the hard shell is the endocarp and the white flesh with water inside is the seed.'
+  },
+  {
+    q: 'Parthenocarpic fruit is',
+    options: ['Fruit with many seeds', 'Seedless fruit without fertilization', 'Fruit from multiple flowers', 'Fruit with one seed'],
+    answer: 1,
+    explanation: 'Parthenocarpic fruits develop without fertilization and are seedless. Examples: banana, seedless grapes, cucumber grown commercially.'
+  },
+  {
+    q: 'Aggregate fruit develops from',
+    options: ['Single flower with one carpel', 'Single flower with many free carpels', 'Many flowers', 'Single flower with fused carpels'],
+    answer: 1,
+    explanation: 'Aggregate fruit develops from a single flower with many free carpels (apocarpous gynoecium). Example: strawberry, raspberry, custard apple.'
+  },
+  {
+    q: 'Multiple (composite) fruit develops from',
+    options: ['One flower', 'Inflorescence (many flowers)', 'One carpel', 'Many carpels of one flower'],
+    answer: 1,
+    explanation: 'Multiple fruit develops from an entire inflorescence (many flowers). Examples: jackfruit, mulberry, pineapple, fig.'
+  },
+  {
+    q: 'Pericarp of fruit has how many layers?',
+    options: ['One', 'Two', 'Three', 'Four'],
+    answer: 2,
+    explanation: 'Pericarp (fruit wall) has three layers: outer epicarp (skin), middle mesocarp (pulp) and inner endocarp (stone in drupes).'
+  },
+  // SEED
+  {
+    q: 'Seed develops from',
+    options: ['Ovary', 'Ovule', 'Pollen', 'Thalamus'],
+    answer: 1,
+    explanation: 'Seed develops from the fertilized ovule. The outer integuments become seed coat, the fertilized egg becomes embryo.'
+  },
+  {
+    q: 'Monocot seed has how many cotyledons?',
+    options: ['One', 'Two', 'Three', 'None'],
+    answer: 0,
+    explanation: 'Monocot seed has one cotyledon called scutellum. In grass seeds it absorbs food from endosperm for the developing embryo.'
+  },
+  {
+    q: 'Dicot seed has how many cotyledons?',
+    options: ['One', 'Two', 'Three', 'Many'],
+    answer: 1,
+    explanation: 'Dicot seed has two cotyledons which store food. In some dicots (e.g. pea, bean) cotyledons are fleshy and the endosperm is consumed.'
+  },
+  {
+    q: 'The scar on seed where it was attached to fruit is called',
+    options: ['Hilum', 'Micropyle', 'Chalaza', 'Raphe'],
+    answer: 0,
+    explanation: 'Hilum is the scar or mark on seed coat where the seed was attached to the fruit wall through the funicle.'
+  },
+  {
+    q: 'Micropyle is',
+    options: ['Scar of funicle', 'Small pore in seed coat for water absorption', 'Part of embryo', 'Type of root'],
+    answer: 1,
+    explanation: 'Micropyle is a small pore in the seed coat through which water enters during germination. It marks the entry point of pollen tube during fertilization.'
+  },
+  {
+    q: 'Endospermic (albuminous) seeds have',
+    options: ['No endosperm', 'Endosperm persisting at maturity', 'Two cotyledons only', 'No embryo'],
+    answer: 1,
+    explanation: 'Endospermic seeds retain endosperm at maturity as food reserve. Examples: maize, wheat, castor, coconut, onion.'
+  },
+  {
+    q: 'Non-endospermic (exalbuminous) seeds have',
+    options: ['Endosperm at maturity', 'No endosperm — food in cotyledons', 'No embryo', 'No seed coat'],
+    answer: 1,
+    explanation: 'Non-endospermic seeds have no endosperm at maturity — food is stored in cotyledons. Examples: pea, bean, groundnut, sunflower.'
+  },
+  {
+    q: 'The embryo axis consists of',
+    options: ['Only plumule', 'Only radicle', 'Plumule and radicle with hypocotyl-epicotyl axis', 'Cotyledons only'],
+    answer: 2,
+    explanation: 'Embryo axis consists of plumule (shoot tip), radicle (root tip), epicotyl (above cotyledon) and hypocotyl (below cotyledon).'
+  },
+  {
+    q: 'Viviparous germination is found in',
+    options: ['Desert plants', 'Mangroves', 'Aquatic plants', 'Mountain plants'],
+    answer: 1,
+    explanation: 'Viviparous germination where seeds germinate while still attached to parent plant is found in mangroves like Rhizophora. The seedling (propagule) drops into mud.'
+  },
+  {
+    q: 'Epigeal germination means',
+    options: ['Cotyledons remain underground', 'Cotyledons come above ground', 'No germination', 'Underground germination'],
+    answer: 1,
+    explanation: 'In epigeal germination the cotyledons are pushed above the ground by elongation of hypocotyl. Found in bean, castor, onion.'
+  },
+  {
+    q: 'Hypogeal germination means',
+    options: ['Cotyledons come above ground', 'Cotyledons remain below ground', 'Seeds do not germinate', 'Roots grow upward'],
+    answer: 1,
+    explanation: 'In hypogeal germination the cotyledons remain below ground. The epicotyl elongates pushing the plumule above ground. Found in maize, pea, groundnut.'
+  },
+  // POLLINATION
+  {
+    q: 'Transfer of pollen from anther to stigma of same flower is called',
+    options: ['Cross pollination', 'Self pollination', 'Geitonogamy', 'Xenogamy'],
+    answer: 1,
+    explanation: 'Transfer of pollen from anther to stigma of the same flower is called autogamy (self pollination). It ensures pollination but reduces genetic diversity.'
+  },
+  {
+    q: 'Pollination by wind is called',
+    options: ['Entomophily', 'Anemophily', 'Hydrophily', 'Ornithophily'],
+    answer: 1,
+    explanation: 'Anemophily is pollination by wind. Wind pollinated flowers are small, light, produce abundant pollen and have feathery stigmas.'
+  },
+  {
+    q: 'Pollination by insects is called',
+    options: ['Anemophily', 'Entomophily', 'Hydrophily', 'Ornithophily'],
+    answer: 1,
+    explanation: 'Entomophily is pollination by insects. Insect pollinated flowers are showy, fragrant, with nectar guides and sticky pollen.'
+  },
+  {
+    q: 'Pollination by water is called',
+    options: ['Anemophily', 'Entomophily', 'Hydrophily', 'Ornithophily'],
+    answer: 2,
+    explanation: 'Hydrophily is pollination by water. Found in aquatic plants like Vallisneria and Hydrilla. Pollen is adapted to float or be carried by water currents.'
+  },
+  {
+    q: 'Cleistogamy ensures',
+    options: ['Cross pollination', 'Self pollination', 'Wind pollination', 'Insect pollination'],
+    answer: 1,
+    explanation: 'Cleistogamy is self pollination in closed flowers that never open. Ensures guaranteed pollination. Found in peanut (Arachis) and Viola.'
+  },
+  {
+    q: 'Chasmogamy refers to',
+    options: ['Pollination in closed flowers', 'Pollination in open flowers', 'Wind pollination', 'Water pollination'],
+    answer: 1,
+    explanation: 'Chasmogamy is pollination in open flowers exposed to pollinators. Most common type of pollination allowing both self and cross pollination.'
+  },
+  // MISC MORPHOLOGY
+  {
+    q: 'Phyllotaxy refers to',
+    options: ['Arrangement of flowers', 'Arrangement of leaves on stem', 'Arrangement of roots', 'Arrangement of seeds'],
+    answer: 1,
+    explanation: 'Phyllotaxy is the arrangement of leaves on the stem or branch. Main types are alternate, opposite and whorled.'
+  },
+  {
+    q: 'Alternate phyllotaxy is found in',
+    options: ['Calotropis', 'China rose', 'Nerium', 'Tulip'],
+    answer: 1,
+    explanation: 'In alternate phyllotaxy one leaf arises at each node. Found in China rose (Hibiscus), sunflower, mustard and most plants.'
+  },
+  {
+    q: 'Opposite phyllotaxy is found in',
+    options: ['Mustard', 'Calotropis', 'Sunflower', 'China rose'],
+    answer: 1,
+    explanation: 'In opposite phyllotaxy two leaves arise at each node opposite to each other. Found in Calotropis, guava and jasmine.'
+  },
+  {
+    q: 'Whorled phyllotaxy is found in',
+    options: ['Mustard', 'Calotropis', 'Nerium (Oleander)', 'China rose'],
+    answer: 2,
+    explanation: 'In whorled phyllotaxy three or more leaves arise at each node forming a whorl. Found in Nerium (oleander) and Alstonia.'
+  },
+  {
+    q: 'Decurrent leaf base means',
+    options: ['Leaf base runs down the stem', 'Leaf base clasps the stem', 'Leaf has no base', 'Leaf base is narrow'],
+    answer: 0,
+    explanation: 'Decurrent leaf base runs down the stem forming a wing along the internode. Found in thistle (Carduus) and some Verbascum species.'
+  },
+  {
+    q: 'Amplexicaul leaf base means',
+    options: ['Leaf runs down stem', 'Leaf base clasps and surrounds the stem', 'Leaf has stipules', 'Leaf is compound'],
+    answer: 1,
+    explanation: 'Amplexicaul leaf base clasps and partially or completely surrounds the stem at the node. Found in Sonchus and Polygonum.'
+  },
+  {
+    q: 'Stipule is absent in',
+    options: ['Rose', 'Pea', 'Mango', 'Hibiscus'],
+    answer: 2,
+    explanation: 'Mango leaves are exstipulate — they lack stipules. Most members of family Anacardiaceae lack stipules.'
+  },
+  {
+    q: 'Bract is a modified',
+    options: ['Stem', 'Root', 'Leaf', 'Sepal'],
+    answer: 2,
+    explanation: 'Bract is a modified leaf at the base of a flower or inflorescence. It may be leaf-like, scale-like or colorful (like in Bougainvillea).'
+  },
+  {
+    q: 'Colorful bracts are found in',
+    options: ['Sunflower', 'Bougainvillea', 'Rose', 'Hibiscus'],
+    answer: 1,
+    explanation: 'Bougainvillea has brightly colored bracts (not petals) that attract pollinators. The actual flowers are small and white inside the bracts.'
+  },
+  {
+    q: 'The floral formula symbol ⊕ means',
+    options: ['Zygomorphic', 'Actinomorphic', 'Bisexual', 'Unisexual'],
+    answer: 1,
+    explanation: '⊕ in floral formula represents actinomorphic (radially symmetrical) flower. % represents zygomorphic flower.'
+  },
+  {
+    q: 'The floral formula symbol ♀ means',
+    options: ['Male flower', 'Female flower', 'Bisexual flower', 'Neutral flower'],
+    answer: 1,
+    explanation: '♀ in floral formula represents female (pistillate) flower. ♂ represents male (staminate) flower. ⚥ represents bisexual flower.'
+  },
+  {
+    q: 'Epicalyx is found in',
+    options: ['Rose', 'Hibiscus', 'Sunflower', 'Pea'],
+    answer: 1,
+    explanation: 'Epicalyx is an extra whorl of sepal-like structures outside the calyx found in Hibiscus (China rose), strawberry and cotton.'
+  },
+  {
+    q: 'Which family has the floral formula: ⊕ K(5) C5 A∞ G1?',
+    options: ['Fabaceae', 'Solanaceae', 'Rosaceae', 'Liliaceae'],
+    answer: 2,
+    explanation: 'Rosaceae has actinomorphic flowers with 5 sepals, 5 petals, many stamens and one carpel. Examples: rose, apple, strawberry.'
+  },
+  {
+    q: 'Pentamerous flowers are characteristic of',
+    options: ['Monocots', 'Dicots', 'Gymnosperms', 'Pteridophytes'],
+    answer: 1,
+    explanation: 'Pentamerous flowers (floral parts in multiples of 5) are characteristic of dicots. Monocots have trimerous flowers (multiples of 3).'
+  },
+  {
+    q: 'Trimerous flowers are characteristic of',
+    options: ['Dicots', 'Monocots', 'Gymnosperms', 'Bryophytes'],
+    answer: 1,
+    explanation: 'Trimerous flowers (floral parts in multiples of 3) are characteristic of monocots. This is a key distinguishing feature from dicots.'
+  },
+  {
+    q: 'Which of the following has parallel venation but is a dicot?',
+    options: ['Grass', 'Maize', 'Calophyllum', 'Wheat'],
+    answer: 2,
+    explanation: 'Calophyllum is an exception — it is a dicot plant with parallel venation. Normally parallel venation is a monocot feature.'
+  },
+  {
+    q: 'Which of the following has reticulate venation but is a monocot?',
+    options: ['Smilax', 'Grass', 'Bamboo', 'Wheat'],
+    answer: 0,
+    explanation: 'Smilax is a monocot exception with reticulate venation. Normally reticulate venation is a dicot feature.'
+  },
+  {
+    q: 'Perianth is found when',
+    options: ['Calyx and corolla are distinct', 'Calyx and corolla are similar and indistinguishable', 'Only sepals present', 'Only petals present'],
+    answer: 1,
+    explanation: 'Perianth refers to the floral envelope when calyx and corolla are similar and cannot be distinguished. Called tepals. Found in lily, tulip.'
+  },
+  {
+    q: 'Gamopetalous corolla means',
+    options: ['Petals are free', 'Petals are fused', 'Petals are absent', 'Petals are many'],
+    answer: 1,
+    explanation: 'Gamopetalous (sympetalous) corolla has fused petals. Found in Datura, Calotropis, Petunia. Polypetalous has free petals.'
+  },
+  {
+    q: 'Gamosepalous calyx means',
+    options: ['Sepals are free', 'Sepals are fused', 'Sepals are absent', 'Sepals are coloured'],
+    answer: 1,
+    explanation: 'Gamosepalous calyx has fused sepals. Found in Hibiscus, Datura, tomato. Polysepalous has free sepals like mustard.'
+  },
+  {
+    q: 'Hypogynous flower has',
+    options: ['Inferior ovary', 'Superior ovary', 'Half inferior ovary', 'No ovary'],
+    answer: 1,
+    explanation: 'Hypogynous flower has a superior ovary — sepals, petals and stamens are attached below the ovary. Found in mustard, brinjal, China rose.'
+  },
+  {
+    q: 'Perigynous flower has',
+    options: ['Superior ovary', 'Inferior ovary', 'Half inferior ovary with floral parts at same level', 'No thalamus'],
+    answer: 2,
+    explanation: 'Perigynous flower has a half inferior ovary. The thalamus forms a cup (hypanthium) and floral parts are at the rim. Found in rose, plum, peach.'
+  },
+  {
+    q: 'Nectaries are structures that produce',
+    options: ['Pollen', 'Nectar to attract pollinators', 'Seeds', 'Spores'],
+    answer: 1,
+    explanation: 'Nectaries are glandular structures that secrete nectar (sugary solution) to attract pollinators. They can be floral or extrafloral.'
+  },
+  {
+    q: 'Obdiplostemonous condition means',
+    options: ['Stamens equal to petals', 'Outer whorl of stamens opposite petals', 'Stamens more than petals', 'Stamens fused'],
+    answer: 1,
+    explanation: 'Obdiplostemonous condition — the outer whorl of stamens is opposite to petals (not alternating). Found in Caryophyllaceae family.'
+  },
+  {
+    q: 'Tetradynamous stamens are found in',
+    options: ['Pea', 'Mustard', 'Hibiscus', 'Lily'],
+    answer: 1,
+    explanation: 'Tetradynamous stamens (4 long + 2 short = 6 stamens) are characteristic of Brassicaceae (mustard family). This is a key diagnostic feature.'
+  },
+  {
+    q: 'Didynamous stamens are found in',
+    options: ['Mustard', 'Labiatae (mint family)', 'Hibiscus', 'Pea'],
+    answer: 1,
+    explanation: 'Didynamous stamens (2 long + 2 short = 4 stamens) are found in Labiatae (Lamiaceae/mint family) and Scrophulariaceae.'
+  },
+  {
+    q: 'Versatile anther is attached to filament at',
+    options: ['Base', 'Tip', 'Middle', 'Side'],
+    answer: 2,
+    explanation: 'Versatile anther is attached to the filament at its middle (dorsifixed) and can swing freely. Found in grasses. Allows efficient pollen dispersal.'
+  },
+  {
+    q: 'Basifixed anther is attached to filament at',
+    options: ['Middle', 'Side', 'Base', 'Tip'],
+    answer: 2,
+    explanation: 'Basifixed anther is attached to the filament at its base (innate). Cannot swing. Found in Datura and Magnolia.'
+  },
+  {
+    q: 'Introrse anther opens',
+    options: ['Outward away from pistil', 'Toward the pistil (inward)', 'Sideways', 'Downward'],
+    answer: 1,
+    explanation: 'Introrse anther opens toward the center of the flower (toward pistil). Found in most dicots. Extrorse opens outward.'
+  },
+  {
+    q: 'The number of carpels can be determined by',
+    options: ['Number of sepals', 'Number of locules or stigma lobes', 'Number of petals', 'Number of stamens'],
+    answer: 1,
+    explanation: 'Number of carpels can be determined by counting the number of locules (chambers) in the ovary or the number of lobes on the stigma.'
+  },
+  {
+    q: 'Axile placentation is found in',
+    options: ['Mustard', 'Sunflower', 'Tomato', 'Marigold'],
+    answer: 2,
+    explanation: 'Axile placentation — ovules on central axis in a multilocular ovary. Found in tomato, lemon, Hibiscus. Characteristic of syncarpous ovary.'
+  },
+  {
+    q: 'Parietal placentation is found in',
+    options: ['Tomato', 'Mustard', 'Sunflower', 'Marigold'],
+    answer: 1,
+    explanation: 'Parietal placentation — ovules on inner wall of unilocular ovary. Found in mustard, poppy and cucurbits. Characteristic of Brassicaceae.'
+  },
+  {
+    q: 'Basal placentation is found in',
+    options: ['Mustard', 'Sunflower', 'Tomato', 'Lily'],
+    answer: 1,
+    explanation: 'Basal placentation — single ovule at base of unilocular ovary. Found in sunflower (Compositae), wheat (Poaceae) and marigold.'
+  },
+  {
+    q: 'Free central placentation is found in',
+    options: ['Mustard', 'Dianthus (Caryophyllaceae)', 'Sunflower', 'Tomato'],
+    answer: 1,
+    explanation: 'Free central placentation — ovules on a central column in unilocular ovary without septa. Found in Dianthus, Primrose (Primulaceae).'
+  },
+  {
+    q: 'Marginal placentation is found in',
+    options: ['Sunflower', 'Mustard', 'Pea', 'Tomato'],
+    answer: 2,
+    explanation: 'Marginal placentation — ovules along the margin (ventral suture) of a monocarpellary ovary. Found in pea, bean and other Fabaceae members.'
+  },
+  {
+    q: 'Which of the following is a legume fruit?',
+    options: ['Mango', 'Tomato', 'Pea', 'Maize'],
+    answer: 2,
+    explanation: 'Legume (pod) is a dry dehiscent fruit from a monocarpellary ovary that opens along both sutures. Characteristic of Fabaceae. Found in pea, bean.'
+  },
+  {
+    q: 'Siliqua fruit is found in',
+    options: ['Pea', 'Mustard', 'Sunflower', 'Tomato'],
+    answer: 1,
+    explanation: 'Siliqua is a dry dehiscent fruit from bicarpellary ovary with a false septum (replum). Characteristic of Brassicaceae (mustard family).'
+  },
+  {
+    q: 'Caryopsis fruit is found in',
+    options: ['Pea', 'Mustard', 'Wheat', 'Tomato'],
+    answer: 2,
+    explanation: 'Caryopsis is a dry indehiscent fruit where seed coat is fused with pericarp. Characteristic of Poaceae (grass family). Found in wheat, rice, maize.'
+  },
+  {
+    q: 'Cypsela fruit is found in',
+    options: ['Sunflower', 'Mustard', 'Pea', 'Wheat'],
+    answer: 0,
+    explanation: 'Cypsela is a dry indehiscent one-seeded fruit derived from bicarpellary inferior ovary. Characteristic of Compositae (sunflower family).'
+  },
+  {
+    q: 'Samara fruit is found in',
+    options: ['Wheat', 'Elm tree (Ulmus)', 'Sunflower', 'Pea'],
+    answer: 1,
+    explanation: 'Samara is a dry indehiscent winged fruit found in elm (Ulmus) and ash (Fraxinus). The wing helps in wind dispersal.'
+  },
+  {
+    q: 'Which of the following is a schizocarpic fruit?',
+    options: ['Pea', 'Mustard', 'Coriander', 'Wheat'],
+    answer: 2,
+    explanation: 'Schizocarpic fruits split into one-seeded portions (mericarps) at maturity. Coriander (Coriandrum) splits into 2 mericarps. Characteristic of Apiaceae.'
+  },
+  {
+    q: 'The edible part of mango is',
+    options: ['Epicarp', 'Mesocarp', 'Endocarp', 'Seed'],
+    answer: 1,
+    explanation: 'The edible fleshy part of mango is the mesocarp (middle layer of pericarp). The outer skin is epicarp and the hard stone is endocarp.'
+  },
+  {
+    q: 'The edible part of coconut water is',
+    options: ['Mesocarp', 'Endocarp', 'Liquid endosperm', 'Seed coat'],
+    answer: 2,
+    explanation: 'Coconut water is the liquid endosperm of the coconut seed. The white flesh (solid endosperm) and water are both parts of the seed.'
+  },
+  {
+    q: 'Fleshy thalamus is edible in',
+    options: ['Mango', 'Apple', 'Banana', 'Tomato'],
+    answer: 1,
+    explanation: 'In apple the fleshy edible part is the thalamus (receptacle), not the ovary wall. This makes it a false fruit (pseudocarp).'
+  },
+  {
+    q: 'Dorsal suture of fruit represents',
+    options: ['Midrib of carpel', 'Junction of two carpels', 'Seed attachment line', 'Pericarp layer'],
+    answer: 0,
+    explanation: 'Dorsal suture of fruit represents the midrib of the carpel. Ventral suture represents the fused margins of the carpel where seeds are attached.'
+  },
+],
+'taxonomy-angiosperm': [
+  // FABACEAE (LEGUMINOSAE)
+  {
+    q: 'Fabaceae is also known as',
+    options: ['Solanaceae', 'Leguminosae', 'Liliaceae', 'Brassicaceae'],
+    answer: 1,
+    explanation: 'Fabaceae is also known as Leguminosae or the pea family. It is one of the largest flowering plant families.'
+  },
+  {
+    q: 'The fruit of Fabaceae is',
+    options: ['Berry', 'Drupe', 'Legume (pod)', 'Capsule'],
+    answer: 2,
+    explanation: 'The characteristic fruit of Fabaceae is a legume (pod) — a dry dehiscent fruit from a monocarpellary ovary that opens along both sutures.'
+  },
+  {
+    q: 'Aestivation in Fabaceae is',
+    options: ['Valvate', 'Twisted', 'Imbricate', 'Vexillary (papilionaceous)'],
+    answer: 3,
+    explanation: 'Vexillary (papilionaceous) aestivation is characteristic of Fabaceae. The largest petal (standard/vexillum) covers the two wing petals which cover the keel.'
+  },
+  {
+    q: 'Stamens in pea are',
+    options: ['Monadelphous', 'Diadelphous (9+1)', 'Polyandrous', 'Syngenesious'],
+    answer: 1,
+    explanation: 'Stamens in pea are diadelphous — 9 stamens are united by filaments and 1 is free. This is characteristic of Fabaceae subfamily Papilionoideae.'
+  },
+  {
+    q: 'Root nodules for nitrogen fixation are found in',
+    options: ['Solanaceae', 'Fabaceae', 'Liliaceae', 'Poaceae'],
+    answer: 1,
+    explanation: 'Root nodules containing nitrogen-fixing Rhizobium bacteria are found in Fabaceae members like pea, bean, groundnut and soybean.'
+  },
+  {
+    q: 'Which of the following belongs to Fabaceae?',
+    options: ['Potato', 'Pea', 'Wheat', 'Onion'],
+    answer: 1,
+    explanation: 'Pea (Pisum sativum) belongs to Fabaceae. Potato belongs to Solanaceae, wheat to Poaceae and onion to Liliaceae/Alliaceae.'
+  },
+  {
+    q: 'The ovary in Fabaceae is',
+    options: ['Inferior, multicarpellary', 'Superior, monocarpellary', 'Inferior, bicarpellary', 'Superior, bicarpellary'],
+    answer: 1,
+    explanation: 'Fabaceae has a superior, monocarpellary (single carpel) ovary with marginal placentation. This gives the characteristic pod fruit.'
+  },
+  {
+    q: 'Groundnut belongs to family',
+    options: ['Solanaceae', 'Fabaceae', 'Liliaceae', 'Poaceae'],
+    answer: 1,
+    explanation: 'Groundnut (Arachis hypogaea) belongs to Fabaceae. It is unique because after fertilization the gynophore pushes the fruit underground to ripen.'
+  },
+  {
+    q: 'Soybean belongs to family',
+    options: ['Fabaceae', 'Solanaceae', 'Poaceae', 'Brassicaceae'],
+    answer: 0,
+    explanation: 'Soybean (Glycine max) belongs to Fabaceae. It is one of the most important protein and oil crops in the world.'
+  },
+  {
+    q: 'Corolla in Fabaceae is',
+    options: ['Actinomorphic', 'Papilionaceous (zygomorphic)', 'Absent', 'Gamopetalous'],
+    answer: 1,
+    explanation: 'Corolla in Fabaceae subfamily Papilionoideae is papilionaceous (butterfly-shaped) with 5 petals: 1 standard, 2 wings, 2 keel petals.'
+  },
+  // SOLANACEAE
+  {
+    q: 'Solanaceae is commonly called',
+    options: ['Pea family', 'Potato family', 'Lily family', 'Mustard family'],
+    answer: 1,
+    explanation: 'Solanaceae is commonly called the potato family or nightshade family. It includes many important food and medicinal plants.'
+  },
+  {
+    q: 'Which of the following belongs to Solanaceae?',
+    options: ['Pea', 'Mustard', 'Potato', 'Wheat'],
+    answer: 2,
+    explanation: 'Potato (Solanum tuberosum) belongs to Solanaceae. Other members include tomato, brinjal, chilli, tobacco and Datura.'
+  },
+  {
+    q: 'Stamens in Solanaceae are',
+    options: ['Diadelphous', 'Monadelphous', 'Epipetalous 5', 'Free polyandrous'],
+    answer: 2,
+    explanation: 'Stamens in Solanaceae are epipetalous — 5 stamens attached to the corolla tube. They alternate with petals.'
+  },
+  {
+    q: 'Aestivation in Solanaceae is',
+    options: ['Vexillary', 'Valvate', 'Twisted (contorted)', 'Imbricate'],
+    answer: 2,
+    explanation: 'Aestivation in Solanaceae corolla is twisted (contorted) where each petal overlaps the next in one direction.'
+  },
+  {
+    q: 'Fruit of Solanaceae is typically',
+    options: ['Legume', 'Berry or capsule', 'Drupe', 'Nut'],
+    answer: 1,
+    explanation: 'Fruit of Solanaceae is typically a berry (tomato, brinjal) or capsule (Datura, tobacco). Rarely a drupe.'
+  },
+  {
+    q: 'Tobacco belongs to family',
+    options: ['Fabaceae', 'Liliaceae', 'Solanaceae', 'Poaceae'],
+    answer: 2,
+    explanation: 'Tobacco (Nicotiana tabacum) belongs to Solanaceae. It contains the alkaloid nicotine which is a stimulant and insecticide.'
+  },
+  {
+    q: 'Datura belongs to family',
+    options: ['Fabaceae', 'Solanaceae', 'Liliaceae', 'Brassicaceae'],
+    answer: 1,
+    explanation: 'Datura (thorn apple) belongs to Solanaceae. It contains alkaloids atropine, hyoscyamine and scopolamine used in medicine.'
+  },
+  {
+    q: 'Ovary in Solanaceae is',
+    options: ['Monocarpellary superior', 'Bicarpellary superior', 'Tricarpellary inferior', 'Bicarpellary inferior'],
+    answer: 1,
+    explanation: 'Ovary in Solanaceae is bicarpellary, syncarpous, superior with axile placentation. The style is simple with bilobed stigma.'
+  },
+  {
+    q: 'Belladonna (Atropa) belongs to family',
+    options: ['Fabaceae', 'Solanaceae', 'Liliaceae', 'Apocynaceae'],
+    answer: 1,
+    explanation: 'Atropa belladonna (deadly nightshade) belongs to Solanaceae. It contains atropine used to dilate pupils and treat bradycardia.'
+  },
+  {
+    q: 'Brinjal belongs to family',
+    options: ['Fabaceae', 'Cucurbitaceae', 'Solanaceae', 'Malvaceae'],
+    answer: 2,
+    explanation: 'Brinjal (Solanum melongena) belongs to Solanaceae. It is in the same genus as potato (Solanum tuberosum).'
+  },
+  {
+    q: 'Calyx in Solanaceae is',
+    options: ['Polysepalous', 'Gamosepalous 5 persistent', 'Absent', 'Epicalyx present'],
+    answer: 1,
+    explanation: 'Calyx in Solanaceae is gamosepalous with 5 fused sepals that are persistent (remain attached to fruit). Seen clearly in tomato.'
+  },
+  // LILIACEAE
+  {
+    q: 'Liliaceae is commonly called',
+    options: ['Pea family', 'Mustard family', 'Lily family', 'Grass family'],
+    answer: 2,
+    explanation: 'Liliaceae is commonly called the lily family. It is a family of monocots with many ornamental and medicinal plants.'
+  },
+  {
+    q: 'Which of the following belongs to Liliaceae?',
+    options: ['Pea', 'Potato', 'Onion', 'Mustard'],
+    answer: 2,
+    explanation: 'Onion (Allium cepa) belongs to Liliaceae (or Alliaceae in modern classification). Other members include garlic, lily, tulip and Aloe.'
+  },
+  {
+    q: 'Perianth in Liliaceae is',
+    options: ['Absent', 'Differentiated into calyx and corolla', 'Petaloid tepals in two whorls of 3', 'Sepaloid only'],
+    answer: 2,
+    explanation: 'Liliaceae has 6 petaloid tepals arranged in two whorls of 3 each (3+3). Calyx and corolla are similar and cannot be distinguished.'
+  },
+  {
+    q: 'Stamens in Liliaceae are',
+    options: ['3', '6 in two whorls', '5', '10'],
+    answer: 1,
+    explanation: 'Liliaceae has 6 stamens arranged in two whorls of 3 each corresponding to the 6 tepals. This is characteristic of monocots.'
+  },
+  {
+    q: 'Ovary in Liliaceae is',
+    options: ['Monocarpellary inferior', 'Tricarpellary superior', 'Bicarpellary inferior', 'Tricarpellary inferior'],
+    answer: 1,
+    explanation: 'Ovary in Liliaceae is tricarpellary (3 carpels), syncarpous, superior with axile placentation. 3 locules with many ovules.'
+  },
+  {
+    q: 'Fruit of Liliaceae is',
+    options: ['Legume', 'Berry or capsule', 'Drupe', 'Nut'],
+    answer: 1,
+    explanation: 'Fruit of Liliaceae is a berry (Asparagus, Smilax) or capsule (Lilium, Gloriosa). Rarely a drupe.'
+  },
+  {
+    q: 'Aloe vera belongs to family',
+    options: ['Fabaceae', 'Solanaceae', 'Liliaceae', 'Brassicaceae'],
+    answer: 2,
+    explanation: 'Aloe vera belongs to Liliaceae (or Asphodelaceae in modern classification). It is used medicinally for skin conditions and digestive problems.'
+  },
+  {
+    q: 'Colchicine drug is obtained from',
+    options: ['Atropa', 'Colchicum (Liliaceae)', 'Datura', 'Ephedra'],
+    answer: 1,
+    explanation: 'Colchicine is obtained from Colchicum autumnale (autumn crocus) of Liliaceae. It inhibits spindle formation and is used in plant breeding to produce polyploids.'
+  },
+  {
+    q: 'Gloriosa superba belongs to family',
+    options: ['Fabaceae', 'Solanaceae', 'Liliaceae', 'Poaceae'],
+    answer: 2,
+    explanation: 'Gloriosa superba (glory lily) belongs to Liliaceae. It is the national flower of Zimbabwe and contains colchicine.'
+  },
+  {
+    q: 'Venation in Liliaceae leaves is',
+    options: ['Reticulate', 'Parallel', 'Dichotomous', 'Absent'],
+    answer: 1,
+    explanation: 'Leaves of Liliaceae have parallel venation as they are monocots. This is typical of all monocot families.'
+  },
+  // POACEAE (GRAMINEAE)
+  {
+    q: 'Poaceae is commonly called',
+    options: ['Pea family', 'Lily family', 'Grass family', 'Mustard family'],
+    answer: 2,
+    explanation: 'Poaceae (Gramineae) is commonly called the grass family. It is one of the most economically important plant families.'
+  },
+  {
+    q: 'Which of the following belongs to Poaceae?',
+    options: ['Pea', 'Tomato', 'Wheat', 'Onion'],
+    answer: 2,
+    explanation: 'Wheat (Triticum aestivum) belongs to Poaceae. Other members include rice, maize, barley, sugarcane, bamboo and all grasses.'
+  },
+  {
+    q: 'The stem of Poaceae is called',
+    options: ['Rhizome', 'Culm', 'Scape', 'Caudex'],
+    answer: 1,
+    explanation: 'The stem of grasses (Poaceae) is called culm. It is typically hollow at internodes with solid nodes.'
+  },
+  {
+    q: 'Fruit of Poaceae is',
+    options: ['Legume', 'Berry', 'Caryopsis', 'Capsule'],
+    answer: 2,
+    explanation: 'Fruit of Poaceae is caryopsis — a dry indehiscent fruit where seed coat (testa) is completely fused with pericarp (fruit wall).'
+  },
+  {
+    q: 'The unit of inflorescence in Poaceae is called',
+    options: ['Flower', 'Spikelet', 'Capitulum', 'Umbel'],
+    answer: 1,
+    explanation: 'The basic unit of inflorescence in Poaceae is the spikelet which consists of 2 glumes and one or more florets.'
+  },
+  {
+    q: 'Lodicules in grass flower are modified',
+    options: ['Stamens', 'Tepals (perianth)', 'Carpels', 'Bracts'],
+    answer: 1,
+    explanation: 'Lodicules are 2 small scale-like structures in grass flower representing modified perianth (tepals). They swell during flowering to open the floret.'
+  },
+  {
+    q: 'Rice belongs to family',
+    options: ['Fabaceae', 'Solanaceae', 'Liliaceae', 'Poaceae'],
+    answer: 3,
+    explanation: 'Rice (Oryza sativa) belongs to Poaceae (grass family). It is the staple food for more than half of the world\'s population.'
+  },
+  {
+    q: 'Sugarcane belongs to family',
+    options: ['Fabaceae', 'Poaceae', 'Liliaceae', 'Solanaceae'],
+    answer: 1,
+    explanation: 'Sugarcane (Saccharum officinarum) belongs to Poaceae. It is the primary source of sugar and also used for producing ethanol.'
+  },
+  {
+    q: 'Bamboo belongs to family',
+    options: ['Fabaceae', 'Liliaceae', 'Poaceae', 'Arecaceae'],
+    answer: 2,
+    explanation: 'Bamboo belongs to Poaceae (grass family). It is the fastest growing plant and has many uses in construction, paper and food.'
+  },
+  {
+    q: 'Lemma and palea in grass are',
+    options: ['Petals', 'Sepals', 'Bracts enclosing floret', 'Stamens'],
+    answer: 2,
+    explanation: 'Lemma and palea are two bracts that enclose each floret in grass spikelet. Lemma is outer, palea is inner.'
+  },
+  // BRASSICACEAE (CRUCIFERAE)
+  {
+    q: 'Brassicaceae is commonly called',
+    options: ['Pea family', 'Mustard family', 'Lily family', 'Grass family'],
+    answer: 1,
+    explanation: 'Brassicaceae (Cruciferae) is commonly called the mustard family or cabbage family. It includes many important vegetables and oilseeds.'
+  },
+  {
+    q: 'Tetradynamous stamens are characteristic of',
+    options: ['Fabaceae', 'Solanaceae', 'Brassicaceae', 'Liliaceae'],
+    answer: 2,
+    explanation: 'Tetradynamous stamens (4 long + 2 short = 6 stamens) are the hallmark of Brassicaceae. This is a key diagnostic feature of the family.'
+  },
+  {
+    q: 'Fruit of Brassicaceae is',
+    options: ['Legume', 'Berry', 'Siliqua or silicula', 'Capsule'],
+    answer: 2,
+    explanation: 'Characteristic fruit of Brassicaceae is siliqua (long) or silicula (short). Both have a false septum called replum.'
+  },
+  {
+    q: 'Corolla in Brassicaceae is',
+    options: ['Papilionaceous', 'Cruciform (cross-shaped) with 4 free petals', 'Gamopetalous', 'Absent'],
+    answer: 1,
+    explanation: 'Corolla in Brassicaceae is cruciform (cross-shaped) with 4 free petals arranged in a cross. This is why the family was called Cruciferae.'
+  },
+  {
+    q: 'Which of the following belongs to Brassicaceae?',
+    options: ['Pea', 'Tomato', 'Mustard', 'Onion'],
+    answer: 2,
+    explanation: 'Mustard (Brassica juncea) belongs to Brassicaceae. Other members include cabbage, cauliflower, radish, turnip and Alyssum.'
+  },
+  {
+    q: 'Placentation in Brassicaceae is',
+    options: ['Axile', 'Marginal', 'Parietal', 'Basal'],
+    answer: 2,
+    explanation: 'Placentation in Brassicaceae is parietal — ovules are on the inner walls of the ovary. The ovary has a false septum (replum) making it appear bilocular.'
+  },
+  {
+    q: 'Ovary in Brassicaceae is',
+    options: ['Monocarpellary', 'Bicarpellary superior', 'Tricarpellary inferior', 'Multicarpellary'],
+    answer: 1,
+    explanation: 'Ovary in Brassicaceae is bicarpellary, syncarpous, superior. It appears bilocular due to false septum (replum) but is actually unilocular.'
+  },
+  // MALVACEAE
+  {
+    q: 'Malvaceae is commonly called',
+    options: ['Pea family', 'Mallow family', 'Lily family', 'Grass family'],
+    answer: 1,
+    explanation: 'Malvaceae is commonly called the mallow family or cotton family. It includes cotton, hibiscus, okra and jute.'
+  },
+  {
+    q: 'Monadelphous stamens are characteristic of',
+    options: ['Fabaceae', 'Solanaceae', 'Malvaceae', 'Liliaceae'],
+    answer: 2,
+    explanation: 'Monadelphous stamens (all united into one bundle) with numerous stamens are characteristic of Malvaceae. Found in Hibiscus and cotton.'
+  },
+  {
+    q: 'Epicalyx is found in',
+    options: ['Solanaceae', 'Fabaceae', 'Malvaceae', 'Liliaceae'],
+    answer: 2,
+    explanation: 'Epicalyx (extra whorl outside calyx) is characteristic of Malvaceae. Found in Hibiscus (3 epicalyx), cotton (3-5), okra (many).'
+  },
+  {
+    q: 'Cotton belongs to family',
+    options: ['Fabaceae', 'Solanaceae', 'Malvaceae', 'Liliaceae'],
+    answer: 2,
+    explanation: 'Cotton (Gossypium) belongs to Malvaceae. Cotton fibers are seed hairs (trichomes) on the seed coat used for textile production.'
+  },
+  {
+    q: 'Okra (bhindi) belongs to family',
+    options: ['Fabaceae', 'Solanaceae', 'Malvaceae', 'Cucurbitaceae'],
+    answer: 2,
+    explanation: 'Okra (Abelmoschus esculentus) belongs to Malvaceae. It is a close relative of hibiscus and cotton.'
+  },
+  // ROSACEAE
+  {
+    q: 'Rosaceae is commonly called',
+    options: ['Pea family', 'Rose family', 'Lily family', 'Grass family'],
+    answer: 1,
+    explanation: 'Rosaceae is commonly called the rose family. It includes many important fruit plants like apple, pear, plum, cherry, strawberry and rose.'
+  },
+  {
+    q: 'Which of the following belongs to Rosaceae?',
+    options: ['Tomato', 'Rose', 'Wheat', 'Onion'],
+    answer: 1,
+    explanation: 'Rose (Rosa) belongs to Rosaceae. Other members include apple, pear, plum, cherry, peach, apricot, strawberry and almond.'
+  },
+  {
+    q: 'Stipules are present in',
+    options: ['Solanaceae', 'Rosaceae', 'Liliaceae', 'Poaceae'],
+    answer: 1,
+    explanation: 'Persistent stipules are characteristic of Rosaceae. This is a useful diagnostic feature of the family.'
+  },
+  {
+    q: 'Pome fruit is found in',
+    options: ['Rosaceae', 'Fabaceae', 'Solanaceae', 'Liliaceae'],
+    answer: 0,
+    explanation: 'Pome is a false fruit characteristic of Rosaceae subfamily Maloideae. In apple and pear the fleshy thalamus surrounds the true fruit.'
+  },
+  // CUCURBITACEAE
+  {
+    q: 'Cucurbitaceae is commonly called',
+    options: ['Pea family', 'Gourd family', 'Lily family', 'Grass family'],
+    answer: 1,
+    explanation: 'Cucurbitaceae is commonly called the gourd family or cucumber family. It includes many important vegetables.'
+  },
+  {
+    q: 'Which of the following belongs to Cucurbitaceae?',
+    options: ['Pea', 'Potato', 'Cucumber', 'Wheat'],
+    answer: 2,
+    explanation: 'Cucumber (Cucumis sativus) belongs to Cucurbitaceae. Other members include pumpkin, watermelon, bitter gourd, bottle gourd and muskmelon.'
+  },
+  {
+    q: 'Tendrils in Cucurbitaceae are modifications of',
+    options: ['Leaf', 'Stipule', 'Stem', 'Root'],
+    answer: 2,
+    explanation: 'Tendrils in Cucurbitaceae are stem modifications (axillary). They coil around support to help the climbing vine.'
+  },
+  {
+    q: 'Cucurbitaceae plants are usually',
+    options: ['Trees', 'Shrubs', 'Climbing or prostrate herbs', 'Epiphytes'],
+    answer: 2,
+    explanation: 'Cucurbitaceae plants are typically climbing or prostrate herbs with tendrils. They are rarely shrubs or trees.'
+  },
+  {
+    q: 'Fruit of Cucurbitaceae is',
+    options: ['Legume', 'Berry', 'Pepo', 'Drupe'],
+    answer: 2,
+    explanation: 'Fruit of Cucurbitaceae is pepo — a modified berry with hard epicarp (rind) and fleshy interior. Characteristic of the family.'
+  },
+  {
+    q: 'Flowers in Cucurbitaceae are',
+    options: ['Bisexual', 'Unisexual (monoecious)', 'Always dioecious', 'Polygamous'],
+    answer: 1,
+    explanation: 'Flowers in Cucurbitaceae are typically unisexual with both male and female flowers on the same plant (monoecious). Rarely dioecious.'
+  },
+  // COMPOSITAE (ASTERACEAE)
+  {
+    q: 'Asteraceae (Compositae) is commonly called',
+    options: ['Pea family', 'Sunflower family', 'Lily family', 'Grass family'],
+    answer: 1,
+    explanation: 'Asteraceae (Compositae) is commonly called the sunflower family or daisy family. It is the largest family of flowering plants.'
+  },
+  {
+    q: 'The inflorescence of Asteraceae is',
+    options: ['Raceme', 'Spike', 'Capitulum (head)', 'Umbel'],
+    answer: 2,
+    explanation: 'Capitulum (head) is the characteristic inflorescence of Asteraceae. The flat receptacle bears many sessile flowers (florets).'
+  },
+  {
+    q: 'Ray florets in Asteraceae are',
+    options: ['Actinomorphic and bisexual', 'Zygomorphic and usually sterile', 'Absent', 'Wind pollinated'],
+    answer: 1,
+    explanation: 'Ray florets are peripheral, zygomorphic (strap-shaped), usually sterile or pistillate. They attract pollinators.'
+  },
+  {
+    q: 'Disc florets in Asteraceae are',
+    options: ['Peripheral and sterile', 'Central, actinomorphic and bisexual', 'Absent', 'Large and showy'],
+    answer: 1,
+    explanation: 'Disc florets are central, actinomorphic, tubular and bisexual. They are the fertile flowers in the capitulum of Asteraceae.'
+  },
+  {
+    q: 'Syngenesious stamens are characteristic of',
+    options: ['Fabaceae', 'Solanaceae', 'Asteraceae', 'Liliaceae'],
+    answer: 2,
+    explanation: 'Syngenesious stamens (anthers united, filaments free) are characteristic of Asteraceae. The 5 anthers form a tube around the style.'
+  },
+  {
+    q: 'Pappus in Asteraceae fruit (cypsela) represents modified',
+    options: ['Petals', 'Stamens', 'Calyx', 'Bracts'],
+    answer: 2,
+    explanation: 'Pappus is the modified calyx in Asteraceae cypsela fruit. It forms feathery or bristly structures that help in wind dispersal.'
+  },
+  {
+    q: 'Sunflower belongs to family',
+    options: ['Fabaceae', 'Solanaceae', 'Asteraceae', 'Liliaceae'],
+    answer: 2,
+    explanation: 'Sunflower (Helianthus annuus) belongs to Asteraceae. What appears to be one large flower is actually a capitulum of many small florets.'
+  },
+  {
+    q: 'Chrysanthemum belongs to family',
+    options: ['Rosaceae', 'Solanaceae', 'Asteraceae', 'Liliaceae'],
+    answer: 2,
+    explanation: 'Chrysanthemum belongs to Asteraceae (Compositae). It is an important ornamental plant grown worldwide.'
+  },
+  // APOCYNACEAE
+  {
+    q: 'Calotropis belongs to family',
+    options: ['Solanaceae', 'Apocynaceae', 'Fabaceae', 'Liliaceae'],
+    answer: 1,
+    explanation: 'Calotropis (madar/aak) belongs to Apocynaceae (or Asclepiadaceae in older classification). It has latex and corona in flower.'
+  },
+  {
+    q: 'Latex is found in',
+    options: ['Fabaceae', 'Solanaceae', 'Apocynaceae', 'Poaceae'],
+    answer: 2,
+    explanation: 'Latex (milky sap) is characteristic of Apocynaceae. Found in Calotropis, Nerium, Alstonia and Plumeria.'
+  },
+  {
+    q: 'Nerium (Oleander) belongs to family',
+    options: ['Solanaceae', 'Fabaceae', 'Apocynaceae', 'Rosaceae'],
+    answer: 2,
+    explanation: 'Nerium oleander belongs to Apocynaceae. It is highly toxic, containing cardiac glycosides that can cause heart failure.'
+  },
+  // APIACEAE (UMBELLIFERAE)
+  {
+    q: 'Apiaceae (Umbelliferae) is commonly called',
+    options: ['Pea family', 'Carrot family', 'Lily family', 'Grass family'],
+    answer: 1,
+    explanation: 'Apiaceae (Umbelliferae) is commonly called the carrot family or parsley family. It includes many important spices and vegetables.'
+  },
+  {
+    q: 'Compound umbel inflorescence is characteristic of',
+    options: ['Fabaceae', 'Apiaceae', 'Solanaceae', 'Asteraceae'],
+    answer: 1,
+    explanation: 'Compound umbel is the characteristic inflorescence of Apiaceae. Both primary and secondary axes end in umbels.'
+  },
+  {
+    q: 'Coriander belongs to family',
+    options: ['Fabaceae', 'Solanaceae', 'Apiaceae', 'Liliaceae'],
+    answer: 2,
+    explanation: 'Coriander (Coriandrum sativum) belongs to Apiaceae. Other members include carrot, fennel, cumin, parsley and celery.'
+  },
+  {
+    q: 'Schizocarpic fruit is characteristic of',
+    options: ['Fabaceae', 'Asteraceae', 'Apiaceae', 'Solanaceae'],
+    answer: 2,
+    explanation: 'Schizocarpic fruit (cremocarp) is characteristic of Apiaceae. The fruit splits into two one-seeded mericarps at maturity.'
+  },
+  // EUPHORBIACEAE
+  {
+    q: 'Euphorbiaceae is characterized by presence of',
+    options: ['Latex and cyathium inflorescence', 'Tendrils', 'Root nodules', 'Epicalyx'],
+    answer: 0,
+    explanation: 'Euphorbiaceae is characterized by the presence of latex (milky sap) and unique cyathium inflorescence in Euphorbia.'
+  },
+  {
+    q: 'Castor belongs to family',
+    options: ['Fabaceae', 'Solanaceae', 'Euphorbiaceae', 'Liliaceae'],
+    answer: 2,
+    explanation: 'Castor (Ricinus communis) belongs to Euphorbiaceae. Castor oil is obtained from its seeds and used medicinally and industrially.'
+  },
+  {
+    q: 'Rubber tree belongs to family',
+    options: ['Fabaceae', 'Euphorbiaceae', 'Apocynaceae', 'Moraceae'],
+    answer: 1,
+    explanation: 'Rubber tree (Hevea brasiliensis) belongs to Euphorbiaceae. Natural rubber (latex) is obtained from its bark.'
+  },
+  // RUBIACEAE
+  {
+    q: 'Coffee belongs to family',
+    options: ['Solanaceae', 'Rubiaceae', 'Fabaceae', 'Asteraceae'],
+    answer: 1,
+    explanation: 'Coffee (Coffea arabica) belongs to Rubiaceae (madder family). Other members include quinine (Cinchona) and Gardenia.'
+  },
+  {
+    q: 'Quinine antimalarial drug is obtained from',
+    options: ['Cinchona (Rubiaceae)', 'Datura (Solanaceae)', 'Ephedra (Gymnosperm)', 'Colchicum (Liliaceae)'],
+    answer: 0,
+    explanation: 'Quinine is an antimalarial drug obtained from the bark of Cinchona officinalis belonging to Rubiaceae.'
+  },
+  // GENERAL TAXONOMY
+  {
+    q: 'Natural system of classification was given by',
+    options: ['Linnaeus', 'Bentham and Hooker', 'Engler and Prantl', 'Cronquist'],
+    answer: 1,
+    explanation: 'The natural system of classification was given by Bentham and Hooker in their book Genera Plantarum (1862-1883). It is based on natural relationships.'
+  },
+  {
+    q: 'Artificial system of classification was given by',
+    options: ['Bentham and Hooker', 'Linnaeus', 'Engler and Prantl', 'Whittaker'],
+    answer: 1,
+    explanation: 'Artificial system of classification was given by Carolus Linnaeus based on a few morphological characters, mainly stamens.'
+  },
+  {
+    q: 'Phylogenetic system of classification is based on',
+    options: ['Morphology only', 'Evolutionary relationships', 'Habitat', 'Number of stamens'],
+    answer: 1,
+    explanation: 'Phylogenetic system of classification is based on evolutionary relationships and presumed ancestry of organisms. Given by Engler and Prantl, Cronquist.'
+  },
+  {
+    q: 'The basic unit of classification is',
+    options: ['Family', 'Order', 'Species', 'Genus'],
+    answer: 2,
+    explanation: 'Species is the basic unit of classification. Members of a species can interbreed and produce fertile offspring.'
+  },
+  {
+    q: 'The scientific name of rice is',
+    options: ['Triticum aestivum', 'Zea mays', 'Oryza sativa', 'Hordeum vulgare'],
+    answer: 2,
+    explanation: 'The scientific name of rice is Oryza sativa. It belongs to family Poaceae and is the staple food of Asia.'
+  },
+  {
+    q: 'The scientific name of wheat is',
+    options: ['Oryza sativa', 'Triticum aestivum', 'Zea mays', 'Saccharum officinarum'],
+    answer: 1,
+    explanation: 'The scientific name of wheat is Triticum aestivum. It belongs to Poaceae and is one of the most important cereal crops.'
+  },
+  {
+    q: 'The scientific name of maize is',
+    options: ['Oryza sativa', 'Triticum aestivum', 'Zea mays', 'Hordeum vulgare'],
+    answer: 2,
+    explanation: 'The scientific name of maize (corn) is Zea mays. It belongs to Poaceae and is a major cereal crop and source of starch and oil.'
+  },
+  {
+    q: 'The scientific name of potato is',
+    options: ['Solanum melongena', 'Solanum tuberosum', 'Lycopersicon esculentum', 'Capsicum annuum'],
+    answer: 1,
+    explanation: 'The scientific name of potato is Solanum tuberosum. It belongs to Solanaceae and is one of the most important food crops worldwide.'
+  },
+  {
+    q: 'The scientific name of tomato is',
+    options: ['Solanum tuberosum', 'Solanum melongena', 'Lycopersicon esculentum', 'Capsicum annuum'],
+    answer: 2,
+    explanation: 'The scientific name of tomato is Lycopersicon esculentum (now Solanum lycopersicum). It belongs to Solanaceae.'
+  },
+  {
+    q: 'The scientific name of onion is',
+    options: ['Allium sativum', 'Allium cepa', 'Lilium candidum', 'Tulipa gesneriana'],
+    answer: 1,
+    explanation: 'The scientific name of onion is Allium cepa. It belongs to Liliaceae/Alliaceae. Garlic is Allium sativum.'
+  },
+  {
+    q: 'The scientific name of mustard is',
+    options: ['Raphanus sativus', 'Brassica juncea', 'Brassica oleracea', 'Sinapis alba'],
+    answer: 1,
+    explanation: 'The scientific name of Indian mustard is Brassica juncea. It belongs to Brassicaceae and is a major oilseed crop.'
+  },
+  {
+    q: 'The scientific name of pea is',
+    options: ['Glycine max', 'Cicer arietinum', 'Pisum sativum', 'Phaseolus vulgaris'],
+    answer: 2,
+    explanation: 'The scientific name of garden pea is Pisum sativum. It belongs to Fabaceae and was used by Mendel in his genetics experiments.'
+  },
+  {
+    q: 'The scientific name of mango is',
+    options: ['Psidium guajava', 'Mangifera indica', 'Carica papaya', 'Punica granatum'],
+    answer: 1,
+    explanation: 'The scientific name of mango is Mangifera indica. It belongs to Anacardiaceae and is the national fruit of India.'
+  },
+  {
+    q: 'Hibiscus rosa-sinensis belongs to family',
+    options: ['Solanaceae', 'Fabaceae', 'Malvaceae', 'Rosaceae'],
+    answer: 2,
+    explanation: 'Hibiscus rosa-sinensis (China rose) belongs to Malvaceae. It has monadelphous stamens, epicalyx and is the national flower of Malaysia.'
+  },
+  {
+    q: 'Which family is called the natural order by Bentham and Hooker?',
+    options: ['Family is called Order', 'They used the term series', 'They used cohort', 'They used alliance'],
+    answer: 0,
+    explanation: 'Bentham and Hooker used the term "Natural Order" for what we now call Family. Their classification has 202 natural orders.'
+  },
+  {
+    q: 'Dicotyledonous plants have',
+    options: ['One cotyledon, parallel venation', 'Two cotyledons, reticulate venation', 'Many cotyledons', 'No cotyledons'],
+    answer: 1,
+    explanation: 'Dicotyledonous plants have two cotyledons, reticulate venation, tap root system, pentamerous flowers and vascular bundles in a ring.'
+  },
+  {
+    q: 'Monocotyledonous plants have',
+    options: ['Two cotyledons, reticulate venation', 'One cotyledon, parallel venation', 'Many cotyledons', 'No cotyledons'],
+    answer: 1,
+    explanation: 'Monocotyledonous plants have one cotyledon (scutellum), parallel venation, fibrous roots, trimerous flowers and scattered vascular bundles.'
+  },
+  {
+    q: 'Vascular bundles in monocot stem are',
+    options: ['In a ring', 'Scattered throughout the ground tissue', 'Only in center', 'Absent'],
+    answer: 1,
+    explanation: 'Vascular bundles in monocot stem are scattered throughout the ground tissue without a definite arrangement. In dicot stem they are arranged in a ring.'
+  },
+  {
+    q: 'Secondary growth is absent in',
+    options: ['Dicots', 'Monocots', 'Gymnosperms', 'Both dicots and gymnosperms'],
+    answer: 1,
+    explanation: 'Secondary growth (increase in girth) is absent in monocots because they lack vascular cambium. Dicots and gymnosperms have secondary growth.'
+  },
+  {
+    q: 'The scientific name of sunflower is',
+    options: ['Tagetes erecta', 'Helianthus annuus', 'Chrysanthemum indicum', 'Zinnia elegans'],
+    answer: 1,
+    explanation: 'The scientific name of sunflower is Helianthus annuus. It belongs to Asteraceae and is grown for oil, seeds and as ornamental.'
+  },
+  {
+    q: 'Tulsi (Holy basil) belongs to family',
+    options: ['Solanaceae', 'Lamiaceae', 'Fabaceae', 'Asteraceae'],
+    answer: 1,
+    explanation: 'Tulsi (Ocimum tenuiflorum/sanctum) belongs to Lamiaceae (mint family). It has square stem, opposite leaves and didynamous stamens.'
+  },
+  {
+    q: 'Which of the following is the largest family of dicots?',
+    options: ['Fabaceae', 'Solanaceae', 'Asteraceae', 'Rosaceae'],
+    answer: 2,
+    explanation: 'Asteraceae (Compositae) is the largest family of dicots with over 23,000 species. It is also the largest family of flowering plants.'
+  },
+  {
+    q: 'Banana belongs to family',
+    options: ['Poaceae', 'Liliaceae', 'Musaceae', 'Zingiberaceae'],
+    answer: 2,
+    explanation: 'Banana (Musa paradisiaca) belongs to Musaceae. It is a monocot with large leaves and produces parthenocarpic fruits.'
+  },
+  {
+    q: 'Ginger belongs to family',
+    options: ['Liliaceae', 'Poaceae', 'Zingiberaceae', 'Musaceae'],
+    answer: 2,
+    explanation: 'Ginger (Zingiber officinale) belongs to Zingiberaceae. The rhizome is used as spice and medicine.'
+  },
+  {
+    q: 'The correct sequence of taxonomic hierarchy from highest to lowest is',
+    options: [
+      'Kingdom Phylum Class Order Family Genus Species',
+      'Species Genus Family Order Class Phylum Kingdom',
+      'Kingdom Class Phylum Order Family Genus Species',
+      'Kingdom Phylum Order Class Family Genus Species'
+    ],
+    answer: 0,
+    explanation: 'Correct descending hierarchy: Kingdom → Phylum/Division → Class → Order → Family → Genus → Species. Mnemonic: King Philip Came Over For Good Soup.'
+  },
+  {
+    q: 'Which of the following families is characterized by milky latex and cyathium?',
+    options: ['Apocynaceae', 'Euphorbiaceae', 'Asclepiadaceae', 'Moraceae'],
+    answer: 1,
+    explanation: 'Euphorbiaceae is characterized by milky latex and unique cyathium inflorescence (in Euphorbia). Each cyathium looks like a single flower but contains many.'
+  },
+  {
+    q: 'The scientific name of garlic is',
+    options: ['Allium cepa', 'Allium sativum', 'Allium porrum', 'Allium fistulosum'],
+    answer: 1,
+    explanation: 'The scientific name of garlic is Allium sativum. It belongs to Liliaceae/Alliaceae and contains allicin with antimicrobial properties.'
+  },
+  {
+    q: 'Opium is obtained from',
+    options: ['Papaver somniferum (Papaveraceae)', 'Cannabis sativa', 'Datura stramonium', 'Atropa belladonna'],
+    answer: 0,
+    explanation: 'Opium is obtained from the latex of unripe capsules of Papaver somniferum (opium poppy) belonging to Papaveraceae.'
+  },
+  {
+    q: 'Which of the following is correctly matched?',
+    options: [
+      'Wheat — Solanaceae',
+      'Onion — Poaceae',
+      'Pea — Fabaceae',
+      'Potato — Liliaceae'
+    ],
+    answer: 2,
+    explanation: 'Pea (Pisum sativum) correctly belongs to Fabaceae. Wheat belongs to Poaceae, Onion to Liliaceae, Potato to Solanaceae.'
+  },
+  {
+    q: 'Morphological characters used in taxonomy include',
+    options: [
+      'Root stem leaf flower fruit seed',
+      'Only flower characters',
+      'Only vegetative characters',
+      'Only DNA sequences'
+    ],
+    answer: 0,
+    explanation: 'Classical taxonomy uses morphological characters of all plant organs — root, stem, leaf, flower, fruit and seed for classification.'
+  },
+],
 }
