@@ -1,0 +1,750 @@
+[
+  {
+    "q": "Algae are included in which kingdom?",
+    "options": [
+      "Monera",
+      "Protista",
+      "Plantae",
+      "Fungi"
+    ],
+    "answer": 1,
+    "explanation": "Most algae are included in kingdom Protista. However, some classifications place multicellular algae in Plantae."
+  },
+  {
+    "q": "Which pigment is found in red algae?",
+    "options": [
+      "Chlorophyll a",
+      "Phycoerythrin",
+      "Phycocyanin",
+      "Fucoxanthin"
+    ],
+    "answer": 1,
+    "explanation": "Phycoerythrin is the red pigment found in red algae (Rhodophyta). It masks the green colour of chlorophyll."
+  },
+  {
+    "q": "Agar agar is obtained from",
+    "options": [
+      "Brown algae",
+      "Red algae",
+      "Green algae",
+      "Blue-green algae"
+    ],
+    "answer": 1,
+    "explanation": "Agar agar is a gelatinous substance obtained from red algae like Gelidium and Gracilaria. It is used as culture media in microbiology."
+  },
+  {
+    "q": "Algin is obtained from",
+    "options": [
+      "Red algae",
+      "Green algae",
+      "Brown algae",
+      "Blue-green algae"
+    ],
+    "answer": 2,
+    "explanation": "Algin (alginic acid) is a polysaccharide obtained from brown algae (Phaeophyta). It is used as thickener in food industry."
+  },
+  {
+    "q": "Which algae is used as food in Japan?",
+    "options": [
+      "Spirogyra",
+      "Chlorella",
+      "Porphyra",
+      "Ulva"
+    ],
+    "answer": 2,
+    "explanation": "Porphyra (red alga) is used as food in Japan where it is called Nori. It is used to wrap sushi."
+  },
+  {
+    "q": "Chlorella belongs to",
+    "options": [
+      "Red algae",
+      "Brown algae",
+      "Green algae",
+      "Blue-green algae"
+    ],
+    "answer": 2,
+    "explanation": "Chlorella is a unicellular green alga belonging to division Chlorophyta. It is rich in protein and used as food supplement."
+  },
+  {
+    "q": "Diatomite or kieselguhr is obtained from",
+    "options": [
+      "Red algae",
+      "Brown algae",
+      "Diatoms",
+      "Green algae"
+    ],
+    "answer": 2,
+    "explanation": "Diatomite (kieselguhr) is formed from fossilized remains of diatoms. It is used as filtration aid and insulating material."
+  },
+  {
+    "q": "The connecting link between plants and animals is",
+    "options": [
+      "Spirogyra",
+      "Volvox",
+      "Euglena",
+      "Chlamydomonas"
+    ],
+    "answer": 2,
+    "explanation": "Euglena is considered a connecting link between plants and animals as it has characteristics of both — chloroplasts (plant) and locomotion with flagellum (animal)."
+  },
+  {
+    "q": "Cell wall of diatoms is made of",
+    "options": [
+      "Cellulose",
+      "Chitin",
+      "Silica",
+      "Pectin"
+    ],
+    "answer": 2,
+    "explanation": "Cell wall of diatoms is made of silica (SiO2). The two overlapping halves are called epitheca and hypotheca."
+  },
+  {
+    "q": "Which alga is used as biofertilizer?",
+    "options": [
+      "Spirogyra",
+      "Ulva",
+      "Anabaena",
+      "Fucus"
+    ],
+    "answer": 2,
+    "explanation": "Anabaena (cyanobacterium/blue-green alga) is used as biofertilizer in rice fields because it fixes atmospheric nitrogen."
+  },
+  {
+    "q": "Reserve food material in red algae is",
+    "options": [
+      "Starch",
+      "Floridean starch",
+      "Laminarin",
+      "Mannitol"
+    ],
+    "answer": 1,
+    "explanation": "Floridean starch is the reserve food material in red algae (Rhodophyta). It is similar to glycogen and amylopectin."
+  },
+  {
+    "q": "Fucoxanthin pigment is found in",
+    "options": [
+      "Red algae",
+      "Green algae",
+      "Brown algae",
+      "Blue-green algae"
+    ],
+    "answer": 2,
+    "explanation": "Fucoxanthin is a brown carotenoid pigment found in brown algae (Phaeophyta). It gives them their characteristic brown colour."
+  },
+  {
+    "q": "Spirogyra is commonly known as",
+    "options": [
+      "Sea lettuce",
+      "Pond scum",
+      "Sea weed",
+      "Rock weed"
+    ],
+    "answer": 1,
+    "explanation": "Spirogyra is commonly known as pond scum or water silk due to its slippery texture and occurrence in ponds."
+  },
+  {
+    "q": "Which of the following is a unicellular alga?",
+    "options": [
+      "Ulva",
+      "Spirogyra",
+      "Chlamydomonas",
+      "Fucus"
+    ],
+    "answer": 2,
+    "explanation": "Chlamydomonas is a unicellular green alga. Ulva is multicellular sheet-like, Spirogyra is filamentous, Fucus is a brown alga."
+  },
+  {
+    "q": "Carrageenan is obtained from",
+    "options": [
+      "Brown algae",
+      "Green algae",
+      "Red algae",
+      "Diatoms"
+    ],
+    "answer": 2,
+    "explanation": "Carrageenan is a polysaccharide obtained from red algae like Chondrus and Eucheuma. It is used as food thickener."
+  },
+  {
+    "q": "Which alga is used in space research as food and oxygen supplier?",
+    "options": [
+      "Spirogyra",
+      "Chlorella",
+      "Chlamydomonas",
+      "Volvox"
+    ],
+    "answer": 1,
+    "explanation": "Chlorella is used in space research because it grows rapidly, produces oxygen through photosynthesis and is rich in protein for food."
+  },
+  {
+    "q": "Ulva is commonly known as",
+    "options": [
+      "Sea lettuce",
+      "Pond scum",
+      "Kelp",
+      "Rock weed"
+    ],
+    "answer": 0,
+    "explanation": "Ulva is commonly known as sea lettuce. It is a green alga found in marine environments with a flat sheet-like thallus."
+  },
+  {
+    "q": "The largest alga is",
+    "options": [
+      "Spirogyra",
+      "Macrocystis",
+      "Ulva",
+      "Chara"
+    ],
+    "answer": 1,
+    "explanation": "Macrocystis pyrifera (giant kelp) is the largest alga that can grow up to 60 meters in length. It is a brown alga."
+  },
+  {
+    "q": "Laminaria belongs to",
+    "options": [
+      "Red algae",
+      "Brown algae",
+      "Green algae",
+      "Cyanobacteria"
+    ],
+    "answer": 1,
+    "explanation": "Laminaria is a brown alga (Phaeophyta). It is a source of iodine, alginic acid and laminarin."
+  },
+  {
+    "q": "Red colour of red algae is due to",
+    "options": [
+      "Chlorophyll",
+      "Carotenoids",
+      "Phycoerythrin",
+      "Phycocyanin"
+    ],
+    "answer": 2,
+    "explanation": "Red colour of red algae (Rhodophyta) is due to the pigment phycoerythrin which masks the green colour of chlorophyll."
+  },
+  {
+    "q": "Pyrenoid is associated with",
+    "options": [
+      "Protein synthesis",
+      "Starch synthesis",
+      "Fat synthesis",
+      "DNA synthesis"
+    ],
+    "answer": 1,
+    "explanation": "Pyrenoid is a protein body associated with chloroplast in algae. It is the centre of starch synthesis and CO2 fixation."
+  },
+  {
+    "q": "Which of the following is a marine alga?",
+    "options": [
+      "Spirogyra",
+      "Volvox",
+      "Fucus",
+      "Chlamydomonas"
+    ],
+    "answer": 2,
+    "explanation": "Fucus is a marine brown alga found in intertidal zones. Spirogyra, Volvox and Chlamydomonas are freshwater algae."
+  },
+  {
+    "q": "Iodine is commercially obtained from",
+    "options": [
+      "Green algae",
+      "Red algae",
+      "Brown algae",
+      "Diatoms"
+    ],
+    "answer": 2,
+    "explanation": "Iodine is commercially obtained from brown algae like Laminaria and Fucus. They concentrate iodine from sea water."
+  },
+  {
+    "q": "Which pigment is responsible for blue-green colour of cyanobacteria?",
+    "options": [
+      "Chlorophyll a only",
+      "Phycocyanin only",
+      "Both chlorophyll and phycocyanin",
+      "Phycoerythrin"
+    ],
+    "answer": 2,
+    "explanation": "The blue-green colour of cyanobacteria is due to both chlorophyll a (green) and phycocyanin (blue) pigments together."
+  },
+  {
+    "q": "Volvox is an example of",
+    "options": [
+      "Unicellular alga",
+      "Filamentous alga",
+      "Colonial alga",
+      "Parenchymatous alga"
+    ],
+    "answer": 2,
+    "explanation": "Volvox is a colonial green alga. A Volvox colony consists of hundreds to thousands of individual cells arranged in a hollow sphere."
+  },
+  {
+    "q": "The study of algae is called",
+    "options": [
+      "Mycology",
+      "Phycology",
+      "Bryology",
+      "Pteridology"
+    ],
+    "answer": 1,
+    "explanation": "Phycology (or algology) is the branch of botany dealing with the study of algae. A scientist who studies algae is a phycologist."
+  },
+  {
+    "q": "Reserve food in brown algae is",
+    "options": [
+      "Starch",
+      "Floridean starch",
+      "Laminarin and mannitol",
+      "Glycogen"
+    ],
+    "answer": 2,
+    "explanation": "Reserve food material in brown algae is laminarin (polysaccharide) and mannitol (sugar alcohol)."
+  },
+  {
+    "q": "Which of the following is used in treatment of goitre?",
+    "options": [
+      "Chlorella",
+      "Laminaria",
+      "Gelidium",
+      "Nostoc"
+    ],
+    "answer": 1,
+    "explanation": "Laminaria (kelp) is used in treatment of goitre because it is rich in iodine which is needed for thyroid hormone synthesis."
+  },
+  {
+    "q": "Chara belongs to which division?",
+    "options": [
+      "Chlorophyta",
+      "Charophyta",
+      "Phaeophyta",
+      "Rhodophyta"
+    ],
+    "answer": 1,
+    "explanation": "Chara belongs to division Charophyta. It is also called stonewort because of calcium carbonate deposition on its surface."
+  },
+  {
+    "q": "Which of the following is used as indicator of water pollution?",
+    "options": [
+      "Spirogyra",
+      "Cladophora",
+      "Chlorella",
+      "Oscillatoria"
+    ],
+    "answer": 3,
+    "explanation": "Oscillatoria (cyanobacterium) is used as a bioindicator of water pollution. Its bloom indicates eutrophication."
+  },
+  {
+    "q": "Dinoflagellates are responsible for",
+    "options": [
+      "Red tides",
+      "Green tides",
+      "Blue tides",
+      "Brown tides"
+    ],
+    "answer": 0,
+    "explanation": "Dinoflagellates like Gonyaulax cause red tides (harmful algal blooms) in oceans due to their massive population explosions."
+  },
+  {
+    "q": "Holdfast in algae is used for",
+    "options": [
+      "Photosynthesis",
+      "Reproduction",
+      "Attachment to substrate",
+      "Absorption of nutrients"
+    ],
+    "answer": 2,
+    "explanation": "Holdfast is a root-like structure in algae used for attachment to rocks or substrate. It does not absorb nutrients like roots."
+  },
+  {
+    "q": "Which algae reproduces by conjugation?",
+    "options": [
+      "Chlamydomonas",
+      "Spirogyra",
+      "Ulva",
+      "Volvox"
+    ],
+    "answer": 1,
+    "explanation": "Spirogyra reproduces sexually by conjugation where the contents of two cells fuse through conjugation tubes to form a zygospore."
+  },
+  {
+    "q": "Chloroplast in Spirogyra is",
+    "options": [
+      "Cup shaped",
+      "Spiral ribbon shaped",
+      "Star shaped",
+      "Disc shaped"
+    ],
+    "answer": 1,
+    "explanation": "Spirogyra has spiral ribbon-shaped chloroplasts which give it its name. The chloroplasts have serrated edges."
+  },
+  {
+    "q": "The term phycology comes from Greek word phykos meaning",
+    "options": [
+      "Plant",
+      "Alga/seaweed",
+      "Water",
+      "Green"
+    ],
+    "answer": 1,
+    "explanation": "The term phycology comes from the Greek word \"phykos\" meaning alga or seaweed. It is the scientific study of algae."
+  },
+  {
+    "q": "Which alga is used as sewage treatment?",
+    "options": [
+      "Spirogyra",
+      "Chlorella",
+      "Nostoc",
+      "Fucus"
+    ],
+    "answer": 1,
+    "explanation": "Chlorella is used in sewage treatment as it can absorb nutrients like nitrogen and phosphorus from wastewater through photosynthesis."
+  },
+  {
+    "q": "Reproduction in Ulva shows",
+    "options": [
+      "Only sexual reproduction",
+      "Only asexual reproduction",
+      "Alternation of generation",
+      "Vegetative reproduction only"
+    ],
+    "answer": 2,
+    "explanation": "Ulva shows alternation of generation with isomorphic gametophyte and sporophyte generations that look identical."
+  },
+  {
+    "q": "Which of the following is the source of agar used in laboratories?",
+    "options": [
+      "Fucus",
+      "Gelidium",
+      "Laminaria",
+      "Spirogyra"
+    ],
+    "answer": 1,
+    "explanation": "Agar is commercially extracted from red algae mainly Gelidium and Gracilaria. It is used as culture medium in microbiology labs."
+  },
+  {
+    "q": "Pigments in green algae are",
+    "options": [
+      "Chlorophyll a and b",
+      "Chlorophyll a and phycocyanin",
+      "Chlorophyll a and fucoxanthin",
+      "Chlorophyll a and phycoerythrin"
+    ],
+    "answer": 0,
+    "explanation": "Green algae (Chlorophyta) contain chlorophyll a and b as their main pigments, same as higher plants. This supports the theory that plants evolved from green algae."
+  },
+  {
+    "q": "Which of the following is a freshwater alga?",
+    "options": [
+      "Fucus",
+      "Laminaria",
+      "Sargassum",
+      "Spirogyra"
+    ],
+    "answer": 3,
+    "explanation": "Spirogyra is a freshwater filamentous green alga commonly found in ponds and slow-moving streams. The other three are marine brown algae."
+  },
+  {
+    "q": "Diatoms are also called",
+    "options": [
+      "Jewels of the sea",
+      "Grass of the sea",
+      "Weeds of the sea",
+      "Flowers of the sea"
+    ],
+    "answer": 0,
+    "explanation": "Diatoms are called jewels of the sea because of their beautiful and intricate silica cell walls (frustules) that look like glass ornaments."
+  },
+  {
+    "q": "Sargassum is a",
+    "options": [
+      "Red alga",
+      "Green alga",
+      "Brown alga",
+      "Blue-green alga"
+    ],
+    "answer": 2,
+    "explanation": "Sargassum is a brown alga that forms the famous Sargasso Sea. It has air bladders for flotation."
+  },
+  {
+    "q": "Economic importance of algae includes",
+    "options": [
+      "Source of food",
+      "Source of agar and algin",
+      "Used in sewage treatment",
+      "All of the above"
+    ],
+    "answer": 3,
+    "explanation": "Algae have multiple economic uses including food (Porphyra), industrial materials (agar, algin, carrageenan), sewage treatment and as biofertilizer."
+  },
+  {
+    "q": "Gelidium and Gracilaria are",
+    "options": [
+      "Green algae",
+      "Brown algae",
+      "Red algae",
+      "Diatoms"
+    ],
+    "answer": 2,
+    "explanation": "Gelidium and Gracilaria are red algae (Rhodophyta) commercially important as sources of agar used in microbiology laboratories."
+  },
+  {
+    "q": "The eye spot in Chlamydomonas is sensitive to",
+    "options": [
+      "Temperature",
+      "Gravity",
+      "Light",
+      "Chemical stimuli"
+    ],
+    "answer": 2,
+    "explanation": "The eye spot (stigma) in Chlamydomonas is photosensitive. It helps the organism detect light direction for phototaxis."
+  },
+  {
+    "q": "Which of the following shows isogamy?",
+    "options": [
+      "Chlamydomonas reinhardtii",
+      "Fucus",
+      "Volvox",
+      "Spirogyra"
+    ],
+    "answer": 0,
+    "explanation": "Some species of Chlamydomonas show isogamy where the fusing gametes are morphologically identical."
+  },
+  {
+    "q": "Kelp is a common name for",
+    "options": [
+      "Large brown algae",
+      "Large red algae",
+      "Large green algae",
+      "Diatoms"
+    ],
+    "answer": 0,
+    "explanation": "Kelp is the common name for large brown algae like Macrocystis, Laminaria and Nereocystis that form underwater kelp forests."
+  },
+  {
+    "q": "Nostoc is",
+    "options": [
+      "Unicellular green alga",
+      "Filamentous cyanobacterium",
+      "Unicellular diatom",
+      "Colonial brown alga"
+    ],
+    "answer": 1,
+    "explanation": "Nostoc is a filamentous cyanobacterium (blue-green alga) that forms bead-like chains of cells. It can fix atmospheric nitrogen."
+  },
+  {
+    "q": "Which of the following is used as single cell protein?",
+    "options": [
+      "Spirogyra",
+      "Chlorella",
+      "Fucus",
+      "Chara"
+    ],
+    "answer": 1,
+    "explanation": "Chlorella is used as single cell protein (SCP) because it is rich in protein, vitamins and minerals. It grows rapidly and is easy to culture."
+  },
+  {
+    "q": "The stipe in brown algae is analogous to",
+    "options": [
+      "Root",
+      "Stem",
+      "Leaf",
+      "Flower"
+    ],
+    "answer": 1,
+    "explanation": "The stipe in brown algae is analogous to the stem of higher plants. It provides mechanical support to the alga."
+  },
+  {
+    "q": "Heterocysts in cyanobacteria are related to",
+    "options": [
+      "Photosynthesis",
+      "Nitrogen fixation",
+      "Reproduction",
+      "Food storage"
+    ],
+    "answer": 1,
+    "explanation": "Heterocysts are specialized thick-walled cells in cyanobacteria like Anabaena that are the sites of nitrogen fixation."
+  },
+  {
+    "q": "The pigment responsible for photosynthesis in all algae is",
+    "options": [
+      "Chlorophyll a",
+      "Chlorophyll b",
+      "Phycoerythrin",
+      "Fucoxanthin"
+    ],
+    "answer": 0,
+    "explanation": "Chlorophyll a is the primary photosynthetic pigment present in all algae and plants. Other pigments are accessory pigments."
+  },
+  {
+    "q": "Oscillatoria reproduces by",
+    "options": [
+      "Binary fission",
+      "Fragmentation",
+      "Spore formation",
+      "Conjugation"
+    ],
+    "answer": 1,
+    "explanation": "Oscillatoria reproduces mainly by fragmentation — the filament breaks into small pieces called hormogonia which grow into new filaments."
+  },
+  {
+    "q": "Which is the most primitive type of sexual reproduction found in algae?",
+    "options": [
+      "Oogamy",
+      "Anisogamy",
+      "Isogamy",
+      "Conjugation"
+    ],
+    "answer": 2,
+    "explanation": "Isogamy is the most primitive type of sexual reproduction where two morphologically similar gametes fuse together."
+  },
+  {
+    "q": "Mannitol as reserve food is found in",
+    "options": [
+      "Red algae",
+      "Green algae",
+      "Brown algae",
+      "Cyanobacteria"
+    ],
+    "answer": 2,
+    "explanation": "Mannitol is a sugar alcohol found as reserve food in brown algae along with laminarin."
+  },
+  {
+    "q": "Which algae is used as soil conditioner?",
+    "options": [
+      "Spirogyra",
+      "Chara",
+      "Sargassum",
+      "Nostoc"
+    ],
+    "answer": 1,
+    "explanation": "Chara (stonewort) is used as soil conditioner. The calcium carbonate deposited on its surface helps neutralize acidic soils."
+  },
+  {
+    "q": "Palmella stage is found in",
+    "options": [
+      "Spirogyra",
+      "Chlamydomonas",
+      "Volvox",
+      "Ulva"
+    ],
+    "answer": 1,
+    "explanation": "Palmella stage is a non-motile colonial stage found in Chlamydomonas where cells remain embedded in mucilage after losing flagella."
+  },
+  {
+    "q": "The cell wall in green algae is mainly composed of",
+    "options": [
+      "Chitin",
+      "Cellulose",
+      "Peptidoglycan",
+      "Silica"
+    ],
+    "answer": 1,
+    "explanation": "Cell wall in green algae is mainly composed of cellulose, similar to higher plants. This is one reason green algae are considered ancestors of plants."
+  },
+  {
+    "q": "Which algae produces antibiotic chlorellin?",
+    "options": [
+      "Spirogyra",
+      "Chlorella",
+      "Nostoc",
+      "Chlamydomonas"
+    ],
+    "answer": 1,
+    "explanation": "Chlorella produces an antibiotic substance called chlorellin that inhibits the growth of many bacteria and fungi."
+  },
+  {
+    "q": "Red Snow is caused by",
+    "options": [
+      "Oscillatoria",
+      "Chlamydomonas nivalis",
+      "Nostoc",
+      "Spirogyra"
+    ],
+    "answer": 1,
+    "explanation": "Red snow is caused by Chlamydomonas nivalis, a green alga containing red pigment astaxanthin that grows on snow at high altitudes."
+  },
+  {
+    "q": "Water bloom is caused by",
+    "options": [
+      "Green algae",
+      "Red algae",
+      "Cyanobacteria",
+      "Diatoms"
+    ],
+    "answer": 2,
+    "explanation": "Water bloom (algal bloom) is caused by rapid multiplication of cyanobacteria like Microcystis and Anabaena in nutrient-rich water."
+  },
+  {
+    "q": "Which of the following is both autotrophic and heterotrophic?",
+    "options": [
+      "Chlamydomonas",
+      "Euglena",
+      "Spirogyra",
+      "Nostoc"
+    ],
+    "answer": 1,
+    "explanation": "Euglena can be both autotrophic (photosynthesis in light) and heterotrophic (absorbs organic matter in dark), making it a mixotroph."
+  },
+  {
+    "q": "Sargassum is found in",
+    "options": [
+      "Fresh water",
+      "Sargasso Sea",
+      "Arctic Ocean",
+      "Ponds"
+    ],
+    "answer": 1,
+    "explanation": "Sargassum is a brown alga abundantly found floating in the Sargasso Sea in the North Atlantic Ocean."
+  },
+  {
+    "q": "Floridean starch is chemically similar to",
+    "options": [
+      "Cellulose",
+      "Glycogen and amylopectin",
+      "Laminarin",
+      "Mannitol"
+    ],
+    "answer": 1,
+    "explanation": "Floridean starch (reserve food of red algae) is chemically similar to glycogen and amylopectin. It lacks amylose."
+  },
+  {
+    "q": "Which of the following algae is used to study meiosis?",
+    "options": [
+      "Spirogyra",
+      "Chlamydomonas",
+      "Fucus",
+      "Chara"
+    ],
+    "answer": 1,
+    "explanation": "Chlamydomonas is used to study meiosis because it is haploid for most of its life cycle and meiosis occurs immediately after zygote formation."
+  },
+  {
+    "q": "Alginic acid is used in",
+    "options": [
+      "Food industry as thickener",
+      "Medicine as antibiotic",
+      "Agriculture as pesticide",
+      "Industry as fuel"
+    ],
+    "answer": 0,
+    "explanation": "Alginic acid (algin) from brown algae is used in food industry as thickener, stabilizer and emulsifier in ice cream, salad dressings etc."
+  },
+  {
+    "q": "Which of the following is called sea grass?",
+    "options": [
+      "Ulva",
+      "Caulerpa",
+      "Fucus",
+      "Sargassum"
+    ],
+    "answer": 1,
+    "explanation": "Caulerpa is sometimes called sea grass. It is a large unicellular (coenocytic) green alga without cross walls."
+  },
+  {
+    "q": "Which character of green algae is similar to bryophytes?",
+    "options": [
+      "Chlorophyll a and b",
+      "Cell wall",
+      "Storage product starch",
+      "All of the above"
+    ],
+    "answer": 3,
+    "explanation": "Green algae and bryophytes (and all higher plants) share chlorophyll a and b, cellulose cell wall and starch as storage product — supporting evolutionary relationship."
+  }
+]

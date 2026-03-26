@@ -1,0 +1,453 @@
+[
+  {
+    "q": "Bryophytes are called amphibians of plant kingdom because",
+    "options": [
+      "They live in water only",
+      "They need water for fertilization but live on land",
+      "They live in air",
+      "They are found in deserts"
+    ],
+    "answer": 1,
+    "explanation": "Bryophytes are called amphibians of plant kingdom because they live on land but require water for fertilization (swimming of antherozoids)."
+  },
+  {
+    "q": "The study of bryophytes is called",
+    "options": [
+      "Phycology",
+      "Mycology",
+      "Bryology",
+      "Pteridology"
+    ],
+    "answer": 2,
+    "explanation": "Bryology is the branch of botany dealing with the study of bryophytes (mosses, liverworts and hornworts)."
+  },
+  {
+    "q": "In bryophytes the dominant generation is",
+    "options": [
+      "Sporophyte",
+      "Gametophyte",
+      "Both equally dominant",
+      "Neither"
+    ],
+    "answer": 1,
+    "explanation": "In bryophytes the gametophyte generation is dominant (green, photosynthetic, independent). The sporophyte is dependent on gametophyte."
+  },
+  {
+    "q": "Bryophytes lack",
+    "options": [
+      "Cell wall",
+      "Chlorophyll",
+      "Vascular tissue",
+      "Nucleus"
+    ],
+    "answer": 2,
+    "explanation": "Bryophytes lack vascular tissue (xylem and phloem). This is why they are called non-vascular plants and cannot grow very tall."
+  },
+  {
+    "q": "The male sex organ in bryophytes is called",
+    "options": [
+      "Archegonium",
+      "Antheridium",
+      "Sporangium",
+      "Gametangium"
+    ],
+    "answer": 1,
+    "explanation": "The male sex organ in bryophytes is called antheridium which produces biflagellate antherozoids (male gametes)."
+  },
+  {
+    "q": "The female sex organ in bryophytes is called",
+    "options": [
+      "Antheridium",
+      "Oogonium",
+      "Archegonium",
+      "Carpel"
+    ],
+    "answer": 2,
+    "explanation": "The female sex organ in bryophytes is called archegonium which is flask-shaped and produces a single egg cell."
+  },
+  {
+    "q": "Marchantia belongs to",
+    "options": [
+      "Mosses",
+      "Liverworts",
+      "Hornworts",
+      "Ferns"
+    ],
+    "answer": 1,
+    "explanation": "Marchantia is a liverwort (Hepaticopsida). It has a flat lobed thallus with a midrib and grows in moist shaded habitats."
+  },
+  {
+    "q": "Which bryophyte is used in horticulture as packing material?",
+    "options": [
+      "Marchantia",
+      "Funaria",
+      "Sphagnum",
+      "Riccia"
+    ],
+    "answer": 2,
+    "explanation": "Sphagnum (peat moss) is used in horticulture as packing material for transporting plants. It can hold 20 times its weight in water."
+  },
+  {
+    "q": "Funaria is commonly called",
+    "options": [
+      "Liverwort",
+      "Hornwort",
+      "Cord moss",
+      "Peat moss"
+    ],
+    "answer": 2,
+    "explanation": "Funaria hygrometrica is commonly called cord moss or water moss. It is a common laboratory moss used in teaching."
+  },
+  {
+    "q": "The sporophyte of bryophytes consists of",
+    "options": [
+      "Root stem and leaf",
+      "Foot seta and capsule",
+      "Rhizoid stem and capsule",
+      "Holdfast stipe and capsule"
+    ],
+    "answer": 1,
+    "explanation": "The sporophyte of bryophytes consists of foot (anchored in gametophyte), seta (stalk) and capsule (spore producing structure)."
+  },
+  {
+    "q": "Vegetative reproduction in Marchantia takes place by",
+    "options": [
+      "Budding",
+      "Fragmentation",
+      "Gemmae",
+      "Spores"
+    ],
+    "answer": 2,
+    "explanation": "Marchantia reproduces vegetatively by gemmae — small lens-shaped green bodies produced in gemma cups on the thallus surface."
+  },
+  {
+    "q": "Peat is formed from",
+    "options": [
+      "Marchantia",
+      "Funaria",
+      "Sphagnum",
+      "Riccia"
+    ],
+    "answer": 2,
+    "explanation": "Peat is formed from partially decomposed Sphagnum (peat moss). It is used as fuel, in horticulture and forms coal over millions of years."
+  },
+  {
+    "q": "Riccia belongs to",
+    "options": [
+      "Mosses",
+      "Liverworts",
+      "Hornworts",
+      "Pteridophytes"
+    ],
+    "answer": 1,
+    "explanation": "Riccia is a thalloid liverwort (Hepaticopsida). It is the simplest liverwort with a ribbon-like dichotomously branched thallus."
+  },
+  {
+    "q": "Which of the following is a hornwort?",
+    "options": [
+      "Marchantia",
+      "Riccia",
+      "Anthoceros",
+      "Sphagnum"
+    ],
+    "answer": 2,
+    "explanation": "Anthoceros is a hornwort (Anthocerotopsida). It has horn-like sporophytes and is unique in having a single large chloroplast with pyrenoid."
+  },
+  {
+    "q": "The rhizoids in bryophytes function as",
+    "options": [
+      "Conducting water and food",
+      "Anchorage and absorption",
+      "Photosynthesis",
+      "Reproduction"
+    ],
+    "answer": 1,
+    "explanation": "Rhizoids in bryophytes are unicellular or multicellular hair-like structures that anchor the plant and absorb water and minerals from the substrate."
+  },
+  {
+    "q": "Sphagnum is used as surgical dressing because",
+    "options": [
+      "It is antiseptic",
+      "It has high water holding capacity",
+      "It is soft",
+      "All of the above"
+    ],
+    "answer": 3,
+    "explanation": "Sphagnum is used as surgical dressing because it is antiseptic, has high water holding capacity and is soft. It was used in World War I."
+  },
+  {
+    "q": "In bryophytes fertilization requires",
+    "options": [
+      "Wind",
+      "Insects",
+      "Water",
+      "Birds"
+    ],
+    "answer": 2,
+    "explanation": "Fertilization in bryophytes requires water for the biflagellate antherozoids to swim to the archegonium and fertilize the egg."
+  },
+  {
+    "q": "The capsule of moss contains",
+    "options": [
+      "Seeds",
+      "Spores",
+      "Gametes",
+      "Pollen"
+    ],
+    "answer": 1,
+    "explanation": "The capsule (sporangium) of moss contains haploid spores produced by meiosis. Spores are dispersed by wind for reproduction."
+  },
+  {
+    "q": "Which of the following is correct about bryophytes?",
+    "options": [
+      "They have true roots",
+      "They have vascular tissue",
+      "Sporophyte is dominant",
+      "They have archegonia and antheridia"
+    ],
+    "answer": 3,
+    "explanation": "Bryophytes have archegonia (female) and antheridia (male) sex organs. They lack true roots, vascular tissue and the gametophyte is dominant."
+  },
+  {
+    "q": "Mosses are placed in class",
+    "options": [
+      "Hepaticopsida",
+      "Anthocerotopsida",
+      "Bryopsida",
+      "Pteropsida"
+    ],
+    "answer": 2,
+    "explanation": "Mosses are placed in class Bryopsida (Musci). Liverworts are Hepaticopsida and hornworts are Anthocerotopsida."
+  },
+  {
+    "q": "Protonema is found in",
+    "options": [
+      "Marchantia",
+      "Funaria",
+      "Anthoceros",
+      "Riccia"
+    ],
+    "answer": 1,
+    "explanation": "Protonema is the juvenile filamentous stage in the life cycle of mosses like Funaria. It develops from germinating spore and gives rise to leafy gametophyte."
+  },
+  {
+    "q": "The sporophyte in bryophytes is",
+    "options": [
+      "Independent and photosynthetic",
+      "Partially dependent on gametophyte",
+      "Completely independent",
+      "Fully parasitic on gametophyte"
+    ],
+    "answer": 1,
+    "explanation": "The sporophyte in bryophytes is partially dependent on gametophyte for nutrition and anchorage though it has chlorophyll and can photosynthesize."
+  },
+  {
+    "q": "Marchantia is used medicinally to treat",
+    "options": [
+      "Malaria",
+      "Liver disorders",
+      "Diabetes",
+      "Tuberculosis"
+    ],
+    "answer": 1,
+    "explanation": "Marchantia is used in traditional medicine to treat liver disorders. Its lobed liver-like appearance led to its use for liver ailments (doctrine of signatures)."
+  },
+  {
+    "q": "Air chambers are found in",
+    "options": [
+      "Funaria",
+      "Marchantia",
+      "Sphagnum",
+      "Anthoceros"
+    ],
+    "answer": 1,
+    "explanation": "Air chambers are found in the dorsal surface of Marchantia thallus. They contain photosynthetic cells and open to outside through air pores."
+  },
+  {
+    "q": "Liverworts are placed in class",
+    "options": [
+      "Bryopsida",
+      "Hepaticopsida",
+      "Anthocerotopsida",
+      "Filicopsida"
+    ],
+    "answer": 1,
+    "explanation": "Liverworts are placed in class Hepaticopsida (Hepaticae). The name comes from Latin hepar meaning liver due to their liver-like shape."
+  },
+  {
+    "q": "Which of the following is not a bryophyte?",
+    "options": [
+      "Marchantia",
+      "Funaria",
+      "Selaginella",
+      "Riccia"
+    ],
+    "answer": 2,
+    "explanation": "Selaginella is not a bryophyte — it is a pteridophyte (vascular plant). Marchantia, Funaria and Riccia are all bryophytes."
+  },
+  {
+    "q": "The life cycle of bryophytes shows",
+    "options": [
+      "Only sexual reproduction",
+      "Alternation of generation",
+      "Only asexual reproduction",
+      "No alternation of generation"
+    ],
+    "answer": 1,
+    "explanation": "Bryophytes show alternation of generation between haploid gametophyte and diploid sporophyte generations."
+  },
+  {
+    "q": "Peristome teeth in mosses help in",
+    "options": [
+      "Photosynthesis",
+      "Spore dispersal",
+      "Water absorption",
+      "Reproduction"
+    ],
+    "answer": 1,
+    "explanation": "Peristome teeth are hygroscopic tooth-like structures around the mouth of moss capsule that regulate spore dispersal based on humidity."
+  },
+  {
+    "q": "Which pigment is absent in bryophytes?",
+    "options": [
+      "Chlorophyll a",
+      "Chlorophyll b",
+      "Carotenoids",
+      "Phycoerythrin"
+    ],
+    "answer": 3,
+    "explanation": "Phycoerythrin is absent in bryophytes. It is found in red algae. Bryophytes contain chlorophyll a, b and carotenoids."
+  },
+  {
+    "q": "Elaters in liverworts help in",
+    "options": [
+      "Photosynthesis",
+      "Spore dispersal",
+      "Water absorption",
+      "Vegetative reproduction"
+    ],
+    "answer": 1,
+    "explanation": "Elaters are hygroscopic spiral-banded cells in liverwort capsules. They coil and uncoil with changes in humidity helping to disperse spores."
+  },
+  {
+    "q": "The first land plants to evolve were",
+    "options": [
+      "Pteridophytes",
+      "Gymnosperms",
+      "Bryophytes",
+      "Angiosperms"
+    ],
+    "answer": 2,
+    "explanation": "Bryophytes are considered the first land plants to evolve from green algae ancestors. They appeared around 470 million years ago."
+  },
+  {
+    "q": "Gemma cups are found in",
+    "options": [
+      "Funaria",
+      "Marchantia",
+      "Riccia",
+      "Anthoceros"
+    ],
+    "answer": 1,
+    "explanation": "Gemma cups are cup-shaped structures on the upper surface of Marchantia thallus containing gemmae for vegetative reproduction."
+  },
+  {
+    "q": "Which of the following has the simplest sporophyte among bryophytes?",
+    "options": [
+      "Funaria",
+      "Marchantia",
+      "Riccia",
+      "Anthoceros"
+    ],
+    "answer": 2,
+    "explanation": "Riccia has the simplest sporophyte among bryophytes — it is just a spherical capsule embedded in gametophyte tissue with no foot or seta."
+  },
+  {
+    "q": "Which of the following bryophytes is used as fuel?",
+    "options": [
+      "Marchantia",
+      "Sphagnum",
+      "Funaria",
+      "Riccia"
+    ],
+    "answer": 1,
+    "explanation": "Dried peat (formed from Sphagnum) is used as fuel in Ireland and other countries. It has a high carbon content."
+  },
+  {
+    "q": "The operculum in moss capsule is",
+    "options": [
+      "Spore producing region",
+      "Lid that covers capsule mouth",
+      "Stalk of capsule",
+      "Base of capsule"
+    ],
+    "answer": 1,
+    "explanation": "Operculum is the lid-like cover at the mouth of moss capsule. It falls off when spores are mature to allow their dispersal."
+  },
+  {
+    "q": "Columella is found in the capsule of",
+    "options": [
+      "Riccia",
+      "Marchantia",
+      "Funaria",
+      "Pellia"
+    ],
+    "answer": 2,
+    "explanation": "Columella is a central sterile tissue found in the capsule of mosses like Funaria. It is absent in most liverworts."
+  },
+  {
+    "q": "Which of the following is aquatic bryophyte?",
+    "options": [
+      "Funaria",
+      "Marchantia",
+      "Riccia fluitans",
+      "Anthoceros"
+    ],
+    "answer": 2,
+    "explanation": "Riccia fluitans is an aquatic liverwort that floats on water surface. It is commonly used in aquariums."
+  },
+  {
+    "q": "The calyptra in mosses is derived from",
+    "options": [
+      "Sporophyte",
+      "Archegonium wall",
+      "Protonema",
+      "Rhizoid"
+    ],
+    "answer": 1,
+    "explanation": "Calyptra is a protective cap covering the developing capsule of mosses. It is derived from the archegonium wall (gametophytic tissue)."
+  },
+  {
+    "q": "Bryophytes are economically important because",
+    "options": [
+      "Sphagnum is used as packing material",
+      "Peat is used as fuel",
+      "They are used in traditional medicine",
+      "All of the above"
+    ],
+    "answer": 3,
+    "explanation": "Bryophytes have multiple economic uses — Sphagnum as packing and surgical dressing, peat as fuel, and Marchantia in traditional medicine."
+  },
+  {
+    "q": "Which of the following is correct about the sporophyte of Marchantia?",
+    "options": [
+      "It is completely independent",
+      "It consists of foot seta and capsule",
+      "It is the dominant generation",
+      "It produces gametes"
+    ],
+    "answer": 1,
+    "explanation": "The sporophyte of Marchantia consists of foot (embedded in gametophyte), seta (short stalk) and capsule (containing spores and elaters)."
+  },
+  {
+    "q": "Nitrogen fixation in bryophytes is carried out by",
+    "options": [
+      "Rhizobium",
+      "Nostoc living as endophyte",
+      "Azotobacter",
+      "The bryophyte itself"
+    ],
+    "answer": 1,
+    "explanation": "Nitrogen fixation in some bryophytes like Anthoceros is carried out by Nostoc (cyanobacterium) living as an endophyte in the thallus."
+  }
+]

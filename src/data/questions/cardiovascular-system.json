@@ -1,0 +1,651 @@
+[
+    {
+        "q": "The immunological function of blood is primarily attributed to which of the following?",
+        "options": [
+            "Erythrocytes",
+            "Platelets",
+            "Lymphocytes",
+            "Plasma proteins"
+        ],
+        "answer": 2,
+        "explanation": "Lymphocytes (B-cells and T-cells) are the cornerstones of the immune system; they identify pathogens and produce antibodies to neutralize them."
+    },
+    {
+        "q": "Blood constitutes approximately what percentage of the total human body weight?",
+        "options": [
+            "5%",
+            "8%",
+            "12%",
+            "15%"
+        ],
+        "answer": 1,
+        "explanation": "In an average healthy adult, blood volume is closely regulated and typically accounts for about 8% of total body mass."
+    },
+    {
+        "q": "At which vertebral level does the abdominal aorta pierce the diaphragm?",
+        "options": [
+            "T8",
+            "T10",
+            "T12",
+            "L1"
+        ],
+        "answer": 2,
+        "explanation": "The diaphragm has three major openings: the Vena Cava at T8, the Esophagus at T10, and the Aorta at T12. Use the mnemonic 'V-E-A' (8, 10, 12 letters)."
+    },
+    {
+        "q": "The natural pacemaker of the heart is the:",
+        "options": [
+            "AV node",
+            "Bundle of His",
+            "SA node",
+            "Purkinje fibres"
+        ],
+        "answer": 2,
+        "explanation": "The Sinoatrial (SA) node has the highest rate of spontaneous depolarization, allowing it to set the pace for the rest of the heart."
+    },
+    {
+        "q": "In Rana tigrina (frog), the anterior abdominal vein is formed by the union of:",
+        "options": [
+            "Two renal veins",
+            "Two pelvic veins",
+            "Two precaval veins",
+            "Union of hepatic veins"
+        ],
+        "answer": 1,
+        "explanation": "In frogs, blood from the hind limbs is collected by pelvic veins which join to form the single anterior abdominal vein."
+    },
+    {
+        "q": "What is the normal duration of a single human cardiac cycle at rest?",
+        "options": [
+            "0.5 seconds",
+            "0.8 seconds",
+            "1.0 second",
+            "1.2 seconds"
+        ],
+        "answer": 1,
+        "explanation": "With an average heart rate of 75 bpm, one cycle (atrial + ventricular systole and diastole) lasts exactly 0.8 seconds."
+    },
+    {
+        "q": "Which is the thickest muscular layer of the heart wall?",
+        "options": [
+            "Endocardium",
+            "Epicardium",
+            "Myocardium",
+            "Pericardium"
+        ],
+        "answer": 2,
+        "explanation": "The myocardium consists of cardiac muscle fibers; it is thickest in the ventricles because they must pump blood against high resistance."
+    },
+    {
+        "q": "The SA node is anatomically situated in the:",
+        "options": [
+            "Left atrium",
+            "Right atrium",
+            "Right ventricle",
+            "Left ventricle"
+        ],
+        "answer": 1,
+        "explanation": "It is located in the upper posterior wall of the right atrium, near the entrance of the superior vena cava."
+    },
+    {
+        "q": "The specialized blood vessels that provide nutrition to the walls of large arteries and veins are:",
+        "options": [
+            "Capillaries",
+            "Arterioles",
+            "Vasa vasorum",
+            "Venules"
+        ],
+        "answer": 2,
+        "explanation": "Large vessels are too thick for nutrients to diffuse through their entire wall, so the 'Vasa vasorum' (vessels of vessels) supply them externally."
+    },
+    {
+        "q": "The major anatomical openings of the left ventricle are the:",
+        "options": [
+            "Tricuspid valve and Aorta",
+            "Bicuspid valve and Aorta",
+            "Mitral valve and Vena cava",
+            "Pulmonary valve and Aorta"
+        ],
+        "answer": 1,
+        "explanation": "The left ventricle receives oxygenated blood through the bicuspid (mitral) valve and ejects it into the systemic circulation via the aorta."
+    },
+    {
+        "q": "What is the correct pathway for the propagation of a cardiac impulse?",
+        "options": [
+            "SA node → AV node → Bundle of His → Purkinje fibre",
+            "AV node → SA node → Bundle of His → Purkinje fibre",
+            "SA node → Purkinje fibre → Bundle of His → AV node",
+            "Bundle of His → SA node → AV node → Purkinje fibre"
+        ],
+        "answer": 0,
+        "explanation": "The electrical signal starts at the SA node, pauses briefly at the AV node, travels down the Bundle of His, and finishes in the Purkinje fibres."
+    },
+    {
+        "q": "The diaphragm is primarily supplied with blood by the:",
+        "options": [
+            "Intercostal arteries",
+            "Phrenic arteries",
+            "Lumbar arteries",
+            "Renal arteries"
+        ],
+        "answer": 1,
+        "explanation": "The term 'phrenic' refers to the diaphragm; therefore, the phrenic arteries are its dedicated blood supply."
+    },
+    {
+        "q": "The very first branch originating from the human aorta is the:",
+        "options": [
+            "Carotid artery",
+            "Subclavian artery",
+            "Coronary artery",
+            "Brachial artery"
+        ],
+        "answer": 2,
+        "explanation": "Before the aorta arches, it gives off the coronary arteries to ensure the heart muscle itself receives oxygenated blood first."
+    },
+    {
+        "q": "Which type of blood vessel consists of only a single layer of endothelium?",
+        "options": [
+            "Artery",
+            "Vein",
+            "Capillary",
+            "Arteriole"
+        ],
+        "answer": 2,
+        "explanation": "Capillaries are designed for exchange; a single-cell layer (tunica intima) allows for easy diffusion of gases and nutrients."
+    },
+    {
+        "q": "The longest vein in the human body is the:",
+        "options": [
+            "Inferior Vena Cava",
+            "Great Saphenous vein",
+            "Femoral vein",
+            "Jugular vein"
+        ],
+        "answer": 1,
+        "explanation": "The long (great) saphenous vein runs from the medial side of the foot all the way up to the groin."
+    },
+    {
+        "q": "Which instrument is specifically used to measure arterial blood pressure?",
+        "options": [
+            "Stethoscope",
+            "Sphygmomanometer",
+            "Electrocardiograph",
+            "Thermometer"
+        ],
+        "answer": 1,
+        "explanation": "A sphygmomanometer uses an inflatable cuff to temporarily collapse the artery to determine systolic and diastolic pressures."
+    },
+    {
+        "q": "During BP measurement at the elbow, the stethoscope is placed over the:",
+        "options": [
+            "Radial artery",
+            "Ulnar artery",
+            "Brachial artery",
+            "Axillary artery"
+        ],
+        "answer": 2,
+        "explanation": "The brachial artery is the most accessible major artery in the upper arm for blood pressure monitoring."
+    },
+    {
+        "q": "The right ventricle of the heart receives deoxygenated blood from the:",
+        "options": [
+            "Pulmonary vein",
+            "Vena cava",
+            "Aorta",
+            "Pulmonary artery"
+        ],
+        "answer": 1,
+        "explanation": "The vena cava delivers blood to the right atrium, which then passes through the tricuspid valve into the right ventricle."
+    },
+    {
+        "q": "What fraction of the total cardiac output is directed to the kidneys?",
+        "options": [
+            "10%",
+            "15%",
+            "25%",
+            "50%"
+        ],
+        "answer": 2,
+        "explanation": "The kidneys require high blood flow (approx. 1.2L/min) to effectively filter waste products from the entire blood volume."
+    },
+    {
+        "q": "Bradycardia (a slow heart rate) is a common physiological finding in:",
+        "options": [
+            "Infants",
+            "Athletes",
+            "Fever patients",
+            "Aged people"
+        ],
+        "answer": 1,
+        "explanation": "Athletes have strong heart muscles and high stroke volumes, meaning their hearts don't need to beat as often to maintain output."
+    },
+    {
+        "q": "The abbreviation CCU stands for:",
+        "options": [
+            "Cardiac Control Unit",
+            "Coronary Care Unit",
+            "Central Cardiac Union",
+            "Circulatory Care Unit"
+        ],
+        "answer": 1,
+        "explanation": "A CCU is a specialized hospital ward designed specifically for the intensive care of patients with heart attacks or heart failure."
+    },
+    {
+        "q": "The medical procedure used to visualize blood vessels using dye is:",
+        "options": [
+            "Radiography",
+            "Angiography",
+            "Endoscopy",
+            "Biopsy"
+        ],
+        "answer": 1,
+        "explanation": "In angiography, a radio-opaque dye is injected so that X-rays can reveal blockages or narrowing in the arteries."
+    },
+    {
+        "q": "How does blood pressure generally change with advancing age?",
+        "options": [
+            "It decreases",
+            "It remains constant",
+            "It is higher in aged people",
+            "It fluctuates randomly"
+        ],
+        "answer": 2,
+        "explanation": "As people age, their arteries lose elasticity (arteriosclerosis), which increases resistance and raises blood pressure."
+    },
+    {
+        "q": "In frogs, the sinus venosus is formed by the union of:",
+        "options": [
+            "2 precaval and 1 postcaval vein",
+            "1 precaval and 2 postcaval veins",
+            "3 precaval veins",
+            "2 pulmonary veins"
+        ],
+        "answer": 0,
+        "explanation": "The sinus venosus is a triangular chamber that receives deoxygenated blood from three major veins before entering the right atrium."
+    },
+    {
+        "q": "A clinical sign often observed in patients with high fever is:",
+        "options": [
+            "Decreased pulse rate",
+            "Increased pulse rate",
+            "Decreased respiratory rate",
+            "Higher blood sugar"
+        ],
+        "answer": 1,
+        "explanation": "Fever speeds up the body's metabolism; to support this, the heart beats faster to deliver more oxygen and nutrients."
+    },
+    {
+        "q": "The venous system of a frog differs from a rabbit primarily because frogs have a:",
+        "options": [
+            "Hepatic portal system",
+            "Renal portal system",
+            "Pulmonary system",
+            "Coronary system"
+        ],
+        "answer": 1,
+        "explanation": "Frogs have a renal portal system where blood from the lower body passes through the kidneys; this is absent in adult mammals."
+    },
+    {
+        "q": "The heart of a rabbit is myogenic, meaning its pacemakers are made of:",
+        "options": [
+            "Nerve cells",
+            "Muscle cells",
+            "Connective tissue",
+            "Fatty tissue"
+        ],
+        "answer": 1,
+        "explanation": "Myogenic hearts initiate contraction within the muscle tissue itself (modified muscle cells) rather than needing external nerve signals."
+    },
+    {
+        "q": "Compared to veins, arteries are characterized by:",
+        "options": [
+            "Thin walls, low pressure",
+            "Thick walls, high pressure",
+            "Valves and low pressure",
+            "Wide lumen and low pressure"
+        ],
+        "answer": 1,
+        "explanation": "Arteries must withstand the powerful surge of blood ejected by the heart, requiring thick elastic and muscular walls."
+    },
+    {
+        "q": "The hepatic portal system collects blood from the:",
+        "options": [
+            "Kidneys",
+            "Lungs",
+            "Alimentary canal",
+            "Brain"
+        ],
+        "answer": 2,
+        "explanation": "It carries nutrient-rich blood from the digestive organs directly to the liver for processing before it enters general circulation."
+    },
+    {
+        "q": "The outermost fibrous layer of a blood vessel is called the:",
+        "options": [
+            "Tunica media",
+            "Tunica intima",
+            "Tunica adventitia",
+            "Endothelium"
+        ],
+        "answer": 2,
+        "explanation": "Tunica adventitia is composed of connective tissue that anchors the vessel to surrounding structures and provides strength."
+    },
+    {
+        "q": "The clinical condition 'MI' stands for:",
+        "options": [
+            "Myocardial Inflammation",
+            "Myocardial Infarction",
+            "Muscle Interruption",
+            "Mitral Insufficiency"
+        ],
+        "answer": 1,
+        "explanation": "A Myocardial Infarction (heart attack) occurs when blood flow to the heart muscle is cut off, causing tissue death (infarction)."
+    },
+    {
+        "q": "The bicuspid (mitral) valve is situated between the:",
+        "options": [
+            "Right atrium and ventricle",
+            "Left atrium and ventricle",
+            "Left ventricle and aorta",
+            "Right ventricle and pulmonary artery"
+        ],
+        "answer": 1,
+        "explanation": "This valve ensures that oxygenated blood flows in one direction from the left atrium to the left ventricle without leaking back."
+    },
+    {
+        "q": "Chordae tendinae are anatomical structures found in the:",
+        "options": [
+            "Atria",
+            "Ventricles",
+            "Aorta",
+            "Pulmonary artery"
+        ],
+        "answer": 1,
+        "explanation": "These 'heart strings' prevent the AV valves from everting (flipping backwards) into the atria during ventricular contraction."
+    },
+    {
+        "q": "The AV node is referred to as the 'reserve pacemaker' because:",
+        "options": [
+            "It is faster than the SA node",
+            "It takes over if the SA node fails",
+            "It starts the pulse",
+            "It controls the valves"
+        ],
+        "answer": 1,
+        "explanation": "If the SA node stops working, the AV node can generate its own rhythm, albeit at a slower rate (40-60 bpm)."
+    },
+    {
+        "q": "During which physiological state is the heart rate typically at its lowest?",
+        "options": [
+            "Eating",
+            "Exercise",
+            "Sleep",
+            "Stress"
+        ],
+        "answer": 2,
+        "explanation": "During sleep, the parasympathetic nervous system dominates, slowing the heart to conserve energy and reflect low metabolic demand."
+    },
+    {
+        "q": "Heart sounds are clinically auscultated using a:",
+        "options": [
+            "Sphygmomanometer",
+            "Stethoscope",
+            "Thermometer",
+            "Spirometer"
+        ],
+        "answer": 1,
+        "explanation": "The stethoscope amplifies the sounds of heart valves closing, which helps doctors detect murmurs or irregular rhythms."
+    },
+    {
+        "q": "The left atrium receives oxygenated blood from the lungs via the:",
+        "options": [
+            "Pulmonary artery",
+            "Four pulmonary veins",
+            "Superior vena cava",
+            "Aorta"
+        ],
+        "answer": 1,
+        "explanation": "In humans, two pulmonary veins from each lung (four total) carry freshly oxygenated blood into the left side of the heart."
+    },
+    {
+        "q": "In an ECG, the QRS complex specifically represents:",
+        "options": [
+            "Atrial contraction",
+            "Ventricular depolarization",
+            "Ventricular repolarization",
+            "Heart rest"
+        ],
+        "answer": 1,
+        "explanation": "The QRS complex is the electrical signal that causes the ventricles to contract and pump blood out of the heart."
+    },
+    {
+        "q": "Which artery is responsible for the blood supply to the human arm?",
+        "options": [
+            "Carotid artery",
+            "Brachial artery",
+            "Femoral artery",
+            "Renal artery"
+        ],
+        "answer": 1,
+        "explanation": "The brachial artery is the major vessel of the upper arm, used as a reference point for pulse and BP."
+    },
+    {
+        "q": "The pudendal artery provides the primary blood supply to the:",
+        "options": [
+            "Penis",
+            "Liver",
+            "Spleen",
+            "Kidney"
+        ],
+        "answer": 0,
+        "explanation": "The internal pudendal artery is a branch of the internal iliac artery that supplies the external genitalia."
+    },
+    {
+        "q": "Which artery provides the specific blood supply to the heart muscle itself?",
+        "options": [
+            "Aorta",
+            "Pulmonary artery",
+            "Coronary artery",
+            "Carotid artery"
+        ],
+        "answer": 2,
+        "explanation": "The coronary arteries wrap around the heart like a crown ('corona') to deliver the constant supply of oxygen the heart requires."
+    },
+    {
+        "q": "In rabbits, the right auricular-ventricular aperture is guarded by the:",
+        "options": [
+            "Bicuspid valve",
+            "Tricuspid valve",
+            "Semilunar valve",
+            "Mitral valve"
+        ],
+        "answer": 1,
+        "explanation": "Just like in humans, the tricuspid valve in rabbits prevents backflow from the right ventricle into the right atrium."
+    },
+    {
+        "q": "The recording of the electrical activity of the heart is known as:",
+        "options": [
+            "Angiography",
+            "Electrocardiography",
+            "Endoscopy",
+            "Biopsy"
+        ],
+        "answer": 1,
+        "explanation": "Electrocardiography (ECG) uses electrodes on the skin to detect the small electrical changes occurring during each heartbeat."
+    },
+    {
+        "q": "At the moment blood enters the aorta, the aorta is considered to be at the:",
+        "options": [
+            "End of systole",
+            "Beginning of diastole",
+            "Peak of contraction",
+            "End of diastole"
+        ],
+        "answer": 1,
+        "explanation": "As the ventricle finishes its contraction, the aorta enters a state of 'diastole' where it recoils to push blood further into the body."
+    },
+    {
+        "q": "When does the heart begin its functional activity?",
+        "options": [
+            "At birth",
+            "Before birth",
+            "1 year after birth",
+            "During puberty"
+        ],
+        "answer": 1,
+        "explanation": "The fetal heart is the first functional organ to develop, beginning to circulate blood as early as the 3rd or 4th week of pregnancy."
+    },
+    {
+        "q": "Which chamber of the heart has the thickest muscular wall?",
+        "options": [
+            "Right atrium",
+            "Left atrium",
+            "Right ventricle",
+            "Left ventricle"
+        ],
+        "answer": 3,
+        "explanation": "The left ventricle's wall is about 3 times thicker than the right's because it must pump blood to the entire body, not just the lungs."
+    },
+    {
+        "q": "The arterial pulse is a clinical measurement used to determine:",
+        "options": [
+            "Blood sugar",
+            "Rhythm of heart beat",
+            "Lung capacity",
+            "Body weight"
+        ],
+        "answer": 1,
+        "explanation": "Each heartbeat creates a pressure wave through the arteries; feeling the pulse allows us to check the rate and rhythm of the heart."
+    },
+    {
+        "q": "The second heart sound ('dub') is produced by the closure of:",
+        "options": [
+            "AV valves",
+            "Semilunar valves",
+            "Mitral valve",
+            "Tricuspid valve"
+        ],
+        "answer": 1,
+        "explanation": "The 'dub' occurs at the end of ventricular contraction when the aortic and pulmonary valves snap shut to prevent blood from flowing back into the heart."
+    },
+    {
+        "q": "The property of 'automaticity' in cardiac muscle refers to its ability to:",
+        "options": [
+            "Contract only when told by the brain",
+            "Generate its own electrical impulses",
+            "Stop beating at will",
+            "Heal itself"
+        ],
+        "answer": 1,
+        "explanation": "Automaticity means cardiac cells can depolarize on their own, allowing the heart to beat even if disconnected from the nervous system."
+    },
+    {
+        "q": "Oxygenated blood is exclusively carried by all arteries except the:",
+        "options": [
+            "Coronary artery",
+            "Pulmonary artery",
+            "Aorta",
+            "Carotid artery"
+        ],
+        "answer": 1,
+        "explanation": "The pulmonary artery is an exception; it carries deoxygenated blood from the heart to the lungs to be refilled with oxygen."
+    },
+    {
+        "q": "The initiation of the heartbeat is triggered by the depolarization of the:",
+        "options": [
+            "AV node",
+            "SA node",
+            "Bundle of His",
+            "Purkinje fibres"
+        ],
+        "answer": 1,
+        "explanation": "The SA node acts as the 'spark plug' of the heart, starting the electrical wave that causes the chambers to contract."
+    },
+    {
+        "q": "The inner endothelial lining of blood vessels is described as:",
+        "options": [
+            "Impermeable",
+            "Fully permeable",
+            "Selectively permeable",
+            "Rough and rigid"
+        ],
+        "answer": 2,
+        "explanation": "Selectively permeable means the lining controls which substances (like oxygen or white blood cells) can pass from the blood into the tissues."
+    },
+    {
+        "q": "The double-layered protective sac around the heart is the:",
+        "options": [
+            "Pleura",
+            "Peritoneum",
+            "Pericardium",
+            "Meninges"
+        ],
+        "answer": 2,
+        "explanation": "The pericardium contains a small amount of fluid that reduces friction as the heart beats against surrounding organs."
+    },
+    {
+        "q": "In mammals like rabbits, how is the sinus venosus anatomically handled?",
+        "options": [
+            "It is a large chamber",
+            "It is absent/incorporated into right atrium",
+            "It is on the left side",
+            "It is part of the lungs"
+        ],
+        "answer": 1,
+        "explanation": "In higher vertebrates, the separate sinus venosus found in fish and frogs is absorbed into the wall of the right atrium during development."
+    },
+    {
+        "q": "What is the normal systolic BP range for a healthy young adult?",
+        "options": [
+            "60-90 mm Hg",
+            "100-140 mm Hg",
+            "150-180 mm Hg",
+            "200+ mm Hg"
+        ],
+        "answer": 1,
+        "explanation": "Systolic pressure is the 'top number' representing the pressure when the heart is contracting; 120 mm Hg is the ideal average."
+    },
+    {
+        "q": "Which of these veins is an exception and carries oxygenated blood?",
+        "options": [
+            "Superior Vena Cava",
+            "Jugular vein",
+            "Pulmonary vein",
+            "Renal vein"
+        ],
+        "answer": 2,
+        "explanation": "While most veins carry blood 'back' to the heart to get oxygen, the pulmonary vein carries blood that has 'just' been oxygenated in the lungs."
+    },
+    {
+        "q": "The average resting heart rate of a newborn infant is approximately:",
+        "options": [
+            "70/min",
+            "120/min",
+            "150/min",
+            "180/min"
+        ],
+        "answer": 1,
+        "explanation": "Infants have much higher metabolic rates and smaller hearts, so they must beat much faster than an adult's heart to circulate blood."
+    },
+    {
+        "q": "Ischemia is a medical term defined as:",
+        "options": [
+            "Excessive blood flow",
+            "Insufficient blood supply to an organ",
+            "High blood pressure",
+            "Blood clotting"
+        ],
+        "answer": 1,
+        "explanation": "Ischemia means a tissue is being 'starved' of oxygen due to a blockage or narrowing of its supplying artery."
+    },
+    {
+        "q": "Which artery is responsible for carrying blood to the head and brain?",
+        "options": [
+            "Subclavian artery",
+            "Carotid artery",
+            "Renal artery",
+            "Phrenic artery"
+        ],
+        "answer": 1,
+        "explanation": "The carotid arteries run along the sides of the neck and are the primary source of oxygen for the brain."
+    }
+]

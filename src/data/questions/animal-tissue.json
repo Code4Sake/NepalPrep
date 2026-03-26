@@ -1,0 +1,706 @@
+[
+    {
+        "q": "Antibody producing blood cells are:",
+        "options": [
+            "Monocytes",
+            "Erythrocytes",
+            "Lymphocytes",
+            "Basophils"
+        ],
+        "answer": 2,
+        "explanation": "Lymphocytes, specifically B-cells, are responsible for the production of antibodies to fight off pathogens."
+    },
+    {
+        "q": "Clotting of blood is delayed by which substance?",
+        "options": [
+            "Hirudin",
+            "Heparin",
+            "Fibrinogen",
+            "Prothrombin"
+        ],
+        "answer": 1,
+        "explanation": "Heparin is a natural anticoagulant produced by mast cells and basophils that prevents the formation of blood clots."
+    },
+    {
+        "q": "Connective tissue originates from which germ layer?",
+        "options": [
+            "Ectoderm",
+            "Endoderm",
+            "Mesoderm",
+            "All of the above"
+        ],
+        "answer": 2,
+        "explanation": "Connective tissues, including bone, cartilage, and blood, are derived from the embryonic mesoderm."
+    },
+    {
+        "q": "Blood is categorized as which type of tissue?",
+        "options": [
+            "Epithelial tissue",
+            "Muscular tissue",
+            "Nervous tissue",
+            "Connective tissue"
+        ],
+        "answer": 3,
+        "explanation": "Blood is considered a fluid connective tissue because it connects various body systems and shares the same mesodermal origin."
+    },
+    {
+        "q": "Histamine is secreted by which of the following cells?",
+        "options": [
+            "Mast cells",
+            "Plasma cells",
+            "Fibroblasts",
+            "Adipocytes"
+        ],
+        "answer": 0,
+        "explanation": "Mast cells contain granules rich in histamine and heparin, which are released during inflammatory and allergic reactions."
+    },
+    {
+        "q": "Human RBCs are short-lived primarily because they lack:",
+        "options": [
+            "Mitochondria",
+            "Nucleus",
+            "Ribosomes",
+            "Both A and B"
+        ],
+        "answer": 3,
+        "explanation": "Mature human RBCs lack a nucleus and mitochondria to provide more space for hemoglobin; however, this limits their lifespan as they cannot repair themselves or perform aerobic respiration."
+    },
+    {
+        "q": "The universal donor blood group is:",
+        "options": [
+            "Group A",
+            "Group B",
+            "Group AB",
+            "Group O"
+        ],
+        "answer": 3,
+        "explanation": "Group O (specifically O negative) is the universal donor because its red blood cells lack A and B antigens, preventing an immune response in the recipient."
+    },
+    {
+        "q": "Keratinized stratified squamous epithelium is found in the:",
+        "options": [
+            "Mouth lining",
+            "Epidermis of skin",
+            "Inner lining of stomach",
+            "Urinary bladder"
+        ],
+        "answer": 1,
+        "explanation": "The epidermis contains a layer of dead cells filled with keratin, a waterproof protein that protects against abrasion."
+    },
+    {
+        "q": "Blood serum can be defined as:",
+        "options": [
+            "Plasma plus RBC",
+            "Plasma minus WBC",
+            "Plasma minus fibrinogen",
+            "Whole blood minus serum"
+        ],
+        "answer": 2,
+        "explanation": "Serum is the liquid part of the blood that remains after the blood has clotted, meaning it lacks the clotting factor fibrinogen."
+    },
+    {
+        "q": "Active secretory cells found in the human body are:",
+        "options": [
+            "Squamous cells",
+            "Goblet cells",
+            "Adipocytes",
+            "Chondrocytes"
+        ],
+        "answer": 1,
+        "explanation": "Goblet cells are unicellular glands that actively secrete mucin, which forms mucus to lubricate and protect surfaces."
+    },
+    {
+        "q": "Acidophils (eosinophils) are a type of:",
+        "options": [
+            "Red blood cells",
+            "White blood cells",
+            "Platelets",
+            "Bone cells"
+        ],
+        "answer": 1,
+        "explanation": "Acidophils are granulocytic white blood cells that take up acidic stains (like eosin) and help fight parasitic infections."
+    },
+    {
+        "q": "The internal lining of blood vessels is known as:",
+        "options": [
+            "Mesothelium",
+            "Peritoneum",
+            "Endothelium",
+            "Epithelium"
+        ],
+        "answer": 2,
+        "explanation": "Endothelium is a specialized form of simple squamous epithelium that provides a smooth surface for blood flow within vessels."
+    },
+    {
+        "q": "The fibrous sheath that connects bone to bone is called:",
+        "options": [
+            "Tendon",
+            "Ligament",
+            "Cartilage",
+            "Fascia"
+        ],
+        "answer": 1,
+        "explanation": "Ligaments are strong bands of connective tissue that connect one bone to another at a joint."
+    },
+    {
+        "q": "The outer covering of a bone is the:",
+        "options": [
+            "Endosteum",
+            "Perichondrium",
+            "Periosteum",
+            "Peritoneum"
+        ],
+        "answer": 2,
+        "explanation": "The periosteum is a dense fibrous membrane covering the surface of bones, serving as an attachment point for muscles and containing bone-forming cells."
+    },
+    {
+        "q": "Reticulin fibres are primarily associated with:",
+        "options": [
+            "Phagocytosis",
+            "Muscle contraction",
+            "Elasticity",
+            "Nerve conduction"
+        ],
+        "answer": 0,
+        "explanation": "Reticulin fibres form a supporting framework in lymphoid and myeloid tissues where phagocytic cells are highly active."
+    },
+    {
+        "q": "Abdominal organs are covered by a membrane called the:",
+        "options": [
+            "Pleura",
+            "Pericardium",
+            "Peritoneum",
+            "Periosteum"
+        ],
+        "answer": 2,
+        "explanation": "The peritoneum is the serous membrane that lines the abdominal cavity and covers the abdominal organs."
+    },
+    {
+        "q": "A dendrite is a structural part of which tissue?",
+        "options": [
+            "Muscular",
+            "Connective",
+            "Nervous",
+            "Epithelial"
+        ],
+        "answer": 2,
+        "explanation": "Dendrites are the branched extensions of a neuron (nerve cell) that receive signals from other neurons."
+    },
+    {
+        "q": "Human RBCs do not contain:",
+        "options": [
+            "Hemoglobin",
+            "Plasma membrane",
+            "Mitochondria",
+            "Enzymes"
+        ],
+        "answer": 2,
+        "explanation": "Mature human RBCs lack mitochondria to ensure that the oxygen they carry is not consumed by the cell itself through aerobic respiration."
+    },
+    {
+        "q": "Urinogenital ducts are typically lined by:",
+        "options": [
+            "Simple cuboidal epithelium",
+            "Pseudostratified columnar epithelium",
+            "Transitional epithelium",
+            "Simple squamous epithelium"
+        ],
+        "answer": 1,
+        "explanation": "Pseudostratified columnar epithelium lines various parts of the respiratory and urinogenital tracts to aid in secretion and movement."
+    },
+    {
+        "q": "The tissue that protects the body from wounds and infection is:",
+        "options": [
+            "Adipose tissue",
+            "Reticular tissue",
+            "Nervous tissue",
+            "Areolar tissue"
+        ],
+        "answer": 1,
+        "explanation": "Reticular tissue forms the framework of lymphoid organs (spleen, lymph nodes) which are central to the body's immune defense."
+    },
+    {
+        "q": "Which of the following blood cells are agranulocytic (lack granules)?",
+        "options": [
+            "Neutrophils",
+            "Eosinophils",
+            "Basophils",
+            "Monocytes"
+        ],
+        "answer": 3,
+        "explanation": "Monocytes and lymphocytes are agranulocytes, meaning their cytoplasm does not contain visible granules under a microscope."
+    },
+    {
+        "q": "Mast cells in connective tissue functionally and structurally resemble:",
+        "options": [
+            "Acidophils",
+            "Basophils",
+            "Neutrophils",
+            "Lymphocytes"
+        ],
+        "answer": 1,
+        "explanation": "Both mast cells and basophils secrete heparin and histamine and play roles in allergic reactions."
+    },
+    {
+        "q": "Which of the following cells usually loses the ability to divide in adulthood?",
+        "options": [
+            "Fibroblasts",
+            "Epithelial cells",
+            "Neurons",
+            "Osteoblasts"
+        ],
+        "answer": 2,
+        "explanation": "Most mature neurons are post-mitotic, meaning they do not undergo cell division (mitosis)."
+    },
+    {
+        "q": "Both Histamine and Heparin are secreted by:",
+        "options": [
+            "Adipocytes",
+            "Mast cells",
+            "Macrophage",
+            "Plasma cells"
+        ],
+        "answer": 1,
+        "explanation": "Mast cells are the primary source of these substances in connective tissues."
+    },
+    {
+        "q": "Yellow bone marrow is found primarily in the:",
+        "options": [
+            "Epiphysis",
+            "Medullary cavity of long bones",
+            "Spongy bone",
+            "Flat bones"
+        ],
+        "answer": 1,
+        "explanation": "Yellow bone marrow, which consists mostly of fat, is located in the central medullary cavity of the shafts of long bones."
+    },
+    {
+        "q": "Memory cells, which provide long-term immunity, are:",
+        "options": [
+            "Monocytes",
+            "T and B cells",
+            "Neutrophils",
+            "Natural killer cells"
+        ],
+        "answer": 1,
+        "explanation": "Following an infection, some T and B lymphocytes become memory cells to recognize the pathogen if it enters the body again."
+    },
+    {
+        "q": "The growth and health of hair follicles are facilitated by the:",
+        "options": [
+            "Epidermis",
+            "Dermis",
+            "Hypodermis",
+            "Stratum corneum"
+        ],
+        "answer": 1,
+        "explanation": "While hair follicles are epidermal derivatives, they are rooted in and nourished by the blood vessels and nerves of the dermis."
+    },
+    {
+        "q": "Which immunoglobulin (antibody) level increases during an allergic reaction?",
+        "options": [
+            "IgA",
+            "IgG",
+            "IgM",
+            "IgE"
+        ],
+        "answer": 3,
+        "explanation": "IgE antibodies are specifically involved in allergic responses and defense against parasitic worms."
+    },
+    {
+        "q": "The cells that make up the germinal epithelium are:",
+        "options": [
+            "Columnar",
+            "Cuboidal",
+            "Squamous",
+            "Ciliated"
+        ],
+        "answer": 1,
+        "explanation": "Germinal epithelium, found in the ovaries and testes, is typically composed of simple cuboidal cells."
+    },
+    {
+        "q": "The trachea is lined by which type of epithelium?",
+        "options": [
+            "Simple squamous",
+            "Stratified squamous",
+            "Pseudostratified columnar",
+            "Transitional"
+        ],
+        "answer": 2,
+        "explanation": "Ciliated pseudostratified columnar epithelium lines the trachea to trap and move dust and mucus out of the airways."
+    },
+    {
+        "q": "Wrinkling of skin in old age is primarily due to the breakdown of:",
+        "options": [
+            "Keratin",
+            "Melanin",
+            "Collagen",
+            "Adipose"
+        ],
+        "answer": 2,
+        "explanation": "As people age, the production of collagen and elastin fibres in the dermis decreases, leading to less elastic and wrinkled skin."
+    },
+    {
+        "q": "Intercalated discs are a unique feature of:",
+        "options": [
+            "Skeletal muscle",
+            "Smooth muscle",
+            "Cardiac muscle",
+            "Nervous tissue"
+        ],
+        "answer": 2,
+        "explanation": "Intercalated discs allow cardiac muscle cells to contract in a coordinated fashion by providing electrical coupling."
+    },
+    {
+        "q": "A tendon is a connective tissue that connects:",
+        "options": [
+            "Bone to Bone",
+            "Bone to Muscle",
+            "Muscle to Muscle",
+            "Nerve to Muscle"
+        ],
+        "answer": 1,
+        "explanation": "Tendons are white fibrous connective tissues that transmit the force of muscle contraction to the bone."
+    },
+    {
+        "q": "Protoplasmic connections between two adjacent plant cells are called:",
+        "options": [
+            "Desmosomes",
+            "Tight junctions",
+            "Plasmodesmata",
+            "Gap junctions"
+        ],
+        "answer": 2,
+        "explanation": "Plasmodesmata are channels through cell walls that allow molecules and substances to move back and forth as needed."
+    },
+    {
+        "q": "Epithelial tissue is unique because it can arise from:",
+        "options": [
+            "Only Ectoderm",
+            "Only Endoderm",
+            "Only Mesoderm",
+            "Any of the three germ layers"
+        ],
+        "answer": 3,
+        "explanation": "Unlike other tissues, epithelial tissue can be derived from ectoderm (skin), mesoderm (lining of coelom), or endoderm (gut lining)."
+    },
+    {
+        "q": "Cardiac muscles are found exclusively in the:",
+        "options": [
+            "Lungs",
+            "Heart",
+            "Stomach",
+            "Arteries"
+        ],
+        "answer": 1,
+        "explanation": "Cardiac muscle is a specialized involuntary striated muscle found only in the wall of the heart (myocardium)."
+    },
+    {
+        "q": "Which of the following is considered a retroperitoneal organ?",
+        "options": [
+            "Stomach",
+            "Heart",
+            "Kidney",
+            "Liver"
+        ],
+        "answer": 2,
+        "explanation": "Retroperitoneal organs, like the kidneys, are located behind the peritoneum rather than within the peritoneal cavity."
+    },
+    {
+        "q": "Transitional epithelium is specifically adapted for stretching and is found in the:",
+        "options": [
+            "Lungs",
+            "Stomach",
+            "Urinary bladder",
+            "Skin"
+        ],
+        "answer": 2,
+        "explanation": "Transitional epithelium can change shape (from cuboidal to squamous) as the bladder fills with urine."
+    },
+    {
+        "q": "Irreversible cell death caused by injury or disease is known as:",
+        "options": [
+            "Apoptosis",
+            "Necrosis",
+            "Mitosis",
+            "Autophagy"
+        ],
+        "answer": 1,
+        "explanation": "Necrosis is premature cell death caused by external factors such as infection, toxins, or trauma."
+    },
+    {
+        "q": "Fat-storing cells are known as:",
+        "options": [
+            "Osteocytes",
+            "Mast cells",
+            "Adipose cells",
+            "Chondrocytes"
+        ],
+        "answer": 2,
+        "explanation": "Adipose cells (adipocytes) are specialized for the storage of triglycerides (fat)."
+    },
+    {
+        "q": "Which cells are primarily responsible for producing defensive substances (antibodies) in the body?",
+        "options": [
+            "Erythrocytes",
+            "Platelets",
+            "Lymphocytes",
+            "Monocytes"
+        ],
+        "answer": 2,
+        "explanation": "Lymphocytes are the key cells of the immune system that produce substances like antibodies to defend the body."
+    },
+    {
+        "q": "Glands and their ducts are internally lined with which epithelium?",
+        "options": [
+            "Simple squamous",
+            "Simple cuboidal",
+            "Stratified columnar",
+            "Transitional"
+        ],
+        "answer": 1,
+        "explanation": "Simple cuboidal epithelium is common in secretory tissues and the ducts of glands."
+    },
+    {
+        "q": "Which of the following is NOT present in areolar connective tissue?",
+        "options": [
+            "Fibroblasts",
+            "Mast cells",
+            "Lacunae",
+            "Collagen fibres"
+        ],
+        "answer": 2,
+        "explanation": "Lacunae are small spaces found in hard tissues like bone and cartilage; they are absent in loose areolar tissue."
+    },
+    {
+        "q": "Antibodies are principally produced in the:",
+        "options": [
+            "Bone marrow",
+            "Lymphoid tissue",
+            "Liver",
+            "Spleen"
+        ],
+        "answer": 1,
+        "explanation": "Lymphoid tissues (lymph nodes, tonsils, etc.) are the main sites where lymphocytes produce antibodies."
+    },
+    {
+        "q": "The membrane that covers the surface of cartilage is the:",
+        "options": [
+            "Periosteum",
+            "Peritoneum",
+            "Perichondrium",
+            "Pericardium"
+        ],
+        "answer": 2,
+        "explanation": "The perichondrium is a layer of dense irregular connective tissue that surrounds the cartilage."
+    },
+    {
+        "q": "Which specific cell type is found within the matrix of cartilage?",
+        "options": [
+            "Osteocyte",
+            "Chondrocyte",
+            "Fibrocyte",
+            "Lymphocyte"
+        ],
+        "answer": 1,
+        "explanation": "Chondrocytes are the only cells found in healthy cartilage; they produce and maintain the cartilaginous matrix."
+    },
+    {
+        "q": "Which of the following is NOT one of the four principal tissue types in the human body?",
+        "options": [
+            "Nervous",
+            "Connective",
+            "Vascular",
+            "Muscular"
+        ],
+        "answer": 2,
+        "explanation": "The four primary tissue types are epithelial, connective, muscular, and nervous. Vascular is a subtype of connective tissue."
+    },
+    {
+        "q": "Cancers that arise specifically from connective tissues are called:",
+        "options": [
+            "Carcinomas",
+            "Sarcomas",
+            "Leukemias",
+            "Lymphomas"
+        ],
+        "answer": 1,
+        "explanation": "Sarcomas are malignant tumors that develop in mesodermal tissues like bone, cartilage, fat, and muscle."
+    },
+    {
+        "q": "Smooth muscle fibres are characterized as being:",
+        "options": [
+            "Striated and voluntary",
+            "Unstriped and involuntary",
+            "Branched and striated",
+            "Multinucleated and voluntary"
+        ],
+        "answer": 1,
+        "explanation": "Smooth muscles lack striations (unstriped), are spindle-shaped (unbranched), and are not under conscious control (involuntary)."
+    },
+    {
+        "q": "Lymphatic fluid can best be described as:",
+        "options": [
+            "Blood minus WBC",
+            "Blood minus Plasma",
+            "Blood minus RBC",
+            "Plasma plus Platelets"
+        ],
+        "answer": 2,
+        "explanation": "Lymph is essentially filtered blood plasma that lacks red blood cells and most large proteins."
+    },
+    {
+        "q": "Which organ is considered the 'blood bank' of the body because it stores RBCs?",
+        "options": [
+            "Liver",
+            "Heart",
+            "Spleen",
+            "Kidney"
+        ],
+        "answer": 2,
+        "explanation": "The spleen filters blood and stores a reserve of red blood cells and platelets that can be released in emergencies."
+    },
+    {
+        "q": "Kupffer cells, which act as phagocytes to clean the blood, are found in the:",
+        "options": [
+            "Spleen",
+            "Liver",
+            "Lungs",
+            "Kidneys"
+        ],
+        "answer": 1,
+        "explanation": "Kupffer cells are specialized macrophages located in the sinusoids of the liver."
+    },
+    {
+        "q": "Which are the largest types of white blood cells?",
+        "options": [
+            "Lymphocytes",
+            "Monocytes",
+            "Neutrophils",
+            "Basophils"
+        ],
+        "answer": 1,
+        "explanation": "Monocytes are the largest of all leukocytes and eventually migrate into tissues to become macrophages."
+    },
+    {
+        "q": "The rejection of transplanted organs is primarily mediated by:",
+        "options": [
+            "B-cells",
+            "T-cells",
+            "RBCs",
+            "Platelets"
+        ],
+        "answer": 1,
+        "explanation": "T-lymphocytes recognize foreign antigens on the transplanted organ and initiate an immune response against it."
+    },
+    {
+        "q": "The mammary gland is a developmental modification of which gland?",
+        "options": [
+            "Sebaceous gland",
+            "Sweat gland",
+            "Adrenal gland",
+            "Thyroid gland"
+        ],
+        "answer": 1,
+        "explanation": "Mammary glands are evolutionarily modified sudoriferous (sweat) glands that produce milk."
+    },
+    {
+        "q": "Gristle is a common name for which type of cartilage?",
+        "options": [
+            "Elastic cartilage",
+            "Fibrocartilage",
+            "Hyaline cartilage",
+            "Calcified cartilage"
+        ],
+        "answer": 2,
+        "explanation": "Hyaline cartilage is the most common type of cartilage in the body and is often referred to as gristle."
+    },
+    {
+        "q": "Dentine, found in teeth, is a type of:",
+        "options": [
+            "Epithelial tissue",
+            "Calcified tissue",
+            "Nervous tissue",
+            "Muscular tissue"
+        ],
+        "answer": 1,
+        "explanation": "Dentine is a hard, calcified tissue that forms the bulk of the tooth, lying beneath the enamel."
+    },
+    {
+        "q": "Nails, horns, and hoofs are all derivatives of which protein?",
+        "options": [
+            "Collagen",
+            "Elastin",
+            "Keratin",
+            "Actin"
+        ],
+        "answer": 2,
+        "explanation": "Keratin is a tough, fibrous protein that forms the primary structural component of hair, nails, and the outer layer of skin."
+    },
+    {
+        "q": "What are two defining characteristics of epithelial tissue?",
+        "options": [
+            "Large extracellular matrix and high blood supply",
+            "Lack of blood supply and presence of a basement membrane",
+            "Presence of lacunae and calcium salts",
+            "Striations and multiple nuclei"
+        ],
+        "answer": 1,
+        "explanation": "Epithelial tissue is avascular (no blood supply) and always rests on a non-cellular basement membrane."
+    },
+    {
+        "q": "Which type of epithelium is also known as 'tessellated' because of its tile-like appearance?",
+        "options": [
+            "Simple cuboidal",
+            "Simple squamous",
+            "Stratified columnar",
+            "Transitional"
+        ],
+        "answer": 1,
+        "explanation": "Simple squamous epithelium is often called tessellated because the flat cells fit together like floor tiles."
+    },
+    {
+        "q": "Which vitamin is essential for the process of blood clotting?",
+        "options": [
+            "Vitamin A",
+            "Vitamin C",
+            "Vitamin K",
+            "Vitamin D"
+        ],
+        "answer": 2,
+        "explanation": "Vitamin K is a cofactor required for the synthesis of several blood-clotting factors in the liver."
+    },
+    {
+        "q": "A biphospholipid layer is a fundamental component of the membranes in:",
+        "options": [
+            "Epithelium",
+            "Only bone cells",
+            "Only nerve cells",
+            "None of the above"
+        ],
+        "answer": 0,
+        "explanation": "The biphospholipid layer forms the plasma membrane of all cells, including those in the epithelium."
+    },
+    {
+        "q": "Which fibres provide strength and are the most abundant components of connective tissues?",
+        "options": [
+            "Elastic fibres",
+            "Reticular fibres",
+            "Collagen fibres",
+            "Myosin fibres"
+        ],
+        "answer": 2,
+        "explanation": "Collagen is the most abundant protein in the human body, providing tensile strength to connective tissues."
+    },
+    {
+        "q": "Cardiac muscle fibres are structurally and functionally:",
+        "options": [
+            "Striated and voluntary",
+            "Unstriped and involuntary",
+            "Striated and involuntary",
+            "Unstriped and voluntary"
+        ],
+        "answer": 2,
+        "explanation": "Cardiac muscle has a striped appearance (striated) like skeletal muscle but is controlled by the autonomic nervous system (involuntary)."
+    }
+]

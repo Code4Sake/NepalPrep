@@ -1,0 +1,244 @@
+[
+    {
+        "q": "Which immunoglobulin is specifically able to cross the placental barrier?",
+        "options": [
+            "IgA",
+            "IgM",
+            "IgE",
+            "IgG"
+        ],
+        "answer": 3,
+        "explanation": "IgG is the smallest and most abundant antibody, allowing it to pass to the fetus and provide passive immunity before birth."
+    },
+    {
+        "q": "Individuals with which blood group are statistically most prone to peptic ulcers?",
+        "options": [
+            "Group A",
+            "Group B",
+            "Group AB",
+            "Group O"
+        ],
+        "answer": 3,
+        "explanation": "Studies show that blood group O individuals have a higher density of receptors for H. pylori, the bacteria that causes most ulcers."
+    },
+    {
+        "q": "Where is the plasma protein albumin synthesized in the body?",
+        "options": [
+            "Spleen",
+            "Bone marrow",
+            "Liver",
+            "Kidney"
+        ],
+        "answer": 2,
+        "explanation": "The liver produces albumin to maintain osmotic pressure, which prevents fluid from leaking out of the blood into the tissues."
+    },
+    {
+        "q": "Which blood group is known as the Universal Donor?",
+        "options": [
+            "Group A",
+            "Group B",
+            "Group AB",
+            "Group O"
+        ],
+        "answer": 3,
+        "explanation": "Group O blood lacks both A and B antigens on the red cells, meaning it won't be attacked by the recipient's antibodies."
+    },
+    {
+        "q": "In an adult human, what is the primary role of the spleen regarding RBCs?",
+        "options": [
+            "Creating new RBCs",
+            "Storing oxygen",
+            "Phagocytosis of old RBCs",
+            "Filtering air"
+        ],
+        "answer": 2,
+        "explanation": "The spleen acts as a 'graveyard' for red blood cells, identifying and recycling those that are old (over 120 days) or damaged."
+    },
+    {
+        "q": "Beyond filtering blood, the spleen is essential for:",
+        "options": [
+            "Digestion",
+            "Providing immune response",
+            "Producing insulin",
+            "Storing fat"
+        ],
+        "answer": 1,
+        "explanation": "The spleen contains white pulp, which is rich in lymphocytes that help fight off blood-borne infections."
+    },
+    {
+        "q": "Regarding its blood supply, the spleen receives:",
+        "options": [
+            "Only deoxygenated blood",
+            "Only oxygenated blood",
+            "Both types equally",
+            "No blood at all"
+        ],
+        "answer": 1,
+        "explanation": "Like most high-functioning organs, the spleen requires a constant supply of freshly oxygenated blood via the splenic artery."
+    },
+    {
+        "q": "A blood clot that forms and stays inside a blood vessel is called a:",
+        "options": [
+            "Embolus",
+            "Thrombus",
+            "Aneurysm",
+            "Hematoma"
+        ],
+        "answer": 1,
+        "explanation": "A thrombus can be dangerous if it grows large enough to block blood flow or if it breaks loose (becoming an embolus)."
+    },
+    {
+        "q": "Which substance is commonly used as an anticoagulant for stored blood?",
+        "options": [
+            "Heparin",
+            "Dextrose/Citrate solution",
+            "Vitamin K",
+            "Calcium"
+        ],
+        "answer": 1,
+        "explanation": "Anticoagulants prevent the blood from turning into a solid gel (clotting) while it is being kept in a blood bank."
+    },
+    {
+        "q": "If a person is 'Blood Group B', it means their RBCs specifically have:",
+        "options": [
+            "A antigens",
+            "B antigens",
+            "No antigens",
+            "Both A and B"
+        ],
+        "answer": 1,
+        "explanation": "Blood groups are defined by the specific sugar-based markers (antigens) found on the surface of the red blood cells."
+    },
+    {
+        "q": "What is the clinical priority before a patient receives a blood transfusion?",
+        "options": [
+            "Checking height",
+            "Blood grouping/Matching",
+            "Giving vitamins",
+            "Fasting"
+        ],
+        "answer": 1,
+        "explanation": "Mismatching blood can cause a 'hemolytic reaction' where the body destroys the new blood, which can be fatal."
+    },
+    {
+        "q": "During clotting, which protein is converted into insoluble fibrin strands?",
+        "options": [
+            "Albumin",
+            "Globulin",
+            "Fibrinogen",
+            "Hemoglobin"
+        ],
+        "answer": 2,
+        "explanation": "Fibrinogen is a soluble liquid; thrombin converts it into solid fibrin 'nets' that trap blood cells to form a clot."
+    },
+    {
+        "q": "Blood appears red in color primarily because of:",
+        "options": [
+            "Plasma",
+            "White cells",
+            "Haemoglobin",
+            "Iron alone"
+        ],
+        "answer": 2,
+        "explanation": "Haemoglobin is an iron-rich protein that turns bright red when it binds to oxygen."
+    },
+    {
+        "q": "The enzyme Carbonic Anhydrase, essential for CO2 transport, is most active in:",
+        "options": [
+            "Plasma",
+            "RBCs",
+            "Platelets",
+            "Lymph"
+        ],
+        "answer": 1,
+        "explanation": "This enzyme allows CO2 to be converted into bicarbonate within the RBC, making it easier to transport to the lungs."
+    },
+    {
+        "q": "Where are blood group antigens specifically located?",
+        "options": [
+            "Inside the nucleus",
+            "In the plasma",
+            "On the RBC cell surface",
+            "In the hemoglobin"
+        ],
+        "answer": 2,
+        "explanation": "Antigens are attached to the cell membrane of the RBC so that the immune system can identify the cell as 'self' or 'foreign'."
+    },
+    {
+        "q": "Which organ is figuratively known as the 'blood bank' of the body?",
+        "options": [
+            "Heart",
+            "Liver",
+            "Spleen",
+            "Lungs"
+        ],
+        "answer": 2,
+        "explanation": "The spleen can store a significant amount of blood and release it into circulation during emergencies like heavy bleeding."
+    },
+    {
+        "q": "Marriage between an Rh+ male and Rh- female is discouraged due to:",
+        "options": [
+            "Infertility",
+            "Erythroblastosis fetalis",
+            "Sickle cell anemia",
+            "Hemophilia"
+        ],
+        "answer": 1,
+        "explanation": "If the baby is Rh+, the mother's immune system may produce antibodies that attack the baby's blood cells in future pregnancies."
+    },
+    {
+        "q": "A baby with blood group A cannot have parents with which combination?",
+        "options": [
+            "A and A",
+            "AB and O",
+            "B (Husband) and O (Wife)",
+            "A and O"
+        ],
+        "answer": 2,
+        "explanation": "If both parents are B (BO) and O (OO), they cannot provide the 'A' allele required for a child to be group A."
+    },
+    {
+        "q": "If a person's RBCs contain only Antigen A, their blood group is:",
+        "options": [
+            "A",
+            "B",
+            "AB",
+            "O"
+        ],
+        "answer": 0,
+        "explanation": "In the ABO system, your blood group name is simply the name of the antigen present on your cells."
+    },
+    {
+        "q": "A person with blood group B will naturally have which antibodies in their plasma?",
+        "options": [
+            "Anti-B",
+            "Anti-A",
+            "None",
+            "Both Anti-A and Anti-B"
+        ],
+        "answer": 1,
+        "explanation": "The body produces antibodies against whatever antigens it *doesn't* have to prevent attacking its own cells."
+    },
+    {
+        "q": "Blood group O is unique because it contains:",
+        "options": [
+            "A & B antigens",
+            "No antigens",
+            "No antibodies",
+            "Only A antigens"
+        ],
+        "answer": 1,
+        "explanation": "Because it has no antigens on the cell surface, group O cells are invisible to the immune system of the recipient."
+    },
+    {
+        "q": "If a child has blood group O, which parental combination is genetically impossible?",
+        "options": [
+            "A and B",
+            "O and O",
+            "AB and O",
+            "A and O"
+        ],
+        "answer": 2,
+        "explanation": "An AB parent always passes on either an A or a B allele; therefore, they can never have a child with group O (which requires two 'O' alleles)."
+    }
+]

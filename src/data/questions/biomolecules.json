@@ -1,0 +1,596 @@
+[
+  {
+    "q": "Source of fiber in Hemp plant is",
+    "options": [
+      "Cellulose",
+      "Starch",
+      "Lipid",
+      "Protein"
+    ],
+    "answer": 0,
+    "explanation": "Cellulose is the chief constituent of cell walls of plants and is the source of fiber in hemp plant."
+  },
+  {
+    "q": "Which is a false statement?",
+    "options": [
+      "m-RNA has linear structure with codon",
+      "t-RNA contains anticodon",
+      "r-RNA helps in protein synthesis",
+      "t-RNA is the largest among all types of RNA"
+    ],
+    "answer": 3,
+    "explanation": "t-RNA is actually the smallest RNA. r-RNA is the largest and most abundant RNA."
+  },
+  {
+    "q": "Which is monosaccharide?",
+    "options": [
+      "Glucose",
+      "Sucrose",
+      "Glycogen",
+      "Maltose"
+    ],
+    "answer": 0,
+    "explanation": "Glucose is a monosaccharide. Sucrose and Maltose are disaccharides. Glycogen is a polysaccharide."
+  },
+  {
+    "q": "Which of the following statement is correct about RNA?",
+    "options": [
+      "It contains adenine paired to thymine",
+      "One of the bases from DNA is replaced by uracil",
+      "It contains the sugar deoxyribose",
+      "Its nucleotides contains twice as many phosphate groups as that of DNA"
+    ],
+    "answer": 1,
+    "explanation": "In RNA, thymine is replaced by uracil. RNA contains ribose sugar, not deoxyribose."
+  },
+  {
+    "q": "Which is most abundant protein?",
+    "options": [
+      "RUBISCO",
+      "Chromoprotein",
+      "PEP",
+      "Derived protein"
+    ],
+    "answer": 0,
+    "explanation": "RUBISCO (Ribulose bisphosphate carboxylase oxygenase) is the most abundant protein in the world."
+  },
+  {
+    "q": "Which determines the sequence of amino acid?",
+    "options": [
+      "tRNA",
+      "mRNA",
+      "Genetic code",
+      "Gene"
+    ],
+    "answer": 3,
+    "explanation": "Gene (DNA) ultimately determines the sequence of amino acids in a protein through transcription and translation."
+  },
+  {
+    "q": "The first evidence of DNA as a genetic material is",
+    "options": [
+      "DNA is formed by chromosome",
+      "DNA is enclosed within nucleus",
+      "Transformation of Bacterial DNA",
+      "DNA is not found in cytoplasm"
+    ],
+    "answer": 2,
+    "explanation": "Griffith's transformation experiment provided the first evidence that DNA is the genetic material through bacterial transformation."
+  },
+  {
+    "q": "Deficiency of which substance causes pellagra?",
+    "options": [
+      "Nicotinic acid",
+      "Pantothenic acid",
+      "Vitamin C",
+      "Pyridoxine"
+    ],
+    "answer": 0,
+    "explanation": "Pellagra is caused by deficiency of Nicotinic acid (Vitamin B3/Niacin)."
+  },
+  {
+    "q": "Cane sugar on hydrolysis yields",
+    "options": [
+      "Glucose + Fructose",
+      "Glucose + Galactose",
+      "Glucose + Maltose",
+      "Glucose + Sucrose"
+    ],
+    "answer": 0,
+    "explanation": "Sucrose (cane sugar) on hydrolysis yields glucose and fructose. It is a non-reducing disaccharide."
+  },
+  {
+    "q": "Nucleic acid is polymer of",
+    "options": [
+      "Globulins",
+      "Nucleotides",
+      "Nucleoprotein",
+      "Nucleosides"
+    ],
+    "answer": 1,
+    "explanation": "Nucleic acids (DNA and RNA) are polymers of nucleotides. Each nucleotide has a sugar, phosphate and nitrogenous base."
+  },
+  {
+    "q": "Most diverse component in cell is",
+    "options": [
+      "Carbohydrate",
+      "Lipid",
+      "Protein",
+      "Mineral salts"
+    ],
+    "answer": 2,
+    "explanation": "Proteins are the most diverse molecules in the cell due to the variety of amino acid sequences possible."
+  },
+  {
+    "q": "All enzymes are ingredient of",
+    "options": [
+      "Vitamins",
+      "Fats",
+      "Proteins",
+      "Sugar"
+    ],
+    "answer": 2,
+    "explanation": "All enzymes are proteins in nature. They are biological catalysts made of amino acids."
+  },
+  {
+    "q": "Every carbohydrate is",
+    "options": [
+      "Ribose and deoxyribose",
+      "Pentose and hexose",
+      "Triose and tetrose",
+      "Aldose and ketose"
+    ],
+    "answer": 3,
+    "explanation": "Every carbohydrate can be classified as either aldose (containing aldehyde group) or ketose (containing ketone group)."
+  },
+  {
+    "q": "Two adjacent N-bases in a DNA molecule are located at the distance of",
+    "options": [
+      "3.4 Å",
+      "34 Å",
+      "20 Å",
+      "10 Å"
+    ],
+    "answer": 0,
+    "explanation": "Two adjacent nitrogen bases in DNA are located at a distance of 3.4 Å. One complete turn of helix is 34 Å with 10 base pairs."
+  },
+  {
+    "q": "In RNA molecule in place of which uracil molecule is present?",
+    "options": [
+      "Guanine",
+      "Thymine",
+      "Adenine",
+      "Cytosine"
+    ],
+    "answer": 1,
+    "explanation": "In RNA, uracil replaces thymine which is found in DNA. Both pair with adenine."
+  },
+  {
+    "q": "The sugar present in fruits, honey and nectar is",
+    "options": [
+      "Mannose",
+      "Glucose",
+      "Fructose",
+      "Lactose"
+    ],
+    "answer": 2,
+    "explanation": "Fructose is the sugar present in fruits, honey and nectar. It is also called fruit sugar."
+  },
+  {
+    "q": "What is present instead of thymine in RNA?",
+    "options": [
+      "Adenine",
+      "Guanine",
+      "Cytosine",
+      "Uracil"
+    ],
+    "answer": 3,
+    "explanation": "Uracil is present in RNA instead of thymine. Both are pyrimidine bases that pair with adenine."
+  },
+  {
+    "q": "A short length of DNA molecule contains 120 adenine and 120 cytosine bases. The total number of nucleotides in this DNA fragment is",
+    "options": [
+      "240",
+      "120",
+      "60",
+      "480"
+    ],
+    "answer": 3,
+    "explanation": "By Chargaff's rule: A=T and G=C. If A=120 then T=120, if C=120 then G=120. Total = 120+120+120+120 = 480 nucleotides."
+  },
+  {
+    "q": "Pentose sugar is",
+    "options": [
+      "Monosaccharide",
+      "Disaccharide",
+      "Polysaccharide",
+      "Compound carbohydrate"
+    ],
+    "answer": 0,
+    "explanation": "Pentose sugar is a monosaccharide with 5 carbon atoms. Examples are ribose and deoxyribose found in RNA and DNA."
+  },
+  {
+    "q": "Insulin is",
+    "options": [
+      "Carbohydrate",
+      "Protein",
+      "Fat",
+      "Enzyme"
+    ],
+    "answer": 1,
+    "explanation": "Insulin is a protein hormone secreted by beta cells of islets of Langerhans in the pancreas."
+  },
+  {
+    "q": "Cyanocobalamine is the chemical name of",
+    "options": [
+      "Vitamin B1",
+      "Vitamin B2",
+      "Vitamin B6",
+      "Vitamin B12"
+    ],
+    "answer": 3,
+    "explanation": "Cyanocobalamine is the chemical name of Vitamin B12. Its deficiency causes pernicious anaemia."
+  },
+  {
+    "q": "Which of the following is not a carbohydrate?",
+    "options": [
+      "Inulin",
+      "Dextrin",
+      "Starch",
+      "Amines"
+    ],
+    "answer": 3,
+    "explanation": "Amines are nitrogen-containing organic compounds, not carbohydrates. Inulin, dextrin and starch are all carbohydrates."
+  },
+  {
+    "q": "Simplest amino acid is",
+    "options": [
+      "Aspartic acid",
+      "Glutamic acid",
+      "Tryptophan",
+      "Glycine"
+    ],
+    "answer": 3,
+    "explanation": "Glycine is the simplest amino acid with just a hydrogen as its side chain (R group)."
+  },
+  {
+    "q": "Which of the following is pentose sugar?",
+    "options": [
+      "Glucose",
+      "Fructose",
+      "Arabinose",
+      "Galactose"
+    ],
+    "answer": 2,
+    "explanation": "Arabinose is a pentose sugar with 5 carbons. Glucose, fructose and galactose are hexose sugars with 6 carbons."
+  },
+  {
+    "q": "The simplest amino acid is",
+    "options": [
+      "Glycine",
+      "Tryptophan",
+      "Proline",
+      "Alanine"
+    ],
+    "answer": 0,
+    "explanation": "Glycine (H2N-CH2-COOH) is the simplest amino acid with hydrogen as R group."
+  },
+  {
+    "q": "The building block of proteins",
+    "options": [
+      "Nucleic acid",
+      "Proteins",
+      "Amino acid",
+      "Lipid"
+    ],
+    "answer": 2,
+    "explanation": "Amino acids are the building blocks of proteins. They are linked together by peptide bonds."
+  },
+  {
+    "q": "Adenine pairs with",
+    "options": [
+      "Thymine",
+      "Guanine",
+      "Uracil",
+      "Cytosine"
+    ],
+    "answer": 0,
+    "explanation": "Adenine pairs with Thymine in DNA (with 2 hydrogen bonds) and with Uracil in RNA."
+  },
+  {
+    "q": "Which of the following is the simplest amino acid?",
+    "options": [
+      "Proline",
+      "Alanine",
+      "Glycine",
+      "Valine"
+    ],
+    "answer": 2,
+    "explanation": "Glycine is the simplest amino acid. It is the only amino acid that is not optically active."
+  },
+  {
+    "q": "Enzymes generally have",
+    "options": [
+      "Same optimum temperature and same pH for functioning",
+      "Same optimum temperature but different optimum pH",
+      "Different optimum temperature but same optimum pH",
+      "Different optimum temperature as well as different optimum pH"
+    ],
+    "answer": 3,
+    "explanation": "Different enzymes have different optimum temperatures and pH values at which they work best."
+  },
+  {
+    "q": "Which of the following is a pentose sugar?",
+    "options": [
+      "Glucose",
+      "Sucrose",
+      "Arabinose",
+      "Dextrose"
+    ],
+    "answer": 2,
+    "explanation": "Arabinose is a pentose sugar (5 carbons). Glucose and dextrose are hexoses. Sucrose is a disaccharide."
+  },
+  {
+    "q": "Which of the following carbohydrate is not present in plants?",
+    "options": [
+      "Glucose",
+      "Fructose",
+      "Lactose",
+      "Sucrose"
+    ],
+    "answer": 2,
+    "explanation": "Lactose (milk sugar) is not present in plants. It is found in milk of mammals."
+  },
+  {
+    "q": "Which of the following is globular protein?",
+    "options": [
+      "Prothrombine",
+      "Lysine",
+      "Valine",
+      "Haemoglobin"
+    ],
+    "answer": 3,
+    "explanation": "Haemoglobin is a globular protein. Lysine and Valine are amino acids, not proteins."
+  },
+  {
+    "q": "Which of the following is present in least proportion in cell membrane?",
+    "options": [
+      "Protein",
+      "Carbohydrate",
+      "Lipid",
+      "All equally present"
+    ],
+    "answer": 1,
+    "explanation": "Carbohydrate is present in the least proportion in the cell membrane. Protein and lipids are the major components."
+  },
+  {
+    "q": "Corn is immersed in boiling water, it is then cooled and solution becomes sweet. It is due to",
+    "options": [
+      "Inactivation of enzymes",
+      "Conversion of disaccharides to monosaccharides",
+      "Conversion of starch into sugar",
+      "None of the above"
+    ],
+    "answer": 2,
+    "explanation": "Boiling inactivates the enzymes first, but on cooling, the starch converts to sugar (maltose) making it sweet."
+  },
+  {
+    "q": "Which of the following is co-enzyme?",
+    "options": [
+      "Protein",
+      "Vitamin",
+      "Hormone",
+      "Mineral"
+    ],
+    "answer": 1,
+    "explanation": "Vitamins act as co-enzymes. They are non-protein organic molecules that assist enzymes in catalysis."
+  },
+  {
+    "q": "Starch is the polymer of",
+    "options": [
+      "Glucose",
+      "Sucrose",
+      "Fructose",
+      "Maltose"
+    ],
+    "answer": 0,
+    "explanation": "Starch is a polysaccharide made of alpha-D-glucose units. It is the storage carbohydrate of plants."
+  },
+  {
+    "q": "All are essential amino acids except",
+    "options": [
+      "Phenylalanine",
+      "Methionine",
+      "Tryptophan",
+      "Tyrosine"
+    ],
+    "answer": 3,
+    "explanation": "Tyrosine is a non-essential amino acid as it can be synthesized from phenylalanine in the body."
+  },
+  {
+    "q": "What are the mostly diversed molecules in the cell?",
+    "options": [
+      "Lipids",
+      "Mineral salts",
+      "Protein",
+      "Carbohydrate"
+    ],
+    "answer": 2,
+    "explanation": "Proteins are the most diverse molecules in the cell due to infinite possible combinations of 20 amino acids."
+  },
+  {
+    "q": "As the size of a protein increases",
+    "options": [
+      "It becomes less soluble and more heat coagulable",
+      "It becomes more soluble and more heat coagulable",
+      "It becomes less soluble and less heat coagulable",
+      "It becomes more soluble and less heat coagulable"
+    ],
+    "answer": 0,
+    "explanation": "As protein size increases, it becomes less soluble and more heat coagulable due to increased complexity."
+  },
+  {
+    "q": "X-ray crystallography is used to study",
+    "options": [
+      "Arrangement of proteins",
+      "Three dimensional structure of proteins",
+      "Composition of proteins and nucleic acids",
+      "Structure of lipids"
+    ],
+    "answer": 1,
+    "explanation": "X-ray crystallography is used to study the three dimensional structure of proteins and other biomolecules."
+  },
+  {
+    "q": "DNA has which sugar in it?",
+    "options": [
+      "Hexose",
+      "Ribose",
+      "Deoxyribose",
+      "Glucose"
+    ],
+    "answer": 2,
+    "explanation": "DNA contains deoxyribose sugar (2-deoxyribose) while RNA contains ribose sugar."
+  },
+  {
+    "q": "Proteins that give off amino acids only on hydrolysis",
+    "options": [
+      "Albumin and Globulin",
+      "Haemoglobin and Myosin",
+      "Insulin and Keratin",
+      "Prolamin and Lecithin"
+    ],
+    "answer": 0,
+    "explanation": "Simple proteins like Albumin and Globulin yield only amino acids on hydrolysis unlike conjugated proteins."
+  },
+  {
+    "q": "Which is not a lipid?",
+    "options": [
+      "Steroid",
+      "Fat",
+      "Triglyceride",
+      "Fatty acid"
+    ],
+    "answer": 3,
+    "explanation": "Fatty acid alone is not a lipid — it is a component of lipids. Steroids, fats and triglycerides are all lipids."
+  },
+  {
+    "q": "All proteins are",
+    "options": [
+      "Amino acids",
+      "Two or more polypeptides",
+      "Have quaternary structure",
+      "Enzymes"
+    ],
+    "answer": 1,
+    "explanation": "All proteins consist of two or more polypeptide chains. Not all have quaternary structure and not all are enzymes."
+  },
+  {
+    "q": "Coenzyme in vitamin works",
+    "options": [
+      "As an enzyme",
+      "Independent of apoenzyme",
+      "Dependent of apoenzyme",
+      "None"
+    ],
+    "answer": 2,
+    "explanation": "Coenzymes (vitamins) work dependent on apoenzyme. Together they form the holoenzyme which is active."
+  },
+  {
+    "q": "Which statement about tRNA are correct? I. It contains base pairing II. It contains hydrogen bonds III. It contains uracil IV. It is single stranded",
+    "options": [
+      "1, 3 and 4 only",
+      "1 and 2 only",
+      "1, 2, 3 and 4",
+      "2 and 3 only"
+    ],
+    "answer": 2,
+    "explanation": "tRNA contains base pairing (in stem regions), hydrogen bonds, uracil (as it is RNA) and is single stranded."
+  },
+  {
+    "q": "Which biological molecules always contain the element nitrogen?",
+    "options": [
+      "Amino acid, cellulose, mRNA",
+      "Enzymes, mRNA, tRNA",
+      "Amino acids, DNA, Lipids",
+      "Membrane proteins, starch, tRNA"
+    ],
+    "answer": 1,
+    "explanation": "Enzymes (proteins), mRNA and tRNA all contain nitrogen. Cellulose, starch and lipids do not contain nitrogen."
+  },
+  {
+    "q": "What describes the primary structure of protein?",
+    "options": [
+      "α-helix",
+      "Peptide bond",
+      "Specific order of amino acid",
+      "Globular structure"
+    ],
+    "answer": 2,
+    "explanation": "Primary structure of protein refers to the specific sequence/order of amino acids linked by peptide bonds."
+  },
+  {
+    "q": "Neutral fats, oils and waxes may be classified as",
+    "options": [
+      "Lipids",
+      "Carbohydrates",
+      "Proteins",
+      "Starch"
+    ],
+    "answer": 0,
+    "explanation": "Neutral fats, oils and waxes are all classified as lipids. They are esters of fatty acids and alcohol."
+  },
+  {
+    "q": "Collagen belongs to",
+    "options": [
+      "Fibrous protein",
+      "Globular protein",
+      "Branched protein",
+      "Unbranched protein"
+    ],
+    "answer": 0,
+    "explanation": "Collagen is a fibrous protein found in connective tissues. It provides structural support."
+  },
+  {
+    "q": "Which of the following enzymes is not proteinaceous in nature?",
+    "options": [
+      "Trypsin",
+      "Renin",
+      "Pepsin",
+      "Ribozyme"
+    ],
+    "answer": 3,
+    "explanation": "Ribozyme is a catalytic RNA molecule, not a protein. All other enzymes are proteins."
+  },
+  {
+    "q": "The complex of sugar polymers and proteins which are patchily distributed on the plasma membranes of animal cells is called",
+    "options": [
+      "Cellulose",
+      "Chitin",
+      "Glycocalyx",
+      "Cytoskeleton"
+    ],
+    "answer": 2,
+    "explanation": "Glycocalyx is the carbohydrate-rich zone on the outer surface of animal cell plasma membrane."
+  },
+  {
+    "q": "Lipids are important to biological systems because they are",
+    "options": [
+      "Rich sources of energy",
+      "Good for repelling water on organisms surface",
+      "Building block of vitamin and hormones",
+      "All of the above"
+    ],
+    "answer": 3,
+    "explanation": "Lipids serve multiple roles: energy storage, waterproofing, and as building blocks for vitamins and hormones."
+  },
+  {
+    "q": "Which of the following is not a protein?",
+    "options": [
+      "Glycogen",
+      "Glycine",
+      "Alanine",
+      "Tryptophan"
+    ],
+    "answer": 0,
+    "explanation": "Glycogen is a polysaccharide (carbohydrate). Glycine, Alanine and Tryptophan are amino acids."
+  }
+]

@@ -1,0 +1,200 @@
+[
+  {
+    "q": "According to Bentham & Hooker, Gymnosperm lies",
+    "options": [
+      "After dicot",
+      "Between monocot & dicot",
+      "Before monocot",
+      "Excluded from angiosperm"
+    ],
+    "answer": 1,
+    "explanation": "Bentham and Hooker gave natural system of classification where Gymnosperms were kept between monocot and dicot."
+  },
+  {
+    "q": "Five kingdom classification is mainly based on",
+    "options": [
+      "Nutrition",
+      "Structure of nucleus",
+      "Cell wall",
+      "Sexual reproduction"
+    ],
+    "answer": 0,
+    "explanation": "Whittaker's five kingdom classification is mainly based on mode of nutrition and ecological role."
+  },
+  {
+    "q": "Scientific name of Yarsagumba is",
+    "options": [
+      "Hibiscus rosa sinensis",
+      "Atropa belladona",
+      "Cordyceps sinensis",
+      "Aegle marmelos"
+    ],
+    "answer": 2,
+    "explanation": "Yarsagumba is a popular natural medicine found in high altitude of Nepal. Its scientific name is Cordyceps sinensis."
+  },
+  {
+    "q": "Euglena belongs to kingdom",
+    "options": [
+      "Monera",
+      "Protista",
+      "Plantae",
+      "Animalia"
+    ],
+    "answer": 1,
+    "explanation": "Euglena belongs to kingdom Protista. It is a connecting link between animals and plants."
+  },
+  {
+    "q": "Which of these are flowering plants?",
+    "options": [
+      "Thallophytes",
+      "Spermatophytes",
+      "Pteridophytes",
+      "Bryophytes"
+    ],
+    "answer": 1,
+    "explanation": "Spermatophytes are flowering plants possessing seeds. They include Angiosperms and Gymnosperms."
+  },
+  {
+    "q": "Correct order of taxonomic hierarchy",
+    "options": [
+      "Class Family Order Genus Species",
+      "Class Order Family Genus Species",
+      "Phylum Order Class Family Genus",
+      "Phylum Family Order Class Species"
+    ],
+    "answer": 1,
+    "explanation": "Correct descending order: Kingdom → Division/Phylum → Class → Order → Family → Genus → Species. Remember: Keep Dishes Clean Otherwise Family Gets Sick."
+  },
+  {
+    "q": "Term species is coined by",
+    "options": [
+      "Aristotle",
+      "John Ray",
+      "Hooke",
+      "Linnaeus"
+    ],
+    "answer": 1,
+    "explanation": "John Ray was first to introduce and define the term Species for any one kind of living things."
+  },
+  {
+    "q": "Scientific name of sirish is",
+    "options": [
+      "Albizzia lebbeck",
+      "Cyanodon dactylon",
+      "Acacia",
+      "Mentha"
+    ],
+    "answer": 0,
+    "explanation": "Sirish is a tree commonly found in Nepal. Its scientific name is Albizzia lebbeck."
+  },
+  {
+    "q": "Five-Kingdom-system of classification for living organisms was proposed by",
+    "options": [
+      "Copeland",
+      "Ostwald Tippo",
+      "Linnaeus",
+      "Whittaker"
+    ],
+    "answer": 3,
+    "explanation": "R.H. Whittaker proposed the five kingdom system of classification in 1969 based on mode of nutrition."
+  },
+  {
+    "q": "Botanists usually prefer wild variety of plant because",
+    "options": [
+      "They are easy for Hybridization",
+      "They are easy for selfing",
+      "They are easy for cross-pollination",
+      "They contain mutated genes"
+    ],
+    "answer": 3,
+    "explanation": "Botanists prefer wild variety of plants because they contain mutated genes which are useful for research and breeding."
+  },
+  {
+    "q": "Species is defined as",
+    "options": [
+      "Group of inter-related populations reproductively connected with similar groups",
+      "Group of inter-related populations reproductively isolated with similar groups",
+      "Group of populations separated by physical barrier",
+      "Group of populations separated by reproductive barrier"
+    ],
+    "answer": 1,
+    "explanation": "Species is a group of inter-related populations that are reproductively isolated from other such groups."
+  },
+  {
+    "q": "3 stages of evolution was given by",
+    "options": [
+      "Earlier microcopists",
+      "Darwin",
+      "Modern biologists",
+      "Haeckel"
+    ],
+    "answer": 3,
+    "explanation": "Ernst Haeckel gave 3 stages of evolution. He also coined the term ecology."
+  },
+  {
+    "q": "What is the scientific name of popular natural medicine found in high altitude of Nepal?",
+    "options": [
+      "Rauwolfia serpentina",
+      "Acorus calamus",
+      "Asparagus racemosus",
+      "Cordyceps sinensis"
+    ],
+    "answer": 3,
+    "explanation": "Yarsagumba found in high altitude of Nepal has scientific name Cordyceps sinensis. It is a parasitic fungus on moth caterpillar."
+  },
+  {
+    "q": "The term biology was coined by",
+    "options": [
+      "Aristotle",
+      "Theophrastus",
+      "Lamarck & Treviranus",
+      "Linnaeus"
+    ],
+    "answer": 2,
+    "explanation": "The term biology was coined by Lamarck and Treviranus in 1802. Aristotle is called father of biology."
+  },
+  {
+    "q": "The science of the classification of animals and plants is known as",
+    "options": [
+      "Geometrics",
+      "Systematics",
+      "Biometric",
+      "Zoometrics"
+    ],
+    "answer": 1,
+    "explanation": "Systematics (taxonomy) is the science of classification of living organisms. It includes identification, nomenclature and classification."
+  },
+  {
+    "q": "Five kingdom system of classification was given by",
+    "options": [
+      "Copeland",
+      "Haeckel",
+      "Huxley",
+      "R.H. Whittaker"
+    ],
+    "answer": 3,
+    "explanation": "R.H. Whittaker proposed five kingdom classification in 1969: Monera, Protista, Fungi, Plantae, Animalia."
+  },
+  {
+    "q": "Binomial system of nomenclature was coined by",
+    "options": [
+      "Robert Hook",
+      "Charles Darwin",
+      "Lamark",
+      "Carolous Linnaeus"
+    ],
+    "answer": 3,
+    "explanation": "Carolus Linnaeus introduced the binomial system of nomenclature where each organism has a genus and species name."
+  },
+  {
+    "q": "Organisms were classified into plants and Animals for the first time by",
+    "options": [
+      "Aristotle",
+      "E. Haeckel",
+      "John Ray",
+      "Linnaeus"
+    ],
+    "answer": 0,
+    "explanation": "Aristotle was the first to classify organisms into plants and animals. He is called the father of biology."
+  }
+]

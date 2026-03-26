@@ -1,0 +1,1619 @@
+[
+    {
+        "q": "Centrolecithal eggs are found in:",
+        "options": [
+            "Rabbit",
+            "Frog",
+            "Cockroach",
+            "Parrot"
+        ],
+        "answer": 2,
+        "explanation": "Insects like cockroaches have centrolecithal eggs where the yolk is concentrated in the center of the cytoplasm."
+    },
+    {
+        "q": "Metamorphosis in insects is controlled by the hormone:",
+        "options": [
+            "Pheromones",
+            "Thyroxine",
+            "Ecdysone",
+            "Juvenile"
+        ],
+        "answer": 3,
+        "explanation": "Juvenile hormone (JH) secreted by corpora allata ensures the insect remains in the larval stage during moulting."
+    },
+    {
+        "q": "Spider belongs to class:",
+        "options": [
+            "Crustacea",
+            "Insecta",
+            "Arthropoda",
+            "Arachnida"
+        ],
+        "answer": 3,
+        "explanation": "Spiders belong to class Arachnida, characterized by four pairs of legs and a body divided into cephalothorax and abdomen."
+    },
+    {
+        "q": "Which one is a parasite and also a vector?",
+        "options": [
+            "Plasmodium",
+            "Flea",
+            "Housefly",
+            "Silkworm"
+        ],
+        "answer": 1,
+        "explanation": "Fleas are ectoparasites that also act as vectors for diseases like the bubonic plague (Yersinia pestis)."
+    },
+    {
+        "q": "Head of cockroach is formed by the fusion of:",
+        "options": [
+            "4 segments",
+            "3 segments",
+            "6 segments",
+            "7 segments"
+        ],
+        "answer": 2,
+        "explanation": "The head of a cockroach is hypognathous and is formed by the fusion of six embryonic segments."
+    },
+    {
+        "q": "Haemocoel is found in:",
+        "options": [
+            "Insects",
+            "Arachnida",
+            "Crustacea",
+            "Echinodermata"
+        ],
+        "answer": 0,
+        "explanation": "Insects possess an open circulatory system where blood (haemolymph) flows through a body cavity called the haemocoel."
+    },
+    {
+        "q": "Tracheal system of respiration is found in:",
+        "options": [
+            "Insects",
+            "Crayfish",
+            "Millipede",
+            "Spider"
+        ],
+        "answer": 0,
+        "explanation": "Insects use a network of tracheal tubes that open through spiracles to deliver oxygen directly to tissues."
+    },
+    {
+        "q": "Haemoglobin is not found in the blood of:",
+        "options": [
+            "Frog",
+            "Cockroach",
+            "Rabbit",
+            "Earthworm"
+        ],
+        "answer": 1,
+        "explanation": "Cockroaches have colorless blood (haemolymph) because they lack respiratory pigments like haemoglobin."
+    },
+    {
+        "q": "Spiders web are webbed from the:",
+        "options": [
+            "Mouth",
+            "Leg",
+            "Spinnerets",
+            "Saliva"
+        ],
+        "answer": 2,
+        "explanation": "Spinnerets are silk-spinning organs located on the abdomen of spiders that produce silk threads."
+    },
+    {
+        "q": "Green glands are found in:",
+        "options": [
+            "Crustaceans",
+            "Insects",
+            "Arachnids",
+            "Tadpole"
+        ],
+        "answer": 0,
+        "explanation": "Green glands (antennal glands) are the primary excretory organs in crustaceans like prawns."
+    },
+    {
+        "q": "Excretory product in terrestrial insect is:",
+        "options": [
+            "Urea",
+            "Ammonia",
+            "Uric acid",
+            "Hippuric acid"
+        ],
+        "answer": 2,
+        "explanation": "Terrestrial insects are uricotelic, secreting uric acid to conserve water."
+    },
+    {
+        "q": "After copulation spermatic fluid from spermatophore passes to which part of the female cockroach:",
+        "options": [
+            "Common oviduct",
+            "Vagina",
+            "Collateral gland",
+            "Spermatheca"
+        ],
+        "answer": 3,
+        "explanation": "Spermathecae are a pair of structures in female cockroaches that store sperm received during copulation."
+    },
+    {
+        "q": "Arolium in cockroach is found in:",
+        "options": [
+            "Antennae",
+            "Leg",
+            "Wings and labium",
+            "Maxillae"
+        ],
+        "answer": 1,
+        "explanation": "Arolium is a small, adhesive pad located between the claws of a cockroach's leg to help in climbing."
+    },
+    {
+        "q": "Excretory organ in cockroach is:",
+        "options": [
+            "Flame cells",
+            "Malpighian tubules",
+            "Nephridia",
+            "Nephron"
+        ],
+        "answer": 1,
+        "explanation": "Malpighian tubules are fine, yellow threads attached to the junction of midgut and hindgut that remove waste."
+    },
+    {
+        "q": "The feature that distinguishes female cockroach from male cockroach is the absence of:",
+        "options": [
+            "Anal styles",
+            "Anal cerci",
+            "Antennae",
+            "Eyes"
+        ],
+        "answer": 0,
+        "explanation": "Anal styles are short, unjointed structures found only in male cockroaches on the 9th sternum."
+    },
+    {
+        "q": "Vision of compound eye is:",
+        "options": [
+            "Mosaic",
+            "Unilocular",
+            "Binocular",
+            "None"
+        ],
+        "answer": 0,
+        "explanation": "Compound eyes consist of many ommatidia, each forming a part of the image, resulting in mosaic vision."
+    },
+    {
+        "q": "Pseudopenis is found in the ……… in cockroach:",
+        "options": [
+            "Left phallomere",
+            "Right phallomere",
+            "Ventral phallomere",
+            "None"
+        ],
+        "answer": 0,
+        "explanation": "The pseudopenis is a hook-like structure located on the left phallomere of the male cockroach."
+    },
+    {
+        "q": "The piercing elements in the mouth parts of female Anopheles are:",
+        "options": [
+            "Labium and mandibles",
+            "Labrum and Labium",
+            "Labrum and maxillae",
+            "Maxillae and mandibles"
+        ],
+        "answer": 3,
+        "explanation": "In female mosquitoes, the mandibles and maxillae are modified into needle-like stylets for piercing skin."
+    },
+    {
+        "q": "The pupa of mosquito is called:",
+        "options": [
+            "Maggot",
+            "Tumbler",
+            "Imago",
+            "Wriggler"
+        ],
+        "answer": 1,
+        "explanation": "The pupa of a mosquito is comma-shaped, active, and known as a tumbler; the larva is a wriggler."
+    },
+    {
+        "q": "The gland involved in the formation of thread in spider is:",
+        "options": [
+            "Spinnerets",
+            "Thymus gland",
+            "Cowper's gland",
+            "Coxal gland"
+        ],
+        "answer": 0,
+        "explanation": "Spinnerets are specialized organs on the abdomen that contain silk glands used for weaving webs."
+    },
+    {
+        "q": "Imago is the name of young one of:",
+        "options": [
+            "Butterfly",
+            "Beetle",
+            "Housefly",
+            "Mosquito"
+        ],
+        "answer": 2,
+        "explanation": "In the life cycle of a housefly, the imago refers to the fully developed adult stage."
+    },
+    {
+        "q": "Which of the following has no blood vessel?",
+        "options": [
+            "Earthworm",
+            "Cockroach",
+            "Frog",
+            "Rabbit"
+        ],
+        "answer": 1,
+        "explanation": "Cockroaches have an open circulatory system where blood is not confined to vessels but fills the haemocoel."
+    },
+    {
+        "q": "The mouth part of housefly is:",
+        "options": [
+            "Sucking type",
+            "Siphoning type",
+            "Sponging type",
+            "Biting and chewing type"
+        ],
+        "answer": 2,
+        "explanation": "Houseflies have sponging mouthparts adapted for licking and sucking up liquefied food."
+    },
+    {
+        "q": "Three pairs of legs are found in which of the following class?",
+        "options": [
+            "Crustaceans",
+            "Insects",
+            "Arachnids",
+            "Millipedes"
+        ],
+        "answer": 1,
+        "explanation": "Class Insecta (Hexapoda) is defined by having three pairs (six total) of jointed legs attached to the thorax."
+    },
+    {
+        "q": "Which is true about open circulatory system?",
+        "options": [
+            "It has no arteries",
+            "Heart receives blood through ostia",
+            "Blood is drained into pericardial sinus",
+            "All of these"
+        ],
+        "answer": 1,
+        "explanation": "In an open system like that of a cockroach, the tubular heart draws in blood via small lateral openings called ostia."
+    },
+    {
+        "q": "Mouth part of cockroach is:",
+        "options": [
+            "Chewing and lapping type",
+            "Piercing and sucking type",
+            "Biting and chewing type",
+            "Siphoning type"
+        ],
+        "answer": 2,
+        "explanation": "Cockroaches have primitive biting and chewing mouthparts consisting of mandibles, maxillae, and labium."
+    },
+    {
+        "q": "Which of the following includes the largest number of species in animal kingdom?",
+        "options": [
+            "Vertebrata",
+            "Insects",
+            "Mollusca",
+            "Echinodermata"
+        ],
+        "answer": 1,
+        "explanation": "Insects make up the largest group of animals, accounting for over 75% of all known animal species."
+    },
+    {
+        "q": "Which of the following is not one of the distinguishing characteristic of Arthropoda?",
+        "options": [
+            "Jointed leg",
+            "Segmented bodies",
+            "Closed circulatory system",
+            "An exoskeleton of chitin"
+        ],
+        "answer": 2,
+        "explanation": "Arthropods are characterized by an open circulatory system, not a closed one."
+    },
+    {
+        "q": "Malpighian tubules are found in one of the following animals:",
+        "options": [
+            "Cockroach",
+            "Paramecium",
+            "Hydra",
+            "Earthworm"
+        ],
+        "answer": 0,
+        "explanation": "Malpighian tubules are the primary excretory structures in most terrestrial arthropods, including cockroaches."
+    },
+    {
+        "q": "All except which one of the following is insect:",
+        "options": [
+            "Centipede",
+            "Housefly",
+            "Dragonfly",
+            "Firefly"
+        ],
+        "answer": 0,
+        "explanation": "Centipedes belong to class Myriapoda (Chilopoda) and have many pairs of legs, whereas insects have only three pairs."
+    },
+    {
+        "q": "Body of spider is differentiated into:",
+        "options": [
+            "Head and legs",
+            "Head, thorax and abdomen",
+            "Head, trunk and tail",
+            "Head and abdomen"
+        ],
+        "answer": 3,
+        "explanation": "Spiders have two body regions: the cephalothorax (prosoma) and the abdomen (opisthosoma)."
+    },
+    {
+        "q": "Body of cockroach is divisible into:",
+        "options": [
+            "Head and thorax",
+            "Cephalothorax, abdomen",
+            "Head, thorax and abdomen",
+            "Male gonad and ovum"
+        ],
+        "answer": 2,
+        "explanation": "The insect body plan is distinctively divided into three tagmata: head, thorax, and abdomen."
+    },
+    {
+        "q": "The habit of cockroach is:",
+        "options": [
+            "Cursorial, fossorial and carnivorous",
+            "Cursorial, nocturnal and omnivorous",
+            "Fossorial, diurnal and omnivorous",
+            "None"
+        ],
+        "answer": 1,
+        "explanation": "Cockroaches are fast runners (cursorial), active at night (nocturnal), and eat almost anything (omnivorous)."
+    },
+    {
+        "q": "In cockroach the trachea opens out into the atmosphere through:",
+        "options": [
+            "7 pairs of spiracles",
+            "8 pairs of spiracles",
+            "10 pairs of spiracles",
+            "6 pairs of spiracles"
+        ],
+        "answer": 2,
+        "explanation": "Cockroaches have 10 pairs of spiracles (2 thoracic and 8 abdominal) for gaseous exchange."
+    },
+    {
+        "q": "Which of the following arthropods is not mandibulate?",
+        "options": [
+            "Insects",
+            "Crab",
+            "Shrimp",
+            "Spider"
+        ],
+        "answer": 3,
+        "explanation": "Spiders are chelicerates; they have chelicerae instead of mandibles for feeding."
+    },
+    {
+        "q": "Developmental stages in larvae, from one form to another form in insects is called:",
+        "options": [
+            "Pupa",
+            "Maggot",
+            "Instar",
+            "Tumbler"
+        ],
+        "answer": 2,
+        "explanation": "An instar is the phase between two successive moultings in the development of an insect larva."
+    },
+    {
+        "q": "The retention of larval characteristics in a moulting insect is promoted by:",
+        "options": [
+            "Thyroxine",
+            "Ecdysone",
+            "Juvenile hormone",
+            "Pheromone"
+        ],
+        "answer": 2,
+        "explanation": "Juvenile hormone inhibits metamorphosis and keeps the insect in the larval form during growth."
+    },
+    {
+        "q": "Which is chelicerate?",
+        "options": [
+            "Horse shoe crab",
+            "Lobster",
+            "Millipede",
+            "Grasshopper"
+        ],
+        "answer": 0,
+        "explanation": "The horseshoe crab (Limulus) belongs to Chelicerata, a group that lacks antennae and mandibles."
+    },
+    {
+        "q": "In which of the following blood does not act as O₂ carrier?",
+        "options": [
+            "Neries",
+            "Cockroach",
+            "Frog",
+            "Earthworm"
+        ],
+        "answer": 1,
+        "explanation": "In cockroaches, oxygen is delivered directly to cells via the tracheal system, so the blood has no respiratory role."
+    },
+    {
+        "q": "In cockroach the brain hormone secreted by the intercerebral glands is responsible for activation of:",
+        "options": [
+            "Corpora allata",
+            "Cerebral ganglia",
+            "Prothoracic gland",
+            "Corpora cardiaca"
+        ],
+        "answer": 2,
+        "explanation": "Brain hormone stimulates the prothoracic gland to release ecdysone, which triggers moulting."
+    },
+    {
+        "q": "Dengue fever, a vector borne disease, is transmitted by:",
+        "options": [
+            "Culex",
+            "Anopheles",
+            "Aedes",
+            "Phlebotomus"
+        ],
+        "answer": 2,
+        "explanation": "Aedes aegypti is the primary mosquito vector responsible for transmitting the Dengue virus."
+    },
+    {
+        "q": "The two pairs of wings of cockroach are attached to:",
+        "options": [
+            "Mesothorax and metathorax",
+            "Prothorax and mesothorax",
+            "Prothorax and metathorax",
+            "First two abdominal segments"
+        ],
+        "answer": 0,
+        "explanation": "In insects, wings are never found on the prothorax; they are attached to the mesothorax and metathorax."
+    },
+    {
+        "q": "Mosquito produces sound by:",
+        "options": [
+            "Mouth",
+            "Wings",
+            "Abdomen",
+            "Thorax"
+        ],
+        "answer": 1,
+        "explanation": "The characteristic buzzing sound of mosquitoes is produced by the rapid vibration of their wings."
+    },
+    {
+        "q": "The main difference between male and female cockroach is:",
+        "options": [
+            "Anal style",
+            "Anal cerci",
+            "Antennae",
+            "Eyes"
+        ],
+        "answer": 0,
+        "explanation": "Male cockroaches possess anal styles on the 9th segment, which are absent in females."
+    },
+    {
+        "q": "Ommatidium is present in:",
+        "options": [
+            "Reptiles",
+            "Mammals",
+            "Annelids",
+            "Insects"
+        ],
+        "answer": 3,
+        "explanation": "Ommatidia are the structural and functional units of compound eyes found in insects and crustaceans."
+    },
+    {
+        "q": "Filariasis is caused due to:",
+        "options": [
+            "Protozoa",
+            "Bacteria",
+            "Mosquito",
+            "Virus"
+        ],
+        "answer": 2,
+        "explanation": "Filariasis is caused by parasitic worms, but it is spread to humans via the bite of infected mosquitoes."
+    },
+    {
+        "q": "Larva of mosquito is called:",
+        "options": [
+            "Tumbler",
+            "Wriggler",
+            "Nymph",
+            "Grub"
+        ],
+        "answer": 1,
+        "explanation": "The larval stage of a mosquito is known as a wriggler due to its distinctive jerking movement in water."
+    },
+    {
+        "q": "Which of the following is exoskeleton in invertebrates?",
+        "options": [
+            "Chitin",
+            "Melanophore",
+            "Keratin",
+            "Melanin"
+        ],
+        "answer": 0,
+        "explanation": "Arthropods have a tough, protective exoskeleton made primarily of the nitrogenous polysaccharide chitin."
+    },
+    {
+        "q": "Number of eggs in ootheca of cockroach is:",
+        "options": [
+            "2",
+            "4",
+            "8",
+            "16"
+        ],
+        "answer": 3,
+        "explanation": "A cockroach ootheca (egg case) typically contains 16 eggs arranged in two rows of eight."
+    },
+    {
+        "q": "Zika virus is caused by:",
+        "options": [
+            "Aedes mosquitoes",
+            "Cat",
+            "Culex mosquitoes",
+            "Dog"
+        ],
+        "answer": 0,
+        "explanation": "Zika virus is primarily transmitted through the bite of an infected Aedes species mosquito."
+    },
+    {
+        "q": "All of the following are parts of leg of cockroach except:",
+        "options": [
+            "Coxa",
+            "Tibia",
+            "Fibula",
+            "Talsus"
+        ],
+        "answer": 2,
+        "explanation": "The leg parts are coxa, trochanter, femur, tibia, and tarsus. Fibula is a bone found in vertebrates."
+    },
+    {
+        "q": "The carrier vector of dengue fever is:",
+        "options": [
+            "Culex mosquito",
+            "Aedes mosquito",
+            "Anopheles mosquito",
+            "Tiger mosquito"
+        ],
+        "answer": 1,
+        "explanation": "Aedes mosquito is the vector for Dengue, Zika, and Yellow fever."
+    },
+    {
+        "q": "Poison glands present in centipede are modified:",
+        "options": [
+            "Maxilla",
+            "Maxillipede",
+            "Telson",
+            "Mandibles"
+        ],
+        "answer": 1,
+        "explanation": "The first pair of legs in centipedes are modified into maxillipedes (poison claws) to inject venom."
+    },
+    {
+        "q": "Which one of the following is found as a parasite in the seminal vesicle of earthworm?",
+        "options": [
+            "Nosema",
+            "Bombyx",
+            "Monocystis",
+            "Nyctotherus"
+        ],
+        "answer": 2,
+        "explanation": "Monocystis is a protozoan parasite that commonly infects the seminal vesicles of earthworms."
+    },
+    {
+        "q": "A process that helps arthropods to grow:",
+        "options": [
+            "Morphogenesis",
+            "Lyses",
+            "Homeostasis",
+            "Ecdysis"
+        ],
+        "answer": 3,
+        "explanation": "Ecdysis (moulting) is the shedding of the old exoskeleton to allow the body to expand and grow."
+    },
+    {
+        "q": "Classes of Arthropoda:",
+        "options": [
+            "Crustaceae, insecta, myriapoda, arachnida",
+            "Crustaceae, arachnida, cephalopoda, gastropoda",
+            "Arachnida, insecta, crustaceae, cephalopoda",
+            "Crustaceae, insecta, myriapoda, polychaeta"
+        ],
+        "answer": 0,
+        "explanation": "Arthropoda is divided into classes like Insecta, Crustacea, Arachnida, and Myriapoda. Cephalopods are molluscs."
+    },
+    {
+        "q": "Insects are characterized by:",
+        "options": [
+            "3 pairs of legs",
+            "3 pairs of wings",
+            "Jointed legs",
+            "Tracheal respiration"
+        ],
+        "answer": 0,
+        "explanation": "The most defining characteristic of the Class Insecta is the presence of exactly three pairs of legs."
+    },
+    {
+        "q": "Body cavity of arthropod is:",
+        "options": [
+            "Pseudocoel",
+            "Enterocoel",
+            "Haemocoel",
+            "Schizocoel"
+        ],
+        "answer": 2,
+        "explanation": "The haemocoel is a blood-filled body cavity characteristic of arthropods and molluscs."
+    },
+    {
+        "q": "Exoskeleton of cockroach and other insects is formed of:",
+        "options": [
+            "Chitinous cuticle",
+            "Non-chitinous cuticle",
+            "Amino acids",
+            "Keratin"
+        ],
+        "answer": 0,
+        "explanation": "The insect cuticle is hardened with chitin, providing protection and structural support."
+    },
+    {
+        "q": "Respiratory organ in scorpion is:",
+        "options": [
+            "Bookgills",
+            "Booklungs",
+            "Gills",
+            "Skin"
+        ],
+        "answer": 1,
+        "explanation": "Scorpions and most spiders respire through book lungs, which are localized respiratory organs in the abdomen."
+    },
+    {
+        "q": "Clypeus is a part of:",
+        "options": [
+            "Head",
+            "Wing",
+            "Abdomen",
+            "Leg"
+        ],
+        "answer": 0,
+        "explanation": "Clypeus is one of the sclerites (plates) that make up the front part of an insect's head."
+    },
+    {
+        "q": "The palpiger (gustatoreceptors) of cockroach found in:",
+        "options": [
+            "Lingula",
+            "Submentum",
+            "Labrum",
+            "Labial palp"
+        ],
+        "answer": 3,
+        "explanation": "The labial palp is part of the labium (lower lip) and carries sensory receptors for taste."
+    },
+    {
+        "q": "Melanin pigment in cockroach is found in:",
+        "options": [
+            "Epicuticle",
+            "Exocuticle",
+            "Endocuticle",
+            "All of these"
+        ],
+        "answer": 1,
+        "explanation": "Melanin, which provides the dark brown color to the cockroach, is primarily located in the exocuticle."
+    },
+    {
+        "q": "The largest part of the alimentary canal of cockroach is:",
+        "options": [
+            "Crop",
+            "Ileum",
+            "Mesenteron",
+            "Rectum"
+        ],
+        "answer": 0,
+        "explanation": "The crop is a large, sac-like structure in the foregut used for storing swallowed food."
+    },
+    {
+        "q": "Ecdysone is produced by:",
+        "options": [
+            "Prothoracic gland",
+            "Corpora cardiaca",
+            "Corpora allata",
+            "Abdominal gland"
+        ],
+        "answer": 0,
+        "explanation": "Ecdysone is the moulting hormone secreted by the prothoracic glands in insects."
+    },
+    {
+        "q": "Spider web is secreted by:",
+        "options": [
+            "Salivary glands",
+            "Abdominal glands",
+            "Cephalothoracic glands",
+            "None"
+        ],
+        "answer": 1,
+        "explanation": "The silk glands of a spider are located within the abdomen and open through the spinnerets."
+    },
+    {
+        "q": "Excretory product of spider is:",
+        "options": [
+            "Uric acid",
+            "Urea",
+            "Ammonia",
+            "Guanine"
+        ],
+        "answer": 3,
+        "explanation": "Spiders and some other arachnids excrete guanine, which is highly insoluble and saves water."
+    },
+    {
+        "q": "Butterflies belong to the order:",
+        "options": [
+            "Diptera",
+            "Coleoptera",
+            "Lepidoptera",
+            "Hymenoptera"
+        ],
+        "answer": 2,
+        "explanation": "Order Lepidoptera includes butterflies and moths, characterized by scales covering their wings."
+    },
+    {
+        "q": "Silk is obtained from which stage of silkworm?",
+        "options": [
+            "Egg",
+            "Pupa",
+            "Adult",
+            "Larva"
+        ],
+        "answer": 1,
+        "explanation": "Commercial silk is unraveled from the cocoon, which is the protective covering of the pupal stage."
+    },
+    {
+        "q": "Caterpillar and maggot are:",
+        "options": [
+            "pupa",
+            "larvae",
+            "adults",
+            "nymphs"
+        ],
+        "answer": 1,
+        "explanation": "These are the larval stages of butterflies (caterpillar) and houseflies (maggot)."
+    },
+    {
+        "q": "Which of the following is an insect?",
+        "options": [
+            "Ant",
+            "Prawn",
+            "Spider",
+            "Scorpion"
+        ],
+        "answer": 0,
+        "explanation": "Ants have six legs and three body regions, making them true insects. Spiders and scorpions are arachnids."
+    },
+    {
+        "q": "The insect which lays eggs in water is:",
+        "options": [
+            "Fruitfly",
+            "Dragonfly",
+            "Blowfly",
+            "Butterfly"
+        ],
+        "answer": 1,
+        "explanation": "Dragonflies lay their eggs in or near water, where their aquatic larvae (naiads) develop."
+    },
+    {
+        "q": "Which type of respiratory organs are present in spiders and scorpions?",
+        "options": [
+            "Gills",
+            "Lungs",
+            "Book gills",
+            "Book lungs"
+        ],
+        "answer": 3,
+        "explanation": "Book lungs are specialized respiratory organs in arachnids that look like the pages of a book."
+    },
+    {
+        "q": "An insect without metamorphosis is:",
+        "options": [
+            "Silverfish",
+            "Crayfish",
+            "Bedbug",
+            "Pediculus"
+        ],
+        "answer": 0,
+        "explanation": "Silverfish (Lepisma) are ametabolous, meaning they undergo no significant metamorphosis."
+    },
+    {
+        "q": "Biramous appendages are present in:",
+        "options": [
+            "Insecta",
+            "Crustacea",
+            "Onychophora",
+            "Cephalopoda"
+        ],
+        "answer": 1,
+        "explanation": "Biramous (two-branched) appendages are a characteristic feature of Crustaceans like prawns and lobsters."
+    },
+    {
+        "q": "Which of the following belongs to the phylum Arthropoda?",
+        "options": [
+            "Starfish",
+            "Goldfish",
+            "Silverfish",
+            "Cuttlefish"
+        ],
+        "answer": 2,
+        "explanation": "Silverfish is a wingless insect (Arthropoda). Starfish is an Echinoderm and Goldfish is a Chordate."
+    },
+    {
+        "q": "Diagnostic feature of insects is:",
+        "options": [
+            "Three pairs of legs",
+            "Compound eyes",
+            "Chitinous body",
+            "Two pairs of wings"
+        ],
+        "answer": 0,
+        "explanation": "While many arthropods have chitin, only insects consistently have exactly three pairs of legs."
+    },
+    {
+        "q": "The first antennal segment of cockroach is known as:",
+        "options": [
+            "Frons",
+            "Pedicel",
+            "Scape",
+            "None of these"
+        ],
+        "answer": 2,
+        "explanation": "The antenna consists of a basal scape, a middle pedicel, and a long flagellum."
+    },
+    {
+        "q": "Which part of cockroach has both exoskeleton and endoskeleton?",
+        "options": [
+            "Head",
+            "Thorax",
+            "Both of these",
+            "None of these"
+        ],
+        "answer": 2,
+        "explanation": "Cockroaches have external sclerites (exoskeleton) and internal ingrowths called apodemes (endoskeleton) for muscle attachment."
+    },
+    {
+        "q": "The dorsal plate of the thorax of cockroach is called:",
+        "options": [
+            "Sternum",
+            "Epidermis",
+            "Notum",
+            "Cuticle"
+        ],
+        "answer": 2,
+        "explanation": "Dorsal sclerites are called terga or nota, ventral ones are sterna, and lateral ones are pleura."
+    },
+    {
+        "q": "Dorsal portion of abdominal segments in cockroach is a:",
+        "options": [
+            "Sternum",
+            "Tergum",
+            "Both of these",
+            "None of these"
+        ],
+        "answer": 1,
+        "explanation": "The abdominal segments are protected dorsally by plates called terga."
+    },
+    {
+        "q": "'Ears' of cockroaches are situated on:",
+        "options": [
+            "Antennae",
+            "Epicranial plate",
+            "Anal cerci",
+            "Maxillae"
+        ],
+        "answer": 2,
+        "explanation": "Anal cerci are sensitive to vibrations and air currents, functioning as primitive auditory organs."
+    },
+    {
+        "q": "Which of the two parts in cockroach are fundamentally similar in structure?",
+        "options": [
+            "Wings and Cerci",
+            "Maxillae and Legs",
+            "Mandibles and Antennae",
+            "Anal styles and Labrum"
+        ],
+        "answer": 1,
+        "explanation": "In arthropods, mouthparts like maxillae are evolutionary modifications of jointed legs."
+    },
+    {
+        "q": "Efferent salivary ducts in Periplaneta open into:",
+        "options": [
+            "Stomach",
+            "Base of pharynx",
+            "Base of oesophagus",
+            "Base of hypopharynx"
+        ],
+        "answer": 3,
+        "explanation": "The salivary duct opens at the base of the hypopharynx (tongue-like structure)."
+    },
+    {
+        "q": "Organ of mastication in cockroach is:",
+        "options": [
+            "Mandible",
+            "Labrum",
+            "Labium",
+            "Maxilla"
+        ],
+        "answer": 0,
+        "explanation": "Mandibles are the 'jaws' used for crushing and grinding food particles."
+    },
+    {
+        "q": "The most swollen segment in the leg of cockroach is:",
+        "options": [
+            "Coxa",
+            "Femur",
+            "Trochanter",
+            "Tarsus"
+        ],
+        "answer": 0,
+        "explanation": "The coxa is the proximal-most and widest segment of the insect leg, attaching it to the thorax."
+    },
+    {
+        "q": "The internal lining of gizzard in cockroach is of:",
+        "options": [
+            "Endothelium",
+            "Mucous membrane",
+            "Peritrophic membrane",
+            "Cuticle"
+        ],
+        "answer": 3,
+        "explanation": "The gizzard (proventriculus) has a thick muscular wall lined internally by a thick cuticle forming six teeth."
+    },
+    {
+        "q": "Peritrophic membrane is secreted in which part of cockroach?",
+        "options": [
+            "Mesenteron",
+            "Brood pouch",
+            "Tracheal tubes",
+            "Salivary glands"
+        ],
+        "answer": 0,
+        "explanation": "The midgut (mesenteron) secretes a peritrophic membrane around the food to protect the gut lining."
+    },
+    {
+        "q": "Hepatic caeca in cockroach are derived from:",
+        "options": [
+            "Ileum",
+            "Midgut",
+            "Oesophagus",
+            "Crop"
+        ],
+        "answer": 1,
+        "explanation": "Hepatic (gastric) caeca are 6-8 blind tubules present at the junction of the foregut and midgut."
+    },
+    {
+        "q": "Alary muscles in cockroach are related with:",
+        "options": [
+            "Heart",
+            "Brain",
+            "Gut",
+            "Legs"
+        ],
+        "answer": 0,
+        "explanation": "12 pairs of fan-shaped alary muscles help in the expansion and contraction of the heart for blood flow."
+    },
+    {
+        "q": "Oxygen in cockroach is transported by:",
+        "options": [
+            "Blood",
+            "Lymph",
+            "Trachea",
+            "Spiracle"
+        ],
+        "answer": 2,
+        "explanation": "The tracheal system bypasses the blood to deliver oxygen directly to the tissues."
+    },
+    {
+        "q": "In cockroach, the cuticular lining of trachea is called:",
+        "options": [
+            "Peritoneum",
+            "Intima",
+            "Articular membrane",
+            "Serosa"
+        ],
+        "answer": 1,
+        "explanation": "The tracheae are lined with a spiral cuticular thickening called the intima (or taenidia)."
+    },
+    {
+        "q": "Mycetocyte cells of the fat body of cockroach help in:",
+        "options": [
+            "Urea formation",
+            "Food storage",
+            "Synthesis of glycogen from glucose",
+            "Intermediary metabolism"
+        ],
+        "answer": 3,
+        "explanation": "Mycetocytes contain symbiotic bacteria that assist in metabolic processes and vitamin synthesis."
+    },
+    {
+        "q": "Fat bodies of cockroach are analogous to vertebrate:",
+        "options": [
+            "Spleen",
+            "Adipose tissue",
+            "Kidney",
+            "Liver"
+        ],
+        "answer": 1,
+        "explanation": "The fat body is the primary storage tissue for lipids and glycogen, similar to vertebrate adipose tissue."
+    },
+    {
+        "q": "The total number of ganglia present on the nerve cord of cockroach is:",
+        "options": [
+            "6",
+            "9",
+            "10",
+            "12"
+        ],
+        "answer": 1,
+        "explanation": "There are 3 thoracic and 6 abdominal ganglia, making a total of 9 ganglia on the ventral nerve cord."
+    },
+    {
+        "q": "The component units of compound eye of cockroach are called:",
+        "options": [
+            "Eyelets",
+            "Fenestrae",
+            "Ommatidia",
+            "Ocelli"
+        ],
+        "answer": 2,
+        "explanation": "Each compound eye is made up of about 2000 hexagonal units called ommatidia."
+    },
+    {
+        "q": "The simple eyes of cockroach are called:",
+        "options": [
+            "Ommatidia",
+            "Retinella",
+            "Phaosome",
+            "Fenestrae"
+        ],
+        "answer": 3,
+        "explanation": "Fenestrae (or ocellar spots) are simple eyes that are sensitive to light intensity but do not form images."
+    },
+    {
+        "q": "Phallic organs in cockroach are related to:",
+        "options": [
+            "Male excretory system",
+            "Male reproductive system",
+            "Female excretory system",
+            "Female reproductive system"
+        ],
+        "answer": 1,
+        "explanation": "Phallomeres (phallic organs) are the external genitalia of the male cockroach used in copulation."
+    },
+    {
+        "q": "Colleterial glands of cockroach help in:",
+        "options": [
+            "Copulation",
+            "Fertilization",
+            "Formation of oothecal chamber",
+            "Formation of ootheca"
+        ],
+        "answer": 3,
+        "explanation": "In females, the secretion from colleterial glands forms the hard shell (ootheca) around the eggs."
+    },
+    {
+        "q": "The period between two moults in insects is termed as:",
+        "options": [
+            "Ecdysis",
+            "Instar",
+            "Incubation",
+            "Stadium"
+        ],
+        "answer": 1,
+        "explanation": "Instar is the developmental stage of the insect itself between two moults."
+    },
+    {
+        "q": "Trilobites evolved during:",
+        "options": [
+            "Pre-cambrian",
+            "Cambrian",
+            "Ordovician",
+            "Silurian"
+        ],
+        "answer": 1,
+        "explanation": "Trilobites were early arthropods that flourished during the Cambrian period."
+    },
+    {
+        "q": "Crayfish is a:",
+        "options": [
+            "Crustacean",
+            "Poisonous fish",
+            "Edible fish",
+            "Mollusc"
+        ],
+        "answer": 0,
+        "explanation": "Despite the name, a crayfish is an arthropod belonging to the class Crustacea."
+    },
+    {
+        "q": "Blood of Periplaneta does not carry oxygen because:",
+        "options": [
+            "Its respiration is anaerobic",
+            "There is no cells in its blood",
+            "Periplaneta does not have any blood vessel",
+            "O₂ is transported by tracheal tubes"
+        ],
+        "answer": 3,
+        "explanation": "Oxygen reaches every tissue directly via tracheoles, rendering a blood-based transport system unnecessary."
+    },
+    {
+        "q": "Which of the following respires with gills?",
+        "options": [
+            "Frog",
+            "Prawn",
+            "Whale",
+            "Crocodile"
+        ],
+        "answer": 1,
+        "explanation": "Prawns are aquatic crustaceans that use gills for gas exchange in water."
+    },
+    {
+        "q": "The correct sequence of arrangements of segments in the leg of cockroach is:",
+        "options": [
+            "Coxa, Femur, Trochanter, Tibia and Tarsus",
+            "Coxa, Trochanter, Femur, Tibia and Tarsus",
+            "Tibia, Trochanter, Femur, Tarsus and Coxa",
+            "Trochanter, Coxa, Femur, Tarsus and Tibia"
+        ],
+        "answer": 1,
+        "explanation": "From base to tip, the leg segments are: Coxa -> Trochanter -> Femur -> Tibia -> Tarsus."
+    },
+    {
+        "q": "Number of body segments found in cockroach are:",
+        "options": [
+            "8",
+            "10",
+            "12",
+            "15"
+        ],
+        "answer": 1,
+        "explanation": "The abdomen of both male and female cockroaches consists of 10 distinct segments."
+    },
+    {
+        "q": "Eggs of cockroach give rise to:",
+        "options": [
+            "Nymph",
+            "Caterpillar",
+            "Larva",
+            "Pupa"
+        ],
+        "answer": 0,
+        "explanation": "Cockroaches undergo hemimetabolous development where the young (nymphs) resemble small adults."
+    },
+    {
+        "q": "The adhesive pads (soft-pads) present in legs of cockroach are:",
+        "options": [
+            "Galea",
+            "Lacinea",
+            "Glossa",
+            "Plantulae"
+        ],
+        "answer": 3,
+        "explanation": "Plantulae are small pads on the tarsal segments that provide adhesion on smooth surfaces."
+    },
+    {
+        "q": "Antennae of cockroach function as:",
+        "options": [
+            "Auditory receptor",
+            "Gustatory receptor",
+            "Olfactory receptor",
+            "Tactile sensory receptor"
+        ],
+        "answer": 2,
+        "explanation": "Antennae are primarily used for smell (olfactory) and touch (tactile) to navigate the environment."
+    },
+    {
+        "q": "Stink gland is found in:",
+        "options": [
+            "4th and 5th terga of cockroach",
+            "5th and 6th terga of cockroach",
+            "5th and 6th sterna of cockroach",
+            "4th and 5th sterna of cockroach"
+        ],
+        "answer": 3,
+        "explanation": "Stink glands are located between the 4th and 5th abdominal sterna and produce an offensive odor."
+    },
+    {
+        "q": "Periplaneta americana has thermoreceptor sensillae on:",
+        "options": [
+            "1st, 2nd & 3rd segments of tarsus of legs",
+            "3rd, 4th & 5th segments of tarsus of legs",
+            "15th segment of anal cerci",
+            "Pedicel of antenna"
+        ],
+        "answer": 3,
+        "explanation": "The pedicel (second segment) of the antenna contains receptors that detect changes in temperature."
+    },
+    {
+        "q": "In cockroach, the gizzard contains:",
+        "options": [
+            "Six teeth",
+            "Five teeth",
+            "Four teeth",
+            "Eight teeth"
+        ],
+        "answer": 0,
+        "explanation": "The gizzard has six highly chitinized teeth that help in mechanical grinding of food."
+    },
+    {
+        "q": "Housefly possesses:",
+        "options": [
+            "Two pairs of wings",
+            "One pair of wings",
+            "Three pairs of wings",
+            "None of these"
+        ],
+        "answer": 1,
+        "explanation": "Houseflies (Diptera) have only one pair of functional wings; the hind wings are modified into halteres."
+    },
+    {
+        "q": "In housefly, pseudotracheae are found in:",
+        "options": [
+            "Rostrum",
+            "Basiproboscis",
+            "Haustellum",
+            "Labellum"
+        ],
+        "answer": 3,
+        "explanation": "The labellum (oral disc) of a housefly contains channels called pseudotracheae for feeding."
+    },
+    {
+        "q": "Pseudotracheae are found in:",
+        "options": [
+            "Rabbit",
+            "Earthworm",
+            "Cockroach",
+            "Housefly"
+        ],
+        "answer": 3,
+        "explanation": "These are specialized structures in the mouthparts of houseflies for sponging liquid food."
+    },
+    {
+        "q": "Maggot of houseflies refers to:",
+        "options": [
+            "egg",
+            "pupa",
+            "cocoon",
+            "larva"
+        ],
+        "answer": 3,
+        "explanation": "The maggot is the apodous (legless) larval stage of the housefly."
+    },
+    {
+        "q": "Complete metamorphosis occurs in:",
+        "options": [
+            "Grasshopper",
+            "Moths and mosquitoes",
+            "Bedbug",
+            "Silverfish"
+        ],
+        "answer": 1,
+        "explanation": "Moths and mosquitoes undergo four distinct stages: egg, larva, pupa, and adult (Holometabolous)."
+    },
+    {
+        "q": "The order of metamorphosis in housefly is:",
+        "options": [
+            "Egg, nymph, pupa and adult",
+            "Egg, larva, nymph and adult",
+            "Egg, larva, pupa and adult",
+            "Egg, pupa, larva and adult"
+        ],
+        "answer": 2,
+        "explanation": "The housefly follows a complete life cycle: Egg -> Larva (maggot) -> Pupa (puparium) -> Adult."
+    },
+    {
+        "q": "Myiasis is a disease caused by:",
+        "options": [
+            "Mosquito",
+            "Bedbug",
+            "Maggots",
+            "Human louse"
+        ],
+        "answer": 2,
+        "explanation": "Myiasis is the infestation of live human or animal tissue by the larvae (maggots) of flies."
+    },
+    {
+        "q": "Johnston's organ is found in:",
+        "options": [
+            "Spiders",
+            "Antennae of mosquitoes",
+            "Head of cockroach",
+            "Abdomen of houseflies"
+        ],
+        "answer": 1,
+        "explanation": "Johnston's organ is a collection of sensory cells in the second antennal segment (pedicel) used for sound detection."
+    },
+    {
+        "q": "In the life cycle of mosquito, the comma-shaped stage is:",
+        "options": [
+            "larva",
+            "imago",
+            "pupa",
+            "none of these"
+        ],
+        "answer": 2,
+        "explanation": "The pupa of a mosquito is comma-shaped and consists of a cephalothorax and abdomen."
+    },
+    {
+        "q": "The indigenous adult fish, which may be used most effectively for biological control of mosquito is:",
+        "options": [
+            "Catla",
+            "Lebistes",
+            "Gambusia",
+            "Aplocheilus"
+        ],
+        "answer": 2,
+        "explanation": "Gambusia (Mosquitofish) is widely used for biological control as it feeds on mosquito larvae."
+    },
+    {
+        "q": "Filaria is spread by:",
+        "options": [
+            "Bedbug",
+            "Mosquito",
+            "Housefly",
+            "Flea"
+        ],
+        "answer": 1,
+        "explanation": "Culex mosquitoes are common vectors that spread the filarial worm (Wuchereria bancrofti)."
+    },
+    {
+        "q": "Among the following colonial insects are:",
+        "options": [
+            "locusts",
+            "bedbugs",
+            "white ants",
+            "mosquitoes"
+        ],
+        "answer": 2,
+        "explanation": "White ants (Termites) are social insects that live in large organized colonies."
+    },
+    {
+        "q": "'Waggle dance' in honeybee represents:",
+        "options": [
+            "distance of food source",
+            "direction of food source",
+            "distance and direction of enemy",
+            "distance and direction of food source"
+        ],
+        "answer": 3,
+        "explanation": "The waggle dance communicates both the distance and direction of a food source relative to the sun."
+    },
+    {
+        "q": "Honeybee stores honey in:",
+        "options": [
+            "Stomach",
+            "Cells of comb",
+            "Crop",
+            "Salivary glands"
+        ],
+        "answer": 1,
+        "explanation": "Honey is stored in hexagonal wax cells within the honeycomb for later use by the colony."
+    },
+    {
+        "q": "Which one is the real product of honeybee?",
+        "options": [
+            "Bee wax",
+            "Honey",
+            "Propolis",
+            "Pollen"
+        ],
+        "answer": 0,
+        "explanation": "Bee wax is a true biological secretion of the bee's glands, whereas honey is processed nectar."
+    },
+    {
+        "q": "Bee dances are meant for:",
+        "options": [
+            "Courtship",
+            "Communication",
+            "Recreation",
+            "Instinct"
+        ],
+        "answer": 1,
+        "explanation": "Honeybees use dances like the round dance and waggle dance to communicate with other hive members."
+    },
+    {
+        "q": "Which castes of bees visit flowers?",
+        "options": [
+            "Drones",
+            "Queens",
+            "Workers",
+            "Both drones and Worker"
+        ],
+        "answer": 2,
+        "explanation": "Only the worker bees (sterile females) are responsible for foraging nectar and pollen from flowers."
+    },
+    {
+        "q": "In honeybees, the drones are produced from:",
+        "options": [
+            "Unfertilized eggs",
+            "Fertilized eggs",
+            "Larvae fed with royal jelly",
+            "Fasting larvae"
+        ],
+        "answer": 0,
+        "explanation": "Drones are males produced via arrhenotoky, a form of parthenogenesis from unfertilized eggs."
+    },
+    {
+        "q": "In silkworm, silk is the product of:",
+        "options": [
+            "Salivary gland of the larvae",
+            "Cuticle of the adult",
+            "Cuticle of the larva",
+            "Salivary gland of the adult"
+        ],
+        "answer": 0,
+        "explanation": "Silk is produced by specialized salivary (silk) glands of the Bombyx mori larva."
+    },
+    {
+        "q": "The organs that assist in sound production in mosquito are:",
+        "options": [
+            "halteres",
+            "mouth parts",
+            "hemielytra",
+            "hairy appendages"
+        ],
+        "answer": 0,
+        "explanation": "Halteres (modified hind wings) vibrate rapidly and contribute to the mosquito's buzzing sound."
+    },
+    {
+        "q": "The wax gland in honeybee is found in:",
+        "options": [
+            "queen",
+            "drones",
+            "workers",
+            "queen & workers"
+        ],
+        "answer": 2,
+        "explanation": "Wax glands are located on the abdominal segments of worker bees."
+    },
+    {
+        "q": "The hind pair of wings in mosquitoes is represented by:",
+        "options": [
+            "elytra",
+            "pulvilli",
+            "scutella",
+            "halteres"
+        ],
+        "answer": 3,
+        "explanation": "In order Diptera, the hind wings are reduced to knob-like structures called halteres for balance."
+    },
+    {
+        "q": "The taste receptors of cockroach are:",
+        "options": [
+            "Compound eyes",
+            "companiform sensillae",
+            "Palps of maxillary & labium",
+            "Tactile hairs"
+        ],
+        "answer": 2,
+        "explanation": "The palps of the maxillae and labium carry gustatory receptors to sense food quality."
+    },
+    {
+        "q": "Difference between male and female Anopheles occurs in:",
+        "options": [
+            "Probascis",
+            "Wings",
+            "Antennae",
+            "Sizes"
+        ],
+        "answer": 2,
+        "explanation": "Male Anopheles have plumose (feathery) antennae, while females have pilose (less hairy) antennae."
+    },
+    {
+        "q": "Adult culex and Anopheles can be distinguished with help of:",
+        "options": [
+            "Mouth parts/colour",
+            "Antennae/wings",
+            "Sitting posture",
+            "Feeding habits"
+        ],
+        "answer": 2,
+        "explanation": "Anopheles sits at an angle (45°) to the surface, while Culex sits parallel to it."
+    },
+    {
+        "q": "Respiratory siphon is absent or reduced in case of:",
+        "options": [
+            "Anopheles mosquito",
+            "Culex mosquito",
+            "Both of these",
+            "Imago"
+        ],
+        "answer": 0,
+        "explanation": "Anopheles larvae lack a respiratory siphon and lie parallel to the water surface; Culex larvae have a long siphon."
+    },
+    {
+        "q": "What is common between an earthworm, a cockroach and a centipede?",
+        "options": [
+            "Sexual diomorphism",
+            "Metamorphism",
+            "Chitinous exoskeleton",
+            "Haemocoel"
+        ],
+        "answer": 3,
+        "explanation": "While they belong to different groups, all three possess a body cavity (haemocoel) through which fluid circulates."
+    },
+    {
+        "q": "Which structure of man is similar to the spiracle of cockroach?",
+        "options": [
+            "Nostril",
+            "Bronchiole",
+            "Lungs",
+            "Alveoli"
+        ],
+        "answer": 0,
+        "explanation": "Spiracles are the external openings of the respiratory system, analogous to human nostrils."
+    },
+    {
+        "q": "About how many times does the nymph of Periplaneta americana undergo moulting before becoming an adult?",
+        "options": [
+            "4",
+            "2",
+            "17",
+            "13"
+        ],
+        "answer": 3,
+        "explanation": "The nymph of a cockroach typically moults 13 times over about a year to reach adulthood."
+    },
+    {
+        "q": "Number of Alary muscles in heart of cockroach is:",
+        "options": [
+            "2 pairs",
+            "4 pairs",
+            "12 pairs",
+            "8 pairs"
+        ],
+        "answer": 2,
+        "explanation": "There are 12 pairs of alary muscles (one pair for each of the 12 posterior heart chambers)."
+    },
+    {
+        "q": "Antenna is absent in which class of Arthropoda?",
+        "options": [
+            "Crustacea",
+            "Arachnida",
+            "Chilopoda",
+            "Insecta"
+        ],
+        "answer": 1,
+        "explanation": "Arachnids (spiders, scorpions, ticks) are characterized by the complete absence of antennae."
+    },
+    {
+        "q": "Book Gills are the respiratory organ of:",
+        "options": [
+            "Limulus",
+            "Scorpion",
+            "Palaemon",
+            "Centipede"
+        ],
+        "answer": 0,
+        "explanation": "Limulus (King crab) uses book gills for aquatic respiration."
+    },
+    {
+        "q": "Testes of cockroach lies in which segment:",
+        "options": [
+            "3rd and 4th",
+            "4th and 5th",
+            "6th and 7th",
+            "7th and 8th"
+        ],
+        "answer": 1,
+        "explanation": "A pair of testes is located laterally in the 4th, 5th, and 6th abdominal segments of male cockroaches."
+    },
+    {
+        "q": "Cockroach has a stomadeal valve between:",
+        "options": [
+            "Ileum and colon",
+            "Crop and Gizzard",
+            "Mesenteron and ileum",
+            "Gizzard and mesenteron"
+        ],
+        "answer": 3,
+        "explanation": "The stomadeal valve prevents the backflow of food from the midgut into the gizzard."
+    },
+    {
+        "q": "Yellow fever is transmitted through:",
+        "options": [
+            "Male Anopheles mosquito",
+            "Aedes mosquito",
+            "Female Anopheles",
+            "Culex mosquito"
+        ],
+        "answer": 1,
+        "explanation": "Aedes aegypti is the vector for the Yellow fever virus."
+    }
+]

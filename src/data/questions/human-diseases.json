@@ -1,0 +1,662 @@
+[
+    {
+        "q": "World Health Day is observed annually on:",
+        "options": [
+            "24th March",
+            "7th April",
+            "31st May",
+            "1st December"
+        ],
+        "answer": 1,
+        "explanation": "World Health Day is celebrated on April 7th to commemorate the founding of the World Health Organization (WHO)."
+    },
+    {
+        "q": "World Tuberculosis (TB) Day is observed on:",
+        "options": [
+            "24th March",
+            "7th April",
+            "14th June",
+            "1st May"
+        ],
+        "answer": 0,
+        "explanation": "March 24 marks the day in 1882 when Dr. Robert Koch announced his discovery of the bacterium causing TB."
+    },
+    {
+        "q": "World No Tobacco Day falls on which date?",
+        "options": [
+            "31st January",
+            "31st March",
+            "31st May",
+            "31st July"
+        ],
+        "answer": 2,
+        "explanation": "This day is dedicated to highlighting the health risks associated with tobacco use and advocating for effective policies to reduce consumption."
+    },
+    {
+        "q": "Paraplegia is a medical term used to describe paralysis of:",
+        "options": [
+            "One arm",
+            "Both arms",
+            "Both legs",
+            "All four limbs"
+        ],
+        "answer": 2,
+        "explanation": "Paraplegia refers specifically to the loss of motor or sensory function in the lower extremities."
+    },
+    {
+        "q": "Typhoid fever is primarily transmitted via which route?",
+        "options": [
+            "Vector-borne",
+            "Airborne",
+            "Faeco-oral route",
+            "Direct contact"
+        ],
+        "answer": 2,
+        "explanation": "Typhoid is spread through the ingestion of food or water contaminated with the feces of an infected person."
+    },
+    {
+        "q": "The causative agent of Typhoid is:",
+        "options": [
+            "Mycobacterium tuberculosis",
+            "Salmonella typhi",
+            "Vibrio cholerae",
+            "Clostridium tetani"
+        ],
+        "answer": 1,
+        "explanation": "Salmonella typhi is the bacterium responsible for causing the systemic infection known as Typhoid fever."
+    },
+    {
+        "q": "Coffee contains which nervous system stimulant?",
+        "options": [
+            "Nicotine",
+            "Caffeine",
+            "Morphine",
+            "Thiamine"
+        ],
+        "answer": 1,
+        "explanation": "Caffeine is a central nervous system stimulant of the methylxanthine class."
+    },
+    {
+        "q": "A 'Sarcoma' is a type of cancer that originates in:",
+        "options": [
+            "Epithelial tissue",
+            "Mesodermal tissue",
+            "Endodermal tissue",
+            "Nervous tissue"
+        ],
+        "answer": 1,
+        "explanation": "Sarcomas arise from mesenchymal cells, which are derived from the mesoderm (e.g., bone, muscle, fat)."
+    },
+    {
+        "q": "Which of the following professionals is at a high occupational risk for HIV/AIDS?",
+        "options": [
+            "Engineer",
+            "Accountant",
+            "Surgeon",
+            "Pilot"
+        ],
+        "answer": 2,
+        "explanation": "Surgeons and healthcare workers are at higher risk due to potential exposure to infected blood through needle sticks or surgical accidents."
+    },
+    {
+        "q": "Piperazine is a medication typically prescribed for:",
+        "options": [
+            "Malaria",
+            "Ascariasis",
+            "Tuberculosis",
+            "Leprosy"
+        ],
+        "answer": 1,
+        "explanation": "Piperazine is an anthelmintic agent used to paralyze and expel intestinal roundworms (Ascaris)."
+    },
+    {
+        "q": "The AIDS virus (HIV) specifically targets and attacks:",
+        "options": [
+            "Red blood cells",
+            "Helper T-cells",
+            "Platelets",
+            "B-cells"
+        ],
+        "answer": 1,
+        "explanation": "HIV infects and destroys CD4+ Helper T-cells, leading to a weakened immune system."
+    },
+    {
+        "q": "Ingestion of more than 50ml of which substance is likely fatal?",
+        "options": [
+            "Pure Ethanol",
+            "Pure Methanol",
+            "Pure Caffeine",
+            "Pure Nicotine"
+        ],
+        "answer": 1,
+        "explanation": "Methanol is highly toxic and leads to metabolic acidosis, blindness, and death when ingested in small quantities."
+    },
+    {
+        "q": "The hallucinogenic drug LSD is obtained from which source?",
+        "options": [
+            "Bacterium",
+            "Fungus",
+            "Algae",
+            "Virus"
+        ],
+        "answer": 1,
+        "explanation": "LSD (Lysergic acid diethylamide) is synthesized from lysergic acid found in the ergot fungus."
+    },
+    {
+        "q": "Addiction to cigarette smoking is primarily caused by:",
+        "options": [
+            "Tar",
+            "Carbon monoxide",
+            "Nicotine",
+            "Formaldehyde"
+        ],
+        "answer": 2,
+        "explanation": "Nicotine is the highly addictive psychoactive substance found in tobacco."
+    },
+    {
+        "q": "Chronic alcohol consumption is known to potentially harm the:",
+        "options": [
+            "Pleura",
+            "Peritoneum",
+            "Pericardium",
+            "Meninges"
+        ],
+        "answer": 1,
+        "explanation": "Alcohol abuse can lead to inflammation and damage of various membranes, including the peritoneum (lining of the abdominal cavity)."
+    },
+    {
+        "q": "According to the provided notes, which country has one of the highest percentages of female smokers?",
+        "options": [
+            "India",
+            "Nepal",
+            "China",
+            "USA"
+        ],
+        "answer": 1,
+        "explanation": "Statistical data mentioned in health records highlights a high prevalence of smoking among females in Nepal."
+    },
+    {
+        "q": "Seroconversion (testing positive for antibodies) in HIV usually occurs at about:",
+        "options": [
+            "1 week",
+            "2 weeks",
+            "8 weeks",
+            "24 weeks"
+        ],
+        "answer": 2,
+        "explanation": "The 'window period' for HIV antibody tests usually ends around 8 weeks when antibodies become detectable."
+    },
+    {
+        "q": "Which of the following is NOT a psychoactive drug?",
+        "options": [
+            "LSD",
+            "Nicotine",
+            "Aspirin",
+            "Morphine"
+        ],
+        "answer": 2,
+        "explanation": "Aspirin is an analgesic/anti-inflammatory drug, not a psychoactive drug that affects the brain's mental processes."
+    },
+    {
+        "q": "Rifampicin is an antibiotic used in the treatment of:",
+        "options": [
+            "AIDS",
+            "Tuberculosis",
+            "Typhoid",
+            "Ascaris"
+        ],
+        "answer": 1,
+        "explanation": "Rifampicin is a key first-line medication for treating TB infections."
+    },
+    {
+        "q": "Tuberculosis is also known as 'Koch's disease' because:",
+        "options": [
+            "Koch discovered the cure",
+            "Koch first described the symptoms",
+            "Koch identified the causative bacterium",
+            "Koch was the first patient"
+        ],
+        "answer": 2,
+        "explanation": "Robert Koch identified Mycobacterium tuberculosis as the cause of TB in 1882."
+    },
+    {
+        "q": "Isoniazid is a drug used to treat:",
+        "options": [
+            "Malaria",
+            "Cancer",
+            "Tuberculosis",
+            "Diabetes"
+        ],
+        "answer": 2,
+        "explanation": "Isoniazid (INH) is one of the most important first-line antibiotics for TB treatment."
+    },
+    {
+        "q": "The DOTS strategy is directly related to the management of:",
+        "options": [
+            "HIV",
+            "Hepatitis",
+            "Tuberculosis",
+            "Cancer"
+        ],
+        "answer": 2,
+        "explanation": "DOTS ensures patients complete their TB medication regimen to prevent drug-resistant strains."
+    },
+    {
+        "q": "Pap smear examination is a diagnostic tool for:",
+        "options": [
+            "Breast cancer",
+            "Cervical cancer",
+            "Ovarian cancer",
+            "Lung cancer"
+        ],
+        "answer": 1,
+        "explanation": "A Pap smear tests for precancerous or cancerous changes in the cervix."
+    },
+    {
+        "q": "Linear accelerators and cobalt machines are equipment used for treating:",
+        "options": [
+            "TB",
+            "Heart disease",
+            "Cancer",
+            "Arthritis"
+        ],
+        "answer": 2,
+        "explanation": "These machines deliver radiation therapy to target and kill cancer cells."
+    },
+    {
+        "q": "Prolonged excess alcohol consumption primarily leads to:",
+        "options": [
+            "Asthma",
+            "Arthritis",
+            "Liver disease",
+            "Pneumonia"
+        ],
+        "answer": 2,
+        "explanation": "Alcohol is a toxin that causes fatty liver, hepatitis, and eventually cirrhosis."
+    },
+    {
+        "q": "The SAARC TB and HIV/AIDS Centre is located in:",
+        "options": [
+            "India",
+            "Pakistan",
+            "Nepal",
+            "Sri Lanka"
+        ],
+        "answer": 2,
+        "explanation": "Nepal hosts the regional center for TB and HIV/AIDS for SAARC nations."
+    },
+    {
+        "q": "Drugs that induce sleep are categorized as:",
+        "options": [
+            "Analgesics",
+            "Hypnotics",
+            "Antipyretics",
+            "Antibiotics"
+        ],
+        "answer": 1,
+        "explanation": "Hypnotics are a class of psychoactive drugs whose primary function is to induce sleep."
+    },
+    {
+        "q": "Perception in the absence of an external stimulus is called:",
+        "options": [
+            "Illusion",
+            "Hallucination",
+            "Delusion",
+            "Confusion"
+        ],
+        "answer": 0,
+        "explanation": "According to the provided text, perception without a stimulus is termed an illusion (though in broader psychology, this is often distinguished from hallucinations)."
+    },
+    {
+        "q": "The medical term for coughing up blood-stained sputum is:",
+        "options": [
+            "Hematemesis",
+            "Hematuria",
+            "Haemoptysis",
+            "Epistaxis"
+        ],
+        "answer": 2,
+        "explanation": "Haemoptysis specifically refers to bleeding from the respiratory tract that is coughed out."
+    },
+    {
+        "q": "The most common cause of liver cirrhosis in Nepal is:",
+        "options": [
+            "Hepatitis B",
+            "Hepatitis C",
+            "Alcoholism",
+            "Malnutrition"
+        ],
+        "answer": 2,
+        "explanation": "Excessive and chronic alcohol intake is the leading driver of cirrhosis in the region."
+    },
+    {
+        "q": "Wernicke’s encephalopathy is caused by a deficiency of:",
+        "options": [
+            "Vitamin A",
+            "Thiamine (B1)",
+            "Vitamin C",
+            "Vitamin D"
+        ],
+        "answer": 1,
+        "explanation": "Thiamine deficiency, often seen in alcoholics, causes this acute neurological condition."
+    },
+    {
+        "q": "Fatty liver syndrome is primarily associated with:",
+        "options": [
+            "Smoking",
+            "Alcohol",
+            "Caffeine",
+            "High protein diet"
+        ],
+        "answer": 1,
+        "explanation": "Alcohol interferes with fat metabolism in the liver, leading to lipid accumulation."
+    },
+    {
+        "q": "Alpha-Interferon and Lamivudine are medications used to treat:",
+        "options": [
+            "TB",
+            "Hepatitis",
+            "Typhoid",
+            "Malaria"
+        ],
+        "answer": 1,
+        "explanation": "These antiviral agents are used in the management of chronic Hepatitis B or C."
+    },
+    {
+        "q": "HIV virus invades which specific cells of the immune system?",
+        "options": [
+            "Helper T-cells",
+            "Killer T-cells",
+            "Suppressor T-cells",
+            "Memory B-cells"
+        ],
+        "answer": 0,
+        "explanation": "HIV binds to the CD4 receptor found on the surface of Helper T-cells."
+    },
+    {
+        "q": "Which parasite causes iron deficiency through chronic blood loss?",
+        "options": [
+            "Roundworm",
+            "Tapeworm",
+            "Hookworm",
+            "Pinworm"
+        ],
+        "answer": 2,
+        "explanation": "Hookworms attach to the intestinal lining and consume host blood, leading to anemia."
+    },
+    {
+        "q": "Which compound in cigarette smoke is linked to oral cancer?",
+        "options": [
+            "Nitrogen",
+            "Oxygen",
+            "Polycyclic aromatic compounds",
+            "Carbon dioxide"
+        ],
+        "answer": 2,
+        "explanation": "These compounds are potent carcinogens produced during the incomplete combustion of tobacco."
+    },
+    {
+        "q": "Barbiturates and benzodiazepines are examples of:",
+        "options": [
+            "Stimulants",
+            "Tranquilizers and Sedatives",
+            "Analgesics",
+            "Antihistamines"
+        ],
+        "answer": 1,
+        "explanation": "They act on the CNS to produce a calming effect or induce sleep."
+    },
+    {
+        "q": "The presence of blood in urine is termed:",
+        "options": [
+            "Pyuria",
+            "Glycosuria",
+            "Hematuria",
+            "Albuminuria"
+        ],
+        "answer": 2,
+        "explanation": "Hematuria can indicate infection, stones, or malignancy in the urinary tract."
+    },
+    {
+        "q": "The BCG vaccine falls into which vaccine category?",
+        "options": [
+            "Killed vaccine",
+            "Toxoid",
+            "Live attenuated",
+            "Recombinant"
+        ],
+        "answer": 2,
+        "explanation": "It contains a live but weakened version of Mycobacterium bovis."
+    },
+    {
+        "q": "Salmonella typhi mainly affects which part of the intestine?",
+        "options": [
+            "Duodenum",
+            "Jejunum",
+            "Ileum",
+            "Colon"
+        ],
+        "answer": 2,
+        "explanation": "The bacteria invade the lymphoid tissue (Peyer's patches) of the ileum."
+    },
+    {
+        "q": "The study of the cause of a disease is called:",
+        "options": [
+            "Pathology",
+            "Etiology",
+            "Epidemiology",
+            "Symptomatology"
+        ],
+        "answer": 1,
+        "explanation": "Etiology refers to the set of causes or manner of causation of a disease."
+    },
+    {
+        "q": "Arthritis is a disease that affects the:",
+        "options": [
+            "Skin",
+            "Lungs",
+            "Joints",
+            "Heart"
+        ],
+        "answer": 2,
+        "explanation": "Arthritis involves inflammation and stiffness of the joints."
+    },
+    {
+        "q": "Angina pectoris is a condition related to the:",
+        "options": [
+            "Kidneys",
+            "Brain",
+            "Heart",
+            "Liver"
+        ],
+        "answer": 2,
+        "explanation": "It is chest pain caused by reduced blood flow to the heart muscle."
+    },
+    {
+        "q": "The most common site of cancer occurrence in humans globally is:",
+        "options": [
+            "Stomach",
+            "Liver",
+            "Lung",
+            "Bone"
+        ],
+        "answer": 2,
+        "explanation": "Lung cancer remains one of the most prevalent and fatal cancers worldwide."
+    },
+    {
+        "q": "An excess of which substance may give rise to gallstones?",
+        "options": [
+            "Calcium",
+            "Cholesterol",
+            "Iron",
+            "Glucose"
+        ],
+        "answer": 1,
+        "explanation": "Most gallstones are formed when there is too much cholesterol in the bile."
+    },
+    {
+        "q": "Which of these respiratory conditions CANNOT be prevented by vaccination?",
+        "options": [
+            "Pneumonia",
+            "Pertussis",
+            "Asthma",
+            "Tuberculosis"
+        ],
+        "answer": 2,
+        "explanation": "Asthma is a chronic inflammatory disease, not a vaccine-preventable infectious disease."
+    },
+    {
+        "q": "Avian influenza (Bird Flu) is typically which type of influenza virus?",
+        "options": [
+            "Type A",
+            "Type B",
+            "Type C",
+            "Type D"
+        ],
+        "answer": 0,
+        "explanation": "Avian flu is caused by Influenza A viruses."
+    },
+    {
+        "q": "Opium is extracted from the latex of which plant?",
+        "options": [
+            "Cannabis sativa",
+            "Papaver somniferum",
+            "Atropa belladonna",
+            "Digitalis"
+        ],
+        "answer": 1,
+        "explanation": "The opium poppy (Papaver somniferum) is the source of many narcotic drugs."
+    },
+    {
+        "q": "Psychoanalysis is a method used to explain:",
+        "options": [
+            "Bacterial growth",
+            "Psychological functioning",
+            "Viral replication",
+            "Muscle contraction"
+        ],
+        "answer": 1,
+        "explanation": "It is a clinical method for treating psychopathology through dialogue between a patient and a psychoanalyst."
+    },
+    {
+        "q": "HIV viruses detect cells to infect by the presence of which membrane component?",
+        "options": [
+            "Glycocalyx",
+            "Cholesterol",
+            "Phospholipids",
+            "Cytoplasm"
+        ],
+        "answer": 0,
+        "explanation": "The glycocalyx and specific cell surface receptors allow the virus to recognize and attach to host cells."
+    },
+    {
+        "q": "Cyclosporine is a drug used to:",
+        "options": [
+            "Treat TB",
+            "Prevent transplant rejection",
+            "Cure Malaria",
+            "Stimulate the heart"
+        ],
+        "answer": 1,
+        "explanation": "It is an immunosuppressant that inhibits T-cell activity to prevent the body from rejecting a new organ."
+    },
+    {
+        "q": "The spread of cancer from the primary site to a distant site is called:",
+        "options": [
+            "Mitosis",
+            "Metastasis",
+            "Meiosis",
+            "Apoptosis"
+        ],
+        "answer": 1,
+        "explanation": "Metastasis is the defining hallmark of malignant tumors."
+    },
+    {
+        "q": "What does the 'S' in DOTS stand for?",
+        "options": [
+            "System",
+            "Short-course",
+            "Standard",
+            "Secret"
+        ],
+        "answer": 1,
+        "explanation": "DOTS stands for Directly Observed Treatment, Short-course."
+    },
+    {
+        "q": "The definite diagnosis of cancer is made through:",
+        "options": [
+            "X-ray",
+            "Blood test",
+            "Histopathology",
+            "Physical exam"
+        ],
+        "answer": 2,
+        "explanation": "Histopathology involves examining tissue samples under a microscope to confirm malignancy."
+    },
+    {
+        "q": "Mycobacterium is the genus of bacteria that causes:",
+        "options": [
+            "Typhoid",
+            "Tuberculosis",
+            "Cholera",
+            "Tetanus"
+        ],
+        "answer": 1,
+        "explanation": "Mycobacterium tuberculosis is the specific species causing TB."
+    },
+    {
+        "q": "Hansen's disease is the common name for:",
+        "options": [
+            "TB",
+            "Leprosy",
+            "AIDS",
+            "Syphilis"
+        ],
+        "answer": 1,
+        "explanation": "Leprosy is named after Gerhard Hansen, who discovered the causative agent."
+    },
+    {
+        "q": "The Ziehl-Neelsen (Z-N) stain is used to test for:",
+        "options": [
+            "HIV",
+            "Tuberculosis",
+            "Typhoid",
+            "Cancer"
+        ],
+        "answer": 1,
+        "explanation": "This acid-fast staining method is used to identify Mycobacterium tuberculosis."
+    },
+    {
+        "q": "Constriction of the pupil and low respiratory rate are side effects of:",
+        "options": [
+            "Caffeine",
+            "Morphine and Opium",
+            "Aspirin",
+            "Nicotine"
+        ],
+        "answer": 1,
+        "explanation": "Opioids cause 'pinpoint pupils' (miosis) and can depress the respiratory center."
+    },
+    {
+        "q": "Tuberculosis was historically known as 'Consumption disease' because:",
+        "options": [
+            "Patients consumed too much food",
+            "It consumed the patient from within",
+            "It was caused by eating beef",
+            "It consumed all medical resources"
+        ],
+        "answer": 1,
+        "explanation": "The name came from the significant weight loss and 'wasting away' of patients."
+    },
+    {
+        "q": "The infective stage of Ascariasis (roundworm) is:",
+        "options": [
+            "Larva",
+            "Adult worm",
+            "Embryonated egg",
+            "Trophozoite"
+        ],
+        "answer": 2,
+        "explanation": "Infection occurs when a person swallows embryonated eggs found in contaminated soil or food."
+    }
+]

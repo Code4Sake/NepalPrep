@@ -1,0 +1,453 @@
+[
+  {
+    "q": "Pteridophytes are also called",
+    "options": [
+      "Amphibians of plant kingdom",
+      "Reptiles of plant kingdom",
+      "Vascular cryptogams",
+      "Non-vascular plants"
+    ],
+    "answer": 2,
+    "explanation": "Pteridophytes are called vascular cryptogams because they have vascular tissue (xylem and phloem) but reproduce by spores not seeds."
+  },
+  {
+    "q": "The study of ferns is called",
+    "options": [
+      "Bryology",
+      "Phycology",
+      "Pteridology",
+      "Mycology"
+    ],
+    "answer": 2,
+    "explanation": "Pteridology is the branch of botany dealing with the study of pteridophytes (ferns and their allies)."
+  },
+  {
+    "q": "In pteridophytes the dominant generation is",
+    "options": [
+      "Gametophyte",
+      "Sporophyte",
+      "Both equally",
+      "Neither"
+    ],
+    "answer": 1,
+    "explanation": "In pteridophytes the sporophyte generation is dominant — it is the large green fern plant we see. The gametophyte (prothallus) is small and short-lived."
+  },
+  {
+    "q": "Ferns belong to division",
+    "options": [
+      "Bryophyta",
+      "Pteridophyta",
+      "Gymnospermae",
+      "Angiospermae"
+    ],
+    "answer": 1,
+    "explanation": "Ferns belong to division Pteridophyta. They are vascular plants that reproduce by spores and show alternation of generation."
+  },
+  {
+    "q": "The gametophyte of fern is called",
+    "options": [
+      "Protonema",
+      "Prothallus",
+      "Thallus",
+      "Sporophyll"
+    ],
+    "answer": 1,
+    "explanation": "The gametophyte of fern is called prothallus. It is a small heart-shaped green structure that bears antheridia and archegonia."
+  },
+  {
+    "q": "Spores in pteridophytes are produced in",
+    "options": [
+      "Antheridia",
+      "Archegonia",
+      "Sporangia",
+      "Gemma cups"
+    ],
+    "answer": 2,
+    "explanation": "Spores in pteridophytes are produced by meiosis inside sporangia. The sporangia are grouped into clusters called sori."
+  },
+  {
+    "q": "Selaginella is an example of",
+    "options": [
+      "Homosporous pteridophyte",
+      "Heterosporous pteridophyte",
+      "Bryophyte",
+      "Gymnosperm"
+    ],
+    "answer": 1,
+    "explanation": "Selaginella is heterosporous — it produces two types of spores: large megaspores (female) and small microspores (male)."
+  },
+  {
+    "q": "Equisetum is commonly called",
+    "options": [
+      "Club moss",
+      "Horse tail",
+      "Ground pine",
+      "Tree fern"
+    ],
+    "answer": 1,
+    "explanation": "Equisetum is commonly called horse tail. It has jointed hollow stems with whorls of branches and is the only living genus of Sphenopsida."
+  },
+  {
+    "q": "The clusters of sporangia on fern leaves are called",
+    "options": [
+      "Sori",
+      "Strobili",
+      "Cones",
+      "Sporophylls"
+    ],
+    "answer": 0,
+    "explanation": "Sori (singular: sorus) are clusters of sporangia found on the underside of fern fronds. They are often covered by a protective flap called indusium."
+  },
+  {
+    "q": "Lycopodium is commonly called",
+    "options": [
+      "Horse tail",
+      "Club moss",
+      "Bracken fern",
+      "Tree fern"
+    ],
+    "answer": 1,
+    "explanation": "Lycopodium is commonly called club moss or ground pine. Despite the name it is not a true moss but a pteridophyte."
+  },
+  {
+    "q": "The leaf of fern is called",
+    "options": [
+      "Frond",
+      "Blade",
+      "Pinna",
+      "Leaflet"
+    ],
+    "answer": 0,
+    "explanation": "The leaf of fern is called frond. It is divided into pinnae (leaflets). The young coiled frond is called fiddlehead or crozier."
+  },
+  {
+    "q": "Which of the following pteridophyte is used as a biofertilizer?",
+    "options": [
+      "Selaginella",
+      "Azolla",
+      "Equisetum",
+      "Lycopodium"
+    ],
+    "answer": 1,
+    "explanation": "Azolla (water fern) is used as biofertilizer in rice paddies. It contains Anabaena (cyanobacterium) in its leaves that fixes atmospheric nitrogen."
+  },
+  {
+    "q": "The indusium in ferns protects",
+    "options": [
+      "Archegonium",
+      "Antheridium",
+      "Sorus",
+      "Spore"
+    ],
+    "answer": 2,
+    "explanation": "Indusium is a thin membranous flap that covers and protects the sorus (cluster of sporangia) in ferns."
+  },
+  {
+    "q": "Heterospory is considered significant because it",
+    "options": [
+      "Increases spore production",
+      "Led to evolution of seed habit",
+      "Increases photosynthesis",
+      "Helps in water absorption"
+    ],
+    "answer": 1,
+    "explanation": "Heterospory is evolutionarily significant because it led to the evolution of seed habit. Megaspores retained in megasporangium is the first step toward seeds."
+  },
+  {
+    "q": "The vascular tissue in pteridophytes lacks",
+    "options": [
+      "Xylem",
+      "Phloem",
+      "Companion cells",
+      "Tracheids"
+    ],
+    "answer": 2,
+    "explanation": "The phloem of pteridophytes lacks companion cells. They have sieve cells instead of sieve tube members with companion cells found in angiosperms."
+  },
+  {
+    "q": "Fern spores germinate to form",
+    "options": [
+      "Sporophyte directly",
+      "Prothallus",
+      "Protonema",
+      "Embryo"
+    ],
+    "answer": 1,
+    "explanation": "Fern spores germinate to form prothallus (gametophyte). The prothallus bears sex organs and produces gametes for fertilization."
+  },
+  {
+    "q": "Which pteridophyte was used as coal forming plant?",
+    "options": [
+      "Lycopodium",
+      "Selaginella",
+      "Lepidodendron",
+      "Equisetum"
+    ],
+    "answer": 2,
+    "explanation": "Lepidodendron was an ancient giant tree-like pteridophyte (lycopsid) from Carboniferous period. Their remains formed coal deposits."
+  },
+  {
+    "q": "Azolla is a",
+    "options": [
+      "Moss",
+      "Water fern",
+      "Liverwort",
+      "Hornwort"
+    ],
+    "answer": 1,
+    "explanation": "Azolla is a small floating water fern (pteridophyte). It hosts nitrogen-fixing cyanobacterium Anabaena in its leaf cavities."
+  },
+  {
+    "q": "The spore producing leaves in pteridophytes are called",
+    "options": [
+      "Trophophylls",
+      "Sporophylls",
+      "Microphylls",
+      "Megaphylls"
+    ],
+    "answer": 1,
+    "explanation": "Sporophylls are leaves that bear sporangia for spore production. Leaves that only photosynthesize are called trophophylls."
+  },
+  {
+    "q": "In fern the young coiled leaf is called",
+    "options": [
+      "Frond",
+      "Pinna",
+      "Fiddlehead",
+      "Rachis"
+    ],
+    "answer": 2,
+    "explanation": "The young coiled leaf of fern is called fiddlehead or crozier. It uncoils as it grows due to circinate vernation."
+  },
+  {
+    "q": "Pteridophytes first appeared in",
+    "options": [
+      "Cambrian period",
+      "Silurian period",
+      "Jurassic period",
+      "Cretaceous period"
+    ],
+    "answer": 1,
+    "explanation": "Pteridophytes first appeared in the Silurian period about 430 million years ago. They dominated the Carboniferous period."
+  },
+  {
+    "q": "Which of the following is homosporous?",
+    "options": [
+      "Selaginella",
+      "Salvinia",
+      "Marsilea",
+      "Dryopteris"
+    ],
+    "answer": 3,
+    "explanation": "Dryopteris (male fern) is homosporous — it produces only one type of spore. Selaginella, Salvinia and Marsilea are heterosporous."
+  },
+  {
+    "q": "The stem of Equisetum has",
+    "options": [
+      "Solid stem without nodes",
+      "Hollow jointed stem with nodes",
+      "Flat ribbon-like stem",
+      "Underground stem only"
+    ],
+    "answer": 1,
+    "explanation": "Equisetum has a hollow jointed stem with distinct nodes and internodes. Whorls of branches and leaves arise from the nodes."
+  },
+  {
+    "q": "Sporangia in Equisetum are borne on",
+    "options": [
+      "Sori",
+      "Strobili",
+      "Fronds",
+      "Prothallus"
+    ],
+    "answer": 1,
+    "explanation": "In Equisetum sporangia are borne on strobili (cones) — compact terminal cone-like structures with umbrella-shaped sporangiophores."
+  },
+  {
+    "q": "The rhizome of fern is",
+    "options": [
+      "Aerial stem",
+      "Underground horizontal stem",
+      "Climbing stem",
+      "Floating stem"
+    ],
+    "answer": 1,
+    "explanation": "The rhizome of fern is an underground horizontal stem from which roots and fronds arise. It stores food and helps in vegetative reproduction."
+  },
+  {
+    "q": "Marsilea is a",
+    "options": [
+      "Homosporous fern",
+      "Heterosporous fern",
+      "Moss",
+      "Liverwort"
+    ],
+    "answer": 1,
+    "explanation": "Marsilea is a heterosporous aquatic fern. It produces microspores and megaspores in hard sporocarps."
+  },
+  {
+    "q": "Which of the following pteridophyte is used medicinally?",
+    "options": [
+      "Equisetum",
+      "Lycopodium",
+      "Dryopteris",
+      "All of the above"
+    ],
+    "answer": 3,
+    "explanation": "All three have medicinal uses — Equisetum for kidney problems, Lycopodium in homeopathy, Dryopteris (male fern) as anthelmintic against tapeworms."
+  },
+  {
+    "q": "Circinate vernation is found in",
+    "options": [
+      "Bryophytes",
+      "Pteridophytes",
+      "Gymnosperms",
+      "Angiosperms"
+    ],
+    "answer": 1,
+    "explanation": "Circinate vernation (coiled young leaves) is characteristic of pteridophytes especially ferns. The young frond is coiled like a fiddle head."
+  },
+  {
+    "q": "The sporophyte of pteridophytes is",
+    "options": [
+      "Dependent on gametophyte",
+      "Independent and dominant",
+      "Partially dependent",
+      "Absent"
+    ],
+    "answer": 1,
+    "explanation": "The sporophyte of pteridophytes is independent, photosynthetic and dominant — the large green fern plant is the sporophyte generation."
+  },
+  {
+    "q": "Stele in pteridophytes refers to",
+    "options": [
+      "The leaf",
+      "The central vascular cylinder",
+      "The root tip",
+      "The sporangium"
+    ],
+    "answer": 1,
+    "explanation": "Stele is the central vascular cylinder of pteridophyte stem consisting of xylem, phloem and associated tissues like pericycle and endodermis."
+  },
+  {
+    "q": "Lycopodium spores are used as",
+    "options": [
+      "Food",
+      "Biofertilizer",
+      "Dusting powder and in fireworks",
+      "Antibiotic"
+    ],
+    "answer": 2,
+    "explanation": "Lycopodium spores (lycopodium powder) are highly flammable and used in fireworks. They are also used as dusting powder in surgery and pharmacy."
+  },
+  {
+    "q": "Which of the following shows water ferns?",
+    "options": [
+      "Dryopteris and Pteris",
+      "Azolla and Salvinia",
+      "Lycopodium and Selaginella",
+      "Equisetum and Calamites"
+    ],
+    "answer": 1,
+    "explanation": "Azolla and Salvinia are heterosporous water ferns that float on water surface. They are used in rice paddies as biofertilizer and weed control."
+  },
+  {
+    "q": "The first vascular plants to appear on earth were",
+    "options": [
+      "Gymnosperms",
+      "Angiosperms",
+      "Pteridophytes",
+      "Bryophytes"
+    ],
+    "answer": 2,
+    "explanation": "Pteridophytes were the first vascular plants to evolve on earth. They were the dominant plants during the Carboniferous period."
+  },
+  {
+    "q": "Prothallus of fern is",
+    "options": [
+      "Diploid sporophyte",
+      "Haploid gametophyte",
+      "Diploid gametophyte",
+      "Haploid sporophyte"
+    ],
+    "answer": 1,
+    "explanation": "Prothallus is the haploid (n) gametophyte generation of fern. It bears antheridia and archegonia and produces gametes."
+  },
+  {
+    "q": "Which division of pteridophytes includes horse tails?",
+    "options": [
+      "Lycopsida",
+      "Sphenopsida",
+      "Pteropsida",
+      "Psilopsida"
+    ],
+    "answer": 1,
+    "explanation": "Horse tails (Equisetum) belong to division Sphenopsida. Lycopsida includes club mosses, Pteropsida includes true ferns."
+  },
+  {
+    "q": "Sporocarps are found in",
+    "options": [
+      "Dryopteris",
+      "Equisetum",
+      "Marsilea",
+      "Lycopodium"
+    ],
+    "answer": 2,
+    "explanation": "Sporocarps are hard bean-like structures containing sori found in Marsilea. They are highly resistant to desiccation."
+  },
+  {
+    "q": "Adiantum is commonly called",
+    "options": [
+      "Male fern",
+      "Maidenhair fern",
+      "Tree fern",
+      "Bracken fern"
+    ],
+    "answer": 1,
+    "explanation": "Adiantum is commonly called maidenhair fern. It is a popular ornamental fern with fan-shaped pinnules on shiny black stalks."
+  },
+  {
+    "q": "The annulus in fern sporangium helps in",
+    "options": [
+      "Photosynthesis",
+      "Spore dispersal",
+      "Water absorption",
+      "Fertilization"
+    ],
+    "answer": 1,
+    "explanation": "Annulus is a ring of thick-walled cells on fern sporangium. It acts as a catapult mechanism — drying out causes it to snap and hurl spores."
+  },
+  {
+    "q": "Which of the following is a tree fern?",
+    "options": [
+      "Dryopteris",
+      "Cyathea",
+      "Adiantum",
+      "Pteris"
+    ],
+    "answer": 1,
+    "explanation": "Cyathea is a tree fern that can grow up to 20 meters tall with a trunk-like stem. It is found in tropical and subtropical forests."
+  },
+  {
+    "q": "Pteridophytes differ from bryophytes in having",
+    "options": [
+      "Alternation of generation",
+      "Vascular tissue",
+      "Archegonia",
+      "Spore production"
+    ],
+    "answer": 1,
+    "explanation": "The key difference between pteridophytes and bryophytes is that pteridophytes have vascular tissue (xylem and phloem) while bryophytes lack it."
+  },
+  {
+    "q": "Which of the following is used as ornamental plant?",
+    "options": [
+      "Equisetum",
+      "Lycopodium",
+      "Adiantum",
+      "Marsilea"
+    ],
+    "answer": 2,
+    "explanation": "Adiantum (maidenhair fern) is widely used as an ornamental plant in homes and gardens due to its delicate fan-shaped fronds."
+  }
+]

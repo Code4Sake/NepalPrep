@@ -1,0 +1,367 @@
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: color-mix(in srgb, var(--bg) 93%, transparent);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--border-light);
+  padding: 0 2rem;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.logo {
+  font-size: 1.3rem;
+  font-weight: 900;
+  letter-spacing: -0.03em;
+  flex-shrink: 0;
+}
+
+.logoBlue {
+  color: var(--primary);
+}
+
+.logoDark {
+  color: var(--text);
+}
+
+.links {
+  display: flex;
+  gap: 2rem;
+}
+
+.link {
+  color: var(--text-muted);
+  font-size: 0.88rem;
+  font-weight: 500;
+  transition: color 0.15s;
+}
+
+.link:hover {
+  color: var(--text);
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.btnGhost {
+  color: var(--text-muted);
+  font-size: 0.88rem;
+  font-weight: 500;
+  transition: color 0.15s;
+}
+
+.btnGhost:hover {
+  color: var(--text);
+}
+
+.btnPrimary {
+  background: var(--primary);
+  color: #fff;
+  padding: 0.5rem 1.2rem;
+  border-radius: var(--radius-full);
+  font-size: 0.85rem;
+  font-weight: 700;
+  transition: background 0.15s, transform 0.1s;
+}
+
+.btnPrimary:hover {
+  background: var(--primary-hover);
+  transform: translateY(-1px);
+}
+
+/* Nav pill links for logged-in users */
+.btnSecondary {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.4rem 0.75rem;
+  border-radius: var(--radius-full);
+  transition: color 0.15s, background 0.15s;
+}
+
+.btnSecondary:hover {
+  color: var(--primary);
+  background: var(--primary-light);
+}
+
+.btnOutline {
+  background: none;
+  border: 1.5px solid var(--border);
+  color: var(--text-muted);
+  padding: 0.35rem 0.85rem;
+  border-radius: var(--radius-full);
+  font-size: 0.8rem;
+  font-weight: 600;
+  transition: border-color 0.15s, color 0.15s;
+  margin-left: 0.25rem;
+}
+
+.btnOutline:hover {
+  border-color: var(--text-muted);
+  color: var(--text);
+}
+
+/* Streak badge */
+.streakBadge {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.35rem 0.75rem;
+  border-radius: var(--radius-full);
+
+  background: rgba(0, 123, 255, 0.1);
+  /* light blue */
+  color: var(--primary);
+  /* your theme blue */
+
+  font-size: 0.75rem;
+  font-weight: 700;
+  white-space: nowrap;
+
+  transition: all 0.15s ease;
+  text-decoration: none;
+
+  margin-left: 0.5rem;
+
+}
+
+.streakBadge:hover {
+  background: rgba(0, 123, 255, 0.18);
+  transform: translateY(-1px);
+}
+
+/* Theme toggle */
+.themeToggle {
+  background: var(--bg-soft);
+  border: 1.5px solid var(--border);
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: transform 0.3s, border-color 0.15s, background 0.15s;
+  flex-shrink: 0;
+  margin-left: 0.15rem;
+}
+
+.themeToggle:hover {
+  transform: rotate(30deg);
+  border-color: var(--primary);
+}
+
+/* Hamburger */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  background: none;
+  border: none;
+  padding: 0.3rem;
+  cursor: pointer;
+  z-index: 200;
+}
+
+.hamburger span {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: var(--text);
+  border-radius: 2px;
+  transition: transform 0.3s, opacity 0.2s;
+}
+
+.hamburgerOpen span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+
+.hamburgerOpen span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburgerOpen span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+/* Overlay */
+.overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 140;
+}
+
+/* Drawer */
+.drawer {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: -300px;
+  width: 280px;
+  height: 100vh;
+  background: var(--bg);
+  box-shadow: -4px 0 30px rgba(0, 0, 0, 0.1);
+  z-index: 150;
+  padding: 5rem 1.5rem 2rem;
+  flex-direction: column;
+  gap: 0.5rem;
+  transition: right 0.3s ease;
+  overflow-y: auto;
+}
+
+.drawerOpen {
+  right: 0;
+}
+
+.drawerLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.drawerLink {
+  display: block;
+  padding: 0.75rem 1rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text);
+  border-radius: var(--radius-sm);
+  transition: background 0.15s;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  width: 100%;
+  font-family: inherit;
+}
+
+.drawerLink:hover {
+  background: var(--bg-soft);
+}
+
+.drawerDivider {
+  height: 1px;
+  background: var(--border-light);
+  margin: 0.5rem 0;
+}
+
+.drawerActions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.drawerLogout {
+  display: block;
+  padding: 0.75rem 1rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--error-text);
+  background: none;
+  border: none;
+  border-radius: var(--radius-sm);
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.drawerLogout:hover {
+  background: var(--error-bg);
+}
+
+.drawerStreak {
+  display: block;
+  padding: 0.75rem 1rem;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #ff6a00;
+  border-radius: var(--radius-sm);
+  transition: background 0.15s;
+  text-decoration: none;
+}
+
+.drawerStreak:hover {
+  background: rgba(255, 106, 0, 0.08);
+}
+
+.drawerCta {
+  display: block;
+  background: var(--primary);
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 0.5rem;
+  transition: background 0.15s;
+}
+
+.drawerCta:hover {
+  background: var(--primary-hover);
+}
+
+@media (max-width: 768px) {
+  .links {
+    display: none;
+  }
+
+  .actions {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .overlay {
+    display: block;
+  }
+
+  .drawer {
+    display: flex;
+  }
+}
+
+/* Dark mode drawer fixes */
+[data-theme='dark'] .drawerLink {
+  color: var(--text);
+}
+
+[data-theme='dark'] .drawerLink:hover {
+  background: var(--bg-soft);
+}
+
+[data-theme='dark'] .drawerLogout {
+  color: #f87171;
+}
+
+[data-theme='dark'] .drawerLogout:hover {
+  background: rgba(248, 113, 113, 0.1);
+}
+
+[data-theme='dark'] .btnOutline {
+  border-color: var(--border);
+  color: var(--text-muted);
+}

@@ -1,0 +1,871 @@
+[
+  {
+    "q": "The study of fungi is called",
+    "options": [
+      "Phycology",
+      "Mycology",
+      "Bryology",
+      "Virology"
+    ],
+    "answer": 1,
+    "explanation": "Mycology is the branch of biology dealing with the study of fungi. A scientist who studies fungi is called a mycologist."
+  },
+  {
+    "q": "Cell wall of fungi is made of",
+    "options": [
+      "Cellulose",
+      "Chitin",
+      "Peptidoglycan",
+      "Murein"
+    ],
+    "answer": 1,
+    "explanation": "Cell wall of fungi is made of chitin (a nitrogen-containing polysaccharide). This distinguishes fungi from plants which have cellulose cell walls."
+  },
+  {
+    "q": "Fungi are",
+    "options": [
+      "Autotrophs",
+      "Heterotrophs",
+      "Chemotrophs",
+      "Lithotrophs"
+    ],
+    "answer": 1,
+    "explanation": "Fungi are heterotrophs — they cannot make their own food. They absorb nutrients from dead or living organic matter."
+  },
+  {
+    "q": "The body of fungi is called",
+    "options": [
+      "Thallus",
+      "Mycelium",
+      "Hyphae",
+      "Sporophyte"
+    ],
+    "answer": 1,
+    "explanation": "The vegetative body of fungi is called mycelium which is made up of thread-like filaments called hyphae."
+  },
+  {
+    "q": "Penicillin is obtained from",
+    "options": [
+      "Aspergillus",
+      "Penicillium",
+      "Rhizopus",
+      "Mucor"
+    ],
+    "answer": 1,
+    "explanation": "Penicillin antibiotic is obtained from the fungus Penicillium notatum (now P. chrysogenum). It was discovered by Alexander Fleming in 1928."
+  },
+  {
+    "q": "Which fungi causes bread mould?",
+    "options": [
+      "Aspergillus",
+      "Penicillium",
+      "Rhizopus",
+      "Yeast"
+    ],
+    "answer": 2,
+    "explanation": "Rhizopus stolonifer (black bread mould) is the common fungus that causes bread mould. It belongs to class Zygomycetes."
+  },
+  {
+    "q": "Yeast is used in bread making because it produces",
+    "options": [
+      "Oxygen",
+      "Carbon dioxide",
+      "Nitrogen",
+      "Hydrogen"
+    ],
+    "answer": 1,
+    "explanation": "Yeast ferments sugars and produces carbon dioxide gas which causes bread dough to rise, making bread light and fluffy."
+  },
+  {
+    "q": "Mycorrhiza is an association between",
+    "options": [
+      "Fungi and algae",
+      "Fungi and roots of higher plants",
+      "Fungi and bacteria",
+      "Fungi and cyanobacteria"
+    ],
+    "answer": 1,
+    "explanation": "Mycorrhiza is a mutualistic symbiotic association between fungi and roots of higher plants. The fungi help the plant absorb water and minerals."
+  },
+  {
+    "q": "Which of the following is an edible fungus?",
+    "options": [
+      "Amanita",
+      "Agaricus",
+      "Aspergillus",
+      "Ustilago"
+    ],
+    "answer": 1,
+    "explanation": "Agaricus bisporus (button mushroom) is the most commonly eaten edible fungus. Amanita species are often deadly poisonous."
+  },
+  {
+    "q": "Aspergillus is used to produce",
+    "options": [
+      "Citric acid",
+      "Penicillin",
+      "Insulin",
+      "Vitamin C"
+    ],
+    "answer": 0,
+    "explanation": "Aspergillus niger is used in industrial production of citric acid. It is used in the food and beverage industry."
+  },
+  {
+    "q": "The mode of nutrition in fungi is",
+    "options": [
+      "Autotrophic",
+      "Holozoic",
+      "Absorptive heterotrophic",
+      "Photosynthetic"
+    ],
+    "answer": 2,
+    "explanation": "Fungi have absorptive heterotrophic nutrition — they secrete digestive enzymes outside and absorb the digested nutrients."
+  },
+  {
+    "q": "Ergot disease of rye is caused by",
+    "options": [
+      "Puccinia",
+      "Ustilago",
+      "Claviceps",
+      "Alternaria"
+    ],
+    "answer": 2,
+    "explanation": "Ergot disease of rye is caused by Claviceps purpurea (Ascomycetes). It produces alkaloids that cause ergotism in humans."
+  },
+  {
+    "q": "Which fungus is used in the production of beer and wine?",
+    "options": [
+      "Penicillium",
+      "Aspergillus",
+      "Saccharomyces",
+      "Rhizopus"
+    ],
+    "answer": 2,
+    "explanation": "Saccharomyces cerevisiae (baker's and brewer's yeast) is used in fermentation for production of beer, wine and bread."
+  },
+  {
+    "q": "Lichens are a symbiotic association between",
+    "options": [
+      "Fungi and bacteria",
+      "Fungi and algae",
+      "Fungi and bryophytes",
+      "Algae and bacteria"
+    ],
+    "answer": 1,
+    "explanation": "Lichens are a mutualistic symbiotic association between fungi (mycobiont) and algae or cyanobacteria (photobiont)."
+  },
+  {
+    "q": "Late blight of potato is caused by",
+    "options": [
+      "Pythium",
+      "Phytophthora",
+      "Albugo",
+      "Peronospora"
+    ],
+    "answer": 1,
+    "explanation": "Late blight of potato is caused by Phytophthora infestans. It caused the Irish Potato Famine of 1845-1849."
+  },
+  {
+    "q": "Which of the following is a parasitic fungus?",
+    "options": [
+      "Rhizopus",
+      "Penicillium",
+      "Puccinia",
+      "Aspergillus"
+    ],
+    "answer": 2,
+    "explanation": "Puccinia is a parasitic fungus that causes rust disease in wheat and other plants. It is an obligate parasite."
+  },
+  {
+    "q": "Athlete's foot is caused by",
+    "options": [
+      "Bacteria",
+      "Virus",
+      "Fungi",
+      "Protozoa"
+    ],
+    "answer": 2,
+    "explanation": "Athlete's foot (Tinea pedis) is caused by dermatophytic fungi like Trichophyton and Epidermophyton."
+  },
+  {
+    "q": "Hyphae without cross walls are called",
+    "options": [
+      "Septate hyphae",
+      "Aseptate hyphae",
+      "Coenocytic hyphae",
+      "Both b and c"
+    ],
+    "answer": 3,
+    "explanation": "Hyphae without cross walls (septa) are called aseptate or coenocytic hyphae. They have multiple nuclei in a continuous cytoplasm."
+  },
+  {
+    "q": "Ringworm is caused by",
+    "options": [
+      "Worm",
+      "Bacteria",
+      "Virus",
+      "Fungi"
+    ],
+    "answer": 3,
+    "explanation": "Despite its name, ringworm is caused by dermatophytic fungi like Trichophyton and Microsporum, not by a worm."
+  },
+  {
+    "q": "Which of the following is used to make cheese?",
+    "options": [
+      "Aspergillus",
+      "Penicillium",
+      "Rhizopus",
+      "Mucor"
+    ],
+    "answer": 1,
+    "explanation": "Penicillium roqueforti and P. camemberti are used in making Roquefort and Camembert cheese respectively giving them distinctive flavour."
+  },
+  {
+    "q": "Fungi reproduce asexually by",
+    "options": [
+      "Conidia and sporangiospores",
+      "Seeds",
+      "Binary fission only",
+      "Budding only"
+    ],
+    "answer": 0,
+    "explanation": "Fungi reproduce asexually mainly by spores — conidia (in Ascomycetes) and sporangiospores (in Zygomycetes). Some also reproduce by budding."
+  },
+  {
+    "q": "The sexual spores of Basidiomycetes are called",
+    "options": [
+      "Ascospores",
+      "Zygospores",
+      "Basidiospores",
+      "Oospores"
+    ],
+    "answer": 2,
+    "explanation": "Basidiospores are the sexual spores of Basidiomycetes (club fungi). They are borne on club-shaped structures called basidia."
+  },
+  {
+    "q": "Smut disease of wheat is caused by",
+    "options": [
+      "Puccinia",
+      "Ustilago",
+      "Claviceps",
+      "Aspergillus"
+    ],
+    "answer": 1,
+    "explanation": "Smut disease of wheat is caused by Ustilago tritici. Smut fungi produce dark powdery masses of spores replacing grain."
+  },
+  {
+    "q": "Which class of fungi is called imperfect fungi?",
+    "options": [
+      "Ascomycetes",
+      "Basidiomycetes",
+      "Zygomycetes",
+      "Deuteromycetes"
+    ],
+    "answer": 3,
+    "explanation": "Deuteromycetes are called imperfect fungi (Fungi Imperfecti) because their sexual reproduction is unknown or absent."
+  },
+  {
+    "q": "Agaricus belongs to class",
+    "options": [
+      "Ascomycetes",
+      "Basidiomycetes",
+      "Zygomycetes",
+      "Deuteromycetes"
+    ],
+    "answer": 1,
+    "explanation": "Agaricus (mushroom) belongs to class Basidiomycetes. It produces basidiospores on gill-like structures under the cap."
+  },
+  {
+    "q": "Cyclosporin A used as immunosuppressant is obtained from",
+    "options": [
+      "Aspergillus",
+      "Penicillium",
+      "Tolypocladium",
+      "Rhizopus"
+    ],
+    "answer": 2,
+    "explanation": "Cyclosporin A is an immunosuppressant drug obtained from the fungus Tolypocladium inflatum. It is used in organ transplantation."
+  },
+  {
+    "q": "The edible part of mushroom is",
+    "options": [
+      "Underground mycelium",
+      "Fruiting body",
+      "Rhizoids",
+      "Spores"
+    ],
+    "answer": 1,
+    "explanation": "The edible part of mushroom is the fruiting body (basidiocarp) which consists of stipe (stalk) and pileus (cap) with gills."
+  },
+  {
+    "q": "Which of the following is correct about yeast?",
+    "options": [
+      "It is multicellular",
+      "It belongs to Basidiomycetes",
+      "It reproduces by budding",
+      "It is a plant"
+    ],
+    "answer": 2,
+    "explanation": "Yeast (Saccharomyces) is a unicellular fungus belonging to Ascomycetes that reproduces asexually by budding."
+  },
+  {
+    "q": "Rust disease of wheat is caused by",
+    "options": [
+      "Puccinia",
+      "Ustilago",
+      "Claviceps",
+      "Alternaria"
+    ],
+    "answer": 0,
+    "explanation": "Black rust (stem rust) of wheat is caused by Puccinia graminis tritici. It is an obligate parasite belonging to Basidiomycetes."
+  },
+  {
+    "q": "Which antibiotic is produced by Streptomyces?",
+    "options": [
+      "Penicillin",
+      "Streptomycin",
+      "Tetracycline",
+      "Both b and c"
+    ],
+    "answer": 3,
+    "explanation": "Streptomyces (actually a bacterium, often studied with fungi) produces both Streptomycin and Tetracycline antibiotics."
+  },
+  {
+    "q": "The fruiting body of Ascomycetes is called",
+    "options": [
+      "Basidiocarp",
+      "Ascocarp",
+      "Sporocarp",
+      "Cleistothecium"
+    ],
+    "answer": 1,
+    "explanation": "The fruiting body of Ascomycetes is called ascocarp. It contains sac-like structures called asci which bear ascospores."
+  },
+  {
+    "q": "Fungi are most closely related to",
+    "options": [
+      "Plants",
+      "Bacteria",
+      "Animals",
+      "Algae"
+    ],
+    "answer": 2,
+    "explanation": "Modern molecular studies show fungi are more closely related to animals than to plants. Both fungi and animals store glycogen and have chitin."
+  },
+  {
+    "q": "Which of the following fungi is bioluminescent?",
+    "options": [
+      "Agaricus",
+      "Panus",
+      "Penicillium",
+      "Aspergillus"
+    ],
+    "answer": 1,
+    "explanation": "Panus stipticus and some other mushrooms are bioluminescent (glow in the dark). This property is called foxfire or fairy fire."
+  },
+  {
+    "q": "Candidiasis is caused by",
+    "options": [
+      "Candida albicans",
+      "Aspergillus fumigatus",
+      "Cryptococcus",
+      "Histoplasma"
+    ],
+    "answer": 0,
+    "explanation": "Candidiasis (thrush) is caused by Candida albicans, an opportunistic fungal pathogen that affects mucous membranes."
+  },
+  {
+    "q": "Which of the following produces aflatoxin?",
+    "options": [
+      "Aspergillus flavus",
+      "Penicillium",
+      "Rhizopus",
+      "Mucor"
+    ],
+    "answer": 0,
+    "explanation": "Aflatoxin is a deadly carcinogenic mycotoxin produced by Aspergillus flavus and A. parasiticus. It contaminates stored grains and peanuts."
+  },
+  {
+    "q": "Sexual reproduction in Rhizopus results in formation of",
+    "options": [
+      "Ascospore",
+      "Basidiospore",
+      "Zygospore",
+      "Oospore"
+    ],
+    "answer": 2,
+    "explanation": "Sexual reproduction in Rhizopus (Zygomycetes) results in the formation of zygospore through conjugation of gametangia."
+  },
+  {
+    "q": "Which of the following is correct about fungi?",
+    "options": [
+      "They are photosynthetic",
+      "They have chloroplast",
+      "They store food as glycogen",
+      "They have cellulose cell wall"
+    ],
+    "answer": 2,
+    "explanation": "Fungi store reserve food as glycogen (like animals), not starch (like plants). They are non-photosynthetic and have chitin cell wall."
+  },
+  {
+    "q": "Morels and truffles belong to",
+    "options": [
+      "Basidiomycetes",
+      "Ascomycetes",
+      "Zygomycetes",
+      "Deuteromycetes"
+    ],
+    "answer": 1,
+    "explanation": "Morels (Morchella) and truffles (Tuber) are edible fungi belonging to Ascomycetes. They are highly prized as gourmet food."
+  },
+  {
+    "q": "The term mycorrhiza was coined by",
+    "options": [
+      "Frank",
+      "Fleming",
+      "Pasteur",
+      "Koch"
+    ],
+    "answer": 0,
+    "explanation": "The term mycorrhiza was coined by A.B. Frank in 1885. It comes from Greek words mykes (fungus) and rhiza (root)."
+  },
+  {
+    "q": "Which of the following disease is caused by fungi?",
+    "options": [
+      "Malaria",
+      "Tuberculosis",
+      "Aspergillosis",
+      "Typhoid"
+    ],
+    "answer": 2,
+    "explanation": "Aspergillosis is a fungal disease caused by Aspergillus fumigatus. It mainly affects the lungs of immunocompromised patients."
+  },
+  {
+    "q": "Claviceps purpurea causes",
+    "options": [
+      "Rust of wheat",
+      "Smut of wheat",
+      "Ergot of rye",
+      "Late blight of potato"
+    ],
+    "answer": 2,
+    "explanation": "Claviceps purpurea causes ergot disease of rye. The sclerotia (ergots) contain alkaloids that cause hallucinations and convulsions."
+  },
+  {
+    "q": "Spores of fungi that are produced without meiosis are called",
+    "options": [
+      "Basidiospores",
+      "Ascospores",
+      "Conidia",
+      "Oospores"
+    ],
+    "answer": 2,
+    "explanation": "Conidia are asexual spores produced without meiosis at the tips of special hyphae called conidiophores. Common in Aspergillus and Penicillium."
+  },
+  {
+    "q": "Which of the following is not a fungal disease?",
+    "options": [
+      "Ringworm",
+      "Athlete's foot",
+      "Malaria",
+      "Candidiasis"
+    ],
+    "answer": 2,
+    "explanation": "Malaria is caused by Plasmodium (a protozoan), not a fungus. Ringworm, athlete's foot and candidiasis are all fungal diseases."
+  },
+  {
+    "q": "Ectomycorrhiza is characterized by",
+    "options": [
+      "Fungi penetrating root cells",
+      "Fungi forming sheath around root without penetrating cells",
+      "Fungi living inside stem",
+      "Fungi and root cells merging completely"
+    ],
+    "answer": 1,
+    "explanation": "In ectomycorrhiza, fungi form a sheath (mantle) around the root and grow between cells (Hartig net) without penetrating inside cells."
+  },
+  {
+    "q": "Penicillium belongs to class",
+    "options": [
+      "Basidiomycetes",
+      "Zygomycetes",
+      "Ascomycetes",
+      "Deuteromycetes"
+    ],
+    "answer": 2,
+    "explanation": "Penicillium belongs to class Ascomycetes (sac fungi). It produces conidia asexually and is the source of penicillin antibiotic."
+  },
+  {
+    "q": "Fungi that feed on dead organic matter are called",
+    "options": [
+      "Parasites",
+      "Saprobes",
+      "Symbionts",
+      "Mutualists"
+    ],
+    "answer": 1,
+    "explanation": "Saprobes (saprophytes) are fungi that feed on dead and decaying organic matter. They play vital role in decomposition and nutrient cycling."
+  },
+  {
+    "q": "The process of fermentation in yeast produces",
+    "options": [
+      "Lactic acid and CO2",
+      "Ethanol and CO2",
+      "Acetic acid and CO2",
+      "Ethanol and O2"
+    ],
+    "answer": 1,
+    "explanation": "During fermentation, yeast converts glucose into ethanol (alcohol) and carbon dioxide under anaerobic conditions."
+  },
+  {
+    "q": "Which of the following is a poisonous mushroom?",
+    "options": [
+      "Agaricus bisporus",
+      "Pleurotus",
+      "Amanita phalloides",
+      "Morchella"
+    ],
+    "answer": 2,
+    "explanation": "Amanita phalloides (death cap) is one of the most poisonous mushrooms. It contains amatoxins that cause liver failure."
+  },
+  {
+    "q": "Downy mildew of grape is caused by",
+    "options": [
+      "Peronospora",
+      "Plasmopara viticola",
+      "Albugo",
+      "Phytophthora"
+    ],
+    "answer": 1,
+    "explanation": "Downy mildew of grape is caused by Plasmopara viticola. It devastated European vineyards in the 19th century."
+  },
+  {
+    "q": "Reserve food material in fungi is",
+    "options": [
+      "Starch",
+      "Glycogen",
+      "Cellulose",
+      "Laminarin"
+    ],
+    "answer": 1,
+    "explanation": "Fungi store reserve food as glycogen (animal starch), not starch like plants. This is one reason fungi are more closely related to animals."
+  },
+  {
+    "q": "Which of the following is used in biocontrol of pests?",
+    "options": [
+      "Aspergillus",
+      "Beauveria bassiana",
+      "Rhizopus",
+      "Mucor"
+    ],
+    "answer": 1,
+    "explanation": "Beauveria bassiana is an entomopathogenic fungus used as a biocontrol agent against various insect pests."
+  },
+  {
+    "q": "The hyphae of Rhizopus that attach to substratum are called",
+    "options": [
+      "Stolons",
+      "Rhizoids",
+      "Sporangiophores",
+      "Hyphae"
+    ],
+    "answer": 1,
+    "explanation": "Rhizoids are root-like hyphae in Rhizopus that anchor it to the substrate and absorb nutrients. Stolons are horizontal connecting hyphae."
+  },
+  {
+    "q": "Which of the following is a plant disease caused by Ascomycetes?",
+    "options": [
+      "Rust of wheat",
+      "Smut of corn",
+      "Powdery mildew",
+      "Late blight of potato"
+    ],
+    "answer": 2,
+    "explanation": "Powdery mildew is caused by Ascomycetes fungi like Erysiphe. Rust and smut are Basidiomycetes, late blight is Oomycetes."
+  },
+  {
+    "q": "Ascospores are produced inside",
+    "options": [
+      "Basidium",
+      "Ascus",
+      "Sporangium",
+      "Conidiophore"
+    ],
+    "answer": 1,
+    "explanation": "Ascospores are produced inside sac-like structures called asci (singular: ascus) in Ascomycetes. Typically 8 ascospores are produced per ascus."
+  },
+  {
+    "q": "Which of the following is an obligate parasite?",
+    "options": [
+      "Aspergillus",
+      "Penicillium",
+      "Puccinia",
+      "Rhizopus"
+    ],
+    "answer": 2,
+    "explanation": "Puccinia (rust fungus) is an obligate parasite that can only live and reproduce inside a living host plant."
+  },
+  {
+    "q": "Fungi obtain nutrients by",
+    "options": [
+      "Photosynthesis",
+      "Secreting enzymes and absorbing digested products",
+      "Ingesting food particles",
+      "Chemosynthesis"
+    ],
+    "answer": 1,
+    "explanation": "Fungi secrete extracellular digestive enzymes to break down complex organic matter, then absorb the soluble digested products."
+  },
+  {
+    "q": "Which of the following fungi causes black heart of apple?",
+    "options": [
+      "Alternaria",
+      "Aspergillus niger",
+      "Penicillium",
+      "Rhizopus"
+    ],
+    "answer": 1,
+    "explanation": "Black heart of apple is caused by Aspergillus niger. It causes internal rot and blackening of apple fruit."
+  },
+  {
+    "q": "The sexual stage of Aspergillus is",
+    "options": [
+      "Emericella",
+      "Eurotium",
+      "Neosartorya",
+      "All depending on species"
+    ],
+    "answer": 3,
+    "explanation": "Different species of Aspergillus have different sexual stages — Emericella (A. nidulans), Eurotium (A. glaucus), Neosartorya (A. fumigatus)."
+  },
+  {
+    "q": "Statin drugs that lower cholesterol are obtained from",
+    "options": [
+      "Aspergillus",
+      "Penicillium",
+      "Monascus",
+      "Rhizopus"
+    ],
+    "answer": 2,
+    "explanation": "Lovastatin (a statin drug) was first isolated from Monascus ruber (red yeast rice). Statins inhibit cholesterol synthesis."
+  },
+  {
+    "q": "Which type of hyphae are found in Rhizopus?",
+    "options": [
+      "Septate",
+      "Aseptate (coenocytic)",
+      "Dikaryotic",
+      "Uninucleate"
+    ],
+    "answer": 1,
+    "explanation": "Rhizopus has aseptate (coenocytic) hyphae without cross walls. The mycelium contains many nuclei in a continuous cytoplasm."
+  },
+  {
+    "q": "Tinea capitis is caused by",
+    "options": [
+      "Aspergillus",
+      "Trichophyton",
+      "Candida",
+      "Mucor"
+    ],
+    "answer": 1,
+    "explanation": "Tinea capitis (scalp ringworm) is caused by dermatophytic fungi like Trichophyton and Microsporum affecting the scalp and hair."
+  },
+  {
+    "q": "Which of the following is used for leavening of bread?",
+    "options": [
+      "Aspergillus niger",
+      "Saccharomyces cerevisiae",
+      "Penicillium",
+      "Rhizopus"
+    ],
+    "answer": 1,
+    "explanation": "Saccharomyces cerevisiae (baker's yeast) is used for leavening bread. It ferments sugars producing CO2 which makes dough rise."
+  },
+  {
+    "q": "Phytophthora belongs to",
+    "options": [
+      "True fungi",
+      "Oomycetes",
+      "Ascomycetes",
+      "Basidiomycetes"
+    ],
+    "answer": 1,
+    "explanation": "Phytophthora belongs to Oomycetes (water moulds). Though traditionally studied with fungi, Oomycetes are now placed in kingdom Stramenopila."
+  },
+  {
+    "q": "Which of the following fungi produces griseofulvin antibiotic?",
+    "options": [
+      "Aspergillus",
+      "Penicillium griseofulvum",
+      "Streptomyces",
+      "Rhizopus"
+    ],
+    "answer": 1,
+    "explanation": "Griseofulvin is an antifungal antibiotic produced by Penicillium griseofulvum. It is used to treat dermatophytic infections."
+  },
+  {
+    "q": "Saccharomyces is an example of",
+    "options": [
+      "Filamentous fungi",
+      "Unicellular fungi (yeast)",
+      "Dimorphic fungi",
+      "Basidiomycetes"
+    ],
+    "answer": 1,
+    "explanation": "Saccharomyces cerevisiae (baker's yeast) is a unicellular fungus (yeast) belonging to Ascomycetes. It reproduces by budding."
+  },
+  {
+    "q": "Which of the following is correct about mushroom?",
+    "options": [
+      "It is a plant",
+      "It manufactures its own food",
+      "It is the fruiting body of Basidiomycetes",
+      "It has chlorophyll"
+    ],
+    "answer": 2,
+    "explanation": "Mushroom is the fruiting body (basidiocarp) of Basidiomycetes fungi. It produces basidiospores for sexual reproduction."
+  },
+  {
+    "q": "Endomycorrhiza is also called",
+    "options": [
+      "Ectomycorrhiza",
+      "Arbuscular mycorrhiza",
+      "Ectendomycorrhiza",
+      "Vesicular mycorrhiza"
+    ],
+    "answer": 1,
+    "explanation": "Endomycorrhiza is also called arbuscular mycorrhiza (AM). The fungal hyphae penetrate into root cells forming arbuscules and vesicles."
+  },
+  {
+    "q": "Which of the following is dikaryotic?",
+    "options": [
+      "Zygomycetes",
+      "Secondary mycelium of Basidiomycetes",
+      "Ascomycetes ascospores",
+      "Rhizopus hyphae"
+    ],
+    "answer": 1,
+    "explanation": "Secondary mycelium of Basidiomycetes is dikaryotic (n+n) — each cell contains two genetically different nuclei before they fuse."
+  },
+  {
+    "q": "The antibiotic penicillin was first discovered by",
+    "options": [
+      "Louis Pasteur",
+      "Robert Koch",
+      "Alexander Fleming",
+      "Joseph Lister"
+    ],
+    "answer": 2,
+    "explanation": "Penicillin was discovered by Alexander Fleming in 1928 when he noticed Penicillium mould killing bacteria on his culture plate."
+  },
+  {
+    "q": "Which of the following is used to produce soy sauce?",
+    "options": [
+      "Aspergillus oryzae",
+      "Penicillium",
+      "Saccharomyces",
+      "Rhizopus"
+    ],
+    "answer": 0,
+    "explanation": "Aspergillus oryzae (koji mold) is used in fermentation of soybeans to produce soy sauce (shoyu). It is also used in sake and miso production."
+  },
+  {
+    "q": "Fungi are placed in separate kingdom because",
+    "options": [
+      "They are photosynthetic",
+      "They have chitin cell wall and absorptive nutrition",
+      "They are prokaryotic",
+      "They have chloroplasts"
+    ],
+    "answer": 1,
+    "explanation": "Fungi are placed in their own kingdom because they have chitin cell wall, absorptive heterotrophic nutrition, and store glycogen — distinguishing them from plants and animals."
+  },
+  {
+    "q": "Which of the following is a hallucinogenic fungus?",
+    "options": [
+      "Agaricus",
+      "Psilocybe",
+      "Morchella",
+      "Pleurotus"
+    ],
+    "answer": 1,
+    "explanation": "Psilocybe (magic mushrooms) contains psilocybin and psilocin which are hallucinogenic compounds. They affect serotonin receptors in the brain."
+  },
+  {
+    "q": "Brown rot of apple is caused by",
+    "options": [
+      "Aspergillus",
+      "Monilinia",
+      "Alternaria",
+      "Botrytis"
+    ],
+    "answer": 1,
+    "explanation": "Brown rot of apple and stone fruits is caused by Monilinia fructicola and M. laxa. It causes rapid decay of fruit."
+  },
+  {
+    "q": "The mode of reproduction in Mucor is",
+    "options": [
+      "Only sexual",
+      "Only asexual",
+      "Both sexual and asexual",
+      "Vegetative only"
+    ],
+    "answer": 2,
+    "explanation": "Mucor reproduces both sexually (by zygospore formation) and asexually (by sporangiospores). It belongs to Zygomycetes."
+  },
+  {
+    "q": "Which of the following is not true about fungi?",
+    "options": [
+      "They are eukaryotes",
+      "They have chitin cell wall",
+      "They are autotrophs",
+      "They store glycogen"
+    ],
+    "answer": 2,
+    "explanation": "Fungi are NOT autotrophs. They are heterotrophs that obtain nutrition by absorption from dead or living organic matter."
+  },
+  {
+    "q": "Taxol anticancer drug is obtained from",
+    "options": [
+      "Aspergillus",
+      "Pestalotiopsis microspora",
+      "Penicillium",
+      "Rhizopus"
+    ],
+    "answer": 1,
+    "explanation": "Taxol (paclitaxel) anticancer drug is produced by the endophytic fungus Pestalotiopsis microspora found in yew trees."
+  },
+  {
+    "q": "Which of the following causes damping off of seedlings?",
+    "options": [
+      "Pythium",
+      "Puccinia",
+      "Ustilago",
+      "Claviceps"
+    ],
+    "answer": 0,
+    "explanation": "Damping off disease of seedlings is caused by Pythium (Oomycetes). It causes rotting of stem at soil level killing young seedlings."
+  },
+  {
+    "q": "The specialized reproductive hyphae that bear conidia are called",
+    "options": [
+      "Rhizoids",
+      "Stolons",
+      "Conidiophores",
+      "Sporangiophores"
+    ],
+    "answer": 2,
+    "explanation": "Conidiophores are specialized hyphae that bear conidia (asexual spores) at their tips. Common in Aspergillus and Penicillium."
+  },
+  {
+    "q": "Which of the following fungi is used in genetics research?",
+    "options": [
+      "Rhizopus",
+      "Neurospora",
+      "Mucor",
+      "Aspergillus"
+    ],
+    "answer": 1,
+    "explanation": "Neurospora crassa (red bread mold) is an important model organism in genetics research. Beadle and Tatum used it to prove one gene-one enzyme hypothesis."
+  }
+]

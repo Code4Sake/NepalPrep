@@ -1,0 +1,299 @@
+[
+    {
+        "q": "During which embryonic stage is the vertebrate embryo differentiated into ectoderm, mesoderm, and endoderm?",
+        "options": [
+            "Cleavage",
+            "Blastulation",
+            "Gastrulation",
+            "Neurulation"
+        ],
+        "answer": 2,
+        "explanation": "Gastrulation is the phase where the single-layered blastula is reorganized into a multilayered structure known as the gastrula, consisting of the three germ layers[cite: 1]."
+    },
+    {
+        "q": "What is the correct sequence of the developmental phases in an embryo?",
+        "options": [
+            "Cleavage → Gastrulation → Blastulation → Neurulation",
+            "Cleavage → Blastulation → Gastrulation → Neurulation",
+            "Blastulation → Cleavage → Gastrulation → Neurulation",
+            "Gastrulation → Cleavage → Blastulation → Neurulation"
+        ],
+        "answer": 1,
+        "explanation": "Development starts with cell division (cleavage), followed by the formation of a hollow ball (blastulation), the formation of germ layers (gastrulation), and finally the formation of the neural tube (neurulation)[cite: 2]."
+    },
+    {
+        "q": "The process of 'cleavage' in embryology refers to:",
+        "options": [
+            "Cell growth",
+            "Division of cells",
+            "Cell death",
+            "Cell differentiation"
+        ],
+        "answer": 1,
+        "explanation": "Cleavage is the rapid series of mitotic cell divisions that occur after fertilization[cite: 3]."
+    },
+    {
+        "q": "In which stage of embryonic development is the archenteron first seen?",
+        "options": [
+            "Morula",
+            "Blastula",
+            "Gastrula",
+            "Neurula"
+        ],
+        "answer": 2,
+        "explanation": "The archenteron, or primitive gut, is formed during the gastrulation process[cite: 4]."
+    },
+    {
+        "q": "What effect does adding iodine to the water of a tadpole have?",
+        "options": [
+            "It stops growth",
+            "It slows down metamorphosis",
+            "It hastens metamorphosis",
+            "It causes the tadpole to die"
+        ],
+        "answer": 2,
+        "explanation": "Iodine is essential for the production of thyroxin by the thyroid gland, which regulates and accelerates the metamorphosis of a tadpole into a frog[cite: 5, 16]."
+    },
+    {
+        "q": "The fundamental process of Gastrulation is best described as:",
+        "options": [
+            "Rapid cell division",
+            "Reorientation of cells",
+            "Formation of the brain",
+            "Growth of the tail"
+        ],
+        "answer": 1,
+        "explanation": "Gastrulation involves morphogenetic movements where cells migrate and reorient to form the germ layers[cite: 6]."
+    },
+    {
+        "q": "An embryo at the 16-celled stage is specifically called a:",
+        "options": [
+            "Zygote",
+            "Blastula",
+            "Morula",
+            "Gastrula"
+        ],
+        "answer": 2,
+        "explanation": "The morula is a solid ball of cells resulting from cleavage, typically at the 16-cell stage[cite: 7]."
+    },
+    {
+        "q": "An egg in which the yolk is concentrated at one end is classified as:",
+        "options": [
+            "Homolecithal",
+            "Mesolecithal",
+            "Telolecithal",
+            "Alecithal"
+        ],
+        "answer": 2,
+        "explanation": "In telolecithal eggs, the yolk is unevenly distributed and concentrated at the vegetal pole[cite: 8]."
+    },
+    {
+        "q": "A 'yolk plug' is a characteristic feature seen in the:",
+        "options": [
+            "Blastula",
+            "Gastrula",
+            "Morula",
+            "Neurula"
+        ],
+        "answer": 1,
+        "explanation": "The yolk plug is a patch of yolk cells left exposed by the blastopore during the late stages of gastrulation[cite: 9]."
+    },
+    {
+        "q": "The blastopore is the opening of the archenteron and is found in the:",
+        "options": [
+            "Zygote",
+            "Blastula",
+            "Gastrula",
+            "Morula"
+        ],
+        "answer": 2,
+        "explanation": "The blastopore is the initial opening that forms during gastrulation and leads into the archenteron[cite: 10, 28]."
+    },
+    {
+        "q": "The dietary habit of a frog's tadpole is:",
+        "options": [
+            "Carnivorous",
+            "Herbivorous",
+            "Omnivorous",
+            "Sanguivorous"
+        ],
+        "answer": 1,
+        "explanation": "Tadpoles are primarily herbivores that feed on aquatic flora such as algae[cite: 11, 27]."
+    },
+    {
+        "q": "From which germ layer are nails derived?",
+        "options": [
+            "Ectoderm",
+            "Mesoderm",
+            "Endoderm",
+            "Mesendoderm"
+        ],
+        "answer": 0,
+        "explanation": "The ectoderm gives rise to the epidermis and its derivatives, including hair and nails[cite: 12]."
+    },
+    {
+        "q": "The kidneys in a vertebrate embryo develop from the:",
+        "options": [
+            "Ectoderm",
+            "Mesoderm",
+            "Endoderm",
+            "Ecto-mesoderm"
+        ],
+        "answer": 1,
+        "explanation": "The mesoderm is responsible for forming the circulatory system, muscles, skeleton, and the excretory system (kidneys)[cite: 13]."
+    },
+    {
+        "q": "Where is the 'grey crescent' found?",
+        "options": [
+            "Unfertilized egg of frog",
+            "Fertilized egg of frog",
+            "Gastrula of frog",
+            "Tadpole of frog"
+        ],
+        "answer": 1,
+        "explanation": "The grey crescent appears on the surface of the frog's egg opposite the point of sperm entry immediately after fertilization[cite: 14]."
+    },
+    {
+        "q": "In vertebrate embryos, skeletal tissues and muscles develop from:",
+        "options": [
+            "Ectoderm only",
+            "Mesoderm only",
+            "Endoderm only",
+            "A mix of all three"
+        ],
+        "answer": 1,
+        "explanation": "The skeletal and muscular systems are strictly derived from the mesodermal germ layer[cite: 15]."
+    },
+    {
+        "q": "Which hormone regulates the metamorphosis of a frog?",
+        "options": [
+            "Insulin",
+            "Adrenaline",
+            "Thyroxin",
+            "Estrogen"
+        ],
+        "answer": 2,
+        "explanation": "Thyroxin, secreted by the thyroid gland, is the primary hormone that triggers the change from tadpole to adult frog[cite: 16]."
+    },
+    {
+        "q": "The primary cavity that appears during the embryogenesis of a frog is called the:",
+        "options": [
+            "Blastocoel",
+            "Archenteron",
+            "Coelom",
+            "Neurocoel"
+        ],
+        "answer": 1,
+        "explanation": "The archenteron is the primitive gut cavity that forms during gastrulation[cite: 17]."
+    },
+    {
+        "q": "The egg of a frog is classified as:",
+        "options": [
+            "Microlecithal",
+            "Mesolecithal",
+            "Macrolecithal",
+            "Homolecithal"
+        ],
+        "answer": 1,
+        "explanation": "Frog eggs have a moderate amount of yolk, which makes them mesolecithal[cite: 18]."
+    },
+    {
+        "q": "The first indication of 'physiological division of labor' in a frog appears at:",
+        "options": [
+            "Cleavage",
+            "Blastula",
+            "Gastrula",
+            "Morula"
+        ],
+        "answer": 2,
+        "explanation": "During gastrulation, cells begin to take on specific roles as they differentiate into the three germ layers[cite: 19]."
+    },
+    {
+        "q": "At what stage can the development of specific organs (organogenesis) be assumed to begin?",
+        "options": [
+            "Cleavage",
+            "Blastula",
+            "Gastrula",
+            "Post-gastrula"
+        ],
+        "answer": 3,
+        "explanation": "Organ development occurs after the three germ layers have been established in the post-gastrula phase[cite: 20]."
+    },
+    {
+        "q": "The anterior part of the neural plate in a frog embryo eventually forms the:",
+        "options": [
+            "Spinal cord",
+            "Brain",
+            "Notochord",
+            "Heart"
+        ],
+        "answer": 1,
+        "explanation": "The neural plate is the precursor to the central nervous system; its anterior portion expands to form the brain[cite: 21]."
+    },
+    {
+        "q": "Regarding nitrogenous waste excretion, a tadpole is:",
+        "options": [
+            "Ureotelic",
+            "Uricotelic",
+            "Aminotelic",
+            "None of the above"
+        ],
+        "answer": 2,
+        "explanation": "Tadpoles live in water and excrete nitrogenous waste primarily as ammonia, making them aminotelic[cite: 22]."
+    },
+    {
+        "q": "The Central Nervous System (CNS) develops during which stage?",
+        "options": [
+            "Cleavage",
+            "Blastulation",
+            "Gastrulation",
+            "Neurulation"
+        ],
+        "answer": 3,
+        "explanation": "Neurulation is the specific stage of embryogenesis where the neural tube and CNS are formed[cite: 23]."
+    },
+    {
+        "q": "Syngamy is a process that occurs during the formation of the:",
+        "options": [
+            "Gamete",
+            "Zygote",
+            "Blastula",
+            "Gastrula"
+        ],
+        "answer": 1,
+        "explanation": "Syngamy is the fusion of two gametes, which results in the formation of a zygote[cite: 24]."
+    },
+    {
+        "q": "What is the term for an egg with evenly distributed yolk?",
+        "options": [
+            "Homolecithal",
+            "Telolecithal",
+            "Mesolecithal",
+            "Centrolecithal"
+        ],
+        "answer": 0,
+        "explanation": "Homolecithal (or isolecithal) eggs have a small amount of yolk that is distributed uniformly throughout the cytoplasm[cite: 25]."
+    },
+    {
+        "q": "In vertebrates, the blastopore generally develops into the:",
+        "options": [
+            "Mouth",
+            "Anus",
+            "Nose",
+            "Ear"
+        ],
+        "answer": 1,
+        "explanation": "Vertebrates are deuterostomes, meaning the blastopore becomes the anus while the mouth forms later[cite: 26]."
+    },
+    {
+        "q": "The Gastrointestinal (GI) tract is developed from which germ layer?",
+        "options": [
+            "Ectoderm",
+            "Mesoderm",
+            "Endoderm",
+            "Both Ectoderm and Mesoderm"
+        ],
+        "answer": 2,
+        "explanation": "The endoderm is the innermost germ layer that forms the lining of the digestive tract and associated organs[cite: 29]."
+    }
+]
