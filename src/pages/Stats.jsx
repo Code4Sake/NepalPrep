@@ -1,558 +1,500 @@
-import { useState, useMemo } from 'react'
-import { Link } from 'react-router-dom'
+import { useState, useEffect, useMemo } from 'react'
+import { Link, NavLink, useNavigate } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext'
-import { ceeTopics, ioeTopics } from '../data/questions'
-import Navbar from '../components/Navbar'
+import { useTheme } from '../context/ThemeContext'
+import { ceeTopics } from '../data/questions'
+import ThemeToggle from '../components/ThemeToggle'
 import styles from './Stats.module.css'
 
-/* ── Nepali BS Calendar helpers ──────────────────────────── */
-
-const BS_MONTHS = [
-  'Baisakh', 'Jestha', 'Ashadh', 'Shrawan', 'Bhadra', 'Ashwin',
-  'Kartik', 'Mangsir', 'Poush', 'Magh', 'Falgun', 'Chaitra'
-]
-
-const WEEKDAYS = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
-
-// BS month lengths for years 2080–2083
-const BS_DATA = {
-  2080: [31, 32, 31, 32, 31, 30, 30, 30, 29, 30, 29, 31],
-  2081: [31, 31, 32, 31, 31, 31, 30, 29, 30, 29, 30, 30],
-  2082: [31, 32, 31, 32, 31, 30, 30, 30, 29, 30, 29, 31],
-  2083: [31, 31, 32, 31, 31, 31, 30, 29, 30, 29, 30, 30],
+/* ════════════════════════════════════════════════════════════
+   Same DOMAIN_MAP as Dashboard — single source of truth
+════════════════════════════════════════════════════════════ */
+const DOMAIN_MAP = {
+  'cell-biology': 'Zoology', 'animal-tissue': 'Zoology', 'phylum': 'Zoology',
+  'development-biology': 'Zoology', 'human-biology-diseases': 'Zoology',
+  'human-physiology': 'Zoology', 'genetics': 'Zoology',
+  'basic-component-life': 'Botany', 'plant-physiology': 'Botany',
+}
+function getTopicDomain(topicId, subject) {
+  if (DOMAIN_MAP[topicId]) return DOMAIN_MAP[topicId]
+  if (subject === 'Physics')   return 'Physics'
+  if (subject === 'Chemistry') return 'Chemistry'
+  if (subject === 'English' || subject === 'Mathematics') return 'MAT'
+  return 'Zoology'
 }
 
-// Reference: 2080-01-01 BS = 2023-04-14 AD (Friday = day 5)
-const BS_REF = { y: 2080, m: 1, d: 1 }
-const AD_REF = new Date(2023, 3, 14) // April 14, 2023
-const AD_REF_WEEKDAY = 5 // Friday
-
-function adToBS(adDate) {
-  const ad = new Date(adDate.getFullYear(), adDate.getMonth(), adDate.getDate())
-  let diff = Math.floor((ad - AD_REF) / 86400000)
-  let bsY = BS_REF.y, bsM = BS_REF.m, bsD = BS_REF.d
-
-  if (diff >= 0) {
-    while (diff > 0) {
-      const mLen = (BS_DATA[bsY] || BS_DATA[2082])[bsM - 1]
-      const daysLeft = mLen - bsD
-      if (diff <= daysLeft) {
-        bsD += diff
-        diff = 0
-      } else {
-        diff -= (daysLeft + 1)
-        bsD = 1
-        bsM++
-        if (bsM > 12) { bsM = 1; bsY++ }
-      }
-    }
-  } else {
-    diff = Math.abs(diff)
-    while (diff > 0) {
-      if (diff < bsD) {
-        bsD -= diff
-        diff = 0
-      } else {
-        diff -= bsD
-        bsM--
-        if (bsM < 1) { bsM = 12; bsY-- }
-        bsD = (BS_DATA[bsY] || BS_DATA[2082])[bsM - 1]
-      }
-    }
-  }
-  return { y: bsY, m: bsM, d: bsD }
+const SUBJECT_ORDER = ['Zoology', 'Botany', 'Physics', 'Chemistry', 'MAT']
+const SUBJECT_META = {
+  Zoology:   { color: '#0d9488', label: 'Zoology' },
+  Botany:    { color: '#16a34a', label: 'Botany' },
+  Physics:   { color: '#d97706', label: 'Physics' },
+  Chemistry: { color: '#7c3aed', label: 'Chemistry' },
+  MAT:       { color: '#e11d48', label: 'MAT' },
 }
 
-function getBSDaysInMonth(bsYear, bsMonth) {
-  return (BS_DATA[bsYear] || BS_DATA[2082])[bsMonth - 1]
+/* ── Sidebar icons (copied from Dashboard) ── */
+const I = {
+  dashboard: <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/></svg>,
+  practice:  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z"/><path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z"/></svg>,
+  mock:      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>,
+  stats:     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>,
+  history:   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/><path d="M2 12h2"/></svg>,
+  tracker:   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>,
+  fire:      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 23c-4.32 0-8-3.59-8-8.16 0-2.94 1.49-5.93 4.13-8.3A28.2 28.2 0 0112 3c1.17 1.08 2.65 2.6 3.87 4.54C18.51 11.07 20 13.9 20 14.84 20 19.41 16.32 23 12 23z"/></svg>,
+  logout:    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M9 21H5a2 2 0 01-2-2V5a2 2 0 012-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" y1="12" x2="9" y2="12"/></svg>,
+  menu:      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>,
+  close:     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>,
 }
 
-// Get the AD date for BS date
-function bsToAD(bsY, bsM, bsD) {
-  let days = 0
-  let y = BS_REF.y, m = BS_REF.m
-  // Count days from reference start-of-month to target start-of-month
-  while (y < bsY || (y === bsY && m < bsM)) {
-    days += (BS_DATA[y] || BS_DATA[2082])[m - 1]
-    m++
-    if (m > 12) { m = 1; y++ }
-  }
-  days += (bsD - 1) // add day offset within target month
-  const result = new Date(AD_REF)
-  result.setDate(result.getDate() + days)
-  return result
-}
+/* ── Data helpers ─────────────────────────────────────────── */
+const adKey = (d) =>
+  `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`
 
-// Get the weekday (0=Sun..6=Sat) of the 1st of a BS month
-function getFirstDayWeekday(bsYear, bsMonth) {
-  let totalDays = 0
-  let y = BS_REF.y, m = BS_REF.m
-  while (y < bsYear || (y === bsYear && m < bsMonth)) {
-    totalDays += (BS_DATA[y] || BS_DATA[2082])[m - 1]
-    m++
-    if (m > 12) { m = 1; y++ }
-  }
-  return (AD_REF_WEEKDAY + totalDays) % 7
-}
-
-/* ── Data helpers ────────────────────────────────────────── */
-
-function getProgress(userId, topicId) {
+function getTopicProgress(uid, id) {
   try {
-    const key = `nepalprep-quiz-${userId}-${topicId}`
-    const saved = localStorage.getItem(key)
-    if (!saved) return null
-    const s = JSON.parse(saved)
-    const done = (s.correctCount || 0) + (s.wrongCount || 0)
+    const s = JSON.parse(localStorage.getItem(`nepalprep-quiz-${uid}-${id}`) || 'null')
+    if (!s) return null
+    const done    = (s.correctCount||0) + (s.wrongCount||0)
     if (done === 0) return null
-    const correct = s.correctCount || 0
-    const accuracy = Math.round((correct / done) * 100)
-    let totalTime = 0
-    let avgTime = null
-    if (s.questionTimes) {
-      const times = Object.values(s.questionTimes)
-      if (times.length > 0) {
-        totalTime = times.reduce((a, b) => a + b, 0)
-        avgTime = Math.round(totalTime / times.length)
-      }
-    }
-    return { done, total: s.totalQuestions || 0, correct, accuracy, avgTime, totalTime, savedAt: s.savedAt }
+    const correct  = s.correctCount || 0
+    const times    = s.questionTimes ? Object.values(s.questionTimes) : []
+    const totalTime = times.reduce((a,b)=>a+b, 0)
+    return { done, total:s.totalQuestions||0, correct, accuracy:Math.round(correct/done*100),
+             avgTime:times.length?Math.round(totalTime/times.length):null, totalTime, savedAt:s.savedAt }
   } catch { return null }
 }
 
-function getAllStats(userId, topics) {
-  const results = []
-  for (const t of topics) {
+function buildStats(uid) {
+  const bySubject = {}    // subject → { topics: [...] }
+  const intensityMap = {} // dateKey → count
+
+  for (const t of ceeTopics) {
     if (t.comingSoon) continue
-    if (t.hasSubtopics && t.subtopics) {
-      for (const sub of t.subtopics) {
-        const p = getProgress(userId, sub.id)
-        if (p) results.push({ ...p, id: sub.id, name: sub.name, subject: t.subject, emoji: t.emoji })
+    const entries = t.hasSubtopics && t.subtopics
+      ? t.subtopics.map(s=>({ id:s.id, name:s.name, totalQs:s.questionCount||0, parentId:t.id }))
+      : [{ id:t.id, name:t.name, totalQs:t.questionCount||0, parentId:t.id }]
+
+    // determine domain from parent topic id
+    const domain = getTopicDomain(t.id, t.subject)
+    if (!bySubject[domain]) bySubject[domain] = { topics:[], color: SUBJECT_META[domain]?.color||'var(--primary)' }
+
+    for (const e of entries) {
+      const p = getTopicProgress(uid, e.id)
+      if (p?.savedAt) {
+        const k = adKey(new Date(p.savedAt))
+        intensityMap[k] = (intensityMap[k]||0) + (p.done||0)  // count questions, not topics
       }
-    } else {
-      const p = getProgress(userId, t.id)
-      if (p) results.push({ ...p, id: t.id, name: t.name, subject: t.subject, emoji: t.emoji })
+      bySubject[domain].topics.push({ id:e.id, name:e.name, totalQs:e.totalQs, progress:p })
     }
   }
-  return results
+  return { bySubject, intensityMap }
 }
 
-function getAllTopics(topics) {
-  const result = []
-  for (const t of topics) {
-    if (t.comingSoon) continue
-    if (t.hasSubtopics && t.subtopics) {
-      for (const sub of t.subtopics) {
-        result.push({ id: sub.id, name: sub.name, subject: t.subject, emoji: t.emoji, questionCount: sub.questionCount })
-      }
-    } else {
-      result.push({ id: t.id, name: t.name, subject: t.subject, emoji: t.emoji, questionCount: t.questionCount })
-    }
-  }
-  return result
-}
-
-function formatTimeStat(seconds) {
-  if (seconds == null || seconds === 0) return '—'
-  if (seconds < 60) return `${seconds}s`
-  const m = Math.floor(seconds / 60)
-  const s = seconds % 60
-  return s > 0 ? `${m}m ${s}s` : `${m}m`
-}
-
-function formatTotalTime(seconds) {
-  if (seconds == null || seconds === 0) return '—'
-  const h = Math.floor(seconds / 3600)
-  const m = Math.floor((seconds % 3600) / 60)
-  const s = seconds % 60
-  if (h > 0) return m > 0 ? `${h}h ${m}m` : `${h}h`
-  if (m > 0) return s > 0 ? `${m}m ${s}s` : `${m}m`
-  return `${s}s`
-}
-
-function getStudyDates(userId, topics) {
-  const dates = new Set()
-  for (const t of topics) {
-    if (t.comingSoon) continue
-    const ids = t.hasSubtopics && t.subtopics ? t.subtopics.map(s => s.id) : [t.id]
-    for (const id of ids) {
-      try {
-        const key = `nepalprep-quiz-${userId}-${id}`
-        const saved = localStorage.getItem(key)
-        if (!saved) continue
-        const s = JSON.parse(saved)
-        if (s.savedAt) {
-          const d = new Date(s.savedAt)
-          dates.add(`${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`)
-        }
-      } catch { /* ignore */ }
-    }
-  }
-  return dates
-}
-
-function getStreak(studyDates) {
-  if (studyDates.size === 0) return 0
-  const today = new Date()
-  let streak = 0
-  let d = new Date(today)
-  while (true) {
-    const key = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`
-    if (studyDates.has(key)) {
-      streak++
-      d.setDate(d.getDate() - 1)
-    } else {
-      break
-    }
+function calcStreak(intensityMap) {
+  let streak=0, d=new Date()
+  while(true) {
+    if(intensityMap[adKey(d)]){ streak++; d.setDate(d.getDate()-1) } else break
   }
   return streak
 }
 
-/* ── Component ───────────────────────────────────────────── */
+function fmtTime(s)  { if(!s)return'—'; if(s<60)return`${s}s`; const m=Math.floor(s/60),r=s%60; return r?`${m}m ${r}s`:`${m}m` }
+function fmtTotal(s) {
+  if(!s||s===0) return'—'
+  const h=Math.floor(s/3600), m=Math.floor((s%3600)/60), r=s%60
+  if(h) return m?`${h}h ${m}m`:`${h}h`
+  if(m) return r?`${m}m ${r}s`:`${m}m`
+  return`${r}s`
+}
 
+const accColor = (a) => a==null?'var(--text-subtle)':a>=75?'#22c55e':a>=50?'#f59e0b':'#ef4444'
+
+/* ── Heatmap ─────────────────────────────────────────────── */
+const MONTH_NAMES = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
+
+function buildHeatmap(intensityMap) {
+  const today = new Date()
+  const start = new Date(today)
+  start.setDate(today.getDate() - 364)
+  start.setDate(start.getDate() - start.getDay())
+  const weeks = [], allDays = []
+  let week = [], cur = new Date(start)
+  while (cur <= today) {
+    const k = adKey(cur)
+    const cell = { date:new Date(cur), k, count:intensityMap[k]||0 }
+    week.push(cell); allDays.push(cell)
+    if (cur.getDay()===6) { weeks.push(week); week=[] }
+    cur.setDate(cur.getDate()+1)
+  }
+  if(week.length) weeks.push(week)
+  return { weeks, allDays }
+}
+
+/* ══════════════════════════════════════════════════════════
+   COMPONENT
+══════════════════════════════════════════════════════════ */
 export default function Stats() {
-  const { user } = useAuth()
-  const [exam] = useState('cee')
+  const { user, logout } = useAuth()
+  const { dark } = useTheme()
+  const navigate = useNavigate()
+  const [sidebarOpen, setSidebarOpen] = useState(false)
+  const [tooltip, setTooltip]         = useState(null)
+  const [activeTab, setActiveTab]      = useState(null) // subject tab
 
-  const topics = exam === 'cee' ? ceeTopics : ioeTopics
-  const stats = getAllStats(user?.uid, topics)
-  const allTopics = getAllTopics(topics)
-  const studyDates = getStudyDates(user?.uid, topics)
-  const streak = getStreak(studyDates)
+  useEffect(()=>{ document.title = 'Stats — NepalPrep' },[])
 
-  // ── Nepali calendar with month navigation
-  const todayBS = useMemo(() => adToBS(new Date()), [])
-  const [calMonth, setCalMonth] = useState(todayBS.m)
-  const [calYear, setCalYear] = useState(todayBS.y)
-  const bsDaysInMonth = getBSDaysInMonth(calYear, calMonth)
-  const firstDayWeekday = getFirstDayWeekday(calYear, calMonth)
+  const { bySubject, intensityMap } = useMemo(()=>buildStats(user?.uid),[user?.uid])
+  const streak = useMemo(()=>calcStreak(intensityMap),[intensityMap])
+  const { weeks: heatWeeks } = useMemo(()=>buildHeatmap(intensityMap),[intensityMap])
 
-  const calendarDays = useMemo(() => {
-    const days = []
-    for (let d = 1; d <= bsDaysInMonth; d++) {
-      const adDate = bsToAD(calYear, calMonth, d)
-      const adKey = `${adDate.getFullYear()}-${String(adDate.getMonth() + 1).padStart(2, '0')}-${String(adDate.getDate()).padStart(2, '0')}`
-      days.push({
-        bsDay: d,
-        adKey,
-        isToday: calYear === todayBS.y && calMonth === todayBS.m && d === todayBS.d,
-        studied: studyDates.has(adKey),
-      })
-    }
-    return days
-  }, [calYear, calMonth, bsDaysInMonth, todayBS, studyDates])
+  // Overview totals across ALL subjects
+  const allProgress = Object.values(bySubject).flatMap(s=>s.topics).map(t=>t.progress).filter(Boolean)
+  const totalDone    = allProgress.reduce((a,p)=>a+p.done, 0)
+  const totalCorrect = allProgress.reduce((a,p)=>a+p.correct, 0)
+  const overallAcc   = totalDone>0 ? Math.round(totalCorrect/totalDone*100) : null
+  const grandTime    = allProgress.reduce((a,p)=>a+(p.totalTime||0), 0)
+  const topicsStarted = allProgress.length
+  const totalStudyDays = Object.keys(intensityMap).length
 
-  const prevMonth = () => {
-    if (calMonth === 1) { setCalMonth(12); setCalYear(y => y - 1) }
-    else setCalMonth(m => m - 1)
-  }
-  const nextMonth = () => {
-    if (calMonth === 12) { setCalMonth(1); setCalYear(y => y + 1) }
-    else setCalMonth(m => m + 1)
-  }
+  // Month labels — require ≥4 week gap to avoid overlap
+  const monthLabels = useMemo(()=>{
+    const labels=[]; let lastM=-1; let lastWi=-5
+    heatWeeks.forEach((week,wi)=>{
+      const d = week.find(c=>c)?.date; if(!d) return
+      const m = d.getMonth()
+      if(m!==lastM && wi-lastWi>=4){ labels.push({wi,label:MONTH_NAMES[m]}); lastM=m; lastWi=wi }
+    })
+    return labels
+  },[heatWeeks])
 
-  // ── Overview
-  const totalDone = stats.reduce((a, s) => a + s.done, 0)
-  const totalCorrect = stats.reduce((a, s) => a + s.correct, 0)
-  const overallAccuracy = totalDone > 0 ? Math.round((totalCorrect / totalDone) * 100) : null
-  const timesWithData = stats.filter(s => s.avgTime != null)
-  const overallAvgTime = timesWithData.length > 0
-    ? Math.round(timesWithData.reduce((a, s) => a + s.avgTime, 0) / timesWithData.length)
-    : null
-  const grandTotalTime = stats.reduce((a, s) => a + (s.totalTime || 0), 0)
+  const handleLogout = async () => { await logout(); navigate('/') }
 
-  // ── Subject breakdown
-  const subjects = ['Biology', 'Physics', 'Chemistry', 'English']
-  const subjectData = subjects.map(sub => {
-    const topicsSub = allTopics.filter(t => t.subject === sub)
-    const statsSub = stats.filter(s => s.subject === sub)
-    const totalQs = topicsSub.reduce((a, t) => a + (t.questionCount || 0), 0)
-    const done = statsSub.reduce((a, s) => a + s.done, 0)
-    const correct = statsSub.reduce((a, s) => a + s.correct, 0)
-    const accuracy = done > 0 ? Math.round((correct / done) * 100) : null
-    const totalTime = statsSub.reduce((a, s) => a + (s.totalTime || 0), 0)
-    return { subject: sub, totalQs, done, correct, accuracy, totalTime, topicsStarted: statsSub.length, totalTopics: topicsSub.length }
-  })
+  const sidebarLinks = [
+    { section: 'STUDY' },
+    { to:'/dashboard',        icon:I.dashboard, label:'Dashboard' },
+    { to:'/dashboard#practice', icon:I.practice, label:'Practice', hash:true },
+    { to:'/mock-exam',        icon:I.mock,      label:'Mock Exam' },
+    { section: 'TRACK' },
+    { to:'/stats',            icon:I.stats,     label:'Stats' },
+    { to:'/history',          icon:I.history,   label:'History' },
+    { to:'/tracker',          icon:I.tracker,   label:'Study Tracker' },
+  ]
 
-  // ── Topic performance
-  const topicPerformance = stats
-    .map(s => ({ ...s, pct: Math.round((s.done / s.total) * 100) }))
-    .sort((a, b) => b.done - a.done)
-
-  // ── Weak topics
-  const weakTopics = stats
-    .filter(s => s.accuracy < 60 && s.done >= 3)
-    .sort((a, b) => a.accuracy - b.accuracy)
-    .slice(0, 6)
-
-  // ── Bar chart
-  const [chartTab, setChartTab] = useState('accuracy')
-  const chartMax = useMemo(() => {
-    if (chartTab === 'accuracy') return 100
-    return Math.max(...subjectData.map(s => s.totalTime), 1)
-  }, [subjectData, chartTab])
+  const subjects = SUBJECT_ORDER.filter(s => bySubject[s] || true) // show ALL 5 subjects always
+  const resolvedTab = activeTab && subjects.includes(activeTab) ? activeTab : subjects[0]
 
   return (
-    <div className={styles.root}>
-      <Navbar />
-      <div className={styles.container}>
+    <div className={styles.layout}>
 
-        {/* Header */}
-        <div className={styles.header}>
-          <div>
-            <h1 className={styles.title}>📊 My Statistics</h1>
-            <p className={styles.subtitle}>Track your progress and identify areas to improve</p>
-          </div>
-          <Link to="/dashboard" className={styles.dashLink}>← Dashboard</Link>
+      {/* ═══ SIDEBAR (identical layout to Dashboard) ═══ */}
+      {sidebarOpen && <div className={styles.sidebarOverlay} onClick={()=>setSidebarOpen(false)}/>}
+      <aside className={`${styles.sidebar} ${sidebarOpen?styles.sidebarOpen:''}`}>
+        <div className={styles.sidebarTop}>
+          <Link to="/" className={styles.sidebarLogo}>
+            <span className={styles.logoAccent}>Nepal</span>Prep
+          </Link>
+          <button className={styles.sidebarClose} onClick={()=>setSidebarOpen(false)}>{I.close}</button>
         </div>
 
-        {stats.length === 0 ? (
-          <div className={styles.empty}>
-            <div className={styles.emptyIcon}>📋</div>
-            <h3 className={styles.emptyTitle}>No stats yet</h3>
-            <p className={styles.emptyText}>Start practicing to see your statistics here!</p>
-            <Link to="/dashboard" className={styles.emptyBtn}>Go to Dashboard →</Link>
+        <nav className={styles.sidebarNav}>
+          {sidebarLinks.map((item,i)=>
+            item.section ? (
+              <p key={i} className={styles.sidebarSection}>{item.section}</p>
+            ) : (
+              <NavLink key={item.to} to={item.to} end={item.to==='/dashboard'}
+                className={({isActive})=>`${styles.sidebarLink}${isActive&&!item.hash?' '+styles.sidebarLinkActive:''}`}
+                onClick={()=>setSidebarOpen(false)}
+              >
+                <span className={styles.sidebarIcon}>{item.icon}</span>
+                {item.label}
+              </NavLink>
+            )
+          )}
+        </nav>
+
+        <div className={styles.sidebarBottom}>
+          {streak>0 && (
+            <div className={styles.streakCard}>
+              <span className={styles.streakFire}>{I.fire}</span>
+              <span className={styles.streakNum}>{streak}</span>
+              <span className={styles.streakLabel}>day streak</span>
+            </div>
+          )}
+          <div className={styles.sidebarThemeRow}>
+            <span className={styles.sidebarThemeLabel}>{dark?'Dark mode':'Light mode'}</span>
+            <ThemeToggle/>
           </div>
-        ) : (
-          <>
-            {/* ── Overview Cards ─────────────────────────── */}
-            <div className={styles.overviewGrid}>
-              <div className={styles.overviewCard}>
-                <span className={styles.overviewIcon}>📚</span>
-                <span className={styles.overviewValue}>{stats.length}</span>
-                <span className={styles.overviewLabel}>Topics Started</span>
+          <button className={styles.sidebarLogout} onClick={handleLogout}>
+            {I.logout}
+            <span>Sign out</span>
+          </button>
+        </div>
+      </aside>
+
+      {/* ═══ MOBILE HEADER ═══ */}
+      <div className={styles.mobileHeader}>
+        <button className={styles.menuBtn} onClick={()=>setSidebarOpen(true)}>{I.menu}</button>
+        <span className={styles.mobileLogoText}><span className={styles.logoAccent}>Nepal</span>Prep</span>
+        <ThemeToggle/>
+      </div>
+
+      {/* ═══ MAIN ═══ */}
+      <main className={styles.main}>
+        <div className={styles.inner}>
+
+          {/* Page heading */}
+          <div className={styles.pageHead}>
+            <h1 className={styles.pageTitle}>Charts &amp; Metrics</h1>
+            <p className={styles.pageSub}>Your complete study analytics</p>
+          </div>
+
+          {totalDone===0 ? (
+            <div className={styles.empty}>
+              <div className={styles.emptyIcon}>
+                <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="1.5" strokeLinecap="round">
+                  <line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/>
+                </svg>
               </div>
-              <div className={styles.overviewCard}>
-                <span className={styles.overviewIcon}>✅</span>
-                <span className={styles.overviewValue}>{totalDone}</span>
-                <span className={styles.overviewLabel}>Questions Done</span>
+              <h3 className={styles.emptyTitle}>No practice data yet</h3>
+              <p className={styles.emptyText}>Start answering questions and your stats will appear here.</p>
+              <Link to="/dashboard" className={styles.emptyBtn}>Start Practicing →</Link>
+            </div>
+          ) : (<>
+
+            {/* ── 4 summary cards (unchanged — user likes these) ── */}
+            <div className={styles.summaryRow}>
+              <div className={styles.summaryCard} style={{'--cc':'var(--primary)'}}>
+                <div className={styles.summaryLabel}>Questions Attempted</div>
+                <div className={styles.summaryValue}>{totalDone}</div>
+                <div className={styles.summaryMeta}>
+                  <span className={styles.correct}>✓ {totalCorrect}</span>
+                  <span className={styles.wrong}>✗ {totalDone-totalCorrect}</span>
+                </div>
+                <div className={styles.summaryBg} aria-hidden>
+                  <svg viewBox="0 0 90 60" fill="none" width="90" height="60">
+                    <polyline points="0,50 20,30 35,38 50,15 65,25 80,8" stroke="var(--primary)" strokeWidth="2" opacity="0.25"/>
+                  </svg>
+                </div>
               </div>
-              <div className={styles.overviewCard}>
-                <span className={styles.overviewIcon}>🎯</span>
-                <span className={`${styles.overviewValue} ${overallAccuracy >= 75 ? styles.vGreen : overallAccuracy >= 50 ? styles.vAmber : styles.vRed}`}>
-                  {overallAccuracy != null ? `${overallAccuracy}%` : '—'}
-                </span>
-                <span className={styles.overviewLabel}>Accuracy Rate</span>
+              <div className={styles.summaryCard} style={{'--cc':accColor(overallAcc)}}>
+                <div className={styles.summaryLabel}>Current Accuracy</div>
+                <div className={styles.summaryValue} style={{color:accColor(overallAcc)}}>{overallAcc!=null?`${overallAcc}%`:'—'}</div>
+                <div className={styles.summaryMeta}>{topicsStarted} topics started</div>
+                <div className={styles.summaryBg} aria-hidden>
+                  <svg viewBox="0 0 90 60" fill="none" width="90" height="60">
+                    <circle cx="65" cy="35" r="28" stroke="var(--cc)" strokeWidth="2" opacity="0.15"/>
+                    <circle cx="65" cy="35" r="16" stroke="var(--cc)" strokeWidth="1.5" opacity="0.12"/>
+                  </svg>
+                </div>
               </div>
-              <div className={styles.overviewCard}>
-                <span className={styles.overviewIcon}>⏱</span>
-                <span className={styles.overviewValue}>{formatTimeStat(overallAvgTime)}</span>
-                <span className={styles.overviewLabel}>Avg Time / Q</span>
+              <div className={styles.summaryCard} style={{'--cc':'#f05c48'}}>
+                <div className={styles.summaryLabel}>Study Streak</div>
+                <div className={styles.summaryValue}>{streak}</div>
+                <div className={styles.summaryMeta}>{streak>0?'days in a row':'Study today to start'}</div>
+                <div className={styles.summaryBgText} aria-hidden>🔥</div>
               </div>
-              <div className={styles.overviewCard}>
-                <span className={styles.overviewIcon}>⏳</span>
-                <span className={styles.overviewValue}>{formatTotalTime(grandTotalTime)}</span>
-                <span className={styles.overviewLabel}>Total Time Spent</span>
-              </div>
-              <div className={styles.overviewCard}>
-                <span className={styles.overviewIcon}>🔥</span>
-                <span className={styles.overviewValue}>{streak}</span>
-                <span className={styles.overviewLabel}>Day Streak</span>
+              <div className={styles.summaryCard} style={{'--cc':'#a78bfa'}}>
+                <div className={styles.summaryLabel}>Total Time Studied</div>
+                <div className={styles.summaryValue}>{fmtTotal(grandTime)}</div>
+                <div className={styles.summaryMeta}>{totalStudyDays} days active</div>
+                <div className={styles.summaryBg} aria-hidden>
+                  <svg viewBox="0 0 90 60" fill="none" width="90" height="60">
+                    <circle cx="60" cy="32" r="22" stroke="#a78bfa" strokeWidth="2" opacity="0.18"/>
+                    <path d="M60 14 L60 32 L72 32" stroke="#a78bfa" strokeWidth="2" strokeLinecap="round" opacity="0.22"/>
+                  </svg>
+                </div>
               </div>
             </div>
 
-            {/* ── Study Activity — Nepali Calendar ────────── */}
+            {/* ── Activity Heatmap ── */}
             <div className={styles.section}>
-              <h2 className={styles.sectionTitle}>🔥 Study Activity</h2>
+              <div className={styles.sectionHead}>
+                <h2 className={styles.sectionTitle}>Activity</h2>
+                <span className={styles.sectionMeta}>{totalDone} questions answered in the past year</span>
+              </div>
 
-              <div className={styles.calendarCard}>
-                {/* Month navigation */}
-                <div className={styles.calNav}>
-                  <button className={styles.calArrow} onClick={prevMonth} aria-label="Previous month">◀</button>
-                  <span className={styles.calMonthTitle}>{calYear} {BS_MONTHS[calMonth - 1]}</span>
-                  <button className={styles.calArrow} onClick={nextMonth} aria-label="Next month">▶</button>
-                </div>
+              <div className={styles.heatmapOuter} data-heatmap>
+                {/* Tooltip */}
+                {tooltip && (
+                  <div className={styles.tooltip} style={{left:tooltip.x, top:tooltip.y}}>
+                    <strong>{tooltip.date.toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'})}</strong>
+                    <span>{tooltip.count===0?'No activity':`${tooltip.count} question${tooltip.count!==1?'s':''} answered`}</span>
+                  </div>
+                )}
 
-                {/* Weekday headers */}
-                <div className={styles.calGrid}>
-                  {WEEKDAYS.map(w => (
-                    <div key={w} className={styles.calWeekday}>{w}</div>
-                  ))}
-
-                  {/* Empty cells for offset */}
-                  {Array.from({ length: firstDayWeekday }).map((_, i) => (
-                    <div key={`empty-${i}`} className={styles.calEmpty} />
-                  ))}
-
-                  {/* Day cells */}
-                  {calendarDays.map(d => (
-                    <div
-                      key={d.bsDay}
-                      className={`${styles.calDay} ${d.studied ? styles.calStudied : ''} ${d.isToday ? styles.calToday : ''}`}
-                      title={`${d.bsDay} ${BS_MONTHS[calMonth - 1]}${d.studied ? ' — studied ✓' : ''}`}
-                    >
-                      <span className={styles.calDayNum}>{d.bsDay}</span>
+                <div className={styles.heatmapScroll}>
+                  {/* Month labels */}
+                  <div className={styles.monthRow}>
+                    <div className={styles.dayLabelSpace}/>
+                    <div className={styles.monthLabels}>
+                      {monthLabels.map((ml,i)=>(
+                        <span key={i} className={styles.monthLabel} style={{left:`${ml.wi*15}px`}}>{ml.label}</span>
+                      ))}
                     </div>
-                  ))}
+                  </div>
+                  {/* Grid */}
+                  <div className={styles.heatBody}>
+                    <div className={styles.dayLabels}>
+                      <span/><span>Mon</span><span/><span>Wed</span><span/><span>Fri</span><span/>
+                    </div>
+                    <div className={styles.heatGrid}>
+                      {heatWeeks.map((week,wi)=>(
+                        <div key={wi} className={styles.heatWeek}>
+                          {Array.from({length:7}).map((_,di)=>{
+                            const cell=week[di]
+                            if(!cell) return <div key={di} className={styles.heatCell} style={{opacity:0}}/>
+                            const lvl=cell.count===0?0:cell.count<=5?1:cell.count<=20?2:3
+                            return (
+                              <div key={di}
+                                className={`${styles.heatCell} ${styles[`heat${lvl}`]}`}
+                                onMouseEnter={e=>{
+                                  const r=e.currentTarget.getBoundingClientRect()
+                                  const wr=e.currentTarget.closest('[data-heatmap]')?.getBoundingClientRect()
+                                  setTooltip({x:r.left-(wr?.left||0)+r.width/2, y:r.top-(wr?.top||0)-50, date:cell.date, count:cell.count})
+                                }}
+                                onMouseLeave={()=>setTooltip(null)}
+                              />
+                            )
+                          })}
+                        </div>
+                      ))}
+                    </div>
+                  </div>
                 </div>
-
-                {/* Legend */}
-                <div className={styles.calLegend}>
-                  <span className={styles.calLegendItem}>
-                    <span className={styles.calLegendDot} data-type="inactive" /> No activity
-                  </span>
-                  <span className={styles.calLegendItem}>
-                    <span className={styles.calLegendDot} data-type="studied" /> Studied
-                  </span>
-                  <span className={styles.calLegendItem}>
-                    <span className={styles.calLegendDot} data-type="today" /> Today
-                  </span>
+                {/* Legend outside scroll — stays visible during horizontal scroll */}
+                <div className={styles.heatLegend}>
+                  <span>Less</span>
+                  <div className={`${styles.heatCell} ${styles.heat0}`}/>
+                  <div className={`${styles.heatCell} ${styles.heat1}`}/>
+                  <div className={`${styles.heatCell} ${styles.heat2}`}/>
+                  <div className={`${styles.heatCell} ${styles.heat3}`}/>
+                  <span>More</span>
                 </div>
               </div>
             </div>
 
-            {/* ── Bar Chart — Attempts / Time Spent ──────── */}
+            {/* ── Per-subject breakdown with tabs ── */}
             <div className={styles.section}>
-              <div className={styles.sectionHeader}>
-                <h2 className={styles.sectionTitle}>📈 Subject Overview</h2>
-                <div className={styles.chartTabs}>
-                  <button
-                    className={`${styles.chartTab} ${chartTab === 'accuracy' ? styles.chartTabActive : ''}`}
-                    onClick={() => setChartTab('accuracy')}
-                  >
-                    Accuracy
-                  </button>
-                  <button
-                    className={`${styles.chartTab} ${chartTab === 'time' ? styles.chartTabActive : ''}`}
-                    onClick={() => setChartTab('time')}
-                  >
-                    Time Spent
-                  </button>
-                </div>
-              </div>
-              <div className={styles.barChart}>
-                {subjectData.map(s => {
-                  const pct = chartTab === 'accuracy'
-                    ? (s.accuracy != null ? s.accuracy : 0)
-                    : (chartMax > 0 ? Math.round((s.totalTime / chartMax) * 100) : 0)
-                  const barColor = s.accuracy == null ? 'var(--border)'
-                    : s.accuracy >= 75 ? '#22c55e'
-                      : s.accuracy >= 50 ? '#f59e0b'
-                        : '#ef4444'
+              {/* Tab bar */}
+              <div className={styles.tabBar}>
+                {SUBJECT_ORDER.map(sName=> {
+                  const { color } = SUBJECT_META[sName]||{ color:'var(--primary)' }
+                  const sub = bySubject[sName]
+                  const attempted = sub ? sub.topics.filter(t=>t.progress).length : 0
+                  const isActive = resolvedTab === sName
                   return (
-                    <div key={s.subject} className={styles.barRow}>
-                      <span className={styles.barLabel}>{s.subject}</span>
-                      <div className={styles.barTrack}>
-                        <div
-                          className={styles.barFill}
-                          style={{ width: `${Math.max(pct, s.done > 0 ? 2 : 0)}%`, background: barColor }}
-                        />
-                      </div>
-                      <span className={styles.barValue}>
-                        {chartTab === 'accuracy'
-                          ? (s.accuracy != null ? `${s.accuracy}%` : '—')
-                          : formatTotalTime(s.totalTime)}
-                      </span>
-                    </div>
+                    <button
+                      key={sName}
+                      className={`${styles.tab}${isActive?' '+styles.tabActive:''}`}
+                      style={isActive?{'--tc':color}:{}}
+                      onClick={()=>setActiveTab(sName)}
+                    >
+                      <span className={styles.tabName}>{sName}</span>
+                      {attempted>0&&<span className={styles.tabBadge} style={isActive?{background:color,color:'#fff'}:{}}>{attempted}</span>}
+                    </button>
                   )
                 })}
               </div>
-            </div>
 
-            {/* ── Subject Breakdown ──────────────────────── */}
-            <div className={styles.section}>
-              <h2 className={styles.sectionTitle}>📖 Subject Breakdown</h2>
-              <div className={styles.subjectList}>
-                {subjectData.map(s => {
-                  const pct = s.totalQs > 0 ? Math.round((s.done / s.totalQs) * 100) : 0
-                  const barColor = s.accuracy == null ? 'var(--border)' : s.accuracy >= 75 ? '#22c55e' : s.accuracy >= 50 ? '#f59e0b' : '#ef4444'
-                  return (
-                    <div key={s.subject} className={styles.subjectRow}>
-                      <div className={styles.subjectInfo}>
-                        <span className={styles.subjectName}>{s.subject}</span>
-                        <span className={styles.subjectMeta}>
-                          {s.done > 0 ? (
-                            <>
-                              {s.done}/{s.totalQs} done
-                              <span className={styles.dot}>·</span>
-                              <span style={{ color: barColor, fontWeight: 700 }}>{s.accuracy}%</span>
-                              <span className={styles.dot}>·</span>
-                              <span>{formatTotalTime(s.totalTime)}</span>
-                            </>
-                          ) : (
-                            <span className={styles.notStarted}>Not started</span>
-                          )}
-                        </span>
-                      </div>
-                      <div className={styles.subjectBarWrap}>
-                        <div className={styles.subjectBarFill} style={{ width: `${pct}%`, background: barColor }} />
-                      </div>
+              {/* Active subject content */}
+              {SUBJECT_ORDER.map(subjectName=>{
+                if(subjectName!==resolvedTab) return null
+                const sub = bySubject[subjectName]
+                if (!sub) return (
+                  <div key={subjectName} className={styles.empty} style={{padding:'2rem',textAlign:'center'}}>
+                    <div className={styles.emptyIcon} style={{marginBottom:'0.75rem',opacity:0.4}}>
+                      <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="1.5" strokeLinecap="round">
+                        <line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/>
+                      </svg>
                     </div>
-                  )
-                })}
-              </div>
-            </div>
+                    <p style={{color:'var(--text-muted)',fontSize:'0.85rem'}}>No {subjectName} questions attempted yet.</p>
+                  </div>
+                )
+                const { color } = SUBJECT_META[subjectName]||{ color:'var(--primary)' }
+                const topics = sub.topics
+                const attempted = topics.filter(t=>t.progress)
+                const totalSubDone    = attempted.reduce((a,t)=>a+t.progress.done,0)
+                const totalSubCorrect = attempted.reduce((a,t)=>a+t.progress.correct,0)
+                const totalSubTime    = attempted.reduce((a,t)=>a+(t.progress.totalTime||0),0)
+                const subAcc = totalSubDone>0?Math.round(totalSubCorrect/totalSubDone*100):null
+                const timesArr = attempted.filter(t=>t.progress.avgTime!=null)
+                const subAvgTime = timesArr.length
+                  ? Math.round(timesArr.reduce((a,t)=>a+t.progress.avgTime,0)/timesArr.length)
+                  : null
 
-            {/* ── Topic Performance Grid ─────────────────── */}
-            <div className={styles.section}>
-              <h2 className={styles.sectionTitle}>📋 Topic Performance</h2>
-              <div className={styles.perfLegend}>
-                <span><span className={styles.perfDot} style={{ background: '#22c55e' }} /> 75%+ Strong</span>
-                <span><span className={styles.perfDot} style={{ background: '#f59e0b' }} /> 50–74% Improving</span>
-                <span><span className={styles.perfDot} style={{ background: '#ef4444' }} /> &lt;50% Needs Work</span>
-              </div>
-              <div className={styles.perfGrid}>
-                {topicPerformance.map(tp => {
-                  const color = tp.accuracy >= 75 ? '#22c55e' : tp.accuracy >= 50 ? '#f59e0b' : '#ef4444'
-                  const bgColor = tp.accuracy >= 75 ? '#f0fdf4' : tp.accuracy >= 50 ? '#fffbeb' : '#fef2f2'
-                  const borderColor = tp.accuracy >= 75 ? '#86efac' : tp.accuracy >= 50 ? '#fde68a' : '#fca5a5'
-                  return (
-                    <div
-                      key={tp.id}
-                      className={styles.perfCard}
-                      style={{ background: bgColor, borderColor }}
-                    >
-                      <div className={styles.perfCardTop}>
-                        <span className={styles.perfEmoji}>{tp.emoji}</span>
-                        <span className={styles.perfAccuracy} style={{ color }}>{tp.accuracy}%</span>
-                      </div>
-                      <span className={styles.perfName}>{tp.name}</span>
-                      <span className={styles.perfMeta}>{tp.done}/{tp.total} done</span>
-                      <div className={styles.perfTimeRow}>
-                        {tp.totalTime > 0 && (
-                          <span className={styles.perfTime}>⏳ {formatTotalTime(tp.totalTime)}</span>
-                        )}
-                        {tp.avgTime != null && (
-                          <span className={styles.perfTime}>⏱ {formatTimeStat(tp.avgTime)}/q</span>
-                        )}
-                      </div>
+                return (
+                  <div key={subjectName}>
+                    {/* Subject meta line */}
+                    <div className={styles.subjectHead}>
+                      <span className={styles.subjectAccent} style={{background:color}}/>
+                      <h2 className={styles.subjectTitle}>{subjectName}</h2>
+                      <span className={styles.subjectCount}>{attempted.length}/{topics.length} topics attempted</span>
                     </div>
-                  )
-                })}
-              </div>
-            </div>
 
-            {/* ── Weak Topics ────────────────────────────── */}
-            {weakTopics.length > 0 && (
-              <div className={styles.section}>
-                <h2 className={styles.sectionTitle}>⚠️ Focus These Topics</h2>
-                <p className={styles.sectionSub}>These topics need more practice — accuracy below 60%</p>
-                <div className={styles.weakList}>
-                  {weakTopics.map(wt => (
-                    <Link
-                      key={wt.id}
-                      to={`/quiz/cee/${wt.id}`}
-                      className={styles.weakCard}
-                    >
-                      <div className={styles.weakLeft}>
-                        <span className={styles.weakEmoji}>{wt.emoji}</span>
-                        <div>
-                          <span className={styles.weakName}>{wt.name}</span>
-                          <span className={styles.weakMeta}>{wt.done}/{wt.total} done</span>
+                    {/* Topic table */}
+                    <div className={styles.topicTable}>
+                      <div className={styles.topicTableHead}>
+                        <span>Topic</span>
+                        <span>Progress</span>
+                        <span>Done</span>
+                        <span>Accuracy</span>
+                        <span>Avg Time</span>
+                      </div>
+                      {topics.map(t=>{
+                        const p=t.progress
+                        const pct=p&&t.totalQs>0?Math.round(p.done/t.totalQs*100):0
+                        const barColor = pct > 0 ? color : 'var(--border)'
+                        const accCol = p ? accColor(p.accuracy) : 'var(--text-subtle)'
+                        return (
+                          <div key={t.id} className={`${styles.topicRow}${!p?' '+styles.unseen:''}`}>
+                            <span className={styles.topicName}>{t.name}</span>
+                            <div className={styles.topicBarWrap}>
+                              <div className={styles.topicBar} style={{width:`${pct}%`,background:barColor}}/>
+                            </div>
+                            <span className={styles.topicDone}>{p?`${p.done}/${t.totalQs}`:`0/${t.totalQs}`}</span>
+                            <span className={styles.topicAcc} style={{color:accCol}}>{p?`${p.accuracy}%`:'—'}</span>
+                            <span className={styles.topicTime}>{p?.avgTime?fmtTime(p.avgTime):'—'}</span>
+                          </div>
+                        )
+                      })}
+                    </div>
+
+                    {/* Subject totals */}
+                    {attempted.length>0&&(
+                      <div className={styles.subjectTotals}>
+                        <div className={styles.subTotal}>
+                          <span className={styles.subTotalLabel}>Total Attempts</span>
+                          <span className={styles.subTotalValue}>{totalSubDone}</span>
+                          <span className={styles.subTotalSub}>
+                            <span style={{color:'#22c55e'}}>✓ {totalSubCorrect} correct</span>
+                            {' '}<span style={{color:'#ef4444'}}>✗ {totalSubDone-totalSubCorrect} wrong</span>
+                          </span>
+                        </div>
+                        <div className={styles.subTotal}>
+                          <span className={styles.subTotalLabel}>Accuracy</span>
+                          <span className={styles.subTotalValue} style={{color:accColor(subAcc)}}>{subAcc!=null?`${subAcc}%`:'—'}</span>
+                          <span className={styles.subTotalSub}>{attempted.length} of {topics.length} topics</span>
+                        </div>
+                        <div className={styles.subTotal}>
+                          <span className={styles.subTotalLabel}>Time Spent</span>
+                          <span className={styles.subTotalValue}>{fmtTotal(totalSubTime)}</span>
+                          <span className={styles.subTotalSub}>{topics.reduce((a,t)=>a+t.totalQs,0)} questions total</span>
+                        </div>
+                        <div className={styles.subTotal}>
+                          <span className={styles.subTotalLabel}>Avg per Question</span>
+                          <span className={styles.subTotalValue}>{fmtTime(subAvgTime)}</span>
+                          <span className={styles.subTotalSub}>across all topics</span>
                         </div>
                       </div>
-                      <div className={styles.weakRight}>
-                        <span className={styles.weakAccuracy}>{wt.accuracy}%</span>
-                        <span className={styles.weakCta}>Practice →</span>
-                      </div>
-                    </Link>
-                  ))}
-                </div>
-              </div>
-            )}
-          </>
-        )}
-      </div>
+                    )}
+                  </div>
+                )
+              })}
+            </div>
+
+          </>)}
+        </div>
+      </main>
     </div>
   )
 }

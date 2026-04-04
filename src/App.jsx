@@ -15,7 +15,6 @@ import Quiz from './pages/Quiz'
 import Results from './pages/Results'
 import History from './pages/History'
 import MockExam from './pages/MockExam'
-import PastPapers from './pages/PastPapers'
 import Tracker from './pages/Tracker'
 import Stats from './pages/Stats'
 import VerifyEmail from './pages/VerifyEmail'
@@ -67,7 +66,6 @@ function AppRoutes() {
       <Route path="/" element={<Landing />} />
       <Route path="/login" element={<Auth mode="login" key="login" />} />
       <Route path="/signup" element={<Auth mode="signup" key="signup" />} />
-      <Route path="/past-papers" element={<PastPapers />} />
 
       {/* Protected */}
       <Route path="/topic/:exam/:topicId" element={<ProtectedRoute><SubtopicSelect /></ProtectedRoute>} />
